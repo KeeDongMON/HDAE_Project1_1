@@ -43,11 +43,6 @@
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D.svg?style=for-the-badge&logo=confluence&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-<br><br>
-
-
-<br><br>
-
 
 ## ✔️ 주요 기능
 
