@@ -18,7 +18,7 @@
     <td align="center"><a href="https://github.com/"><sub><b>김종훈</b></td>
     <td align="center"><a href="https://github.com/"><sub><b>심동현</b></td>
     <td align="center"><a href="https://github.com/"><sub><b>이나연</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>김태희</b></td>
+    <td align="center"><a href="https://github.com/"><sub><b>권태희</b></td>
   </tr>
 
 </table>
