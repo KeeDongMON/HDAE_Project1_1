@@ -1,0 +1,3 @@
+.ads/
+.settings/
+TriCore Debug (TASKING)/
