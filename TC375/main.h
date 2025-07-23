@@ -22,7 +22,6 @@
 #include "eru.h"
 #include "ToF.h"
 #include "geth_lwip.h"
-#include "my_stdio.h"
 
 /* Includes ETH, TCP/IP examples */
 #include "IfxGeth_Eth.h"

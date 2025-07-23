@@ -28,7 +28,7 @@ void Asclin0_InitUart(void)
     MODULE_P14.IOCR0.B.PC0 = 0x12;
     MODULE_P14.OUT.B.P0 = 1;
 
-    /* Enable ASCn Before Setting, if not we will face trap */
+    /* Enable ASCn */
     IfxScuWdt_clearCpuEndinit(IfxScuWdt_getGlobalEndinitPassword());
     MODULE_ASCLIN0.CLC.U = 0;
     IfxScuWdt_setCpuEndinit(IfxScuWdt_getGlobalEndinitPassword());
@@ -71,13 +71,13 @@ void Asclin0_InitUart(void)
     MODULE_ASCLIN0.FLAGSSET.U = (IFX_ASCLIN_FLAGSSET_TFLS_MSK << IFX_ASCLIN_FLAGSSET_TFLS_OFF);
 
     /* Initialize ASCLIN0 RX interrupt */
-    volatile Ifx_SRC_SRCR *src;
-    src = (volatile Ifx_SRC_SRCR *)(&MODULE_SRC.ASCLIN.ASCLIN[0].RX);
-    src->B.SRPN = ISR_PRIORITY_ASCLIN0_RX;
-    src->B.TOS  = 0;
-    src->B.CLRR = 1; /* clear request */
-    MODULE_ASCLIN0.FLAGSENABLE.B.RFLE = 1; /* enable rx fifo fill level flag */
-    src->B.SRE = 1; /* interrupt enable */
+//    volatile Ifx_SRC_SRCR *src;
+//    src = (volatile Ifx_SRC_SRCR *)(&MODULE_SRC.ASCLIN.ASCLIN[0].RX);
+//    src->B.SRPN = ISR_PRIORITY_ASCLIN0_RX;
+//    src->B.TOS  = 0;
+//    src->B.CLRR = 1; /* clear request */
+//    MODULE_ASCLIN0.FLAGSENABLE.B.RFLE = 1; /* enable rx fifo fill level flag */
+//    src->B.SRE = 1; /* interrupt enable */
 }
 
 /* Send character CHR via the serial line */
@@ -202,8 +202,6 @@ void Asclin1_InitUart(void)
     MODULE_ASCLIN1.CSR.U = 1;               /* select CLC as clock source */
 
     MODULE_ASCLIN1.FLAGSSET.U = (IFX_ASCLIN_FLAGSSET_TFLS_MSK << IFX_ASCLIN_FLAGSSET_TFLS_OFF);
-
-
 }
 
 /* Send character CHR via the serial line */

@@ -85,7 +85,7 @@ void gpt2_init(void)
     MODULE_GPT120.T6CON.B.T6SR = 0x1; /* Reload from register CAPREL Enabled */
     MODULE_GPT120.T6.U = 250u; /* Set T6 start value (10us) */
 
-    MODULE_GPT120.CAPREL.U = 250u; /* Set CAPREL reload value */
+    MODULE_GPT120.CAPREL.U = 250u; /* Set CAPREL reload value */                                          /* Set CAPREL reload value */
 
     /* Initialize the interrupt */
     volatile Ifx_SRC_SRCR *src;

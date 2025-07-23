@@ -6,7 +6,7 @@ uint64 getTimeUs(void)
     uint64 result;
     float32 frequency = 100000000.0f;
 
-    //Sys Timer (If, Power on Reset this value get 0, and starting up counting)
+    /* Read 64-bit System Timer */
     result = MODULE_STM0.TIM0.U;
     result |= ((uint64)MODULE_STM0.CAP.U) << 32;
 
@@ -27,11 +27,3 @@ uint64 getTimeMs(void)
     return result / (frequency / 1000);
 }
 
-uint64 getTime10Ns(void){
-    uint64 result;
-
-    result = MODULE_STM0.TIM0.U;
-    result |= ((uint64)MODULE_STM0.CAP.U) << 32;
-
-    return result;
-}

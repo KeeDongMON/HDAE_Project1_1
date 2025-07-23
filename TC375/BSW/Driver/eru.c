@@ -1,3 +1,9 @@
+/*
+ * scueru.c
+ *
+ *  Created on: 2024. 11. 6.
+ *      Author: Kimjh
+ */
 #include "isr_priority.h"
 #include <Ifx_reg.h>
 #include <Ifx_Types.h>
@@ -18,17 +24,13 @@ void scueru_Init()
     MODULE_SCU.EICR[1].B.FEN0 = 1;
     /* Enable Trigger Pulse */
     MODULE_SCU.EICR[1].B.EIEN0 = 1;
-
     /* Determination of output channel for trigger event (Register INP) */
-    MODULE_SCU.EICR[1].B.INP0 = 1;
-
-
+    MODULE_SCU.EICR[1].B.INP1 = 0;
     /* Configure Output channels, outputgating unit OGU (Register IGPy) */
-    MODULE_SCU.IGCR[0].B.IGP1 = 1;
-
+    MODULE_SCU.IGCR[0].B.IGP0 = 1;
 
     volatile Ifx_SRC_SRCR *src;
-    src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.SCU.SCUERU[1]);
+    src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.SCU.SCUERU);
     src->B.SRPN = ISR_PRIORITY_ERU_INT0;
     src->B.TOS = 0;
     src->B.CLRR = 1; /* clear request */
