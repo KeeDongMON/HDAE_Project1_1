@@ -1,3 +1,26 @@
-TC375/.ads/
-TC375/.settings/
-TC375/TriCore Debug (TASKING)/
+# 모든 파일 무시
+/*
+
+# --- Arduino 전체 허용 ---
+!/Arduino/
+!/Arduino/**
+
+# --- Raspberrypi 전체 허용 ---
+!/Raspberrypi/
+!/Raspberrypi/**
+
+# --- TC375LK_NGV 폴더 접근 허용 ---
+!/TC375LK_NGV/
+
+# TC375LK_NGV의 BSW, Modules 폴더 허용
+!/TC375LK_NGV/BSW/
+!/TC375LK_NGV/BSW/**
+
+!/TC375LK_NGV/Modules/
+!/TC375LK_NGV/Modules/**
+
+# TC375LK_NGV의 특정 파일 허용
+!/TC375LK_NGV/Sys_Init.c
+!/TC375LK_NGV/Sys_Init.h
+!/TC375LK_NGV/main.c
+!/TC375LK_NGV/main.h

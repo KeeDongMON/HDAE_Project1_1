@@ -18,7 +18,7 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 "Libraries/iLLD/TC37A/Tricore/Asclin/Asc/IfxAsclin_Asc.src":"../Libraries/iLLD/TC37A/Tricore/Asclin/Asc/IfxAsclin_Asc.c" "Libraries/iLLD/TC37A/Tricore/Asclin/Asc/subdir.mk"
-	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fD:/_github/tc375tp-litekit-ngv/TC375LK_NGV/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/USER/AURIX-v1.10.10-workspace/TC375LK_NGV/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 "Libraries/iLLD/TC37A/Tricore/Asclin/Asc/IfxAsclin_Asc.o":"Libraries/iLLD/TC37A/Tricore/Asclin/Asc/IfxAsclin_Asc.src" "Libraries/iLLD/TC37A/Tricore/Asclin/Asc/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 

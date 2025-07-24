@@ -1,0 +1,877 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc12548a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o examples/udp_echo.src ../examples/udp_echo.c"
+	.compiler_name		"ctc"
+	;source	'../examples/udp_echo.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.udp_echo.udpecho_raw_recv',code,cluster('udpecho_raw_recv')
+	.sect	'.text.udp_echo.udpecho_raw_recv'
+	.align	2
+	
+; Function udpecho_raw_recv
+.L8:
+udpecho_raw_recv:	.type	func
+	mov.aa	a15,a6
+.L45:
+	jz.a	a15,.L2
+.L73:
+	mov.aa	a4,a5
+.L43:
+	mov.aa	a5,a15
+.L44:
+	mov.aa	a6,a7
+.L46:
+	call	udp_sendto
+.L42:
+	mov.aa	a4,a15
+.L47:
+	call	pbuf_free
+.L2:
+	ret
+.L31:
+	
+__udpecho_raw_recv_function_end:
+	.size	udpecho_raw_recv,__udpecho_raw_recv_function_end-udpecho_raw_recv
+.L24:
+	; End of function
+	
+	.sdecl	'.text.udp_echo.UdpEchoInit',code,cluster('UdpEchoInit')
+	.sect	'.text.udp_echo.UdpEchoInit'
+	.align	2
+	
+	.global	UdpEchoInit
+; Function UdpEchoInit
+.L10:
+UdpEchoInit:	.type	func
+	movh.a	a15,#@his(udpecho_raw_pcb)
+	lea	a15,[a15]@los(udpecho_raw_pcb)
+.L60:
+	mov	d4,#46
+	call	udp_new_ip_type
+.L61:
+	st.a	[a15],a2
+.L62:
+	movh.a	a15,#@his(udpecho_raw_pcb)
+	lea	a15,[a15]@los(udpecho_raw_pcb)
+	ld.w	d15,[a15]
+.L63:
+	jeq	d15,#0,.L3
+.L28:
+	movh.a	a15,#@his(udpecho_raw_pcb)
+	lea	a15,[a15]@los(udpecho_raw_pcb)
+	ld.a	a4,[a15]
+.L64:
+	movh.a	a5,#@his(ip_addr_any)
+	lea	a5,[a5]@los(ip_addr_any)
+.L65:
+	mov	d4,#3000
+	call	udp_bind
+.L48:
+	jne	d2,#0,.L4
+.L66:
+	movh.a	a15,#@his(udpecho_raw_pcb)
+	lea	a15,[a15]@los(udpecho_raw_pcb)
+	ld.a	a4,[a15]
+.L67:
+	movh.a	a5,#@his(udpecho_raw_recv)
+	lea	a5,[a5]@los(udpecho_raw_recv)
+.L68:
+	mov.a	a6,#0
+	call	udp_recv
+.L49:
+	j	.L5
+.L4:
+.L5:
+	j	.L6
+.L3:
+.L6:
+	ret
+.L27:
+	
+__UdpEchoInit_function_end:
+	.size	UdpEchoInit,__UdpEchoInit_function_end-UdpEchoInit
+.L19:
+	; End of function
+	
+	.sdecl	'.bss.udp_echo.udpecho_raw_pcb',data,cluster('udpecho_raw_pcb')
+	.sect	'.bss.udp_echo.udpecho_raw_pcb'
+	.align	4
+udpecho_raw_pcb:	.type	object
+	.size	udpecho_raw_pcb,4
+	.space	4
+	.calls	'__INDIRECT__','udpecho_raw_recv'
+	.calls	'udpecho_raw_recv','udp_sendto'
+	.calls	'udpecho_raw_recv','pbuf_free'
+	.calls	'UdpEchoInit','udp_new_ip_type'
+	.calls	'UdpEchoInit','udp_bind'
+	.calls	'UdpEchoInit','udp_recv'
+	.calls	'udpecho_raw_recv','',0
+	.extern	pbuf_free
+	.extern	ip_addr_any
+	.extern	udp_new_ip_type
+	.extern	udp_bind
+	.extern	udp_recv
+	.extern	udp_sendto
+	.extern	__INDIRECT__
+	.calls	'UdpEchoInit','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L12:
+	.word	2615
+	.half	3
+	.word	.L13
+	.byte	4
+.L11:
+	.byte	1
+	.byte	'../examples/udp_echo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L14
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'void',0
+.L32:
+	.byte	4
+	.word	211
+.L40:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,5
+	.byte	'pbuf',0,1,186,1,8,16,6
+	.byte	'next',0
+	.word	.L36-.L12
+	.byte	4,2,35,0,6
+	.byte	'payload',0
+	.word	217
+	.byte	4,2,35,4,6
+	.byte	'tot_len',0
+	.word	222
+	.byte	2,2,35,8,6
+	.byte	'len',0
+	.word	222
+	.byte	2,2,35,10,6
+	.byte	'type_internal',0
+	.word	194
+	.byte	1,2,35,12,6
+	.byte	'flags',0
+	.word	194
+	.byte	1,2,35,13,6
+	.byte	'ref',0
+	.word	194
+	.byte	1,2,35,14,6
+	.byte	'if_idx',0
+	.word	194
+	.byte	1,2,35,15,0
+.L36:
+	.byte	4
+	.word	244
+	.byte	7
+	.byte	'pbuf_free',0,1,165,2,6
+	.word	194
+	.byte	1,1,1,1,8
+	.byte	'p',0,1,165,2,29
+	.word	384
+	.byte	0,2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'ip4_addr',0,3,51,8,4,6
+	.byte	'addr',0
+	.word	424
+	.byte	4,2,35,0,0,9
+	.word	445
+	.byte	4
+	.word	474
+	.byte	10,1,1,11
+	.word	217
+	.byte	11
+	.word	.L34-.L12
+	.byte	11
+	.word	384
+	.byte	11
+	.word	479
+	.byte	11
+	.word	222
+	.byte	0,4
+	.word	484
+	.byte	12
+	.byte	'udp_recv_fn',0,2,77,16
+	.word	513
+	.byte	5
+	.byte	'udp_pcb',0,2,81,8,32,6
+	.byte	'local_ip',0
+	.word	445
+	.byte	4,2,35,0,6
+	.byte	'remote_ip',0
+	.word	445
+	.byte	4,2,35,4,6
+	.byte	'netif_idx',0
+	.word	194
+	.byte	1,2,35,8,6
+	.byte	'so_options',0
+	.word	194
+	.byte	1,2,35,9,6
+	.byte	'tos',0
+	.word	194
+	.byte	1,2,35,10,6
+	.byte	'ttl',0
+	.word	194
+	.byte	1,2,35,11,6
+	.byte	'next',0
+	.word	.L34-.L12
+	.byte	4,2,35,12,6
+	.byte	'flags',0
+	.word	194
+	.byte	1,2,35,16,6
+	.byte	'local_port',0
+	.word	222
+	.byte	2,2,35,18,6
+	.byte	'remote_port',0
+	.word	222
+	.byte	2,2,35,20,6
+	.byte	'recv',0
+	.word	518
+	.byte	4,2,35,24,6
+	.byte	'recv_arg',0
+	.word	217
+	.byte	4,2,35,28,0
+.L34:
+	.byte	4
+	.word	538
+	.byte	7
+	.byte	'udp_new_ip_type',0,2,120,18
+	.word	756
+	.byte	1,1,1,1,8
+	.byte	'type',0,2,120,39
+	.word	194
+	.byte	0,4
+	.word	484
+.L29:
+	.byte	2
+	.byte	'char',0,1,6,9
+	.word	445
+.L38:
+	.byte	4
+	.word	816
+	.byte	7
+	.byte	'udp_bind',0,2,122,18
+	.word	808
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,122,50
+	.word	756
+	.byte	8
+	.byte	'ipaddr',0,2,122,72
+	.word	821
+	.byte	8
+	.byte	'port',0,2,123,40
+	.word	222
+	.byte	0,13
+	.byte	'udp_recv',0,2,128,1,18,1,1,1,1,8
+	.byte	'pcb',0,2,128,1,50
+	.word	756
+	.byte	8
+	.byte	'recv',0,2,128,1,67
+	.word	518
+	.byte	8
+	.byte	'recv_arg',0,2,129,1,40
+	.word	217
+	.byte	0,7
+	.byte	'udp_sendto',0,2,136,1,18
+	.word	808
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,136,1,50
+	.word	756
+	.byte	8
+	.byte	'p',0,2,136,1,68
+	.word	384
+	.byte	8
+	.byte	'dst_ip',0,2,137,1,51
+	.word	821
+	.byte	8
+	.byte	'dst_port',0,2,137,1,65
+	.word	222
+	.byte	0,14
+	.byte	'__INDIRECT__',0,4,1,1,1,1,1,2
+	.byte	'short int',0,2,5,12
+	.byte	'__wchar_t',0,4,1,1
+	.word	1055
+	.byte	2
+	.byte	'unsigned int',0,4,7,12
+	.byte	'__size_t',0,4,1,1
+	.word	1086
+	.byte	2
+	.byte	'int',0,4,5,12
+	.byte	'__ptrdiff_t',0,4,1,1
+	.word	1119
+	.byte	15,1,4
+	.word	1146
+	.byte	12
+	.byte	'__codeptr',0,4,1,1
+	.word	1148
+	.byte	12
+	.byte	'__intptr_t',0,4,1,1
+	.word	1119
+	.byte	12
+	.byte	'__uintptr_t',0,4,1,1
+	.word	1086
+	.byte	12
+	.byte	'uint8',0,5,108,29
+	.word	194
+	.byte	12
+	.byte	'uint16',0,5,112,29
+	.word	222
+	.byte	12
+	.byte	'uint32',0,5,116,29
+	.word	424
+	.byte	12
+	.byte	'sint8',0,5,125,29
+	.word	808
+	.byte	12
+	.byte	'sint16',0,5,129,1,29
+	.word	1055
+	.byte	2
+	.byte	'long int',0,4,5,12
+	.byte	'sint32',0,5,134,1,29
+	.word	1284
+	.byte	2
+	.byte	'long long int',0,8,5,12
+	.byte	'sint64',0,5,141,1,29
+	.word	1312
+	.byte	2
+	.byte	'float',0,4,4,12
+	.byte	'float32',0,5,170,1,29
+	.word	1345
+	.byte	12
+	.byte	'pvoid',0,6,54,28
+	.word	217
+	.byte	12
+	.byte	'Ifx_TickTime',0,6,76,28
+	.word	1312
+	.byte	12
+	.byte	'u8_t',0,7,85,16
+	.word	194
+	.byte	12
+	.byte	'u16_t',0,7,86,16
+	.word	222
+	.byte	12
+	.byte	'u32_t',0,7,87,16
+	.word	424
+	.byte	12
+	.byte	's8_t',0,7,88,16
+	.word	808
+	.byte	12
+	.byte	'intmax_t',0,8,198,2,41
+	.word	1312
+	.byte	12
+	.byte	'mem_size_t',0,9,67,15
+	.word	222
+	.byte	12
+	.byte	'err_t',0,10,96,14
+	.word	808
+	.byte	10,1,1,11
+	.word	384
+	.byte	0,4
+	.word	1511
+	.byte	12
+	.byte	'pbuf_free_custom_fn',0,1,242,1,16
+	.word	1520
+	.byte	12
+	.byte	'ip4_addr_t',0,3,57,25
+	.word	445
+	.byte	12
+	.byte	'ip_addr_t',0,11,142,2,20
+	.word	445
+	.byte	9
+	.word	445
+	.byte	16
+	.byte	'ip_addr_any',0,11,241,2,24
+	.word	1592
+	.byte	1,1,17
+	.word	808
+	.byte	1,1,11
+	.word	.L50-.L12
+	.byte	11
+	.word	384
+	.byte	11
+	.word	479
+	.byte	0,4
+	.word	1620
+	.byte	12
+	.byte	'netif_output_fn',0,12,189,1,17
+	.word	1643
+	.byte	17
+	.word	808
+	.byte	1,1,11
+	.word	.L50-.L12
+	.byte	11
+	.word	384
+	.byte	0,4
+	.word	1673
+	.byte	12
+	.byte	'netif_linkoutput_fn',0,12,212,1,17
+	.word	1691
+	.byte	18,6
+	.word	194
+	.byte	19,5,0,2
+	.byte	'char',0,1,6,18,2
+	.word	1734
+	.byte	19,1,0,5
+	.byte	'netif',0,12,132,2,8,48,6
+	.byte	'next',0
+	.word	.L50-.L12
+	.byte	4,2,35,0,6
+	.byte	'ip_addr',0
+	.word	445
+	.byte	4,2,35,4,6
+	.byte	'netmask',0
+	.word	445
+	.byte	4,2,35,8,6
+	.byte	'gw',0
+	.word	445
+	.byte	4,2,35,12,6
+	.byte	'input',0
+	.word	.L51-.L12
+	.byte	4,2,35,16,6
+	.byte	'output',0
+	.word	1648
+	.byte	4,2,35,20,6
+	.byte	'linkoutput',0
+	.word	1696
+	.byte	4,2,35,24,6
+	.byte	'state',0
+	.word	217
+	.byte	4,2,35,28,6
+	.byte	'mtu',0
+	.word	222
+	.byte	2,2,35,32,6
+	.byte	'hwaddr',0
+	.word	1725
+	.byte	6,2,35,34,6
+	.byte	'hwaddr_len',0
+	.word	194
+	.byte	1,2,35,40,6
+	.byte	'flags',0
+	.word	194
+	.byte	1,2,35,41,6
+	.byte	'name',0
+	.word	1742
+	.byte	2,2,35,42,6
+	.byte	'num',0
+	.word	194
+	.byte	1,2,35,44,6
+	.byte	'rs_count',0
+	.word	194
+	.byte	1,2,35,45,0
+.L50:
+	.byte	4
+	.word	1751
+	.byte	17
+	.word	808
+	.byte	1,1,11
+	.word	384
+	.byte	11
+	.word	1999
+	.byte	0,4
+	.word	2004
+.L51:
+	.byte	12
+	.byte	'netif_input_fn',0,12,178,1,17
+	.word	2022
+	.byte	4
+	.word	2004
+	.byte	4
+	.word	1620
+	.byte	4
+	.word	1673
+	.byte	5
+	.byte	'link_changed_s',0,12,213,4,10,1,6
+	.byte	'state',0
+	.word	194
+	.byte	1,2,35,0,0,5
+	.byte	'status_changed_s',0,12,219,4,10,1,6
+	.byte	'state',0
+	.word	194
+	.byte	1,2,35,0,0,5
+	.byte	'ipv4_changed_s',0,12,225,4,10,12,6
+	.byte	'old_address',0
+	.word	821
+	.byte	4,2,35,0,6
+	.byte	'old_netmask',0
+	.word	821
+	.byte	4,2,35,4,6
+	.byte	'old_gw',0
+	.word	821
+	.byte	4,2,35,8,0,5
+	.byte	'ipv6_set_s',0,12,233,4,10,8,6
+	.byte	'addr_index',0
+	.word	808
+	.byte	1,2,35,0,6
+	.byte	'old_address',0
+	.word	821
+	.byte	4,2,35,4,0,5
+	.byte	'ipv6_addr_state_changed_s',0,12,241,4,10,8,6
+	.byte	'addr_index',0
+	.word	808
+	.byte	1,2,35,0,6
+	.byte	'old_state',0
+	.word	194
+	.byte	1,2,35,1,6
+	.byte	'address',0
+	.word	821
+	.byte	4,2,35,4,0,20,12,210,4,9,12,6
+	.byte	'link_changed',0
+	.word	2066
+	.byte	1,2,35,0,6
+	.byte	'status_changed',0
+	.word	2103
+	.byte	1,2,35,0,6
+	.byte	'ipv4_changed',0
+	.word	2142
+	.byte	12,2,35,0,6
+	.byte	'ipv6_set',0
+	.word	2222
+	.byte	8,2,35,0,6
+	.byte	'ipv6_addr_state_changed',0
+	.word	2281
+	.byte	8,2,35,0,0,9
+	.word	2370
+	.byte	4
+	.word	2496
+	.byte	10,1,1,11
+	.word	1999
+	.byte	11
+	.word	222
+	.byte	11
+	.word	2501
+	.byte	0,4
+	.word	2506
+	.byte	12
+	.byte	'netif_ext_callback_fn',0,12,132,5,16
+	.word	2525
+	.byte	5
+	.byte	'ip4_addr_packed',0,13,53,8,4,6
+	.byte	'addr',0
+	.word	424
+	.byte	4,2,35,0,0,12
+	.byte	'ip4_addr_p_t',0,13,61,32
+	.word	2561
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,59,0,3,8,0,0,4,15,0,73,19,0
+	.byte	0,5,19,1,3,8,58,15,59,15,57,15,11,15,0,0,6,13,0,3,8,73,19,11,15,56,9,0,0,7,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,8,5,0,3,8,58,15,59,15,57,15,73,19,0,0,9,38,0,73,19,0,0,10,21,1,54,15
+	.byte	39,12,0,0,11,5,0,73,19,0,0,12,22,0,3,8,58,15,59,15,57,15,73,19,0,0,13,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,60,12,0,0,14,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,15,21,0,54,15,0,0,16,52,0,3
+	.byte	8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,17,21,1,73,19,54,15,39,12,0,0,18,1,1,11,15,73,19,0,0,19,33,0
+	.byte	47,15,0,0,20,23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L14:
+	.word	.L53-.L52
+.L52:
+	.half	3
+	.word	.L55-.L54
+.L54:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.10\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\udp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'../examples/udp_echo.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	0,0,0,0
+.L55:
+.L53:
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	106
+	.half	2
+	.word	.L12,2619,389
+	.byte	'pbuf_free',0
+	.word	761
+	.byte	'udp_new_ip_type',0
+	.word	826
+	.byte	'udp_bind',0
+	.word	888
+	.byte	'udp_recv',0
+	.word	952
+	.byte	'udp_sendto',0
+	.word	1035
+	.byte	'__INDIRECT__',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('UdpEchoInit')
+	.sect	'.debug_info'
+.L15:
+	.word	268
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'../examples/udp_echo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L11
+	.byte	3
+	.byte	'UdpEchoInit',0,1,69,6,1,1,1
+	.word	.L10,.L27,.L9
+	.byte	4
+	.word	.L10,.L27
+	.byte	4
+	.word	.L28,.L5
+	.byte	5
+	.byte	'err',0,1,73,15
+	.word	.L29,.L30
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('UdpEchoInit')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('UdpEchoInit')
+	.sect	'.debug_line'
+.L17:
+	.word	.L57-.L56
+.L56:
+	.half	3
+	.word	.L59-.L58
+.L58:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../examples/udp_echo.c',0,0,0,0,0
+.L59:
+	.byte	5,5,7,0,5,2
+	.word	.L10
+	.byte	3,198,0,1,5,39,9
+	.half	.L60-.L10
+	.byte	1,5,21,9
+	.half	.L61-.L60
+	.byte	1,5,9,9
+	.half	.L62-.L61
+	.byte	3,1,1,5,5,9
+	.half	.L63-.L62
+	.byte	1,5,24,7,9
+	.half	.L28-.L63
+	.byte	3,3,1,5,41,9
+	.half	.L64-.L28
+	.byte	1,5,54,9
+	.half	.L65-.L64
+	.byte	1,5,9,9
+	.half	.L48-.L65
+	.byte	3,1,1,5,22,7,9
+	.half	.L66-.L48
+	.byte	3,1,1,5,39,9
+	.half	.L67-.L66
+	.byte	1,5,57,9
+	.half	.L68-.L67
+	.byte	1,5,62,9
+	.half	.L49-.L68
+	.byte	1,5,11,9
+	.half	.L5-.L49
+	.byte	3,1,1,5,1,9
+	.half	.L6-.L5
+	.byte	3,6,1,7,9
+	.half	.L19-.L6
+	.byte	0,1,1
+.L57:
+	.sdecl	'.debug_ranges',debug,cluster('UdpEchoInit')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L10,0,.L19-.L10,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	30
+	.half	2
+	.word	.L15,272,203
+	.byte	'UdpEchoInit',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('udpecho_raw_recv')
+	.sect	'.debug_info'
+.L20:
+	.word	326
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'../examples/udp_echo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L23,.L22
+	.byte	2
+	.word	.L11
+	.byte	3
+	.byte	'udpecho_raw_recv',0,1,57,13,1,1
+	.word	.L8,.L31,.L7
+	.byte	4
+	.byte	'arg',0,1,57,36
+	.word	.L32,.L33
+	.byte	4
+	.byte	'upcb',0,1,57,57
+	.word	.L34,.L35
+	.byte	4
+	.byte	'p',0,1,57,76
+	.word	.L36,.L37
+	.byte	4
+	.byte	'addr',0,1,58,35
+	.word	.L38,.L39
+	.byte	4
+	.byte	'port',0,1,58,47
+	.word	.L40,.L41
+	.byte	5
+	.word	.L8,.L31
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('udpecho_raw_recv')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('udpecho_raw_recv')
+	.sect	'.debug_line'
+.L22:
+	.word	.L70-.L69
+.L69:
+	.half	3
+	.word	.L72-.L71
+.L71:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../examples/udp_echo.c',0,0,0,0,0
+.L72:
+	.byte	5,13,7,0,5,2
+	.word	.L8
+	.byte	3,56,1,5,5,9
+	.half	.L45-.L8
+	.byte	3,4,1,5,35,7,9
+	.half	.L73-.L45
+	.byte	3,2,1,5,19,9
+	.half	.L42-.L73
+	.byte	3,2,1,5,1,9
+	.half	.L2-.L42
+	.byte	3,2,1,7,9
+	.half	.L24-.L2
+	.byte	0,1,1
+.L70:
+	.sdecl	'.debug_ranges',debug,cluster('udpecho_raw_recv')
+	.sect	'.debug_ranges'
+.L23:
+	.word	-1,.L8,0,.L24-.L8,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	35
+	.half	2
+	.word	.L20,330,203
+	.byte	'udpecho_raw_recv',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('udpecho_raw_pcb')
+	.sect	'.debug_info'
+.L25:
+	.word	222
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'../examples/udp_echo.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L11
+	.byte	3
+	.byte	'udpecho_raw_pcb',0,4,55,24
+	.word	.L34
+	.byte	5,3
+	.word	udpecho_raw_pcb
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('udpecho_raw_pcb')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('UdpEchoInit')
+	.sect	'.debug_loc'
+.L9:
+	.word	-1,.L10,0,.L27-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L30:
+	.word	-1,.L10,.L48-.L10,.L49-.L10
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('udpecho_raw_recv')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L8,0,.L42-.L8
+	.half	1
+	.byte	103
+	.word	.L46-.L8,.L42-.L8
+	.half	1
+	.byte	102
+	.word	0,0
+.L33:
+	.word	-1,.L8,0,.L43-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L37:
+	.word	-1,.L8,0,.L44-.L8
+	.half	1
+	.byte	102
+	.word	.L45-.L8,.L31-.L8
+	.half	1
+	.byte	111
+	.word	.L44-.L8,.L42-.L8
+	.half	1
+	.byte	101
+	.word	.L47-.L8,.L2-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L41:
+	.word	-1,.L8,0,.L42-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+.L7:
+	.word	-1,.L8,0,.L31-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L35:
+	.word	-1,.L8,0,.L44-.L8
+	.half	1
+	.byte	101
+	.word	.L43-.L8,.L42-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L74:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('udpecho_raw_recv')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L74,.L8,.L31-.L8
+	.sdecl	'.debug_frame',debug,cluster('UdpEchoInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L74,.L10,.L27-.L10
+	; Module end
