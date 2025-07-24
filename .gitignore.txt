@@ -1,26 +1,23 @@
-# 모든 파일 무시
-/*
+# 1) 일단 모든 파일·폴더 무시
+*
 
-# --- Arduino 전체 허용 ---
-!/Arduino/
+# 2) 디렉터리 구조는 살려야 예외가 먹힌다
+!*/               # 1단계 하위 폴더는 전부 허용
+
+# 3) 최종적으로 **살리고 싶은 것**만 다시 허용
+# --- Arduino ---
 !/Arduino/**
 
-# --- Raspberrypi 전체 허용 ---
-!/Raspberrypi/
+# --- Raspberrypi ---
 !/Raspberrypi/**
 
-# --- TC375LK_NGV 폴더 접근 허용 ---
-!/TC375LK_NGV/
+# --- TC375LK_NGV ---
+!/TC375LK_NGV/**            # 폴더 전체를 먼저 살려야 하위 예외가 적용
 
-# TC375LK_NGV의 BSW, Modules 폴더 허용
-!/TC375LK_NGV/BSW/
+# 필요하다면, TC375LK_NGV 안에서도 세분화해서 허용
 !/TC375LK_NGV/BSW/**
-
-!/TC375LK_NGV/Modules/
 !/TC375LK_NGV/Modules/**
 
-# TC375LK_NGV의 특정 파일 허용
-!/TC375LK_NGV/Sys_Init.c
-!/TC375LK_NGV/Sys_Init.h
-!/TC375LK_NGV/main.c
-!/TC375LK_NGV/main.h
+# 개별 소스 파일만 따로 올리고 싶다면
+!/TC375LK_NGV/Sys_Init.*
+!/TC375LK_NGV/main.*
