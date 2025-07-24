@@ -120,3 +120,6 @@ void Bluetooth_printf(const char *fmt, ...)
     for (ptr = buffer2; *ptr; ++ptr)
         Bluetooth_SendByteBlocked((const unsigned char) *ptr);
 }
+
+
+

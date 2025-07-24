@@ -94,6 +94,7 @@
 								</option>
 								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.debugging.1481026812" name="Generate symbolic debug information:" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.debugging" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.debugging.full" valueType="enumerated"/>
 								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.dependencyFile.936617695" name="Dependency File (--dep-file=)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.dependencyFile" value="" valueType="string"/>
+								<option id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug.1799653377" name="Optimization level: (-Ox)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.debug" value="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.optimization.level.0" valueType="enumerated"/>
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.1104985790" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.1460509994" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
 							</tool>

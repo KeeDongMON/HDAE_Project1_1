@@ -1,0 +1,1706 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc14160a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.src ../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.bridgeif_fdb.bridgeif_fdb_update_src',code,cluster('bridgeif_fdb_update_src')
+	.sect	'.text.bridgeif_fdb.bridgeif_fdb_update_src'
+	.align	2
+	
+	.global	bridgeif_fdb_update_src
+; Function bridgeif_fdb_update_src
+.L58:
+bridgeif_fdb_update_src:	.type	func
+	sub.a	a10,#32
+.L133:
+	mov.aa	a13,a4
+.L134:
+	mov.aa	a15,a5
+.L135:
+	mov	d8,d4
+.L136:
+	mov	d9,#0
+.L137:
+	j	.L2
+.L3:
+	mul	d15,d9,#12
+.L194:
+	ld.a	a2,[a13]4
+.L195:
+	addsc.a	a12,a2,d15,#0
+.L139:
+	ld.bu	d15,[a12]
+.L196:
+	jeq	d15,#0,.L4
+.L197:
+	ld.w	d15,[a12]2
+	jeq	d15,#0,.L5
+.L198:
+	mov.aa	a4,a12
+.L141:
+	add.a	a4,#6
+.L140:
+	mov	d4,#6
+	mov.aa	a5,a15
+.L143:
+	call	memcmp
+.L142:
+	jne	d2,#0,.L6
+.L7:
+	mov	d15,#0
+	jeq	d15,#0,.L8
+	mov	d15,#0
+	jeq	d15,#0,.L9
+	mov	d15,#1
+	jeq	d15,#0,.L10
+	ld.bu	d15,[a15]
+	st.w	[a10],d15
+	ld.bu	d15,[a15]1
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]2
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]3
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]4
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]5
+	st.w	[a10]20,d15
+	st.w	[a10]24,d8
+	st.w	[a10]28,d9
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L11
+	j	.L12
+.L13:
+.L12:
+	j	.L13
+.L11:
+.L10:
+.L9:
+.L8:
+	mov	d15,#300
+.L144:
+	st.w	[a12]2,d15
+.L199:
+	st.b	[a12]1,d8
+.L145:
+	j	.L14
+.L6:
+.L5:
+.L4:
+	add	d9,#1
+.L2:
+	ld.hu	d15,[a13]0
+.L200:
+	jlt	d9,d15,.L3
+.L201:
+	mov	d1,#0
+.L138:
+	j	.L15
+.L16:
+	mul	d15,d1,#12
+.L202:
+	ld.a	a2,[a13]4
+.L203:
+	addsc.a	a12,a2,d15,#0
+.L147:
+	ld.bu	d15,[a12]
+.L204:
+	jeq	d15,#0,.L17
+.L205:
+	ld.w	d15,[a12]2
+.L206:
+	jne	d15,#0,.L18
+.L17:
+	ld.bu	d15,[a12]
+.L207:
+	jeq	d15,#0,.L19
+.L208:
+	ld.w	d15,[a12]2
+.L209:
+	jne	d15,#0,.L20
+.L19:
+.L21:
+	mov	d15,#0
+	jeq	d15,#0,.L22
+	mov	d15,#0
+	jeq	d15,#0,.L23
+	mov	d15,#1
+	jeq	d15,#0,.L24
+	ld.bu	d0,[a15]
+	st.w	[a10],d0
+	ld.bu	d15,[a15]1
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]2
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]3
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]4
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]5
+	st.w	[a10]20,d15
+	st.w	[a10]24,d8
+	st.w	[a10]28,d1
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	call	Ifx_Lwip_printf
+.L146:
+	mov	d15,#0
+	jeq	d15,#0,.L25
+	j	.L26
+.L27:
+.L26:
+	j	.L27
+.L25:
+.L24:
+.L23:
+.L22:
+	mov.aa	a4,a12
+.L149:
+	add.a	a4,#6
+.L148:
+	mov	d4,#6
+	mov.aa	a5,a15
+.L151:
+	call	memcpy
+.L150:
+	mov	d15,#300
+.L152:
+	st.w	[a12]2,d15
+.L210:
+	st.b	[a12]1,d8
+.L153:
+	mov	d15,#1
+.L154:
+	st.b	[a12],d15
+.L155:
+	j	.L28
+.L20:
+.L18:
+	add	d1,#1
+.L15:
+	ld.hu	d15,[a13]0
+.L211:
+	jlt	d1,d15,.L16
+.L28:
+.L14:
+	ret
+.L96:
+	
+__bridgeif_fdb_update_src_function_end:
+	.size	bridgeif_fdb_update_src,__bridgeif_fdb_update_src_function_end-bridgeif_fdb_update_src
+.L75:
+	; End of function
+	
+	.sdecl	'.text.bridgeif_fdb.bridgeif_fdb_get_dst_ports',code,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.text.bridgeif_fdb.bridgeif_fdb_get_dst_ports'
+	.align	2
+	
+	.global	bridgeif_fdb_get_dst_ports
+; Function bridgeif_fdb_get_dst_ports
+.L60:
+bridgeif_fdb_get_dst_ports:	.type	func
+	mov.aa	a12,a4
+.L156:
+	mov.aa	a13,a5
+.L157:
+	mov	d8,#0
+.L158:
+	j	.L29
+.L30:
+	mul	d15,d8,#12
+.L216:
+	ld.a	a15,[a12]4
+.L217:
+	addsc.a	a15,a15,d15,#0
+.L159:
+	ld.bu	d15,[a15]
+.L218:
+	jeq	d15,#0,.L31
+.L219:
+	ld.w	d15,[a15]2
+	jeq	d15,#0,.L32
+.L220:
+	mov.aa	a4,a15
+.L161:
+	add.a	a4,#6
+.L160:
+	mov	d4,#6
+	mov.aa	a5,a13
+.L163:
+	call	memcmp
+.L162:
+	jne	d2,#0,.L33
+.L116:
+	mov	d0,#1
+.L164:
+	ld.bu	d15,[a15]1
+.L165:
+	sha	d0,d0,d15
+.L221:
+	extr.u	d2,d0,#0,#8
+.L166:
+	j	.L34
+.L33:
+.L32:
+.L31:
+	add	d8,#1
+.L29:
+	ld.hu	d15,[a12]0
+.L222:
+	jlt	d8,d15,.L30
+.L223:
+	mov	d2,#255
+.L224:
+	j	.L35
+.L35:
+.L34:
+	ret
+.L110:
+	
+__bridgeif_fdb_get_dst_ports_function_end:
+	.size	bridgeif_fdb_get_dst_ports,__bridgeif_fdb_get_dst_ports_function_end-bridgeif_fdb_get_dst_ports
+.L80:
+	; End of function
+	
+	.sdecl	'.text.bridgeif_fdb.bridgeif_fdb_age_one_second',code,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.text.bridgeif_fdb.bridgeif_fdb_age_one_second'
+	.align	2
+	
+; Function bridgeif_fdb_age_one_second
+.L62:
+bridgeif_fdb_age_one_second:	.type	func
+	mov	d0,#0
+.L167:
+	j	.L36
+.L37:
+	mul	d15,d0,#12
+.L242:
+	ld.a	a15,[a4]4
+.L243:
+	addsc.a	a15,a15,d15,#0
+.L168:
+	ld.bu	d15,[a15]
+.L244:
+	jeq	d15,#0,.L38
+.L245:
+	ld.w	d15,[a15]2
+	jeq	d15,#0,.L39
+.L246:
+	ld.bu	d15,[a15]
+.L247:
+	jeq	d15,#0,.L40
+.L248:
+	ld.w	d15,[a15]2
+	jeq	d15,#0,.L41
+.L249:
+	ld.w	d15,[a15]2
+.L250:
+	add	d15,#-1
+	st.w	[a15]2,d15
+.L251:
+	jne	d15,#0,.L42
+.L252:
+	mov	d15,#0
+.L253:
+	st.b	[a15],d15
+.L42:
+.L41:
+.L40:
+.L39:
+.L38:
+	add	d0,#1
+.L36:
+	ld.hu	d15,[a4]0
+.L254:
+	jlt	d0,d15,.L37
+.L255:
+	ret
+.L125:
+	
+__bridgeif_fdb_age_one_second_function_end:
+	.size	bridgeif_fdb_age_one_second,__bridgeif_fdb_age_one_second_function_end-bridgeif_fdb_age_one_second
+.L90:
+	; End of function
+	
+	.sdecl	'.text.bridgeif_fdb.bridgeif_age_tmr',code,cluster('bridgeif_age_tmr')
+	.sect	'.text.bridgeif_fdb.bridgeif_age_tmr'
+	.align	2
+	
+; Function bridgeif_age_tmr
+.L64:
+bridgeif_age_tmr:	.type	func
+	sub.a	a10,#16
+.L169:
+	mov.aa	a12,a4
+.L43:
+	jnz.a	a12,.L44
+.L260:
+	movh.a	a15,#@his(.4.str)
+	lea	a15,[a15]@los(.4.str)
+	st.a	[a10],a15
+	mov	d15,#184
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.5.str)
+	lea	a15,[a15]@los(.5.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.3.str)
+.L170:
+	lea	a4,[a4]@los(.3.str)
+	call	Ifx_Lwip_printf
+.L44:
+	mov.aa	a4,a12
+.L171:
+	call	bridgeif_fdb_age_one_second
+.L172:
+	mov	d4,#1000
+.L261:
+	movh.a	a4,#@his(bridgeif_age_tmr)
+	lea	a4,[a4]@los(bridgeif_age_tmr)
+.L262:
+	mov.aa	a5,a12
+.L173:
+	call	sys_timeout
+.L174:
+	ret
+.L130:
+	
+__bridgeif_age_tmr_function_end:
+	.size	bridgeif_age_tmr,__bridgeif_age_tmr_function_end-bridgeif_age_tmr
+.L95:
+	; End of function
+	
+	.sdecl	'.text.bridgeif_fdb.bridgeif_fdb_init',code,cluster('bridgeif_fdb_init')
+	.sect	'.text.bridgeif_fdb.bridgeif_fdb_init'
+	.align	2
+	
+	.global	bridgeif_fdb_init
+; Function bridgeif_fdb_init
+.L66:
+bridgeif_fdb_init:	.type	func
+	sub.a	a10,#16
+.L175:
+	mov	d9,d4
+.L176:
+	mul	d15,d9,#12
+.L229:
+	add	d15,d15,#8
+.L177:
+	extr.u	d8,d15,#0,#16
+.L45:
+	jeq	d15,d8,.L46
+.L230:
+	movh.a	a15,#@his(.6.str)
+	lea	a15,[a15]@los(.6.str)
+	st.a	[a10],a15
+	mov	d15,#200
+.L178:
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.5.str)
+	lea	a15,[a15]@los(.5.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
+	call	Ifx_Lwip_printf
+.L46:
+.L47:
+	mov	d15,#0
+	jeq	d15,#0,.L48
+	mov	d15,#0
+	jeq	d15,#0,.L49
+	mov	d15,#1
+	jeq	d15,#0,.L50
+	st.w	[a10],d8
+	movh.a	a4,#@his(.7.str)
+	lea	a4,[a4]@los(.7.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L51
+	j	.L52
+.L53:
+.L52:
+	j	.L53
+.L51:
+.L50:
+.L49:
+.L48:
+	mov	d4,#1
+.L231:
+	mov	d5,d8
+.L179:
+	call	mem_calloc
+.L180:
+	mov.aa	a12,a2
+.L182:
+	jnz.a	a12,.L54
+.L232:
+	mov.a	a2,#0
+.L181:
+	j	.L55
+.L54:
+	st.h	[a12],d9
+.L233:
+	lea	a15,[a12]8
+.L234:
+	st.a	[a12]4,a15
+.L235:
+	mov	d4,#1000
+.L236:
+	movh.a	a4,#@his(bridgeif_age_tmr)
+	lea	a4,[a4]@los(bridgeif_age_tmr)
+.L237:
+	mov.aa	a5,a12
+.L183:
+	call	sys_timeout
+.L184:
+	mov.aa	a2,a12
+.L185:
+	j	.L56
+.L56:
+.L55:
+	ret
+.L118:
+	
+__bridgeif_fdb_init_function_end:
+	.size	bridgeif_fdb_init,__bridgeif_fdb_init_function_end-bridgeif_fdb_init
+.L85:
+	; End of function
+	
+	.sdecl	'.rodata.bridgeif_fdb..1.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..1.str'
+.1.str:	.type	object
+	.size	.1.str,65
+	.byte	98,114,58,32,117,112,100,97
+	.byte	116,101,32,115,114,99,32,37
+	.byte	48,50,120,58,37,48,50,120
+	.byte	58,37,48,50,120,58,37,48
+	.byte	50,120,58,37,48,50,120,58
+	.byte	37,48,50,120,32,40,102,114
+	.byte	111,109,32,37,100,41,32,64
+	.byte	32,105,100,120,32,37,100,10
+	.space	1
+	.sdecl	'.rodata.bridgeif_fdb..2.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..2.str'
+.2.str:	.type	object
+	.size	.2.str,65
+	.byte	98,114,58,32,99,114,101,97
+	.byte	116,101,32,115,114,99,32,37
+	.byte	48,50,120,58,37,48,50,120
+	.byte	58,37,48,50,120,58,37,48
+	.byte	50,120,58,37,48,50,120,58
+	.byte	37,48,50,120,32,40,102,114
+	.byte	111,109,32,37,100,41,32,64
+	.byte	32,105,100,120,32,37,100,10
+	.space	1
+	.sdecl	'.rodata.bridgeif_fdb..3.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..3.str'
+.3.str:	.type	object
+	.size	.3.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.bridgeif_fdb..4.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..4.str'
+.4.str:	.type	object
+	.size	.4.str,12
+	.byte	105,110,118,97,108,105,100,32
+	.byte	97,114,103
+	.space	1
+	.sdecl	'.rodata.bridgeif_fdb..5.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..5.str'
+.5.str:	.type	object
+	.size	.5.str,52
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,110
+	.byte	101,116,105,102,47,98,114,105
+	.byte	100,103,101,105,102,95,102,100
+	.byte	98,46,99
+	.space	1
+	.sdecl	'.rodata.bridgeif_fdb..6.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..6.str'
+.6.str:	.type	object
+	.size	.6.str,29
+	.byte	97,108,108,111,99,95,108,101
+	.byte	110,32,61,61,32,97,108,108
+	.byte	111,99,95,108,101,110,95,115
+	.byte	105,122,101,116
+	.space	1
+	.sdecl	'.rodata.bridgeif_fdb..7.str',data,rom
+	.sect	'.rodata.bridgeif_fdb..7.str'
+.7.str:	.type	object
+	.size	.7.str,61
+	.byte	98,114,105,100,103,101,105,102
+	.byte	95,102,100,98,95,105,110,105
+	.byte	116,58,32,97,108,108,111,99
+	.byte	97,116,105,110,103,32,37,100
+	.byte	32,98,121,116,101,115,32,102
+	.byte	111,114,32,112,114,105,118,97
+	.byte	116,101,32,70,68,66,32,100
+	.byte	97,116,97,10
+	.space	1
+	.calls	'__INDIRECT__','bridgeif_age_tmr'
+	.calls	'bridgeif_fdb_update_src','memcmp'
+	.calls	'bridgeif_fdb_update_src','Ifx_Lwip_printf'
+	.calls	'bridgeif_fdb_update_src','memcpy'
+	.calls	'bridgeif_fdb_get_dst_ports','memcmp'
+	.calls	'bridgeif_age_tmr','Ifx_Lwip_printf'
+	.calls	'bridgeif_age_tmr','bridgeif_fdb_age_one_second'
+	.calls	'bridgeif_age_tmr','sys_timeout'
+	.calls	'bridgeif_fdb_init','Ifx_Lwip_printf'
+	.calls	'bridgeif_fdb_init','mem_calloc'
+	.calls	'bridgeif_fdb_init','sys_timeout'
+	.calls	'bridgeif_fdb_update_src','',32
+	.calls	'bridgeif_fdb_get_dst_ports','',0
+	.calls	'bridgeif_fdb_age_one_second','',0
+	.calls	'bridgeif_age_tmr','',16
+	.extern	Ifx_Lwip_printf
+	.extern	mem_calloc
+	.extern	sys_timeout
+	.extern	memcpy
+	.extern	memcmp
+	.extern	__INDIRECT__
+	.calls	'bridgeif_fdb_init','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L68:
+	.word	1401
+	.half	3
+	.word	.L69
+	.byte	4
+.L67:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L70
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	231
+	.byte	4
+	.word	239
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	223
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	244
+	.byte	7,1,123,37,0,8
+	.byte	'void',0
+.L97:
+	.byte	4
+	.word	292
+.L101:
+	.byte	2
+	.byte	'unsigned char',0,1,8,9,6
+	.word	303
+	.byte	10,5,0,11
+	.byte	'eth_addr',0,2,60,8,6,12
+	.byte	'addr',0
+	.word	320
+	.byte	6,2,35,0,0
+.L99:
+	.byte	4
+	.word	329
+.L103:
+	.byte	2
+	.byte	'int',0,4,5
+.L119:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'bridgeif_dfdb_entry_s',0,3,54,16,12,12
+	.byte	'used',0
+	.word	303
+	.byte	1,2,35,0,12
+	.byte	'port',0
+	.word	303
+	.byte	1,2,35,1,12
+	.byte	'ts',0
+	.word	392
+	.byte	4,2,35,2,12
+	.byte	'addr',0
+	.word	329
+	.byte	6,2,35,6,0
+.L107:
+	.byte	4
+	.word	413
+	.byte	11
+	.byte	'bridgeif_dfdb_s',0,3,61,16,8,12
+	.byte	'max_fdb_entries',0
+	.word	370
+	.byte	2,2,35,0,12
+	.byte	'fdb',0
+	.word	495
+	.byte	4,2,35,4,0
+.L105:
+	.byte	4
+	.word	500
+.L122:
+	.byte	2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'mem_calloc',0,4,75,7
+	.word	298
+	.byte	1,1,1,1,6
+	.byte	'count',0,4,75,29
+	.word	370
+	.byte	6
+	.byte	'size',0,4,75,47
+	.word	370
+	.byte	0,13,1,1,14
+	.word	298
+	.byte	0,4
+	.word	632
+	.byte	15
+	.byte	'sys_timeout_handler',0,5,91,17
+	.word	641
+	.byte	16
+	.byte	'sys_timeout',0,5,109,6,1,1,1,1,6
+	.byte	'msecs',0,5,109,24
+	.word	392
+	.byte	6
+	.byte	'handler',0,5,109,51
+	.word	646
+	.byte	6
+	.byte	'arg',0,5,109,66
+	.word	298
+	.byte	0,4
+	.word	632
+	.byte	17
+	.word	298
+	.byte	3
+	.word	292
+	.byte	4
+	.word	747
+	.byte	17
+	.word	752
+	.byte	5
+	.byte	'memcpy',0,6,53,17
+	.word	298
+	.byte	1,1,1,1,18,6,53,33
+	.word	742
+	.byte	18,6,53,56
+	.word	757
+	.byte	18,6,53,68
+	.word	565
+	.byte	0,5
+	.byte	'memcmp',0,6,57,17
+	.word	363
+	.byte	1,1,1,1,18,6,57,39
+	.word	752
+	.byte	18,6,57,53
+	.word	752
+	.byte	18,6,57,56
+	.word	565
+	.byte	0,19
+	.byte	'__INDIRECT__',0,3,1,1,1,1,1,2
+	.byte	'short int',0,2,5,15
+	.byte	'__wchar_t',0,3,1,1
+	.word	870
+	.byte	15
+	.byte	'__size_t',0,3,1,1
+	.word	565
+	.byte	15
+	.byte	'__ptrdiff_t',0,3,1,1
+	.word	363
+	.byte	20,1,4
+	.word	938
+	.byte	15
+	.byte	'__codeptr',0,3,1,1
+	.word	940
+	.byte	15
+	.byte	'__intptr_t',0,3,1,1
+	.word	363
+	.byte	15
+	.byte	'__uintptr_t',0,3,1,1
+	.word	565
+	.byte	15
+	.byte	'size_t',0,7,24,25
+	.word	565
+	.byte	15
+	.byte	'uint8',0,8,108,29
+	.word	303
+	.byte	15
+	.byte	'uint16',0,8,112,29
+	.word	370
+	.byte	15
+	.byte	'uint32',0,8,116,29
+	.word	392
+	.byte	15
+	.byte	'sint8',0,8,125,29
+	.word	223
+	.byte	15
+	.byte	'sint16',0,8,129,1,29
+	.word	870
+	.byte	2
+	.byte	'long int',0,4,5,15
+	.byte	'sint32',0,8,134,1,29
+	.word	1091
+	.byte	2
+	.byte	'long long int',0,8,5,15
+	.byte	'sint64',0,8,141,1,29
+	.word	1119
+	.byte	2
+	.byte	'float',0,4,4,15
+	.byte	'float32',0,8,170,1,29
+	.word	1152
+	.byte	15
+	.byte	'pvoid',0,9,54,28
+	.word	298
+	.byte	15
+	.byte	'Ifx_TickTime',0,9,76,28
+	.word	1119
+	.byte	15
+	.byte	'u8_t',0,1,85,16
+	.word	303
+	.byte	15
+	.byte	'u16_t',0,1,86,16
+	.word	370
+	.byte	15
+	.byte	'u32_t',0,1,87,16
+	.word	392
+	.byte	15
+	.byte	's8_t',0,1,88,16
+	.word	223
+	.byte	15
+	.byte	'intmax_t',0,10,198,2,41
+	.word	1119
+	.byte	15
+	.byte	'bridgeif_portmask_t',0,11,54,14
+	.word	303
+	.byte	15
+	.byte	'mem_size_t',0,4,67,15
+	.word	370
+	.byte	21,1,1,4
+	.word	1332
+	.byte	15
+	.byte	'lwip_cyclic_timer_handler',0,5,66,17
+	.word	1335
+	.byte	15
+	.byte	'bridgeif_dfdb_entry_t',0,3,59,3
+	.word	413
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,59,0,3,8,0,0,9,1,1,11,15,73,19,0,0,10,33,0,47,15,0,0,11,19,1,3,8,58,15
+	.byte	59,15,57,15,11,15,0,0,12,13,0,3,8,73,19,11,15,56,9,0,0,13,21,1,54,15,39,12,0,0,14,5,0,73,19,0,0,15,22
+	.byte	0,3,8,58,15,59,15,57,15,73,19,0,0,16,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,17,55,0,73
+	.byte	19,0,0,18,5,0,58,15,59,15,57,15,73,19,0,0,19,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,20,21,0
+	.byte	54,15,0,0,21,21,0,54,15,39,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L70:
+	.word	.L187-.L186
+.L186:
+	.half	3
+	.word	.L189-.L188
+.L188:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.10\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\timeouts.h',0
+	.byte	0,0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\netif\\bridgeif.h',0
+	.byte	0,0,0,0
+.L189:
+.L187:
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	104
+	.half	2
+	.word	.L68,1405,249
+	.byte	'Ifx_Lwip_printf',0
+	.word	581
+	.byte	'mem_calloc',0
+	.word	674
+	.byte	'sys_timeout',0
+	.word	762
+	.byte	'memcpy',0
+	.word	806
+	.byte	'memcmp',0
+	.word	850
+	.byte	'__INDIRECT__',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('bridgeif_fdb_update_src')
+	.sect	'.debug_info'
+.L71:
+	.word	423
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L74,.L73
+	.byte	2
+	.word	.L67
+	.byte	3
+	.byte	'bridgeif_fdb_update_src',0,1,76,1,1,1,1
+	.word	.L58,.L96,.L57
+	.byte	4
+	.byte	'fdb_ptr',0,1,76,31
+	.word	.L97,.L98
+	.byte	4
+	.byte	'src_addr',0,1,76,57
+	.word	.L99,.L100
+	.byte	4
+	.byte	'port_idx',0,1,76,72
+	.word	.L101,.L102
+	.byte	5
+	.word	.L58,.L96
+	.byte	6
+	.byte	'i',0,1,78,7
+	.word	.L103,.L104
+	.byte	6
+	.byte	'fdb',0,1,79,20
+	.word	.L105,.L106
+	.byte	5
+	.word	.L3,.L4
+	.byte	6
+	.byte	'e',0,1,83,28
+	.word	.L107,.L108
+	.byte	0,5
+	.word	.L16,.L18
+	.byte	6
+	.byte	'e',0,1,100,28
+	.word	.L107,.L109
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('bridgeif_fdb_update_src')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('bridgeif_fdb_update_src')
+	.sect	'.debug_line'
+.L73:
+	.word	.L191-.L190
+.L190:
+	.half	3
+	.word	.L193-.L192
+.L192:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0,0,0,0,0
+.L193:
+	.byte	5,1,7,0,5,2
+	.word	.L58
+	.byte	3,203,0,1,5,10,9
+	.half	.L136-.L58
+	.byte	3,6,1,5,39,9
+	.half	.L137-.L136
+	.byte	1,5,41,9
+	.half	.L3-.L137
+	.byte	3,1,1,5,36,9
+	.half	.L194-.L3
+	.byte	1,5,41,9
+	.half	.L195-.L194
+	.byte	1,5,10,9
+	.half	.L139-.L195
+	.byte	3,1,1,5,9,9
+	.half	.L196-.L139
+	.byte	1,5,21,7,9
+	.half	.L197-.L196
+	.byte	1,9
+	.half	.L198-.L197
+	.byte	3,1,1,5,39,9
+	.half	.L140-.L198
+	.byte	1,5,12,9
+	.half	.L142-.L140
+	.byte	1,5,9,7,9
+	.half	.L7-.L142
+	.byte	3,1,1,5,17,9
+	.half	.L8-.L7
+	.byte	3,4,1,5,15,9
+	.half	.L144-.L8
+	.byte	1,5,17,9
+	.half	.L199-.L144
+	.byte	3,1,1,5,9,9
+	.half	.L145-.L199
+	.byte	3,3,1,5,42,9
+	.half	.L4-.L145
+	.byte	3,116,1,5,22,9
+	.half	.L2-.L4
+	.byte	1,5,39,9
+	.half	.L200-.L2
+	.byte	1,5,10,7,9
+	.half	.L201-.L200
+	.byte	3,17,1,5,39,9
+	.half	.L138-.L201
+	.byte	1,5,41,9
+	.half	.L16-.L138
+	.byte	3,1,1,5,36,9
+	.half	.L202-.L16
+	.byte	1,5,41,9
+	.half	.L203-.L202
+	.byte	1,5,11,9
+	.half	.L147-.L203
+	.byte	3,1,1,5,10,9
+	.half	.L204-.L147
+	.byte	1,5,23,7,9
+	.half	.L205-.L204
+	.byte	1,5,22,9
+	.half	.L206-.L205
+	.byte	1,5,13,7,9
+	.half	.L17-.L206
+	.byte	3,3,1,5,12,9
+	.half	.L207-.L17
+	.byte	1,5,25,7,9
+	.half	.L208-.L207
+	.byte	1,5,24,9
+	.half	.L209-.L208
+	.byte	1,5,9,7,9
+	.half	.L21-.L209
+	.byte	3,1,1,5,18,9
+	.half	.L22-.L21
+	.byte	3,3,1,5,36,9
+	.half	.L148-.L22
+	.byte	1,5,17,9
+	.half	.L150-.L148
+	.byte	3,1,1,5,15,9
+	.half	.L152-.L150
+	.byte	1,5,17,9
+	.half	.L210-.L152
+	.byte	3,1,1,5,19,9
+	.half	.L153-.L210
+	.byte	3,1,1,5,17,9
+	.half	.L154-.L153
+	.byte	1,5,9,9
+	.half	.L155-.L154
+	.byte	3,3,1,5,42,9
+	.half	.L18-.L155
+	.byte	3,113,1,5,22,9
+	.half	.L15-.L18
+	.byte	1,5,39,9
+	.half	.L211-.L15
+	.byte	1,5,1,7,9
+	.half	.L14-.L211
+	.byte	3,22,1,7,9
+	.half	.L75-.L14
+	.byte	0,1,1
+.L191:
+	.sdecl	'.debug_ranges',debug,cluster('bridgeif_fdb_update_src')
+	.sect	'.debug_ranges'
+.L74:
+	.word	-1,.L58,0,.L75-.L58,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	42
+	.half	2
+	.word	.L71,427,232
+	.byte	'bridgeif_fdb_update_src',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.debug_info'
+.L76:
+	.word	418
+	.half	3
+	.word	.L77
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L79,.L78
+	.byte	2
+	.word	.L67
+	.byte	3
+	.byte	'bridgeif_fdb_get_dst_ports',0,1,128,1,1
+	.word	.L101
+	.byte	1,1,1
+	.word	.L60,.L110,.L59
+	.byte	4
+	.byte	'fdb_ptr',0,1,128,1,34
+	.word	.L97,.L111
+	.byte	4
+	.byte	'dst_addr',0,1,128,1,60
+	.word	.L99,.L112
+	.byte	5
+	.word	.L60,.L110
+	.byte	6
+	.byte	'i',0,1,130,1,7
+	.word	.L103,.L113
+	.byte	6
+	.byte	'fdb',0,1,131,1,20
+	.word	.L105,.L114
+	.byte	5
+	.word	.L30,.L31
+	.byte	6
+	.byte	'e',0,1,135,1,28
+	.word	.L107,.L115
+	.byte	5
+	.word	.L116,.L31
+	.byte	6
+	.byte	'ret',0,1,138,1,29
+	.word	.L101,.L117
+	.byte	0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.debug_abbrev'
+.L77:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.debug_line'
+.L78:
+	.word	.L213-.L212
+.L212:
+	.half	3
+	.word	.L215-.L214
+.L214:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0,0,0,0,0
+.L215:
+	.byte	5,1,7,0,5,2
+	.word	.L60
+	.byte	3,255,0,1,5,10,9
+	.half	.L157-.L60
+	.byte	3,6,1,5,39,9
+	.half	.L158-.L157
+	.byte	1,5,41,9
+	.half	.L30-.L158
+	.byte	3,1,1,5,36,9
+	.half	.L216-.L30
+	.byte	1,5,41,9
+	.half	.L217-.L216
+	.byte	1,5,10,9
+	.half	.L159-.L217
+	.byte	3,1,1,5,9,9
+	.half	.L218-.L159
+	.byte	1,5,21,7,9
+	.half	.L219-.L218
+	.byte	1,9
+	.half	.L220-.L219
+	.byte	3,1,1,5,39,9
+	.half	.L160-.L220
+	.byte	1,5,12,9
+	.half	.L162-.L160
+	.byte	1,5,57,7,9
+	.half	.L116-.L162
+	.byte	3,1,1,5,63,9
+	.half	.L164-.L116
+	.byte	1,5,59,9
+	.half	.L165-.L164
+	.byte	1,5,35,9
+	.half	.L221-.L165
+	.byte	1,5,9,9
+	.half	.L166-.L221
+	.byte	3,2,1,5,42,9
+	.half	.L31-.L166
+	.byte	3,122,1,5,22,9
+	.half	.L29-.L31
+	.byte	1,5,39,9
+	.half	.L222-.L29
+	.byte	1,5,10,7,9
+	.half	.L223-.L222
+	.byte	3,11,1,5,3,9
+	.half	.L224-.L223
+	.byte	1,5,1,9
+	.half	.L34-.L224
+	.byte	3,1,1,7,9
+	.half	.L80-.L34
+	.byte	0,1,1
+.L213:
+	.sdecl	'.debug_ranges',debug,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.debug_ranges'
+.L79:
+	.word	-1,.L60,0,.L80-.L60,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	45
+	.half	2
+	.word	.L76,422,232
+	.byte	'bridgeif_fdb_get_dst_ports',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('bridgeif_fdb_init')
+	.sect	'.debug_info'
+.L81:
+	.word	380
+	.half	3
+	.word	.L82
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L84,.L83
+	.byte	2
+	.word	.L67
+	.byte	3
+	.byte	'bridgeif_fdb_init',0,1,195,1,1
+	.word	.L97
+	.byte	1,1,1
+	.word	.L66,.L118,.L65
+	.byte	4
+	.byte	'max_fdb_entries',0,1,195,1,25
+	.word	.L119,.L120
+	.byte	5
+	.word	.L66,.L118
+	.byte	6
+	.byte	'fdb',0,1,197,1,20
+	.word	.L105,.L121
+	.byte	6
+	.byte	'alloc_len_sizet',0,1,198,1,10
+	.word	.L122,.L123
+	.byte	6
+	.byte	'alloc_len',0,1,199,1,14
+	.word	.L119,.L124
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('bridgeif_fdb_init')
+	.sect	'.debug_abbrev'
+.L82:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('bridgeif_fdb_init')
+	.sect	'.debug_line'
+.L83:
+	.word	.L226-.L225
+.L225:
+	.half	3
+	.word	.L228-.L227
+.L227:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0,0,0,0,0
+.L228:
+	.byte	5,1,7,0,5,2
+	.word	.L66
+	.byte	3,194,1,1,5,71,9
+	.half	.L176-.L66
+	.byte	3,3,1,5,52,9
+	.half	.L229-.L176
+	.byte	1,5,26,9
+	.half	.L177-.L229
+	.byte	3,1,1,5,3,9
+	.half	.L45-.L177
+	.byte	3,1,1,7,9
+	.half	.L230-.L45
+	.byte	1,9
+	.half	.L47-.L230
+	.byte	3,1,1,5,39,9
+	.half	.L48-.L47
+	.byte	3,1,1,5,42,9
+	.half	.L231-.L48
+	.byte	1,5,7,9
+	.half	.L180-.L231
+	.byte	1,5,3,9
+	.half	.L182-.L180
+	.byte	3,1,1,5,12,7,9
+	.half	.L232-.L182
+	.byte	3,1,1,5,5,9
+	.half	.L181-.L232
+	.byte	1,5,24,9
+	.half	.L54-.L181
+	.byte	3,2,1,5,44,9
+	.half	.L233-.L54
+	.byte	3,1,1,5,12,9
+	.half	.L234-.L233
+	.byte	1,5,15,9
+	.half	.L235-.L234
+	.byte	3,2,1,5,38,9
+	.half	.L236-.L235
+	.byte	1,5,56,9
+	.half	.L237-.L236
+	.byte	1,5,3,9
+	.half	.L184-.L237
+	.byte	3,2,1,5,1,9
+	.half	.L55-.L184
+	.byte	3,1,1,7,9
+	.half	.L85-.L55
+	.byte	0,1,1
+.L226:
+	.sdecl	'.debug_ranges',debug,cluster('bridgeif_fdb_init')
+	.sect	'.debug_ranges'
+.L84:
+	.word	-1,.L66,0,.L85-.L66,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	36
+	.half	2
+	.word	.L81,384,232
+	.byte	'bridgeif_fdb_init',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.debug_info'
+.L86:
+	.word	365
+	.half	3
+	.word	.L87
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L89,.L88
+	.byte	2
+	.word	.L67
+	.byte	3
+	.byte	'bridgeif_fdb_age_one_second',0,1,153,1,1,1,1
+	.word	.L62,.L125,.L61
+	.byte	4
+	.byte	'fdb_ptr',0,1,153,1,35
+	.word	.L97,.L126
+	.byte	5
+	.word	.L62,.L125
+	.byte	6
+	.byte	'i',0,1,155,1,7
+	.word	.L103,.L127
+	.byte	6
+	.byte	'fdb',0,1,156,1,20
+	.word	.L105,.L128
+	.byte	5
+	.word	.L37,.L38
+	.byte	6
+	.byte	'e',0,1,163,1,28
+	.word	.L107,.L129
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.debug_abbrev'
+.L87:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.debug_line'
+.L88:
+	.word	.L239-.L238
+.L238:
+	.half	3
+	.word	.L241-.L240
+.L240:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0,0,0,0,0
+.L241:
+	.byte	5,10,7,0,5,2
+	.word	.L62
+	.byte	3,161,1,1,5,39,9
+	.half	.L167-.L62
+	.byte	1,5,41,9
+	.half	.L37-.L167
+	.byte	3,1,1,5,36,9
+	.half	.L242-.L37
+	.byte	1,5,41,9
+	.half	.L243-.L242
+	.byte	1,5,10,9
+	.half	.L168-.L243
+	.byte	3,1,1,5,9,9
+	.half	.L244-.L168
+	.byte	1,5,21,7,9
+	.half	.L245-.L244
+	.byte	1,5,12,9
+	.half	.L246-.L245
+	.byte	3,3,1,5,11,9
+	.half	.L247-.L246
+	.byte	1,5,23,7,9
+	.half	.L248-.L247
+	.byte	1,5,16,9
+	.half	.L249-.L248
+	.byte	3,1,1,5,13,9
+	.half	.L250-.L249
+	.byte	1,5,9,9
+	.half	.L251-.L250
+	.byte	1,5,21,7,9
+	.half	.L252-.L251
+	.byte	3,1,1,5,19,9
+	.half	.L253-.L252
+	.byte	1,5,42,9
+	.half	.L38-.L253
+	.byte	3,121,1,5,22,9
+	.half	.L36-.L38
+	.byte	1,5,39,9
+	.half	.L254-.L36
+	.byte	1,5,1,7,9
+	.half	.L255-.L254
+	.byte	3,14,1,7,9
+	.half	.L90-.L255
+	.byte	0,1,1
+.L239:
+	.sdecl	'.debug_ranges',debug,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.debug_ranges'
+.L89:
+	.word	-1,.L62,0,.L90-.L62,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	46
+	.half	2
+	.word	.L86,369,232
+	.byte	'bridgeif_fdb_age_one_second',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('bridgeif_age_tmr')
+	.sect	'.debug_info'
+.L91:
+	.word	310
+	.half	3
+	.word	.L92
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L94,.L93
+	.byte	2
+	.word	.L67
+	.byte	3
+	.byte	'bridgeif_age_tmr',0,1,180,1,1,1,1
+	.word	.L64,.L130,.L63
+	.byte	4
+	.byte	'arg',0,1,180,1,24
+	.word	.L97,.L131
+	.byte	5
+	.word	.L64,.L130
+	.byte	6
+	.byte	'fdb',0,1,182,1,20
+	.word	.L105,.L132
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('bridgeif_age_tmr')
+	.sect	'.debug_abbrev'
+.L92:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('bridgeif_age_tmr')
+	.sect	'.debug_line'
+.L93:
+	.word	.L257-.L256
+.L256:
+	.half	3
+	.word	.L259-.L258
+.L258:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/bridgeif_fdb.c',0,0,0,0,0
+.L259:
+	.byte	5,1,7,0,5,2
+	.word	.L64
+	.byte	3,179,1,1,5,3,9
+	.half	.L43-.L64
+	.byte	3,4,1,7,9
+	.half	.L260-.L43
+	.byte	1,5,31,9
+	.half	.L44-.L260
+	.byte	3,2,1,5,15,9
+	.half	.L172-.L44
+	.byte	3,1,1,5,38,9
+	.half	.L261-.L172
+	.byte	1,5,56,9
+	.half	.L262-.L261
+	.byte	1,5,1,9
+	.half	.L174-.L262
+	.byte	3,1,1,7,9
+	.half	.L95-.L174
+	.byte	0,1,1
+.L257:
+	.sdecl	'.debug_ranges',debug,cluster('bridgeif_age_tmr')
+	.sect	'.debug_ranges'
+.L94:
+	.word	-1,.L64,0,.L95-.L64,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	35
+	.half	2
+	.word	.L91,314,232
+	.byte	'bridgeif_age_tmr',0
+	.word	0
+	.sdecl	'.debug_loc',debug,cluster('bridgeif_age_tmr')
+	.sect	'.debug_loc'
+.L131:
+	.word	-1,.L64,0,.L170-.L64
+	.half	1
+	.byte	100
+	.word	.L43-.L64,.L130-.L64
+	.half	1
+	.byte	108
+	.word	.L171-.L64,.L172-.L64
+	.half	1
+	.byte	100
+	.word	.L173-.L64,.L174-.L64
+	.half	1
+	.byte	101
+	.word	0,0
+.L63:
+	.word	-1,.L64,0,.L169-.L64
+	.half	2
+	.byte	138,0
+	.word	.L169-.L64,.L130-.L64
+	.half	2
+	.byte	138,16
+	.word	.L130-.L64,.L130-.L64
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L132:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.debug_loc'
+.L61:
+	.word	-1,.L62,0,.L125-.L62
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L129:
+	.word	-1,.L62,.L168-.L62,.L36-.L62
+	.half	1
+	.byte	111
+	.word	0,0
+.L128:
+	.word	0,0
+.L126:
+	.word	-1,.L62,0,.L125-.L62
+	.half	1
+	.byte	100
+	.word	0,0
+.L127:
+	.word	-1,.L62,.L167-.L62,.L125-.L62
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.debug_loc'
+.L59:
+	.word	-1,.L60,0,.L110-.L60
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L112:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	101
+	.word	.L157-.L60,.L110-.L60
+	.half	1
+	.byte	109
+	.word	.L163-.L60,.L162-.L60
+	.half	1
+	.byte	101
+	.word	0,0
+.L115:
+	.word	-1,.L60,.L159-.L60,.L160-.L60
+	.half	1
+	.byte	111
+	.word	.L161-.L60,.L162-.L60
+	.half	1
+	.byte	100
+	.word	.L164-.L60,.L165-.L60
+	.half	1
+	.byte	111
+	.word	0,0
+.L114:
+	.word	0,0
+.L111:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	100
+	.word	.L156-.L60,.L110-.L60
+	.half	1
+	.byte	108
+	.word	0,0
+.L113:
+	.word	-1,.L60,.L158-.L60,.L110-.L60
+	.half	1
+	.byte	88
+	.word	0,0
+.L117:
+	.word	-1,.L60,.L166-.L60,.L31-.L60
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('bridgeif_fdb_init')
+	.sect	'.debug_loc'
+.L124:
+	.word	-1,.L66,.L45-.L66,.L118-.L66
+	.half	1
+	.byte	88
+	.word	.L179-.L66,.L180-.L66
+	.half	1
+	.byte	85
+	.word	0,0
+.L123:
+	.word	-1,.L66,.L177-.L66,.L178-.L66
+	.half	1
+	.byte	95
+	.word	0,0
+.L65:
+	.word	-1,.L66,0,.L175-.L66
+	.half	2
+	.byte	138,0
+	.word	.L175-.L66,.L118-.L66
+	.half	2
+	.byte	138,16
+	.word	.L118-.L66,.L118-.L66
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L121:
+	.word	-1,.L66,.L180-.L66,.L181-.L66
+	.half	1
+	.byte	98
+	.word	.L182-.L66,.L118-.L66
+	.half	1
+	.byte	108
+	.word	.L54-.L66,.L183-.L66
+	.half	1
+	.byte	98
+	.word	.L183-.L66,.L184-.L66
+	.half	1
+	.byte	101
+	.word	.L185-.L66,.L55-.L66
+	.half	1
+	.byte	98
+	.word	0,0
+.L120:
+	.word	-1,.L66,0,.L47-.L66
+	.half	1
+	.byte	84
+	.word	.L176-.L66,.L118-.L66
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('bridgeif_fdb_update_src')
+	.sect	'.debug_loc'
+.L57:
+	.word	-1,.L58,0,.L133-.L58
+	.half	2
+	.byte	138,0
+	.word	.L133-.L58,.L96-.L58
+	.half	2
+	.byte	138,32
+	.word	.L96-.L58,.L96-.L58
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L108:
+	.word	-1,.L58,.L139-.L58,.L140-.L58
+	.half	1
+	.byte	108
+	.word	.L141-.L58,.L142-.L58
+	.half	1
+	.byte	100
+	.word	.L144-.L58,.L145-.L58
+	.half	1
+	.byte	108
+	.word	0,0
+.L109:
+	.word	-1,.L58,.L147-.L58,.L148-.L58
+	.half	1
+	.byte	108
+	.word	.L149-.L58,.L150-.L58
+	.half	1
+	.byte	100
+	.word	.L152-.L58,.L153-.L58
+	.half	1
+	.byte	108
+	.word	.L154-.L58,.L155-.L58
+	.half	1
+	.byte	108
+	.word	.L18-.L58,.L15-.L58
+	.half	1
+	.byte	108
+	.word	0,0
+.L106:
+	.word	0,0
+.L98:
+	.word	-1,.L58,0,.L3-.L58
+	.half	1
+	.byte	100
+	.word	.L134-.L58,.L96-.L58
+	.half	1
+	.byte	109
+	.word	0,0
+.L104:
+	.word	-1,.L58,.L137-.L58,.L138-.L58
+	.half	1
+	.byte	89
+	.word	.L138-.L58,.L146-.L58
+	.half	1
+	.byte	81
+	.word	.L18-.L58,.L14-.L58
+	.half	1
+	.byte	81
+	.word	0,0
+.L102:
+	.word	-1,.L58,0,.L3-.L58
+	.half	1
+	.byte	84
+	.word	.L136-.L58,.L96-.L58
+	.half	1
+	.byte	88
+	.word	0,0
+.L100:
+	.word	-1,.L58,0,.L3-.L58
+	.half	1
+	.byte	101
+	.word	.L135-.L58,.L96-.L58
+	.half	1
+	.byte	111
+	.word	.L143-.L58,.L142-.L58
+	.half	1
+	.byte	101
+	.word	.L151-.L58,.L150-.L58
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L263:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('bridgeif_fdb_update_src')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L263,.L58,.L96-.L58
+	.byte	4
+	.word	(.L133-.L58)/2
+	.byte	19,32,22,26,3,19,138,32,4
+	.word	(.L96-.L133)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('bridgeif_fdb_get_dst_ports')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L263,.L60,.L110-.L60
+	.sdecl	'.debug_frame',debug,cluster('bridgeif_fdb_age_one_second')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L263,.L62,.L125-.L62
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('bridgeif_age_tmr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L263,.L64,.L130-.L64
+	.byte	4
+	.word	(.L169-.L64)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L130-.L169)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('bridgeif_fdb_init')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L263,.L66,.L118-.L66
+	.byte	4
+	.word	(.L175-.L66)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L118-.L175)/2
+	.byte	19,0,8,26,0,0
+	; Module end
