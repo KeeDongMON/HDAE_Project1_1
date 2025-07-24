@@ -1,23 +1,20 @@
-# 1) 일단 모든 파일·폴더 무시
+# .gitignore ─── 리포 최상단
+
+# 1) 기본적으로 *모든* 파일·폴더 무시
 *
 
-# 2) 디렉터리 구조는 살려야 예외가 먹힌다
-!*/               # 1단계 하위 폴더는 전부 허용
+# 2) 예외 ─ 먼저 .gitignore 자체와 1단계 디렉터리 껍데기 살리기
+!.gitignore
+!*/
 
-# 3) 최종적으로 **살리고 싶은 것**만 다시 허용
-# --- Arduino ---
+# 3) 예외 ─ 전부 추적할 디렉터리
 !/Arduino/**
-
-# --- Raspberrypi ---
 !/Raspberrypi/**
 
-# --- TC375LK_NGV ---
-!/TC375LK_NGV/**            # 폴더 전체를 먼저 살려야 하위 예외가 적용
+# 4) TC375LK_NGV 하위는 부분적으로만
+!/TC375LK_NGV/BSW/**          # BSW 전체 허용
+!/TC375LK_NGV/Modules/**      # Modules 전체 허용
 
-# 필요하다면, TC375LK_NGV 안에서도 세분화해서 허용
-!/TC375LK_NGV/BSW/**
-!/TC375LK_NGV/Modules/**
-
-# 개별 소스 파일만 따로 올리고 싶다면
+# 5) TC375LK_NGV 안의 개별 파일
 !/TC375LK_NGV/Sys_Init.*
 !/TC375LK_NGV/main.*
