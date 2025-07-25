@@ -1,9 +1,9 @@
 #include "can.h"
 #include "isr_priority.h"
 #include "my_stdio.h"
-#include "GPIO.h"
-#include "etc.h"
-#include "syscfg.h"
+#include "gpio.h"
+#define SYSCFG_H_
+//#define CAN_PROJECT
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
@@ -134,6 +134,7 @@ void Can_SetFilterMask(uint32 id, uint32 mask)
 
 void Can_SendMsg(unsigned int id, const char *txData, int len)
 {
+
     /* Initialization of the TX message with the default configuration */
     IfxCan_Can_initMessage(&g_mcmcan.txMsg);
 

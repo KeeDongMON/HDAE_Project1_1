@@ -98,6 +98,7 @@ unsigned int Evadc_readPR(void)
 
 
 #if 0
+/* TC275 기반 코드 */
 #include "evadc.h"
 #include "Ifx_reg.h"
 #include "IfxEvadc_reg.h"
