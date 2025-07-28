@@ -119,7 +119,7 @@ IFX_SSW_CORE_LINKER_SYMBOLS(0);
 *******************************************************************************/
 
 #if defined(__TASKING__)
-__asm("\t .extern main");
+__asm("\t .extern core0_main");
 #endif
 
 /*Add options to eliminate usage of stack pointers unnecessarily*/
@@ -311,12 +311,12 @@ static void __Core0_start(void)
 #ifdef IFX_CFG_SSW_RETURN_FROM_MAIN
     {
         extern int core0_main(void);
-        int status= main();          /* Call main function of CPU0 */
+        int status= core0_main();          /* Call main function of CPU0 */
         Ifx_Ssw_doCppExit(status);
     }
 #else /* IFX_CFG_SSW_RETURN_FROM_MAIN */
-    extern void main(void);
-    Ifx_Ssw_jumpToFunction(main);    /* Jump to main function of CPU0 */
+    extern void core0_main(void);
+    Ifx_Ssw_jumpToFunction(core0_main);    /* Jump to main function of CPU0 */
 #endif /* IFX_CFG_SSW_RETURN_FROM_MAIN */
 
 	/* Go into infinite loop, normally the code shall not reach here */

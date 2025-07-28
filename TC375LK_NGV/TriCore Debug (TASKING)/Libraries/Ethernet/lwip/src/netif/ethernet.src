@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc5324a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/netif/ethernet.src ../Libraries/Ethernet/lwip/src/netif/ethernet.c"
+	.compiler_invocation	"ctc -f cc9108a --dep-file=ethernet.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/netif/ethernet.src ../Libraries/Ethernet/lwip/src/netif/ethernet.c"
 	.compiler_name		"ctc"
 	;source	'../Libraries/Ethernet/lwip/src/netif/ethernet.c'
 
@@ -652,7 +652,7 @@ ethzero:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L87:
-	.word	3133
+	.word	3126
 	.half	3
 	.word	.L88
 	.byte	4
@@ -660,25 +660,25 @@ ethzero:	.type	object
 	.byte	1
 	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L89
 .L104:
 	.byte	2
 	.byte	'char',0,1,6,2
 	.byte	'char',0,1,6,3
-	.word	227
+	.word	220
 	.byte	4
-	.word	235
+	.word	228
 	.byte	5
 	.byte	'Ifx_Lwip_printf',0,1,123,6
-	.word	219
+	.word	212
 	.byte	1,1,1,1,6
 	.byte	's',0,1,123,34
-	.word	240
+	.word	233
 	.byte	7,1,123,37,0,2
 	.byte	'unsigned char',0,1,8,8
 	.byte	'void',0,4
-	.word	305
+	.word	298
 .L112:
 	.byte	2
 	.byte	'unsigned short int',0,2,7,9
@@ -687,500 +687,500 @@ ethzero:	.type	object
 	.word	.L106-.L87
 	.byte	4,2,35,0,10
 	.byte	'payload',0
-	.word	311
+	.word	304
 	.byte	4,2,35,4,10
 	.byte	'tot_len',0
-	.word	316
+	.word	309
 	.byte	2,2,35,8,10
 	.byte	'len',0
-	.word	316
+	.word	309
 	.byte	2,2,35,10,10
 	.byte	'type_internal',0
-	.word	288
+	.word	281
 	.byte	1,2,35,12,10
 	.byte	'flags',0
-	.word	288
+	.word	281
 	.byte	1,2,35,13,10
 	.byte	'ref',0
-	.word	288
+	.word	281
 	.byte	1,2,35,14,10
 	.byte	'if_idx',0
-	.word	288
+	.word	281
 	.byte	1,2,35,15,0
 .L106:
 	.byte	4
-	.word	338
+	.word	331
 	.byte	2
 	.byte	'unsigned int',0,4,7,5
 	.byte	'pbuf_add_header',0,2,160,2,6
-	.word	288
+	.word	281
 	.byte	1,1,1,1,6
 	.byte	'p',0,2,160,2,35
-	.word	478
+	.word	471
 	.byte	6
 	.byte	'header_size_increment',0,2,160,2,45
-	.word	483
+	.word	476
 	.byte	0,5
 	.byte	'pbuf_remove_header',0,2,162,2,6
-	.word	288
+	.word	281
 	.byte	1,1,1,1,6
 	.byte	'p',0,2,162,2,38
-	.word	478
+	.word	471
 	.byte	6
 	.byte	'header_size',0,2,162,2,48
-	.word	483
+	.word	476
 	.byte	0,5
 	.byte	'pbuf_free',0,2,165,2,6
-	.word	288
+	.word	281
 	.byte	1,1,1,1,6
 	.byte	'p',0,2,165,2,29
-	.word	478
+	.word	471
 	.byte	0,5
 	.byte	'lwip_htons',0,3,96,7
-	.word	316
+	.word	309
 	.byte	1,1,1,1,6
 	.byte	'x',0,3,96,24
-	.word	316
+	.word	309
 	.byte	0,2
 	.byte	'unsigned long int',0,4,7,9
 	.byte	'ip4_addr',0,5,51,8,4,10
 	.byte	'addr',0
-	.word	705
+	.word	698
 	.byte	4,2,35,0,0,11
-	.word	219
+	.word	212
 	.byte	1,1,12
-	.word	478
+	.word	471
 	.byte	12
 	.word	.L108-.L87
 	.byte	0,4
-	.word	755
+	.word	748
 	.byte	13
 	.byte	'netif_input_fn',0,4,178,1,17
-	.word	773
+	.word	766
 	.byte	3
-	.word	726
+	.word	719
 	.byte	4
-	.word	802
+	.word	795
 	.byte	11
-	.word	219
+	.word	212
 	.byte	1,1,12
 	.word	.L108-.L87
 	.byte	12
-	.word	478
+	.word	471
 	.byte	12
-	.word	807
+	.word	800
 	.byte	0,4
-	.word	812
+	.word	805
 	.byte	13
 	.byte	'netif_output_fn',0,4,189,1,17
-	.word	835
+	.word	828
 	.byte	11
-	.word	219
+	.word	212
 	.byte	1,1,12
 	.word	.L108-.L87
 	.byte	12
-	.word	478
+	.word	471
 	.byte	0,4
-	.word	865
+	.word	858
 	.byte	13
 	.byte	'netif_linkoutput_fn',0,4,212,1,17
-	.word	883
+	.word	876
 	.byte	14,6
-	.word	288
+	.word	281
 	.byte	15,5,0,14,2
-	.word	227
+	.word	220
 	.byte	15,1,0,9
 	.byte	'netif',0,4,132,2,8,48,10
 	.byte	'next',0
 	.word	.L108-.L87
 	.byte	4,2,35,0,10
 	.byte	'ip_addr',0
-	.word	726
+	.word	719
 	.byte	4,2,35,4,10
 	.byte	'netmask',0
-	.word	726
+	.word	719
 	.byte	4,2,35,8,10
 	.byte	'gw',0
-	.word	726
+	.word	719
 	.byte	4,2,35,12,10
 	.byte	'input',0
-	.word	778
+	.word	771
 	.byte	4,2,35,16,10
 	.byte	'output',0
-	.word	840
+	.word	833
 	.byte	4,2,35,20,10
 	.byte	'linkoutput',0
-	.word	888
+	.word	881
 	.byte	4,2,35,24,10
 	.byte	'state',0
-	.word	311
+	.word	304
 	.byte	4,2,35,28,10
 	.byte	'mtu',0
-	.word	316
+	.word	309
 	.byte	2,2,35,32,10
 	.byte	'hwaddr',0
-	.word	917
+	.word	910
 	.byte	6,2,35,34,10
 	.byte	'hwaddr_len',0
-	.word	288
+	.word	281
 	.byte	1,2,35,40,10
 	.byte	'flags',0
-	.word	288
+	.word	281
 	.byte	1,2,35,41,10
 	.byte	'name',0
-	.word	926
+	.word	919
 	.byte	2,2,35,42,10
 	.byte	'num',0
-	.word	288
+	.word	281
 	.byte	1,2,35,44,10
 	.byte	'rs_count',0
-	.word	288
+	.word	281
 	.byte	1,2,35,45,0
 .L108:
 	.byte	4
-	.word	935
+	.word	928
 	.byte	4
-	.word	755
+	.word	748
 	.byte	4
-	.word	812
+	.word	805
 	.byte	4
-	.word	865
+	.word	858
 	.byte	14,2
-	.word	288
+	.word	281
 	.byte	15,1,0,9
 	.byte	'eth_addr',0,6,60,8,6,10
 	.byte	'addr',0
-	.word	917
+	.word	910
 	.byte	6,2,35,0,0,9
 	.byte	'eth_hdr',0,6,76,8,16,10
 	.byte	'padding',0
-	.word	1203
+	.word	1196
 	.byte	2,2,35,0,10
 	.byte	'dest',0
-	.word	1212
+	.word	1205
 	.byte	6,2,35,2,10
 	.byte	'src',0
-	.word	1212
+	.word	1205
 	.byte	6,2,35,8,10
 	.byte	'type',0
-	.word	316
+	.word	309
 	.byte	2,2,35,14,0
 .L110:
 	.byte	4
-	.word	1241
+	.word	1234
 	.byte	3
-	.word	1212
+	.word	1205
 .L118:
 	.byte	4
-	.word	1318
+	.word	1311
 	.byte	5
 	.byte	'ip4_input',0,7,71,7
-	.word	219
+	.word	212
 	.byte	1,1,1,1,6
 	.byte	'p',0,7,71,30
-	.word	478
+	.word	471
 	.byte	6
 	.byte	'inp',0,7,71,47
-	.word	1183
+	.word	1176
 	.byte	0,16
 	.byte	'etharp_input',0,8,96,6,1,1,1,1,6
 	.byte	'p',0,8,96,32
-	.word	478
+	.word	471
 	.byte	6
 	.byte	'netif',0,8,96,49
-	.word	1183
+	.word	1176
 	.byte	0,17
-	.word	311
+	.word	304
 	.byte	3
-	.word	305
+	.word	298
 	.byte	4
-	.word	1424
+	.word	1417
 	.byte	17
-	.word	1429
+	.word	1422
 	.byte	5
 	.byte	'memcpy',0,9,53,17
-	.word	311
+	.word	304
 	.byte	1,1,1,1,18,9,53,33
-	.word	1419
+	.word	1412
 	.byte	18,9,53,56
-	.word	1434
+	.word	1427
 	.byte	18,9,53,68
-	.word	483
+	.word	476
 	.byte	0,2
 	.byte	'int',0,4,5,5
 	.byte	'memcmp',0,9,57,17
-	.word	1483
+	.word	1476
 	.byte	1,1,1,1,18,9,57,39
-	.word	1429
+	.word	1422
 	.byte	18,9,57,53
-	.word	1429
+	.word	1422
 	.byte	18,9,57,56
-	.word	483
+	.word	476
 	.byte	0,19
 	.byte	'__INDIRECT__',0,10,1,1,1,1,1,2
 	.byte	'short int',0,2,5,13
 	.byte	'__wchar_t',0,10,1,1
-	.word	1554
+	.word	1547
 	.byte	13
 	.byte	'__size_t',0,10,1,1
-	.word	483
+	.word	476
 	.byte	13
 	.byte	'__ptrdiff_t',0,10,1,1
-	.word	1483
+	.word	1476
 	.byte	20,1,4
-	.word	1622
+	.word	1615
 	.byte	13
 	.byte	'__codeptr',0,10,1,1
-	.word	1624
+	.word	1617
 	.byte	13
 	.byte	'__intptr_t',0,10,1,1
-	.word	1483
+	.word	1476
 	.byte	13
 	.byte	'__uintptr_t',0,10,1,1
-	.word	483
+	.word	476
 	.byte	13
 	.byte	'size_t',0,11,24,25
-	.word	483
+	.word	476
 	.byte	13
 	.byte	'uint8',0,12,108,29
-	.word	288
+	.word	281
 	.byte	13
 	.byte	'uint16',0,12,112,29
-	.word	316
+	.word	309
 	.byte	13
 	.byte	'uint32',0,12,116,29
-	.word	705
+	.word	698
 	.byte	13
 	.byte	'sint8',0,12,125,29
-	.word	219
+	.word	212
 	.byte	13
 	.byte	'sint16',0,12,129,1,29
-	.word	1554
+	.word	1547
 	.byte	2
 	.byte	'long int',0,4,5,13
 	.byte	'sint32',0,12,134,1,29
-	.word	1775
+	.word	1768
 	.byte	2
 	.byte	'long long int',0,8,5,13
 	.byte	'sint64',0,12,141,1,29
-	.word	1803
+	.word	1796
 	.byte	2
 	.byte	'float',0,4,4,13
 	.byte	'float32',0,12,170,1,29
-	.word	1836
+	.word	1829
 	.byte	13
 	.byte	'pvoid',0,13,54,28
-	.word	311
+	.word	304
 	.byte	13
 	.byte	'Ifx_TickTime',0,13,76,28
-	.word	1803
+	.word	1796
 	.byte	13
 	.byte	'u8_t',0,1,85,16
-	.word	288
+	.word	281
 	.byte	13
 	.byte	'u16_t',0,1,86,16
-	.word	316
+	.word	309
 	.byte	13
 	.byte	'u32_t',0,1,87,16
-	.word	705
+	.word	698
 	.byte	13
 	.byte	's8_t',0,1,88,16
-	.word	219
+	.word	212
 	.byte	13
 	.byte	'intmax_t',0,14,198,2,41
-	.word	1803
+	.word	1796
 	.byte	13
 	.byte	'err_t',0,15,96,14
-	.word	219
+	.word	212
 	.byte	21,1,1,12
-	.word	478
+	.word	471
 	.byte	0,4
-	.word	1983
+	.word	1976
 	.byte	13
 	.byte	'pbuf_free_custom_fn',0,2,242,1,16
-	.word	1992
+	.word	1985
 	.byte	13
 	.byte	'ip4_addr_t',0,5,57,25
-	.word	726
+	.word	719
 	.byte	13
 	.byte	'ip_addr_t',0,16,142,2,20
-	.word	726
+	.word	719
 	.byte	13
 	.byte	'mem_size_t',0,17,67,15
-	.word	316
+	.word	309
 	.byte	9
 	.byte	'stats_proto',0,18,64,8,24,10
 	.byte	'xmit',0
-	.word	316
+	.word	309
 	.byte	2,2,35,0,10
 	.byte	'recv',0
-	.word	316
+	.word	309
 	.byte	2,2,35,2,10
 	.byte	'fw',0
-	.word	316
+	.word	309
 	.byte	2,2,35,4,10
 	.byte	'drop',0
-	.word	316
+	.word	309
 	.byte	2,2,35,6,10
 	.byte	'chkerr',0
-	.word	316
+	.word	309
 	.byte	2,2,35,8,10
 	.byte	'lenerr',0
-	.word	316
+	.word	309
 	.byte	2,2,35,10,10
 	.byte	'memerr',0
-	.word	316
+	.word	309
 	.byte	2,2,35,12,10
 	.byte	'rterr',0
-	.word	316
+	.word	309
 	.byte	2,2,35,14,10
 	.byte	'proterr',0
-	.word	316
+	.word	309
 	.byte	2,2,35,16,10
 	.byte	'opterr',0
-	.word	316
+	.word	309
 	.byte	2,2,35,18,10
 	.byte	'err',0
-	.word	316
+	.word	309
 	.byte	2,2,35,20,10
 	.byte	'cachehit',0
-	.word	316
+	.word	309
 	.byte	2,2,35,22,0,9
 	.byte	'stats_mem',0,18,98,8,16,10
 	.byte	'name',0
-	.word	240
+	.word	233
 	.byte	4,2,35,0,10
 	.byte	'err',0
-	.word	316
+	.word	309
 	.byte	2,2,35,4,10
 	.byte	'avail',0
-	.word	316
+	.word	309
 	.byte	2,2,35,6,10
 	.byte	'used',0
-	.word	316
+	.word	309
 	.byte	2,2,35,8,10
 	.byte	'max',0
-	.word	316
+	.word	309
 	.byte	2,2,35,10,10
 	.byte	'illegal',0
-	.word	316
+	.word	309
 	.byte	2,2,35,12,0,4
-	.word	2282
+	.word	2275
 	.byte	14,36
-	.word	2384
+	.word	2377
 	.byte	15,8,0,9
 	.byte	'stats_',0,18,232,1,8,220,1,10
 	.byte	'link',0
-	.word	2083
+	.word	2076
 	.byte	24,2,35,0,10
 	.byte	'etharp',0
-	.word	2083
+	.word	2076
 	.byte	24,2,35,24,10
 	.byte	'ip_frag',0
-	.word	2083
+	.word	2076
 	.byte	24,2,35,48,10
 	.byte	'ip',0
-	.word	2083
+	.word	2076
 	.byte	24,2,35,72,10
 	.byte	'icmp',0
-	.word	2083
+	.word	2076
 	.byte	24,2,35,96,10
 	.byte	'udp',0
-	.word	2083
+	.word	2076
 	.byte	24,2,35,120,10
 	.byte	'tcp',0
-	.word	2083
+	.word	2076
 	.byte	24,3,35,144,1,10
 	.byte	'mem',0
-	.word	2282
+	.word	2275
 	.byte	16,3,35,168,1,10
 	.byte	'memp',0
-	.word	2389
+	.word	2382
 	.byte	36,3,35,184,1,0,22
 	.byte	'lwip_stats',0,18,176,2,22
-	.word	2398
+	.word	2391
 	.byte	1,1,9
 	.byte	'link_changed_s',0,4,213,4,10,1,10
 	.byte	'state',0
-	.word	288
+	.word	281
 	.byte	1,2,35,0,0,9
 	.byte	'status_changed_s',0,4,219,4,10,1,10
 	.byte	'state',0
-	.word	288
+	.word	281
 	.byte	1,2,35,0,0,3
-	.word	726
+	.word	719
 	.byte	4
-	.word	2640
+	.word	2633
 	.byte	9
 	.byte	'ipv4_changed_s',0,4,225,4,10,12,10
 	.byte	'old_address',0
-	.word	2645
+	.word	2638
 	.byte	4,2,35,0,10
 	.byte	'old_netmask',0
-	.word	2645
+	.word	2638
 	.byte	4,2,35,4,10
 	.byte	'old_gw',0
-	.word	2645
+	.word	2638
 	.byte	4,2,35,8,0,9
 	.byte	'ipv6_set_s',0,4,233,4,10,8,10
 	.byte	'addr_index',0
-	.word	219
+	.word	212
 	.byte	1,2,35,0,10
 	.byte	'old_address',0
-	.word	2645
+	.word	2638
 	.byte	4,2,35,4,0,9
 	.byte	'ipv6_addr_state_changed_s',0,4,241,4,10,8,10
 	.byte	'addr_index',0
-	.word	219
+	.word	212
 	.byte	1,2,35,0,10
 	.byte	'old_state',0
-	.word	288
+	.word	281
 	.byte	1,2,35,1,10
 	.byte	'address',0
-	.word	2645
+	.word	2638
 	.byte	4,2,35,4,0,23,4,210,4,9,12,10
 	.byte	'link_changed',0
-	.word	2564
+	.word	2557
 	.byte	1,2,35,0,10
 	.byte	'status_changed',0
-	.word	2601
+	.word	2594
 	.byte	1,2,35,0,10
 	.byte	'ipv4_changed',0
-	.word	2650
+	.word	2643
 	.byte	12,2,35,0,10
 	.byte	'ipv6_set',0
-	.word	2730
+	.word	2723
 	.byte	8,2,35,0,10
 	.byte	'ipv6_addr_state_changed',0
-	.word	2789
+	.word	2782
 	.byte	8,2,35,0,0,3
-	.word	2878
+	.word	2871
 	.byte	4
-	.word	3004
+	.word	2997
 	.byte	21,1,1,12
-	.word	1183
+	.word	1176
 	.byte	12
-	.word	316
+	.word	309
 	.byte	12
-	.word	3009
+	.word	3002
 	.byte	0,4
-	.word	3014
+	.word	3007
 	.byte	13
 	.byte	'netif_ext_callback_fn',0,4,132,5,16
-	.word	3033
+	.word	3026
 .L124:
 	.byte	3
-	.word	1212
+	.word	1205
 .L125:
 	.byte	3
-	.word	1212
+	.word	1205
 	.byte	9
 	.byte	'ip4_addr_packed',0,19,53,8,4,10
 	.byte	'addr',0
-	.word	705
+	.word	698
 	.byte	4,2,35,0,0,13
 	.byte	'ip4_addr_p_t',0,19,61,32
-	.word	3079
+	.word	3072
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -1202,78 +1202,53 @@ ethzero:	.type	object
 	.word	.L177-.L176
 .L176:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\Infineon\\AURIX-Studio-1.10.10\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\etharp.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\etharp.h',0
 	.byte	0,0,0
 	.byte	'string.h',0,1,0,0
 	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0,0,0,0
 	.byte	'stddef.h',0,1,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
 	.byte	0,0,0
 	.byte	'stdint.h',0,1,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\stats.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\stats.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.10-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
 	.byte	0,0,0,0
 .L177:
 .L175:
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	176
-	.half	2
-	.word	.L87,3137,245
-	.byte	'Ifx_Lwip_printf',0
-	.word	499
-	.byte	'pbuf_add_header',0
-	.word	571
-	.byte	'pbuf_remove_header',0
-	.word	636
-	.byte	'pbuf_free',0
-	.word	671
-	.byte	'lwip_htons',0
-	.word	1328
-	.byte	'ip4_input',0
-	.word	1373
-	.byte	'etharp_input',0
-	.word	1439
-	.byte	'memcpy',0
-	.word	1490
-	.byte	'memcmp',0
-	.word	1534
-	.byte	'__INDIRECT__',0
-	.word	0
 	.sdecl	'.debug_info',debug,cluster('ethernet_input')
 	.sect	'.debug_info'
 .L90:
-	.word	370
+	.word	363
 	.half	3
 	.word	.L91
 	.byte	4,1
 	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L93,.L92
 	.byte	2
 	.word	.L86
@@ -1453,23 +1428,16 @@ ethzero:	.type	object
 	.sect	'.debug_ranges'
 .L93:
 	.word	-1,.L83,0,.L94-.L83,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	33
-	.half	2
-	.word	.L90,374,228
-	.byte	'ethernet_input',0
-	.word	0
 	.sdecl	'.debug_info',debug,cluster('ethernet_output')
 	.sect	'.debug_info'
 .L95:
-	.word	411
+	.word	404
 	.half	3
 	.word	.L96
 	.byte	4,1
 	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L98,.L97
 	.byte	2
 	.word	.L86
@@ -1567,23 +1535,16 @@ ethzero:	.type	object
 	.sect	'.debug_ranges'
 .L98:
 	.word	-1,.L85,0,.L99-.L85,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	34
-	.half	2
-	.word	.L95,415,228
-	.byte	'ethernet_output',0
-	.word	0
 	.sdecl	'.debug_info',debug,cluster('ethbroadcast')
 	.sect	'.debug_info'
 .L100:
-	.word	245
+	.word	238
 	.half	3
 	.word	.L101
 	.byte	4,1
 	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L86
 	.byte	3
 	.byte	'ethbroadcast',0,10,63,23
@@ -1599,13 +1560,13 @@ ethzero:	.type	object
 	.sdecl	'.debug_info',debug,cluster('ethzero')
 	.sect	'.debug_info'
 .L102:
-	.word	240
+	.word	233
 	.half	3
 	.word	.L103
 	.byte	4,1
 	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L86
 	.byte	3
 	.byte	'ethzero',0,10,64,23

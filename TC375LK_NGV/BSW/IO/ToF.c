@@ -2,6 +2,7 @@
 #include "my_stdio.h"
 #include "GPIO.h"
 #include "can.h"
+#include "motor.h"
 
 static unsigned int g_TofValue = 0;
 
@@ -12,12 +13,15 @@ void TofIsrHandler(void)
     unsigned char rxData[8] = {0,};
     int rxLen;
     Can_RecvMsg(&rxID, rxData, &rxLen);
+    unsigned int tofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
     unsigned char dis_status = rxData[3];
     unsigned short signal_strength = rxData[5] << 8 | rxData[4];
 
     if (signal_strength != 0) {
-        g_TofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
-//        my_printf("TOF Distance: %d\n", g_TofValue); // for debugging
+       if(tofValue <= 100){
+           Motor_stopChA();
+           Motor_stopChB();
+       }
     } else {
 //        my_printf("out of range!\n"); // for debugging
     }
