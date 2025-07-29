@@ -18,12 +18,14 @@ void module_Init(void)
 
     GPIO_Init();
     //Buzzer_Init();
-    Bluetooth_Init();
-    //Ultrasonics_Init();
+
+    Ultrasonics_Init();
     //Motor_Init();
 
     /* Module Init */
-    Asclin0_InitUart();
+    //Asclin0_InitUart();
+    Motor_Init();
+    Bluetooth_Init();
     //gpt12_Init();
     //Evadc_Init();
     Can_Init(BD_500K, CAN_NODE0);

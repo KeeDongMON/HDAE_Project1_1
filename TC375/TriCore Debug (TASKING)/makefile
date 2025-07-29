@@ -89,44 +89,44 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := TC375LK_NGV
+BUILD_ARTIFACT_NAME := TC375LK_NGV_Multi
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-TC375LK_NGV.siz \
+TC375LK_NGV_Multi.siz \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: TC375LK_NGV.elf secondary-outputs
+main-build: TC375LK_NGV_Multi.elf secondary-outputs
 
 # Tool invocations
-TC375LK_NGV.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS) .TC375LK_NGV.elf.opt
+TC375LK_NGV_Multi.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS) .TC375LK_NGV_Multi.elf.opt
 	@echo 'Building target: $@'
 	@echo 'Invoking: TASKING Linker'
-	cctc -f .TC375LK_NGV.elf.opt
+	cctc -f .TC375LK_NGV_Multi.elf.opt
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-.TC375LK_NGV.elf.opt:
-	@argfile .TC375LK_NGV.elf.opt --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="TC375LK_NGV.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"TC375LK_NGV.elf" -Wl-o"TC375LK_NGV.hex:IHEX" $(OBJS)
+.TC375LK_NGV_Multi.elf.opt:
+	@argfile .TC375LK_NGV_Multi.elf.opt --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="TC375LK_NGV_Multi.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"TC375LK_NGV_Multi.elf" -Wl-o"TC375LK_NGV_Multi.hex:IHEX" $(OBJS)
 
-.PHONY: .TC375LK_NGV.elf.opt
+.PHONY: .TC375LK_NGV_Multi.elf.opt
 
-TC375LK_NGV.siz: TC375LK_NGV.elf makefile $(OPTIONAL_TOOL_DEPS)
+TC375LK_NGV_Multi.siz: TC375LK_NGV_Multi.elf makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: Print Size'
-	elfsize  "TC375LK_NGV.elf"
+	elfsize  "TC375LK_NGV_Multi.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) TC375LK_NGV.siz TC375LK_NGV.elf
+	-$(RM) TC375LK_NGV_Multi.siz TC375LK_NGV_Multi.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_SIZE)

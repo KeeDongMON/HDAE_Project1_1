@@ -35,6 +35,7 @@ BSW/IO \
 BSW/etc \
 Configurations/Debug \
 Configurations \
+. \
 Libraries/Ethernet/Phy_Dp83825i \
 Libraries/Ethernet/lwip/port/src \
 Libraries/Ethernet/lwip/src/api \
@@ -71,6 +72,5 @@ Libraries/iLLD/TC37A/Tricore/Stm/Std \
 Libraries/iLLD/TC37A/Tricore/_Impl \
 Libraries/iLLD/TC37A/Tricore/_Lib/DataHandling \
 Libraries/iLLD/TC37A/Tricore/_PinMap \
-. \
 examples \
 
