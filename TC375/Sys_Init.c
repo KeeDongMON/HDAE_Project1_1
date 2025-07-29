@@ -3,19 +3,17 @@
 #include "IfxScuWdt.h"
 #include "main.h"
 
-static void module_Init(void);
 
 void SYSTEM_Init(void)
 {
     IfxCpu_enableInterrupts();
     IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
     IfxScuWdt_disableSafetyWatchdog(IfxScuWdt_getSafetyWatchdogPassword());
-    module_Init();
+
 }
 
 void module_Init(void)
 {
-
     GPIO_Init();
     //Buzzer_Init();
 

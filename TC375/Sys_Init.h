@@ -2,5 +2,6 @@
 #define SYS_INIT_H_
 
 void SYSTEM_Init(void);
+void module_Init(void);
 
 #endif /* SYS_INIT_H_ */

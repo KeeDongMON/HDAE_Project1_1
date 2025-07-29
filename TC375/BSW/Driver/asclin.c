@@ -203,6 +203,14 @@ void Asclin1_InitUart(void)
 
     MODULE_ASCLIN1.FLAGSSET.U = (IFX_ASCLIN_FLAGSSET_TFLS_MSK << IFX_ASCLIN_FLAGSSET_TFLS_OFF);
 
+    volatile Ifx_SRC_SRCR *src;
+    src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.ASCLIN.ASCLIN[1].RX);
+    src->B.SRPN = ISR_PRIORITY_BLE_RX;
+    src->B.TOS = 0;
+    src->B.CLRR = 1; /* clear request */
+    MODULE_ASCLIN1.FLAGSENABLE.B.RFLE = 1; /* enable rx fifo fill level flag */
+    src->B.SRE = 1; /* interrupt enable */
+
 
 }
 
@@ -265,3 +273,19 @@ int Asclin1_PollUart(unsigned char *chr)
 
     return res;
 }
+
+char Asclin1_InUartNonBlock(void)
+{
+    unsigned char ch = 0;
+    int res = Asclin1_PollUart(&ch);
+
+    return res == 1 ? ch : -1;
+}
+
+IFX_INTERRUPT(BLEIsrHandler,0,ISR_PRIORITY_BLE_RX);
+void BLEIsrHandler(void){
+    unsigned char ch = Asclin1_InUart();
+    Asclin1_OutUart(ch);
+}
+
+

@@ -27,11 +27,13 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
+#include "main.h"
 
 extern IfxCpu_syncEvent g_cpuSyncEvent;
 
 void core2_main(void)
 {
+    SYSTEM_Init();
     //IfxCpu_enableInterrupts();
     
     /* !!WATCHDOG2 IS DISABLED HERE!!

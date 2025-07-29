@@ -32,12 +32,9 @@
 extern IfxCpu_syncEvent g_cpuSyncEvent;
 extern float distance;
 
-
-
-
 void core1_main(void)
 {
-    //SYSTEM_Init();
+    SYSTEM_Init();
     //IfxCpu_enableInterrupts();
     
     /* !!WATCHDOG1 IS DISABLED HERE!!
