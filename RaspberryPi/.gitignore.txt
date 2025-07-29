@@ -1,3 +1,0 @@
-TC375/.ads/
-TC375/.settings/
-TC375/TriCore Debug (TASKING)/
