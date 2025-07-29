@@ -21,4 +21,5 @@ void Asclin2_OutUart(const unsigned char chr);
 unsigned char Asclin2_InUart(void);
 int Asclin2_PollUart(unsigned char *chr);
 
+
 #endif /* ASCLIN_H_ */

@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "GPIO.h"
+#include "Motor.h"
+
 
 IFX_INTERRUPT(Asclin0RxIsrHandler, 0, ISR_PRIORITY_ASCLIN0_RX);
 void Asclin0RxIsrHandler(void)
@@ -283,9 +285,48 @@ char Asclin1_InUartNonBlock(void)
 }
 
 IFX_INTERRUPT(BLEIsrHandler,0,ISR_PRIORITY_BLE_RX);
-void BLEIsrHandler(void){
+void BLEIsrHandler (void)
+{
+    __enable();
     unsigned char ch = Asclin1_InUart();
-    Asclin1_OutUart(ch);
+    switch (ch)
+    {
+        case 'w' :
+        case 'W' :
+            back_duty = 30;
+            Motor_movChA_PWM(front_duty, 1);
+            Motor_movChB_PWM(front_duty, 1);
+            front_duty += 2;
+            break;
+        case 'a' :
+        case 'A' :
+            Motor_stopChA();
+            front_duty = 30;
+            back_duty = 30;
+            Motor_movChB_PWM(50, 1);
+            break;
+        case 's' :
+        case 'S' :
+            front_duty = 30;
+            Motor_stopChA();
+            Motor_stopChB();
+            Motor_movChA_PWM(back_duty, 0);
+            Motor_movChB_PWM(back_duty, 0);
+            back_duty += 2;
+            break;
+        case 'd' :
+        case 'D' :
+            Motor_stopChB();
+            front_duty = 30;
+            back_duty = 30;
+            Motor_movChA_PWM(50, 1);
+            break;
+        default :
+            Motor_stopChA();
+            Motor_stopChB();
+            front_duty = 30;
+            back_duty = 30;
+    }
 }
 
 

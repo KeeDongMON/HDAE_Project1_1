@@ -33,8 +33,6 @@
 
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 float distance;
-int front_duty = 30;
-int back_duty = 30;
 
 void core0_main (void)
 {
@@ -48,53 +46,7 @@ void core0_main (void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
     
     module_Init();
-    char ch;
-    while (1)
-    {
-        ch = Bluetooth_RecvByteBlocked();
-
-        if (ch != (char) -1)
-        {
-            switch (ch)
-            {
-                case 'w' :
-                case 'W' :
-                    back_duty = 30;
-                    Motor_movChA_PWM(front_duty, 1);
-                    Motor_movChB_PWM(front_duty, 1);
-                    front_duty += 2;
-                    break;
-                case 'a' :
-                case 'A' :
-                    Motor_stopChA();
-                    front_duty = 30;
-                    back_duty = 30;
-                    Motor_movChB_PWM(50, 1);
-                    break;
-                case 's' :
-                case 'S' :
-                    front_duty = 30;
-                    Motor_stopChA();
-                    Motor_stopChB();
-                    Motor_movChA_PWM(back_duty, 0);
-                    Motor_movChB_PWM(back_duty, 0);
-                    back_duty += 2;
-                    break;
-                case 'd' :
-                case 'D' :
-                    Motor_stopChB();
-                    front_duty = 30;
-                    back_duty = 30;
-                    Motor_movChA_PWM(50, 1);
-                    break;
-                default :
-                    Motor_stopChA();
-                    Motor_stopChB();
-                    front_duty = 30;
-                    back_duty = 30;
-            }
-        }
-    }
+    while (1);
 }
 
 IFX_INTERRUPT(CanRxHandler, 0, ISR_PRIORITY_CAN_RX);
@@ -119,8 +71,5 @@ void CanRxHandler (void)
             back_duty = 30;
         }
     }
-    else
-    {
-        //        my_printf("out of range!\n"); // for debugging
-    }
+
 }

@@ -8,6 +8,8 @@
 #include "isr_priority.h"
 #include "gtm_atom_pwm.h"
 
+unsigned int front_duty = 30;
+unsigned int back_duty =30;
 
 void Motor_Init(void)
 {

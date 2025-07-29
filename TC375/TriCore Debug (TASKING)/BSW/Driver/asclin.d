@@ -154,3 +154,5 @@ asclin.o :	"C:\Infineon\AURIX-Studio-1.10.10\tools\Compilers\Tasking_1.1r8\ctc\i
 "C:\Infineon\AURIX-Studio-1.10.10\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
 asclin.o :	"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\IO\GPIO.h"
 "C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\IO\GPIO.h" :
+asclin.o :	"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\IO\Motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\IO\Motor.h" :

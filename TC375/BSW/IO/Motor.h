@@ -11,4 +11,7 @@ void Motor_movChB(int dir);
 void Motor_stopChB(void);
 void Motor_movChB_PWM(int duty, int dir);
 
+extern unsigned int front_duty;
+extern unsigned int back_duty;
+
 #endif /* BSW_IO_MOTOR_H_ */
