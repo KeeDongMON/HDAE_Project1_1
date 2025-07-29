@@ -1,0 +1,24 @@
+1. Offset 관련 변수 (직선/커브 구간 중심성, 민감도)
+
+// steer.h
+std::string getSteerCommand(
+    ...,
+    int offset_threshold = 20, // 직선 구간
+    int lane_offset = 80,
+    int curve_threshold = 30 // 커브 구간
+);
+
+2. ROI크기 (관심영역)
+//main.cpp
+vector<Point> roi_verts = { // ROI의 꼭짓점 좌표
+    Point(Width * 0.18, Height * 0.62),
+    Point(Width * 0.05, Height * 0.98),
+    Point(Width * 0.95, Height * 0.98),
+    Point(Width * 0.82, Height * 0.62)
+};
+
+3. 엣지 검출 Threshold
+//main.cpp
+Canny(mask, edges, 50, 150);
+// 첫 번째(50): low threshold : 더 낮은 값일수록 얇고 약한 선, 노이즈도 검출될 수 있습니다.
+// 두 번째(150): high threshold : 더 높은 값일수록 굵고 명확한(강한) 에지만 검출됩니다.
