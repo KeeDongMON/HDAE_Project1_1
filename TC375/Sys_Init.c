@@ -21,7 +21,7 @@ void module_Init(void)
     //Motor_Init();
 
     /* Module Init */
-    //Asclin0_InitUart();
+    Asclin0_InitUart();
     Motor_Init();
     Bluetooth_Init();
     //gpt12_Init();

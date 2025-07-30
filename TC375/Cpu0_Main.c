@@ -56,19 +56,26 @@ void CanRxHandler (void)
     unsigned char rxData[8] = {0, };
     int rxLen;
     Can_RecvMsg(&rxID, rxData, &rxLen);
-
-    unsigned int tofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
-    unsigned char dis_status = rxData[3];
-    unsigned short signal_strength = rxData[5] << 8 | rxData[4];
     
-    if (signal_strength != 0)
+    if (rxID == 0x12)
     {
-        if (tofValue <= 100)
+        my_printf("%s\n", rxData);
+    }
+    else
+    {
+        unsigned int tofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
+        unsigned char dis_status = rxData[3];
+        unsigned short signal_strength = rxData[5] << 8 | rxData[4];
+
+        if (signal_strength != 0)
         {
-            Motor_stopChA();
-            Motor_stopChB();
-            front_duty = 30;
-            back_duty = 30;
+            if (tofValue <= 100)
+            {
+                Motor_stopChA();
+                Motor_stopChB();
+                front_duty = 30;
+                back_duty = 30;
+            }
         }
     }
 
