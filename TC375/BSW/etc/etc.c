@@ -1,8 +1,5 @@
 /*
  * etc.c
- *
- *  Created on: 2024. 8. 15.
- *      Author: kimye
  */
 
 #include "etc.h"

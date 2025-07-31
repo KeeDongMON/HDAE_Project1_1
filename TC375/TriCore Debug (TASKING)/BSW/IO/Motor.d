@@ -226,3 +226,5 @@ Motor.o :	"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\Dr
 "C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\Driver\isr_priority.h" :
 Motor.o :	"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\Driver\gtm_atom_pwm.h"
 "C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\Driver\gtm_atom_pwm.h" :
+Motor.o :	"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\etc\my_stdio.h"
+"C:\\Users\\USER\\AURIX-v1.10.10-workspace\\TC375LK_NGV_Multi\\BSW\\etc\my_stdio.h" :

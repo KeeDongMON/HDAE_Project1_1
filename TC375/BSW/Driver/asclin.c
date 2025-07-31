@@ -11,6 +11,11 @@
 #include "GPIO.h"
 #include "Motor.h"
 
+#define ASCLIN_CMD_BUF_SZ 64
+volatile char asclin_cmd_buffer[ASCLIN_CMD_BUF_SZ];
+volatile int asclin_cmd_index = 0;
+volatile int asclin_cmd_ready = 0;
+
 
 IFX_INTERRUPT(Asclin0RxIsrHandler, 0, ISR_PRIORITY_ASCLIN0_RX);
 void Asclin0RxIsrHandler(void)
@@ -209,9 +214,9 @@ void Asclin1_InitUart(void)
     src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.ASCLIN.ASCLIN[1].RX);
     src->B.SRPN = ISR_PRIORITY_BLE_RX;
     src->B.TOS = 0;
-    src->B.CLRR = 1; /* clear request */
-    MODULE_ASCLIN1.FLAGSENABLE.B.RFLE = 1; /* enable rx fifo fill level flag */
-    src->B.SRE = 1; /* interrupt enable */
+    src->B.CLRR = 1;  // clear request
+    MODULE_ASCLIN1.FLAGSENABLE.B.RFLE = 1; // enable rx fifo fill level flag
+    src->B.SRE = 1; // interrupt enable
 
 
 }
@@ -284,49 +289,49 @@ char Asclin1_InUartNonBlock(void)
     return res == 1 ? ch : -1;
 }
 
+void Asclin1_PollCMD(void){
+    if(!asclin_cmd_ready) return;
+    asclin_cmd_ready=0;
+
+    //default set
+    char x= 'x';
+    char y = 'x';
+    char swL ='0';
+    char swR = '0';
+    char swP = '0';
+
+    int check_sum = sscanf((char*)asclin_cmd_buffer, "%c;%c;%c;%c;%c", &x,&y,&swL,&swR,&swP);
+
+    if(check_sum == 5){
+        Motor_Control_CMD(x,y,swL,swR,swP);
+    }
+    else{//for debugging
+        my_printf("파싱 실패...");
+    }
+}
+
 IFX_INTERRUPT(BLEIsrHandler,0,ISR_PRIORITY_BLE_RX);
 void BLEIsrHandler (void)
 {
     __enable();
-    unsigned char ch = Asclin1_InUart();
-    switch (ch)
-    {
-        case 'w' :
-        case 'W' :
-            back_duty = 30;
-            Motor_movChA_PWM(front_duty, 1);
-            Motor_movChB_PWM(front_duty, 1);
-            front_duty += 2;
-            break;
-        case 'a' :
-        case 'A' :
-            Motor_stopChA();
-            front_duty = 30;
-            back_duty = 30;
-            Motor_movChB_PWM(50, 1);
-            break;
-        case 's' :
-        case 'S' :
-            front_duty = 30;
-            Motor_stopChA();
-            Motor_stopChB();
-            Motor_movChA_PWM(back_duty, 0);
-            Motor_movChB_PWM(back_duty, 0);
-            back_duty += 2;
-            break;
-        case 'd' :
-        case 'D' :
-            Motor_stopChB();
-            front_duty = 30;
-            back_duty = 30;
-            Motor_movChA_PWM(50, 1);
-            break;
-        default :
-            Motor_stopChA();
-            Motor_stopChB();
-            front_duty = 30;
-            back_duty = 30;
-    }
+
+    unsigned char ch;
+    if(Asclin1_PollUart(&ch)){
+        if(ch == '\n' || ch =='\r'){
+            if(asclin_cmd_index>0){
+                asclin_cmd_buffer[asclin_cmd_index]='\0'; //c-style 처리
+                asclin_cmd_ready = 1; //flag
+                asclin_cmd_index = 0; //index pointer reset
+            }
+        }
+        else if(asclin_cmd_index < ASCLIN_CMD_BUF_SZ -1){ //여기서 채워요
+            asclin_cmd_buffer[asclin_cmd_index++]= ch;
+        }
+        else{
+            asclin_cmd_index=0; // 완성안되면 buffer flush(실제 flush는 아님)
+        }
+
+   }
 }
 
 

@@ -15,6 +15,8 @@ void Asclin1_OutUart(const unsigned char chr);
 unsigned char Asclin1_InUart(void);
 int Asclin1_PollUart(unsigned char *chr);
 
+extern void Asclin1_PollCMD(void);
+
 /* ASCLIN2 for S2GO1 */
 void Asclin2_InitUart(void);
 void Asclin2_OutUart(const unsigned char chr);

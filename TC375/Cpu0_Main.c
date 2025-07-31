@@ -34,6 +34,7 @@
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 float distance;
 
+
 void core0_main (void)
 {
     SYSTEM_Init();
@@ -46,8 +47,11 @@ void core0_main (void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
     
     module_Init();
-    while (1);
+    while (1){
+        Asclin1_PollCMD();
+    }
 }
+
 
 IFX_INTERRUPT(CanRxHandler, 0, ISR_PRIORITY_CAN_RX);
 void CanRxHandler (void)
@@ -59,6 +63,7 @@ void CanRxHandler (void)
     
     if (rxID == 0x12)
     {
+        //TODO : Vision CAN Frame 구성 및 logic 처리 논의
         my_printf("%s\n", rxData);
     }
     else
@@ -75,6 +80,12 @@ void CanRxHandler (void)
                 Motor_stopChB();
                 front_duty = 30;
                 back_duty = 30;
+
+                //긴급 제동 Debugging용
+                //TODO : 상세 로직
+                Motor_movChA_PWM(front_duty, 0);
+                Motor_movChB_PWM(back_duty, 0);
+                delay_ms(500);
             }
         }
     }
