@@ -17,7 +17,7 @@ void Light_Init (void) {
     MODULE_P10.IOCR0.B.PC2 = 0x10; // 10.2핀 led2 연결 - 우 방향지시등
     MODULE_P10.IOCR0.B.PC3 = 0x10; // 10.3핀 led3 연결 -  비상 깜빡이-  좌우 공용
 
-    }
+    } //
 
 void IsrGpt2T6Handler_Led(void)
 {
