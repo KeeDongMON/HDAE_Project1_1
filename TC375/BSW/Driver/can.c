@@ -19,6 +19,9 @@ void Can_TxIsrHandler(void)
 {
     /* Clear the "Transmission Completed" interrupt flag */
     IfxCan_Node_clearInterruptFlag(g_mcmcan.canSrcNode.node, IfxCan_Interrupt_transmissionCompleted);
+
+
+
 }
 #ifndef CAN_PROJECT
 /* Default CAN Rx Handler */

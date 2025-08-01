@@ -7,10 +7,7 @@ int beepCnt = 0;
 int beepOnOff = 0;
 
 IFX_INTERRUPT(IsrGpt1T3Handler_Beep, 0, ISR_PRIORITY_GPT1T3_TIMER);
-//void IsrGpt1T3Handler_Beep(void)
-//{
-//    MODULE_P02.OUT.B.P3 ^= 1;
-//}
+
 
 void IsrGpt1T3Handler_Beep(void)
 {
