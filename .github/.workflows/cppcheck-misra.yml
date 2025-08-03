@@ -1,0 +1,78 @@
+name: Cppcheck (MISRA-C) for TC375
+
+on: [push, pull_request]        # 모든 브랜치·PR
+
+jobs:
+  cppcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install cppcheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cppcheck python3
+
+      # ---------- 일반 Cppcheck (XML) ----------
+      - name: Run cppcheck (XML report)
+        run: |
+          mkdir -p reports
+          cppcheck \
+            --std=c11 --language=c \
+            --enable=warning,style,performance,portability,information \
+            --inconclusive --force \
+            --suppress=missingIncludeSystem \
+            \
+            # ▶ TC375 AURIX 전용 매크로 예시
+            -D__TRICORE__ -D__AURIX_TC37XX__ -DCPU_TC375 \
+            \
+            # ▶ 필요하면 HAL/BSP 헤더 경로 추가
+            -I TC375LK_NGV/BSW \
+            -I TC375LK_NGV/Modules \
+            \
+            # ▶ 검사 대상 디렉터리 + 개별 파일
+            TC375LK_NGV/BSW \
+            TC375LK_NGV/Modules \
+            TC375LK_NGV/Cpu0_Main.c \
+            TC375LK_NGV/Cpu1_Main.c \
+            TC375LK_NGV/Sys_Init.c \
+            TC375LK_NGV/Sys_Init.h \
+            TC375LK_NGV/main.h \
+            \
+            --xml --xml-version=2 2> reports/cppcheck.xml
+
+      # ---------- MISRA 애드온용 dump ----------
+      - name: Generate cppcheck dump (for MISRA addon)
+        run: |
+          cppcheck \
+            --std=c11 --language=c \
+            --dump \
+            -D__TRICORE__ -D__AURIX_TC37XX__ -DCPU_TC375 \
+            -I TC375LK_NGV/BSW \
+            -I TC375LK_NGV/Modules \
+            TC375LK_NGV/BSW \
+            TC375LK_NGV/Modules \
+            TC375LK_NGV/Cpu0_Main.c \
+            TC375LK_NGV/Cpu1_Main.c \
+            TC375LK_NGV/Sys_Init.c
+
+      # ---------- MISRA-C 2012 애드온 ----------
+      - name: MISRA-C 2012 check (addon)
+        id: misra
+        run: |
+          mkdir -p reports
+          ADDON=/usr/share/cppcheck/addons/misra.py
+          cppcheck --addon="$ADDON" . | tee reports/misra.txt
+
+          # ▶ 위반 시 CI를 실패시키려면 exit 1 주석 해제
+          # if grep -E "MISRA" reports/misra.txt >/dev/null; then
+          #   exit 1
+          # fi
+
+      # ---------- 리포트 업로드 ----------
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cppcheck-misra-reports
+          path: reports/
