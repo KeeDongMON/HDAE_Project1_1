@@ -18,28 +18,28 @@ jobs:
       - name: Run cppcheck (XML report)
         run: |
           mkdir -p reports
+
+          # ▶ 분석 대상 파일 리스트 만들기
+          FILES="
+            TC375LK_NGV/BSW
+            TC375LK_NGV/Modules
+            TC375LK_NGV/Cpu0_Main.c
+            TC375LK_NGV/Cpu1_Main.c
+            TC375LK_NGV/Sys_Init.c
+            TC375LK_NGV/Sys_Init.h
+            TC375LK_NGV/main.h
+          "
+
+          # ▶ cppcheck 실행
           cppcheck \
             --std=c11 --language=c \
             --enable=warning,style,performance,portability,information \
             --inconclusive --force \
             --suppress=missingIncludeSystem \
-            \
-            # ▶ TC375 AURIX 전용 매크로 예시
             -D__TRICORE__ -D__AURIX_TC37XX__ -DCPU_TC375 \
-            \
-            # ▶ 필요하면 HAL/BSP 헤더 경로 추가
             -I TC375LK_NGV/BSW \
             -I TC375LK_NGV/Modules \
-            \
-            # ▶ 검사 대상 디렉터리 + 개별 파일
-            TC375LK_NGV/BSW \
-            TC375LK_NGV/Modules \
-            TC375LK_NGV/Cpu0_Main.c \
-            TC375LK_NGV/Cpu1_Main.c \
-            TC375LK_NGV/Sys_Init.c \
-            TC375LK_NGV/Sys_Init.h \
-            TC375LK_NGV/main.h \
-            \
+            ${FILES} \
             --xml --xml-version=2 2> reports/cppcheck.xml
 
       # ---------- MISRA 애드온용 dump ----------
