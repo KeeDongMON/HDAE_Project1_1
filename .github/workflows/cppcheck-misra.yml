@@ -58,17 +58,28 @@ jobs:
             TC375LK_NGV/Sys_Init.c
 
       # ---------- MISRA-C 2012 애드온 ----------
+      # ---------- MISRA-C 2012 애드온 ----------
       - name: MISRA-C 2012 check (addon)
         id: misra
         run: |
           mkdir -p reports
-          ADDON=/usr/share/cppcheck/addons/misra.py
+
+          # ① misra.py 위치 자동 탐색
+          ADDON=$(python3 - <<'PY'
+          import glob, json, sys
+          paths = glob.glob('/usr/lib*/cppcheck/addons/misra.py', recursive=True)
+          paths += glob.glob('/usr/share/cppcheck/addons/misra.py')
+          print(paths[0] if paths else '')
+          PY
+              )
+              if [ ! -f "$ADDON" ]; then
+                echo "::error::MISRA addon not found anywhere under /usr"; exit 1
+              fi
+              echo "Using MISRA addon at $ADDON"
+
+          # ② 애드온 실행
           cppcheck --addon="$ADDON" . | tee reports/misra.txt
 
-          # ▶ 위반 시 CI를 실패시키려면 exit 1 주석 해제
-          # if grep -E "MISRA" reports/misra.txt >/dev/null; then
-          #   exit 1
-          # fi
 
       # ---------- 리포트 업로드 ----------
       - uses: actions/upload-artifact@v4
