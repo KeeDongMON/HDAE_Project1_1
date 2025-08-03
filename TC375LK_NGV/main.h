@@ -37,4 +37,6 @@
 
 #include "syscfg.h"
 
+#include "auto_parking.h"
+
 #endif /* MAIN_H_ */

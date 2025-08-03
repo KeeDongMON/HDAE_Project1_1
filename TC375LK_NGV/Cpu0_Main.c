@@ -32,10 +32,12 @@
 #include <string.h>
 
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
-float distance;
 
+float right_distance;
+float left_distance;
+float rear_distance;
 
-void core0_main(void)
+void core0_main (void)
 {
     SYSTEM_Init();
     /* !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
@@ -46,14 +48,28 @@ void core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
     
-    
-    while(1)
-    {
-        //distance = Ultrasonic_ReadSensor_noFilt(); /* 초음파 센서 읽기*/
+//    int mode = 1;
+//
+//    int duty = 30;
+//
+//    while (mode)
+//    {
+//        //시동
+//        if (duty > 20)
+//        {
+//            duty--;
+//            Motor_movChA_PWM(duty, 1);
+//            Motor_movChB_PWM(duty, 1);
+//            delay_ms(50);
+//        }
+//
+//
+//        calc_parking_distance(left_distance);
+//
+//        delay_ms(500);
+//    }
 
-        delay_ms(100);
-        my_printf("ditance : %f cm\n", distance);
-
-
-    }
+    delay_ms(300);
+    go_back();
+    while(1);
 }

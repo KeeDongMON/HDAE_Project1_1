@@ -1,31 +1,31 @@
 upap.o :	../Libraries/Ethernet/lwip/src/netif/ppp/upap.c
 ../Libraries/Ethernet/lwip/src/netif/ppp/upap.c :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\ppp_opts.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\ppp_opts.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\lwipopts.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\lwipopts.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\Ifx_Cfg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\Ifx_Cfg.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\ppp_opts.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\ppp_opts.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\lwipopts.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\lwipopts.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\Ifx_Cfg.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\Ifx_Cfg.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
 upap.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
 upap.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h" :
 upap.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
@@ -36,5 +36,5 @@ upap.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\incl
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\limits.h" :
 upap.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\ctype.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\ctype.h" :
-upap.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+upap.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :

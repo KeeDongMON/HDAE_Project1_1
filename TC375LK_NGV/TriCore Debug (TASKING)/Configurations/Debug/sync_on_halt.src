@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc23448a --dep-file=sync_on_halt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\multi\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Configurations/Debug/sync_on_halt.src ../Configurations/Debug/sync_on_halt.c"
+	.compiler_invocation	"ctc -f cc3744a --dep-file=sync_on_halt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\Module -IC:\\\\Users\\\\USER\\\\Documents\\\\project\\\\workspace2\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Configurations/Debug/sync_on_halt.src ../Configurations/Debug/sync_on_halt.c"
 	.compiler_name		"ctc"
 	;source	'../Configurations/Debug/sync_on_halt.c'
 
@@ -125,7 +125,7 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L11:
-	.word	471
+	.word	482
 	.half	3
 	.word	.L12
 	.byte	4
@@ -133,30 +133,30 @@ _sync_on_halt_ucx:	.type	object
 	.byte	1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L13
 	.byte	2
 	.byte	'unsigned char',0,1,8
 .L30:
 	.byte	3
-	.word	203
+	.word	214
 	.byte	4
 	.byte	'__cacheiwi',0,1,1,1,1,5
 	.byte	'p',0
-	.word	220
+	.word	231
 	.byte	0,2
 	.byte	'int',0,4,5,4
 	.byte	'__mtcr',0,1,1,1,1,6
-	.word	249
+	.word	260
 	.byte	6
-	.word	249
+	.word	260
 	.byte	0,7
-	.word	249
+	.word	260
 	.byte	8
 	.byte	'__mfcr',0
-	.word	279
+	.word	290
 	.byte	1,1,1,1,6
-	.word	249
+	.word	260
 	.byte	0,9
 	.byte	'__debug',0,1,1,1,1,9
 	.byte	'__nop',0,1,1,1,1,9
@@ -167,21 +167,21 @@ _sync_on_halt_ucx:	.type	object
 	.byte	'unsigned int',0,4,7,2
 	.byte	'short int',0,2,5,10
 	.byte	'__wchar_t',0,1,1,1
-	.word	372
+	.word	383
 	.byte	10
 	.byte	'__size_t',0,1,1,1
-	.word	356
+	.word	367
 	.byte	10
 	.byte	'__ptrdiff_t',0,1,1,1
-	.word	249
+	.word	260
 	.byte	11,1,3
-	.word	440
+	.word	451
 	.byte	10
 	.byte	'__codeptr',0,1,1,1
-	.word	442
+	.word	453
 .L35:
 	.byte	12,64
-	.word	356
+	.word	367
 	.byte	13,15,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -205,13 +205,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt_end')
 	.sect	'.debug_info'
 .L14:
-	.word	256
+	.word	267
 	.half	3
 	.word	.L15
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L17,.L16
 	.byte	2
 	.word	.L10
@@ -254,13 +254,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt')
 	.sect	'.debug_info'
 .L19:
-	.word	323
+	.word	334
 	.half	3
 	.word	.L20
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L22,.L21
 	.byte	2
 	.word	.L10
@@ -358,13 +358,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt_lcx')
 	.sect	'.debug_info'
 .L24:
-	.word	234
+	.word	245
 	.half	3
 	.word	.L25
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L10
 	.byte	3
 	.byte	'_sync_on_halt_lcx',0,1,94,41
@@ -380,13 +380,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt_ucx')
 	.sect	'.debug_info'
 .L26:
-	.word	234
+	.word	245
 	.half	3
 	.word	.L27
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L10
 	.byte	3
 	.byte	'_sync_on_halt_ucx',0,1,95,41

@@ -3,13 +3,41 @@
 #include "my_stdio.h"
 #include "Ultrasonic.h"
 
-#define FILT_SIZE 5
 
+#define FILT_SIZE 5
+//13.1 에코
 void Ultrasonics_Init (void)
 {
     /* Init Rear Ultrasonic Pin */
     MODULE_P13.IOCR0.B.PC2 = 0x10; /* Set TRIG (P13.2) Pin to output */
     MODULE_P13.IOCR0.B.PC1 = 0x02; /* Set ECHO (P13.1) Pin to input */
+
+    //MODULE_SCU.EICR[0].B.EXIS0 = 0;//mux
+
+//    MODULE_P15.IOCR4.B.PC4 = 0x02; /* Set P2.1 as pull-up input */
+//
+//       /* EICR.EXIS 레지스터 설정 : ESR2, 1번 신호 */
+//       MODULE_SCU.EICR[0].B.EXIS0 = 0;//mux
+//       /* rising, falling edge 트리거 설정 */
+//       MODULE_SCU.EICR[0].B.REN0 = 1;
+//       MODULE_SCU.EICR[0].B.FEN0 = 1;
+//       /* Enable Trigger Pulse */
+//       MODULE_SCU.EICR[0].B.EIEN0 = 1;
+//
+//       /* Determination of output channel for trigger event (Register INP) */
+//       MODULE_SCU.EICR[0].B.INP0 = 0;
+//
+//
+//       /* Configure Output channels, outputgating unit OGU (Register IGPy) */
+//       MODULE_SCU.IGCR[0].B.IGP0 = 1;
+//
+//
+//       volatile Ifx_SRC_SRCR *src;
+//       src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.SCU.SCUERU[0]);
+//       src->B.SRPN = ISR_PRIORITY_ERU_INT0;
+//       src->B.TOS = 0;
+//       src->B.CLRR = 1; /* clear request */
+//       src->B.SRE = 1; /* interrupt enable */
 
     /* Init right ultrasonic pin */
     MODULE_P15.IOCR0.B.PC3 = 0x10; /* Set TRIG (P02.4) Pin to output */
@@ -196,4 +224,19 @@ float Ultrasonic_ReadSensor_Filt (void)
         distance_filt = distance_nofilt;
 
     return distance_filt;
+}
+
+int trigger = 0;
+//IFX_INTERRUPT(IsrGpt1T3Handler_Ultrasonic, 0, ISR_PRIORITY_GPT1T3_TIMER);
+void IsrGpt1T3Handler_Ultrasonic(void){
+    if(trigger == 0){
+        MODULE_P13.OUT.B.P2 = 1; // TRIG_HIGH
+        trigger =1;
+        MODULE_GPT120.T3.U = 1;
+    }else{
+        MODULE_P13.OUT.B.P2 = 0; // TRIG_LOW
+        trigger =0;
+        MODULE_GPT120.T3.U = 100000;
+        my_printf("low");
+    }
 }

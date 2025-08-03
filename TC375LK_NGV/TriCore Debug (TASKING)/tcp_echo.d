@@ -1,33 +1,33 @@
 tcp_echo.o :	../examples/tcp_echo.c
 ../examples/tcp_echo.c :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\examples\tcp_echo.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\examples\tcp_echo.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\examples\tcp_echo.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\examples\tcp_echo.h" :
 tcp_echo.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\lwipopts.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\lwipopts.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\Ifx_Cfg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Configurations\Ifx_Cfg.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\lwipopts.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\lwipopts.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\Ifx_Cfg.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Configurations\Ifx_Cfg.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
 tcp_echo.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
 tcp_echo.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h" :
 tcp_echo.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
@@ -38,139 +38,139 @@ tcp_echo.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\limits.h" :
 tcp_echo.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\ctype.h"
 "C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\ctype.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\memp.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\memp.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_priv.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_priv.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\mem_priv.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\mem_priv.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcpbase.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcpbase.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip4.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip4.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\icmp.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\icmp.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
-tcp_echo.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\BSW\\etc\my_stdio.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\multi\\BSW\\etc\my_stdio.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\memp.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\memp.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_priv.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_priv.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\mem_priv.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\mem_priv.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcpbase.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcpbase.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip4.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip4.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\icmp.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\icmp.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
+tcp_echo.o :	"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\BSW\\etc\my_stdio.h"
+"C:\\Users\\USER\\Documents\\project\\workspace2\\TC375LK_NGV\\BSW\\etc\my_stdio.h" :

@@ -17,10 +17,10 @@ void module_Init(void)
 {
 
     GPIO_Init();
-    //Buzzer_Init();
+    Buzzer_Init();
 
     Ultrasonics_Init();
-    //Motor_Init();
+    Motor_Init();
 
     /* Module Init */
     Asclin0_InitUart();

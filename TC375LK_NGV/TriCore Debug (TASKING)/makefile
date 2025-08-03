@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include examples/subdir.mk
+-include Module/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_PinMap/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_Lib/DataHandling/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_Impl/subdir.mk
@@ -80,39 +81,39 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := multi
+BUILD_ARTIFACT_NAME := TC375LK_NGV
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-multi.siz \
+TC375LK_NGV.siz \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: multi.elf secondary-outputs
+main-build: TC375LK_NGV.elf secondary-outputs
 
 # Tool invocations
-multi.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
+TC375LK_NGV.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: TASKING Linker'
-	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="multi.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"multi.elf" -Wl-o"multi.hex:IHEX" $(OBJS)
+	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="TC375LK_NGV.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"TC375LK_NGV.elf" -Wl-o"TC375LK_NGV.hex:IHEX" $(OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-multi.siz: multi.elf makefile $(OPTIONAL_TOOL_DEPS)
+TC375LK_NGV.siz: TC375LK_NGV.elf makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: Print Size'
-	elfsize  "multi.elf"
+	elfsize  "TC375LK_NGV.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) multi.siz multi.elf
+	-$(RM) TC375LK_NGV.siz TC375LK_NGV.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_SIZE)

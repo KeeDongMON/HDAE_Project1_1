@@ -30,30 +30,22 @@
 #include "main.h"
 
 extern IfxCpu_syncEvent g_cpuSyncEvent;
-extern float distance;
-
-
-
+extern float right_distance;
+extern float left_distance;
+extern float rear_distance;
 
 void core1_main(void)
 {
-    //SYSTEM_Init();
-    //IfxCpu_enableInterrupts();
-    
-    /* !!WATCHDOG1 IS DISABLED HERE!!
-     * Enable the watchdog and service it periodically if it is required
-     */
     IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
-//
-//    /* Wait for CPU sync event */
+
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
     
+
     while(1)
     {
-
-        distance = Ultrasonic_ReadSensor_noFilt(); /* 초음파 센서 읽기*/
-        delay_ms(100);
-        //delay_ms(100);
+        right_distance=Ultrasonic_ReadRightSensor_Filt();
+        left_distance=Ultrasonic_ReadLeftSensor_Filt();
+        rear_distance=Ultrasonic_ReadSensor_Filt();
     }
 }

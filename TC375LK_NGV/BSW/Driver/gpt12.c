@@ -56,7 +56,7 @@ void gpt1_init(void)
     MODULE_GPT120.T3CON.B.T3UD = 0x1; /* Set T3 count direction(down) */
     MODULE_GPT120.T3CON.B.T3I = 0x5; /* Set T3 input prescaler(2^5=32) */
     /* Calculate dutyUpTime and dutyDownTime for reloading timer T3 */
-    MODULE_GPT120.T3.U = 93; /* Set timer T3 value */
+    MODULE_GPT120.T3.U = 1; /* Set timer T3 value */
     /* Timer T2: reloads the value DutyDownTime in timer T3 */
     MODULE_GPT120.T2CON.B.T2M = 0x4; /* Set the timer T2 in reload mode */
     MODULE_GPT120.T2CON.B.T2I = 0x7; /* Reload Input Mode : Rising/Falling Edge T3OTL */
