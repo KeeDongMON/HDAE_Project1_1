@@ -11,7 +11,6 @@ jobs:
 
       - name: Install cppcheck
         run: |
-          sudo add-apt-repository -y ppa:adamthomson/cppcheck
           sudo apt-get update
           sudo apt-get install -y cppcheck python3
 
@@ -59,26 +58,31 @@ jobs:
             TC375LK_NGV/Sys_Init.c
 
       # ---------- MISRA-C 2012 애드온 ----------
-      # ---------- MISRA-C 2012 애드온 ----------
       - name: MISRA-C 2012 check (addon)
-        id: misra
         run: |
           mkdir -p reports
 
-          # ① misra.py 위치 자동 탐색
+          # ① misra.py 위치 찾기 (패키지·수동 모두 커버)
           ADDON=$(python3 - <<'PY'
-          import glob, json, sys
-          paths = glob.glob('/usr/lib*/cppcheck/addons/misra.py', recursive=True)
-          paths += glob.glob('/usr/share/cppcheck/addons/misra.py')
-          print(paths[0] if paths else '')
+          import glob, sys
+          cands = glob.glob('/usr/lib*/cppcheck/addons/misra.py', recursive=True)
+          cands += glob.glob('/usr/share/cppcheck/addons/misra.py')
+          print(cands[0] if cands else '')
           PY
               )
-              if [ ! -f "$ADDON" ]; then
-                echo "::error::MISRA addon not found anywhere under /usr"; exit 1
-              fi
-              echo "Using MISRA addon at $ADDON"
 
-          # ② 애드온 실행
+          # ② 없으면 GitHub 원본에서 다운로드
+          if [ -z "$ADDON" ]; then
+            echo "misra.py not found; downloading from upstream..."
+            mkdir -p "$HOME/cppcheck_addons"
+            curl -fsSL \
+              https://raw.githubusercontent.com/danmar/cppcheck/master/addons/misra.py \
+              -o "$HOME/cppcheck_addons/misra.py"
+            ADDON="$HOME/cppcheck_addons/misra.py"
+          fi
+          echo "Using MISRA addon at $ADDON"
+
+          # ③ 애드온 실행
           cppcheck --addon="$ADDON" . | tee reports/misra.txt
 
 
