@@ -9,8 +9,7 @@
 #include "gtm_atom_pwm.h"
 #include "my_stdio.h"
 
-unsigned int front_duty = 30;
-unsigned int back_duty =30;
+int AEB_flag = 0;
 
 void Motor_Init(void)
 {
@@ -49,7 +48,7 @@ void Motor_stopChA(void)
 void Motor_movChA_PWM(int duty, int dir)
 {
 //    GtmAtomPwm_SetDutyCycle(duty);
-    GtmAtomPwmA_SetDutyCycle(duty*10);
+    GtmAtomPwmA_SetDutyCycle(duty*4);
     if(dir)
     {
         MODULE_P10.OUT.B.P1 = 1; /* 모터 회전 방향 (1: 앞, 0: 뒤) */
@@ -85,7 +84,7 @@ void Motor_stopChB(void)
 void Motor_movChB_PWM(int duty, int dir)
 {
 //    GtmAtomPwm_SetDutyCycle(duty);
-    GtmAtomPwmB_SetDutyCycle(duty*10);
+    GtmAtomPwmB_SetDutyCycle(duty*4);
 
     if(dir)
     {
@@ -98,46 +97,36 @@ void Motor_movChB_PWM(int duty, int dir)
     MODULE_P02.OUT.B.P6 = 0;   /* 모터 Brake 해제 (1: 정지, 0: PWM-A에 따라 동작) */
 }
 
-void Motor_Control_CMD(char x, char y, char swL, char swR, char swP){
-    my_printf("Motor 진입성공\n");
+void Motor_All_Stop(void){
+    Motor_stopChA();
+    Motor_stopChB();
+}
 
-    //stop
-    if(x == 'x' && y == 'x'){
-        Motor_stopChA();
-        Motor_stopChB();
-        front_duty = 30;
-        back_duty = 30; // reset
+
+// left duty, right duty, Left turn signal, Right turn signal, Parking mode
+void Motor_Control_CMD (int x, int y, int swL, int swR, int swP, int dir)
+{
+    my_printf("left: %d\n", x);
+    my_printf("right: %d\n", y);
+
+    // Backward
+    if (dir == 0)
+    {
+        Motor_movChA_PWM(x, 0);
+        Motor_movChB_PWM(y, 0);
     }
-    //forward(직교 위치에만 반응함 지금은)
-    else if(x =='w' && y=='x'){
-        Motor_movChA_PWM(front_duty,1);
-        Motor_movChB_PWM(front_duty,1);
-        front_duty += 2; //acceleration, TODO : 정밀 제어 수정 예정
-    }
-    //backward
-    else if(x=='s' && y=='x'){
-        Motor_movChA_PWM(back_duty,0);
-        Motor_movChB_PWM(back_duty,0);
-        back_duty += 2; // TODO : forward와 마찬가지
-    }
-    //Turn Left
-    else if(x =='w' && y=='a'){
-        Motor_stopChA(); // 조향 안됨. 사이드 꺼서 회전하는 방식 채택함
-        Motor_movChB_PWM(50,1); // 일단 fixed value로 회전
-    }
-    //Trun Right
-    else if(x =='w' && y == 'd'){
-        Motor_stopChB();
-        Motor_movChA_PWM(50,1);
-    }
-    // 혹시 모를 Exception처리용
-    else{
-        Motor_stopChA();
-        Motor_stopChB();
-        front_duty = 30;
-        back_duty = 30;
+
+    //Forward
+    else
+    {
+        if (!AEB_flag)
+        {
+            Motor_movChA_PWM(x, 1);
+            Motor_movChB_PWM(y, 1);
+        }
     }
 
     //TODO : Switch 처리 및 추가 및 응집도 결합도 Fan-IN/Fan-OUT 고려해 Module화 진행 예정
+
 }
 

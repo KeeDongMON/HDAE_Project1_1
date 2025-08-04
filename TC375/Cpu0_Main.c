@@ -34,7 +34,6 @@
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 float distance;
 
-
 void core0_main (void)
 {
     SYSTEM_Init();
@@ -76,16 +75,12 @@ void CanRxHandler (void)
         {
             if (tofValue <= 100)
             {
+                AEB_flag = 1;
                 Motor_stopChA();
                 Motor_stopChB();
-                front_duty = 30;
-                back_duty = 30;
-
-                //긴급 제동 Debugging용
-                //TODO : 상세 로직
-                Motor_movChA_PWM(front_duty, 0);
-                Motor_movChB_PWM(back_duty, 0);
-                delay_ms(500);
+            }
+            else{
+                AEB_flag = 0;
             }
         }
     }

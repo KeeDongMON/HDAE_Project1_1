@@ -294,16 +294,18 @@ void Asclin1_PollCMD(void){
     asclin_cmd_ready=0;
 
     //default set
-    char x= 'x';
-    char y = 'x';
-    char swL ='0';
-    char swR = '0';
-    char swP = '0';
+    int x= 0;
+    int y = 0;
+    int swL = 0;
+    int swR = 0;
+    int swP = 0;
+    int dir = 1;
 
-    int check_sum = sscanf((char*)asclin_cmd_buffer, "%c;%c;%c;%c;%c", &x,&y,&swL,&swR,&swP);
+    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swP,&dir);
 
-    if(check_sum == 5){
-        Motor_Control_CMD(x,y,swL,swR,swP);
+    if(check_sum == 6){
+        Motor_Control_CMD(x,y,swL,swR,swP,dir);
+        //my_printf("x:%\n y:%c\n swL:%c\n swR:%c\n swP:%c\n dir:%c", x,y,swL,swR,swP,dir);
     }
     else{//for debugging
         my_printf("파싱 실패...");
