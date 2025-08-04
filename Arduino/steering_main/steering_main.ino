@@ -55,28 +55,34 @@ int swR_state = 0;
 int swP_state = 0;
 
 // RC카 파라미터
-const float L = 11.7;      // mm, 앞↔뒤 바퀴 간 거리 (실제 카에 맞게 수정)
-const float T = 13.5;      // mm, 좌↔우 바퀴 간 거리 (실제 카에 맞게 수정)
-const int MAX_PWM = 100;   // 최대 속도(PWM Duty)
+const float L = 117.0;      // mm, 앞↔뒤 바퀴 간 거리 (실제 카에 맞게 수정)
+const float T = 135.0;      // mm, 좌↔우 바퀴 간 거리 (실제 카에 맞게 수정)
+const int MAX_PWM = 250;   // 최대 속도(PWM Duty)
 
 // 조이스틱 입력을 0~1 범위로 변환
-float getJoystickThrottle(int val) {
-  float mid = 2048.0;
-  float maxDiff = 2048.0;
+float getJoystickThrottlex(int val) {
+  float mid = 1910.0;
+  float maxDiff = 1910.0;
   return constrain((val - mid) / maxDiff, -1.0, 1.0); // -1~1
 }
-
+float getJoystickThrottley(int val) {
+  float mid = 1930.0;
+  float maxDiff = 1930.0;
+  return constrain((val - mid) / maxDiff, -1.0, 1.0); // -1~1
+}
 void loop() {
   if (btSerial.connected()) {
     int xVal = analogRead(JOY_X_PIN);
     int yVal = analogRead(JOY_Y_PIN);
-
-    float throttle = getJoystickThrottle(xVal); // -1(backward) ~ 1(forward)
-    float steer    = getJoystickThrottle(yVal); // -1(right)   ~ 1(left)
+    Serial.print(xVal);
+    Serial.print(" ");
+    Serial.println(yVal);
+    float throttle = getJoystickThrottlex(xVal); // -1(backward) ~ 1(forward)
+    float steer    = getJoystickThrottley(yVal); // -1(right)   ~ 1(left)
 
     // 애커만 기하학에 따라 바퀴 속도 차이 계산
   // θ = steer * 최대 조향각 (예: 30도 ≒ 0.523rad)
-  float max_steer_rad = 0.5; // 실제 차량 특성보면 0.5rad(≈28도)가 보통 한계
+  float max_steer_rad = 1.0; // 실제 차량 특성보면 0.5rad(≈28도)가 보통 한계
   float theta = steer * max_steer_rad;
 
   float v0 = throttle; // (0~+1 or 0~-1) 최대속도 비율. 
@@ -86,12 +92,18 @@ void loop() {
   float v_left  = (1 + (T/(2*L))*tan(theta)) * v0 * scale;
   float v_right = (1 - (T/(2*L))*tan(theta)) * v0 * scale;
 
+  int left_dir = (v_left >= 0) ? 1 : 0;
+  int right_dir = (v_right >= 0) ? 1 : 0;
+
   // Double check: 범위 -1~1 내로
   v_left  = constrain(v_left, -1.0, 1.0);
   v_right = constrain(v_right, -1.0, 1.0);
 
-  int left_duty  = (int)(abs(v_left)  * MAX_PWM);
-  int right_duty = (int)(abs(v_right) * MAX_PWM);
+  int left_duty  = (int)(abs((abs(v_left)  * MAX_PWM)));
+  int right_duty = (int)(abs((abs(v_right) * MAX_PWM)));
+
+  if(left_duty < 25 && left_duty >= 0) left_duty = 0;
+  if(right_duty < 25 && right_duty >= 0) right_duty = 0;
 
     // 현재 스위치 입력값 읽기
     int swL_reading = digitalRead(SW_L_PIN);
@@ -125,16 +137,16 @@ void loop() {
       }
       delay(100);
     }
-
     
-    if (btSerial.connected()) {
-      String sendStr = String(left_duty) + ";" +String(right_duty) + ";"+ String(swL_state) +
-                       ";" + String(swR_state) +
-                       ";" + String(swP_state) + "\n";
-      btSerial.print(sendStr);
-      Serial.println(sendStr);
-    }
-  } else {
+    //송신할 데이터
+    String sendStr = String(right_duty) + ";"+ String(left_duty) + ";" +
+                String(swL_state) + ";" + String(swR_state) + ";" + String(swP_state) + ";" + String(right_dir) + "\n";
+    //블루투스 송신
+    btSerial.print(sendStr);
+    //시리얼 출력
+    Serial.println(sendStr);
+  } 
+  else { // 연결 안될 때
     Serial.println("블루투스 연결 안됨, 연결 재시도 중...");
     if (!btSerial.connect(address)) {
       Serial.println("재연결 실패...");
@@ -144,7 +156,7 @@ void loop() {
     }
   }
 
-  // 블루투스 수신 데이터 시리얼 출력
+  //블루투스 수신 데이터 시리얼 출력
   while (btSerial.available()) {
     char c = btSerial.read();
     Serial.write(c);
