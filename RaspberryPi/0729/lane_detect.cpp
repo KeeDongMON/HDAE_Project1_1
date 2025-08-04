@@ -89,7 +89,7 @@ int eval_curve_x(const Vec3f& poly, int y) {
 
 LaneFitInfo analyze_lane(const vector<Point>& pts, int y_top, int y_bottom) {
     LaneFitInfo info;
-    info.valid = pts.size() > 10;
+    info.valid = pts.size() > 25;
     info.poly = Vec3f(0, 0, 0);
     info.curvature = 0;
     info.x_top = 0;

@@ -1,0 +1,1 @@
+g++ main.cpp can.cpp color.cpp draw.cpp lane_detect.cpp -o main     `pkg-config --cflags --libs opencv4`     -std=c++17
