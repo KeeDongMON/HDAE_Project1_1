@@ -5,9 +5,10 @@
 #include <linux/can.h>
 #include <linux/can/raw.h>
 #include <cstring>
+#include <unistd.h>
+#include <cstdio>
 
 int can_socket = -1;
-
 
 bool init_can_socket(const char* ifname) {
     struct ifreq ifr;
@@ -26,17 +27,19 @@ bool init_can_socket(const char* ifname) {
     return true;
 }
 
-bool send_to_can(const char* msg) {
+bool send_can_frame(uint32_t can_id, const uint8_t* data, uint8_t len) {
     if (can_socket < 0) return false;
+    if (len > 8) len = 8;
+
     struct can_frame frame;
-    frame.can_id = 0x123;
-    size_t msg_len = strlen(msg);
-    if (msg_len > 8) msg_len = 8; // classic CAN은 8byte 제한
-    frame.can_dlc = msg_len;
-    memcpy(frame.data, msg, msg_len);
-    int nbytes = write(can_socket, &frame, sizeof(struct can_frame));
-    return nbytes == sizeof(struct can_frame);
+    frame.can_id = can_id;
+    frame.can_dlc = len;
+    memcpy(frame.data, data, len);
+
+    int nbytes = write(can_socket, &frame, sizeof(frame));
+    return nbytes == sizeof(frame);
 }
+
 void close_can_socket() {
     if (can_socket >= 0) close(can_socket);
     can_socket = -1;

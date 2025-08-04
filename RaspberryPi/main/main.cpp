@@ -178,22 +178,27 @@ int main() {
        right_pts.front().x, right_pts.back().x);
 }
         // CAN 메시지 스트링 생성 및 출력
-        char msg[32];
-	if(!lkas.intervention){
-		direction = 'O';
-		offset = 0.0f;	
+        uint8_t can_data[8] = {0}; // 8바이트 고정
+
+	// direction을 숫자로 변환: 'L'->1, 'R'->2, 'S'->3, 'O'->0
+	uint8_t dir_code = 0;
+	switch(direction) {
+    	case 'L': dir_code = 1; break;
+    	case 'R': dir_code = 2; break;
+    	case 'S': dir_code = 3; break;
+    	case 'O': dir_code = 0; break;
+    	default:  dir_code = 0; break;
 	}
-        snprintf(msg, sizeof(msg), "%d;%c;%03d;%d",
-                lkas.intervention ? 1 : 0,
-                direction,
-                fabs(offset),
-                signal_val
-        );
-        printf("CAN MSG: %s\n", msg);
 
-        // CAN 메시지 송신
-        send_to_can(msg);
+	can_data[0] = lkas.intervention ? 1 : 0;
+	can_data[1] = dir_code;
+	can_data[2] = static_cast<uint8_t>(std::min(std::abs(offset), 255.0f)); // offset은 0~255 정수로
+	can_data[3] = static_cast<uint8_t>(signal_val);
+	// 나머지 바이트는 필요하면 추가, 아니면 0
 
+	printf("CAN MSG (bin): [%d %d %d %d]\n", can_data[0], can_data[1], can_data[2], can_data[3]);
+
+	send_can_frame(0x123, can_data, 8);
         imshow("Lane & LKAS + Traffic Light", frame);
         if ((char)waitKey(1) == 'q') break;
     }
