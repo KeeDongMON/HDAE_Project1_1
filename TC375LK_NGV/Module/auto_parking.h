@@ -52,11 +52,15 @@
 
 #define CAR_SPEED            10.0f
 
+#define WHEEL_CIRCUM        21.0f
+#define ENC_DISK            20.0f
 
 // 주차 공간 측정 상태
 typedef enum {
     PARKING_STATE_SEARCHING,
-    PARKING_STATE_MEASURING
+    PARKING_STATE_MEASURING,
+    PARKING_STATE_PARKING,
+    PARKING_STATE_FINISH
 } ParkingState;
 
 extern volatile ParkingState parking_state;
@@ -65,7 +69,7 @@ extern volatile ParkingState parking_state;
 extern uint64 space_measure_start_us;
 
 
-void calc_parking_distance(float distance);
+void calc_parking_distance(void);
 
 void go_back();
 void set_buzzer(float distance);

@@ -44,7 +44,7 @@ void core1_main(void)
 
     while(1)
     {
-        right_distance=Ultrasonic_ReadRightSensor_Filt();
+        //right_distance=Ultrasonic_ReadRightSensor_Filt();
         left_distance=Ultrasonic_ReadLeftSensor_Filt();
         rear_distance=Ultrasonic_ReadSensor_Filt();
     }
