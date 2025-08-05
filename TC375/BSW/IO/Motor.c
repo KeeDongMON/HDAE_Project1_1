@@ -25,6 +25,7 @@ void Motor_Init(void)
 ///* 1: 정방향, 2: 역방향 */
 void Motor_movChA(int dir)
 {
+    my_printf("moving\n");
     if(dir)
     {
         MODULE_P10.OUT.B.P1 = 1; /* 모터 회전 방향 (1: 앞, 0: 뒤) */

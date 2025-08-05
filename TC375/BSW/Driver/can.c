@@ -25,7 +25,7 @@ void Can_TxIsrHandler(void)
 }
 #ifndef CAN_PROJECT
 /* Default CAN Rx Handler */
-IFX_INTERRUPT(Can_RxIsrHandler, 0, ISR_PRIORITY_CAN_RX);
+//IFX_INTERRUPT(Can_RxIsrHandler, 0, ISR_PRIORITY_CAN_RX);
 void Can_RxIsrHandler (void)
 {
     unsigned int rxID;

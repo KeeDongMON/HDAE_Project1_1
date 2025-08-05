@@ -30,9 +30,9 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
+#include "ToF.h"
+//extern unsigned int g_TofValue;
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
-float distance;
 
 void core0_main(void)
 {
@@ -40,9 +40,8 @@ void core0_main(void)
 
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
-    
 
-    // 테스트용 : 좌측 방향지시등만 켜기
+    /*// 테스트용 : 좌측 방향지시등만 켜기
     setLedCycle(16000); // 여기서 이제 지시등- 깜빡이별 토글 속도 다르게 할 수도 있음.
     setLeftTurn(1);
     setRightTurn(0);
@@ -50,11 +49,17 @@ void core0_main(void)
     /*123*/
 
 
-    
     while(1)
     {
+        Motor_movChB_PWM(50,1);
+        Motor_movChA_PWM(50,1);
 
+        float v = velocity();
         my_printf("start\n");
+        my_printf("tof distance: %d\n",Tof_GetValue()); // tof 몇일때 멈춰라. 멈췄을 때의 실제 거리 측정. tof-멈춘거리 =  제동거리. - 실험적 측정
+        my_printf(": %fm/s\n", v);
+        Motor_stopChA();
+        Motor_stopChB();
 
     }
 }

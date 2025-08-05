@@ -20,7 +20,7 @@ void module_Init(void)
     //Buzzer_Init();
 
     Ultrasonics_Init();
-    //Motor_Init();
+    Motor_Init();
 
 
     /* Module Init */
@@ -31,4 +31,5 @@ void module_Init(void)
     Can_Init(BD_500K, CAN_NODE0);
     //CanFd_Init(BD_500K, HS_BD_2M, CANFD_NODE2);
     Light_Init();
+    scueru_Init();
 }

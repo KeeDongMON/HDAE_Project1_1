@@ -494,6 +494,24 @@ LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\UltraBuzzer.h" :
 LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\main.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\main.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Emergency_stop.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Emergency_stop.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\IO\motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\IO\motor.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\sys_Init.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h" :
+LightButton.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
+LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h" :
 LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h" :
 LightButton.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"

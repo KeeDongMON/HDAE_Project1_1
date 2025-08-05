@@ -492,6 +492,26 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Librarie
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPort_bf.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\UltraBuzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\UltraBuzzer.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Emergency_stop.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Emergency_stop.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\main.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\main.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\IO\motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\IO\motor.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\sys_Init.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h" :
+UltraBuzzer.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\Driver\can.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"

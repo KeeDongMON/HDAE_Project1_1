@@ -442,6 +442,16 @@ Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Ult
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\UltraBuzzer.h" :
 Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\main.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\main.h" :
+Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Emergency_stop.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Modules\Emergency_stop.h" :
+Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\IO\motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\BSW\\IO\motor.h" :
+Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\sys_Init.h" :
+Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h" :
+Sys_Init.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
 Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h" :
 Sys_Init.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Configurations\Configuration.h"
