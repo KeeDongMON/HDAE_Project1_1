@@ -36,7 +36,14 @@
 #include "examples/udp_echo.h"
 
 #include "syscfg.h"
-
 #include "auto_parking.h"
+
+extern volatile float right_distance;
+extern volatile float left_distance;
+extern volatile float rear_distance;
+extern volatile IfxCpu_mutexLock distLock;
+#define CACHE_LINE(addr)   ((unsigned char *)((uint32)(addr) & ~0x1FU))
+#define FLUSH_LINE(p)      __cacheawi(CACHE_LINE(p))   /* WB+INV 1라인 */
+#define INV_LINE(p)        __cacheai (CACHE_LINE(p))   /* INV   1라인  */
 
 #endif /* MAIN_H_ */

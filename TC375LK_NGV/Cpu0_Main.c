@@ -33,9 +33,10 @@
 
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
-float right_distance;
-float left_distance;
-float rear_distance;
+volatile float right_distance __attribute__((section(".lmu_data"))) = 0.0f;
+volatile float left_distance  __attribute__((section(".lmu_data"))) = 0.0f;
+volatile float rear_distance  __attribute__((section(".lmu_data"))) = 0.0f;
+volatile IfxCpu_mutexLock distLock __attribute__((section(".lmu_data"))) = 0;
 
 void core0_main (void)
 {
@@ -61,7 +62,8 @@ void core0_main (void)
             }
         }
         calc_parking_distance();
-        delay_ms(500);
+        delay_ms(50);
     }
     while (1){};
 }
+

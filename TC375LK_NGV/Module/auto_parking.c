@@ -1,9 +1,8 @@
+#define IFX_CFG_USE_COMPILER_INTRINSICS   1   /* 컴파일러 built-in 사용 */
+#define IFXCPU_INLINE                     1   /* iLLD 모든 API inline */
 #include "auto_parking.h"
 #include "Buzzer.h"
-
-extern float right_distance;
-extern float left_distance;
-extern float rear_distance;
+#include "main.h"
 // 주차 공간 측정 상태
 
 volatile ParkingState parking_state = PARKING_STATE_SEARCHING;
@@ -23,6 +22,19 @@ static inline void Disable_Enc_Interrupt (void)
     MODULE_SRC.SCU.SCUERU[0].B.SRE = 0; // Service Request Disable
 }
 
+static inline float safe_read_left(void)
+{
+    float v;
+    while(!IfxCpu_acquireMutex(&distLock));
+    INV_LINE(&left_distance);
+    __dsync();               // ▶︎ 배리어: 캐시 invalidate 前 준비
+    v = left_distance;
+    __isync();               // ▶︎ 캐시 invalidate 후 확정
+    IfxCpu_releaseMutex(&distLock);
+    return v;
+
+}
+
 void calc_parking_distance (void)
 {
     switch (parking_state)
@@ -30,30 +42,29 @@ void calc_parking_distance (void)
         //자리 찾으러 가기
         case PARKING_STATE_SEARCHING :
             //멀어->거리측정 시작
-            if (left_distance > START_THRESHOLD_CM)
+            if (safe_read_left() > START_THRESHOLD_CM)
             {
 
                 parking_state = PARKING_STATE_MEASURING;
-                my_printf("Parking space detected! Start measuring width...Distance = %.2fcm\n", left_distance);
+                my_printf("Parking space detected! Start measuring width...Distance = %.2fcm\n", safe_read_left());
                 count_enc = 0;
                 Enable_Enc_Interrupt();
-
             }
             //찾는중
             else
             {
-                my_printf("Searching... Distance = %.2f cm\n", left_distance);
+                my_printf("Searching... Distance = %.2f cm\n", safe_read_left());
             }
             break;
             //거리 측정 중
         case PARKING_STATE_MEASURING :
             // 현재 거리가 25cm 미만으로 들어오면 측정 종료
-            if (left_distance < END_THRESHOLD_CM)
+            if (safe_read_left() < END_THRESHOLD_CM)
             {
                 Disable_Enc_Interrupt();
 
                 float32 parking_width_cm = ((float32) count_enc * WHEEL_CIRCUM) / ENC_DISK;
-                my_printf("Measurement complete! Distance = %.2fcm, Parking space width: %.2f cm\n", left_distance,
+                my_printf("Measurement complete! Distance = %.2f cm, Parking space width: %.2f cm\n", safe_read_left(),
                         parking_width_cm);
 
                 if (parking_width_cm > END_THRESHOLD_CM)
@@ -76,7 +87,7 @@ void calc_parking_distance (void)
             }
             else
             {
-                my_printf("Still measuring... Distance = %.2f cm\n", left_distance);
+                my_printf("Still measuring... Distance = %.2f cm\n", safe_read_left());
             }
             break;
         case PARKING_STATE_PARKING :
