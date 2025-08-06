@@ -31,9 +31,10 @@
 #include <stdio.h>
 #include <string.h>
 #include "ToF.h"
+#include "Emergency_stop.h"
 //extern unsigned int g_TofValue;
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
-
+extern v;
 void core0_main(void)
 {
     SYSTEM_Init();
@@ -47,19 +48,43 @@ void core0_main(void)
     setRightTurn(0);
     setHazzardLight(1);
     /*123*/
-
+    Motor_movChA_PWM(50, 1);
+    Motor_movChB_PWM(50, 1);
 
     while(1)
     {
-        Motor_movChB_PWM(50,1);
-        Motor_movChA_PWM(50,1);
 
         float v = velocity();
-        my_printf("start\n");
-        my_printf("tof distance: %d\n",Tof_GetValue()); // tof 몇일때 멈춰라. 멈췄을 때의 실제 거리 측정. tof-멈춘거리 =  제동거리. - 실험적 측정
+        int b = Braking_Distance(v);
+        my_printf("PWM:50 Deceleration_rate: 1\n");
+        my_printf("braking distance : %d\n", b);//v 안에 안갇혀있으니, v값이 들어왔을떄만 코드가 돌아가도록해라.
         my_printf(": %fm/s\n", v);
-        Motor_stopChA();
-        Motor_stopChB();
+        Emergency_stop();
+        /*
+        if (Tof_GetValue() > 100 +b ){
+            Motor_movChA_PWM(50, 1);
+            Motor_movChB_PWM(50, 1);//0.65~0.75
+//
+
+        }
+        else {
+            my_printf("tof distance: %d\n",Tof_GetValue());
+            Motor_stopChA();
+            Motor_stopChB();
+            my_printf("stop");//
+            //Motor_movChA_PWM(30, 0);
+            //Motor_movChB_PWM(30, 0);//
+            //delay_ms(100);
+
+
+
+
+        }
+*/
+
+
+         // tof 몇일때 멈춰라. 멈췄을 때의 실제 거리 측정. tof-멈춘거리 =  제동거리. - 실험적 측정
+
 
     }
 }

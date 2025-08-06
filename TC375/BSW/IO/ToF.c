@@ -3,8 +3,10 @@
 #include "GPIO.h"
 #include "can.h"
 #include "motor.h"
+#include "ToF.h"
 
-static unsigned int g_TofValue = 0;
+//static빠짐
+unsigned int g_TofValue = 0;
 
 IFX_INTERRUPT(TofIsrHandler, 0, ISR_PRIORITY_CAN_RX);
 void TofIsrHandler(void)
@@ -18,6 +20,7 @@ void TofIsrHandler(void)
     unsigned char dis_status = rxData[3];
     unsigned short signal_strength = rxData[5] << 8 | rxData[4];
     g_TofValue = tofValue;
+    //my_printf("%d\n",tofValue);
     //if (signal_strength != 0) {
     //   if(tofValue <= 100){
     //       Motor_stopChA();

@@ -112,3 +112,5 @@ ToF.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\Libraries\\iLLD\\TC37A\\Tricore\\Port\\Std\IfxPort.h" :
 ToF.o :	..\BSW\IO\motor.h
 ..\BSW\IO\motor.h :
+ToF.o :	..\BSW\IO\ToF.h
+..\BSW\IO\ToF.h :

@@ -29,7 +29,7 @@
 #include "IfxScuWdt.h"
 
 extern IfxCpu_syncEvent g_cpuSyncEvent;
-
+//float v;
 void core2_main(void)
 {
     //IfxCpu_enableInterrupts();
@@ -45,5 +45,6 @@ void core2_main(void)
     
     while(1)
     {
+        //v = velocity();
     }
 }

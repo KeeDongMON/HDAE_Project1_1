@@ -46,11 +46,11 @@
 #include "Motor.h"
 #include "can.h"
 #include "ToF.h"
-unsigned int Tof_getValue(void);
+//unsigned int Tof_getValue(void);
 float velocity(void);
-float BrakingDistance(void);
+float Braking_Distance(float v);
 float Deceleration_rate(void);
-void TofIsrHandler(void);
+//void TofIsrHandler(void);//
 static inline void Enable_Enc_Interrupt (void);
 static inline void Disable_Enc_Interrupt (void);
 void Emergency_stop(void);

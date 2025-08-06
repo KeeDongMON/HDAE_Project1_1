@@ -49,34 +49,46 @@ float velocity(void){
 
     t1 = getTimeUs(); // 지금 조금 도는데도 인터럽트가 20번 이상 일어나는 에러가 발생함.
     while (count_enc != 80);// 한바퀴 구멍 20개. 구멍 나갈 때 들어올 때, 2번, rising /falling 2번 총 4번의 신호가 한번의 구멍 지날 때 발생함.
-    t2 = getTimeUs();
+    t2 = getTimeUs();//
     Disable_Enc_Interrupt();
     return ((21.0 *10000)/ (t2-t1)); // m/s  즉 21* 10^-2 / 10^-6 = 21 * 10^4
 }
 
-float Braking_Distance(void){
-    return ((velocity() * velocity()) / (1000* 2 * Deceleration_rate())); // ToF이니 1000배함. ex) 100은 10cm임.
-
+float Braking_Distance(float v){
+    float dis  = 1.0 * (v * v) /(3 * Deceleration_rate());
+    return 1000 * dis; // m단위이니 tof 단위로 하려면 곱하기 1000을 함.//
+//
 }
 float Deceleration_rate(void){ // 함수보다 실험적으로 값을 구해서 상수화 및 공식화하기.
-    return 3.5;
+    return 1.5;//
 }
 
 void Emergency_stop(void){
-    if (Tof_GetValue() <= 100+ Braking_Distance())
+    my_printf("work\n");
+    if (Tof_GetValue() < 100+ Braking_Distance(velocity()))//
         {
-           my_printf("stop!!\n");
+           my_printf("tof distance: %d\n",Tof_GetValue());
            Motor_stopChA();
            Motor_stopChB();
+           my_printf("stop");
            int front_duty = 30;
            int back_duty = 30;
            //긴급 제동 Debugging용
            //TODO : 상세 로직 역회전하기.
-           Motor_movChA_PWM(front_duty, 0);
-           Motor_movChB_PWM(back_duty, 0);
-           delay_ms(500);
+           //Motor_movChA_PWM(front_duty, 0);
+           //Motor_movChB_PWM(back_duty, 0);
+           //delay_ms(500);
        }
-}
+    else{
+        Motor_movChA_PWM(50, 1);
+        Motor_movChB_PWM(50, 1);
+    }
+
+
+
+    }
+
+
 //IFX_INTERRUPT(TofIsrHandler, 0, ISR_PRIORITY_CAN_RX);
 //void TofIsrHandler(void)
 //{
