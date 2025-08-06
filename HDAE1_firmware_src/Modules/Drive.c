@@ -50,13 +50,15 @@ void Asclin1_PollCMD(void){
     int y = 0;
     int swL = 0;
     int swR = 0;
+    int swH = 0;
     int swP = 0;
+    int swLK = 0;
     int dir = 1;
 
-    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swP,&dir);
+    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swH,&swP,&swLK,&dir);
 
-    if(check_sum == 6){
-        Motor_Control_CMD(x,y,swL,swR,swP,dir);
+    if(check_sum == 8){
+            Control_CMD(x,y,swL,swR,swH,swP,swLK,dir);
         //my_printf("x:%\n y:%c\n swL:%c\n swR:%c\n swP:%c\n dir:%c", x,y,swL,swR,swP,dir);
     }
     else{//for debugging
@@ -88,33 +90,66 @@ void BLEIsrHandler (void)
    }
 }
 
-void Motor_Control_CMD (int x, int y, int swL, int swR, int swP, int dir)
+void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, int dir)
 {
     my_printf("left: %d\n", x);
     my_printf("right: %d\n", y);
     my_printf("dir: %d\n",dir);
 
-    // Backward
-    if (dir == 0)
-    {
-        Motor_movChA_PWM(x, 0);
-        Motor_movChB_PWM(y, 0);
-    }
+   if (swL){
+       setLightButton(1);
+   }
+   else if (swR){
+       setLightButton(2);
+   }
+   else if (swH){
+       setLightButton(3);
+   }
+   else if (swP){
+       Motor_All_Stop();
+       delay_ms(100);
+       Motor_All_Mov(75,1);
+       calc_parking_distance();
+   }
+   else if (swLK){
 
-    //Forward
-    else
-    {
-        if (!AEB_flag)
-        {
-            Motor_movChA_PWM(x, 1);
-            Motor_movChB_PWM(y, 1);
-        }
-    }
+   }
+   else{
+       // Backward
+       if (dir == 0)
+           {
+               Motor_movChA_PWM(x, 0);
+               Motor_movChB_PWM(y, 0);
+           }
 
-    //TODO : Switch 처리 및 추가 및 응집도 결합도 Fan-IN/Fan-OUT 고려해 Module화 진행 예정
+           //Forward
+           else
+           {
+               if (!AEB_flag)
+               {
+                   Motor_movChA_PWM(x, 1);
+                   Motor_movChB_PWM(y, 1);
+               }
+           }
+       //TODO : Switch 처리 및 추가 및 응집도 결합도 Fan-IN/Fan-OUT 고려해 Module화 진행 예정
+   }
+
+
+
+
+
 
 }
 
+void Motor_All_Stop(void){
+    Motor_stopChA();
+    Motor_stopChB();
+}
+
+void Motor_All_Mov(int duty, int dir){
+    Motor_movChA_PWM(duty,dir);
+    Motor_movChB_PWM(duty,dir);
+}
 
 
 /*********************************************************************************************************************/

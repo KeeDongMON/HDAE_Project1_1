@@ -8,7 +8,7 @@ int ledOnOff = 0;
 static volatile int leftTurn = 0; // 임시 수신한 좌지시등
 static volatile int rightTurn = 0; // 임시 수신한 우지시등
 static volatile int HazzardLight = 0; // 임시 수신한 비상깜빡이
-//IFX_INTERRUPT(IsrGpt2T6Handler_Led, 0, ISR_PRIORITY_GPT2T6_TIMER); // buzzer.c에서 따옴. 인터럽트 방식으로 해서 while문 안의 토글 방식과 별개로 사용.
+
 // 우선순위 타이머가 buzzer와 겹치기에 버저용 GPT1T3이 아닌, 비어있는 GPT2T6을 사용함.
 
 void LightButton_Init (void) {
@@ -16,8 +16,15 @@ void LightButton_Init (void) {
     MODULE_P10.IOCR0.B.PC1 = 0x10; //10.1핀 led1 연결 -좌 방향지시등
     MODULE_P10.IOCR0.B.PC2 = 0x10; // 10.2핀 led2 연결 - 우 방향지시등
     MODULE_P10.IOCR0.B.PC3 = 0x10; // 10.3핀 led3 연결 -  비상 깜빡이-  좌우 공용
+
+    MODULE_P10.OUT.B.P1 = 0;
+    MODULE_P10.OUT.B.P2 = 0;
+    MODULE_P10.OUT.B.P3 = 0;
+
+    setLedCycle(500);
 } //
 
+IFX_INTERRUPT(IsrGpt2T6Handler_Led, 0, ISR_PRIORITY_GPT2T6_TIMER); // buzzer.c에서 따옴. 인터럽트 방식으로 해서 while문 안의 토글 방식과 별개로 사용.
 void IsrGpt2T6Handler_Led(void)
 {
     ledCnt++;

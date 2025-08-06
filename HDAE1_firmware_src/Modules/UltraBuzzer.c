@@ -30,45 +30,30 @@ void UltraBuzzer_Init(void){
     Buzzer_Init();
 }
 
-int UltraBuzzer(void)
+void Ultrabuzzer (float distance)
 {
-
-    my_printf("start\n");
-
-        float distance = Ultrasonic_ReadSensor_noFilt();
-        //float distance2 = Ultrasonic_ReadRightSensor_noFilt();
-        //float distance3 = Ultrasonic_ReadLeftSensor_noFilt();
-
-        my_printf("Distance rear: %.2f cm\n", distance);
-        delay_ms(100);
-        //my_printf("Distance left: %.2f cm\n", distance3);
-        delay_ms(100);
-        //my_printf("Distance right: %.2f cm\n", distance2);
-        delay_ms(1000);
-        if (distance < 0) {
-        // 측정 실패 시 버저 OFF
-            setBeepCycle(0);
-            return 0;
-        }
-
-        if (distance > 30.0f) {
-            setBeepCycle(0);  // 30cm 이상: 무음
-        }
-        else if (distance > 15.0f) {
-            setBeepCycle(260);  // 15~30cm: 느린 비프 (6 토글 on/off)
-        }
-        else if (distance > 5.0f) {
-            setBeepCycle(50);  // 5~15cm: 중간속도 비프
-        }
-        else {
-            setBeepCycle(10);  // 5cm 이하: 빠른 비프 (최대로 빠른 깜빡임)
-            delay_ms(100);
-            //Motor_stopChA();
-            //Motor_stopChB();
-        }
-
-    return 0;
+    if (distance < 0)
+    {
+        setBeepCycle(0);
+    }
+    else if (distance > 30.0f)
+    {
+        setBeepCycle(0);  // 30cm 이상: 무음
+    }
+    else if (distance > 15.0f)
+    {
+        setBeepCycle(260);  // 15~30cm: 느린 비프 (6 토글 on/off)
+    }
+    else if (distance > 5.0f)
+    {
+        setBeepCycle(50);  // 5~15cm: 중간속도 비프
+    }
+    else
+    {
+        setBeepCycle(10);  // 5cm 이하: 빠른 비프 (최대로 빠른 깜빡임)
+    }
 }
+
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/

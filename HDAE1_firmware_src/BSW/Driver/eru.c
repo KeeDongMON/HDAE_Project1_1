@@ -27,18 +27,19 @@ void scueru_Init()
     MODULE_SCU.IGCR[0].B.IGP1 = 1;
 
 
-    volatile Ifx_SRC_SRCR *src;
-    src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.SCU.SCUERU[1]);
-    src->B.SRPN = ISR_PRIORITY_ERU_INT0;
-    src->B.TOS = 0;
-    src->B.CLRR = 1; /* clear request */
-    src->B.SRE = 1; /* interrupt enable */
+//    volatile Ifx_SRC_SRCR *src;
+//    src = (volatile Ifx_SRC_SRCR*) (&MODULE_SRC.SCU.SCUERU[1]);
+//    src->B.SRPN = ISR_PRIORITY_ERU_INT0;
+//    src->B.TOS = 0;
+//    src->B.CLRR = 1; /* clear request */
+//    src->B.SRE = 1; /* interrupt enable */
 
     IfxScuWdt_setSafetyEndinitInline(password);
 }
 
-IFX_INTERRUPT(SCUERU_Int0_Handler, 0, ISR_PRIORITY_ERU_INT0);
-void SCUERU_Int0_Handler (void)
-{
-    my_printf("SCU_ERU_INT0!\n");
-}
+
+//IFX_INTERRUPT(SCUERU_Int0_Handler, 0, ISR_PRIORITY_ERU_INT0);
+//void SCUERU_Int0_Handler (void)
+//{
+//    my_printf("SCU_ERU_INT0!\n");
+//}

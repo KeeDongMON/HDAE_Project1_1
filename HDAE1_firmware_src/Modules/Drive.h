@@ -45,11 +45,14 @@
 
 #define ASCLIN_CMD_BUF_SZ 64
 
-extern void Motor_Control_CMD(int x, int y, int swL, int swR, int swP, int dir);
+extern void Control_CMD(int x, int y, int swL, int swR, int swH, int swP, int swLK, int dir);
 extern unsigned int front_duty;
 extern unsigned int back_duty;
 extern void Asclin1_PollCMD(void);
-char Asclin1_InUartNonBlock(void);
+extern void Motor_All_Stop(void);
+extern char Asclin1_InUartNonBlock(void);
+extern void Motor_All_Stop(void);
+extern void Motor_All_Mov(int duty, int dir);
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/

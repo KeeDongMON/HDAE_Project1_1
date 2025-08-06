@@ -33,6 +33,12 @@
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 float32 distance;
 
+volatile float right_distance __attribute__((section(".lmu_data"))) = 0.0f;
+volatile float left_distance  __attribute__((section(".lmu_data"))) = 0.0f;
+volatile float rear_distance  __attribute__((section(".lmu_data"))) = 0.0f;
+volatile IfxCpu_mutexLock distLock __attribute__((section(".lmu_data"))) = 0;
+
+
 void core0_main(void)
 {
     SYSTEM_Init();
@@ -47,7 +53,6 @@ void core0_main(void)
     while(1)
     {
         Asclin1_PollCMD();
-//        //distance = Ultrasonic_ReadSensor_noFilt(); /* 초음파 센서 읽기*/
 //        //UltraBuzzer();
 //        setLedCycle(400);
 //        setLightButton(1);

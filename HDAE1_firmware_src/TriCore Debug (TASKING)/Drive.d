@@ -280,6 +280,8 @@ Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\et
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\etc\etc.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\stm.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\stm.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Bluetooth.h"
@@ -568,6 +570,22 @@ Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\auto_parking.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\auto_parking.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\sys_Init.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ultrasonic.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ultrasonic.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h" :
+Drive.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Emergency_stop.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Emergency_stop.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\motor.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\Configuration.h"

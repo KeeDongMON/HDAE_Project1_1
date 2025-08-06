@@ -30,7 +30,6 @@
 #include "main.h"
 
 extern IfxCpu_syncEvent g_cpuSyncEvent;
-extern float distance;
 
 
 
@@ -52,7 +51,21 @@ void core1_main(void)
     while(1)
     {
 
-//        distance = Ultrasonic_ReadSensor_noFilt(); /* 초음파 센서 읽기*/
-//        delay_ms(100);
+        float l = Ultrasonic_ReadLeftSensor_noFilt();
+        float r = Ultrasonic_ReadRightSensor_Filt();
+        float b = Ultrasonic_ReadSensor_Filt();
+
+        while (!IfxCpu_acquireMutex(&distLock));   // 락 획득
+        left_distance = l;
+        right_distance = r;
+        rear_distance = b;
+
+        Ultrabuzzer(r); //후면 기준 부저 알림
+
+        FLUSH_LINE(&left_distance);
+        FLUSH_LINE(&right_distance);   /* <- 세 줄만! */
+        FLUSH_LINE(&rear_distance);
+        __isync();                 /* 명령 파이프 동기화(보너스)            */
+        IfxCpu_releaseMutex(&distLock);
     }
 }

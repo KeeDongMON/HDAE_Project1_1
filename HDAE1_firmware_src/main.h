@@ -12,6 +12,8 @@
 #include "my_stdio.h"
 #include "stm.h"
 #include "Ifx_Types.h"
+#include <Ifx_reg.h>
+#include <IfxScuWdt.h>
 #include "Buzzer.h"
 #include "gpt12.h"
 #include "Motor.h"
@@ -26,6 +28,9 @@
 #include "UltraBuzzer.h"
 #include "LightButton.h"
 #include "Drive.h"
+#include "auto_parking.h"
+#include "Emergency_stop.h"
+
 /* Includes ETH, TCP/IP examples */
 #include "IfxGeth_Eth.h"
 #include "Ifx_Lwip.h"
@@ -36,7 +41,12 @@
 #include "examples/someip.h"
 #include "examples/tcp_echo.h"
 #include "examples/udp_echo.h"
-
 #include "syscfg.h"
+
+extern volatile IfxCpu_mutexLock distLock;
+#define CACHE_LINE(addr)   ((unsigned char *)((uint32)(addr) & ~0x1FU))
+#define FLUSH_LINE(p)      __cacheawi(CACHE_LINE(p))   /* WB+INV 1라인 */
+#define INV_LINE(p)        __cacheai (CACHE_LINE(p))   /* INV   1라인  */
+
 
 #endif /* MAIN_H_ */

@@ -30,6 +30,8 @@
 
 extern IfxCpu_syncEvent g_cpuSyncEvent;
 
+float v =0;
+
 void core2_main(void)
 {
     //IfxCpu_enableInterrupts();
@@ -45,5 +47,12 @@ void core2_main(void)
     
     while(1)
     {
+        float v = velocity();
+        int b = Braking_Distance(v);
+        my_printf("PWM:50 Deceleration_rate: 1\n");
+        my_printf("braking distance : %d\n", b);//v 안에 안갇혀있으니, v값이 들어왔을떄만 코드가 돌아가도록해라.
+        my_printf(": %fm/s\n", v);
+        Emergency_stop();
+
     }
 }

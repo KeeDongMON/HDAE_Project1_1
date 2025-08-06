@@ -192,6 +192,122 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\B
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\etc\my_stdio.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\stm.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\stm.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gpt12.h"
@@ -474,10 +590,6 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\L
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Geth\Std\IfxGeth.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxGeth_cfg.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxGeth_cfg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_regdef.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Scu\Std\IfxScuWdt.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Scu\Std\IfxScuWdt.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Src\Std\IfxSrc.h"
@@ -500,116 +612,6 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\ma
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Gpt12\\Std\IfxGpt12.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Gpt12\\Std\IfxGpt12.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxGpt12_cfg.h"
@@ -636,6 +638,28 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\L
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Stm\Std\IfxStm.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\auto_parking.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\auto_parking.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\sys_Init.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ultrasonic.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ultrasonic.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h" :
+UltraBuzzer.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Emergency_stop.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Emergency_stop.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\can.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\motor.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\can.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ToF.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ToF.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"
