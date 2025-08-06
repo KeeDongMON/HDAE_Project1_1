@@ -1,0 +1,1780 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc13944a --dep-file=ethernet.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/netif/ethernet.src ../Libraries/Ethernet/lwip/src/netif/ethernet.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/netif/ethernet.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.ethernet.ethernet_input',code,cluster('ethernet_input')
+	.sect	'.text.ethernet.ethernet_input'
+	.align	2
+	
+	.global	ethernet_input
+; Function ethernet_input
+.L83:
+ethernet_input:	.type	func
+	sub.a	a10,#56
+.L126:
+	mov.aa	a13,a4
+.L129:
+	mov.aa	a12,a5
+.L130:
+	mov	d8,#16
+.L131:
+	ld.hu	d0,[a13]10
+.L182:
+	mov	d15,#16
+.L183:
+	jlt	d15,d0,.L2
+.L184:
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	movh.a	a4,#@his(lwip_stats)
+.L128:
+	lea	a4,[a4]@los(lwip_stats)
+	ld.hu	d15,[a4]40
+	add	d15,#1
+	st.h	[a2]40,d15
+.L185:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]30
+	add	d15,#1
+	st.h	[a15]30,d15
+.L186:
+	j	.L3
+.L2:
+	ld.bu	d15,[a13]15
+.L187:
+	jne	d15,#0,.L4
+.L188:
+	ld.bu	d0,[a12]44
+	add	d15,d0,#1
+.L189:
+	st.b	[a13]15,d15
+.L4:
+	ld.a	a15,[a13]4
+.L5:
+	mov	d15,#0
+	jeq	d15,#0,.L6
+	mov	d15,#0
+	jeq	d15,#0,.L7
+	mov	d15,#1
+	jeq	d15,#0,.L8
+	ld.hu	d4,[a15]14
+	call	lwip_htons
+.L127:
+	ld.bu	d15,[a15]2
+	st.w	[a10],d15
+	ld.bu	d15,[a15]3
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]4
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]5
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]6
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]7
+	st.w	[a10]20,d15
+	ld.bu	d15,[a15]8
+	st.w	[a10]24,d15
+	ld.bu	d15,[a15]9
+	st.w	[a10]28,d15
+	ld.bu	d15,[a15]10
+	st.w	[a10]32,d15
+	ld.bu	d15,[a15]11
+	st.w	[a10]36,d15
+	ld.bu	d15,[a15]12
+	st.w	[a10]40,d15
+	ld.bu	d15,[a15]13
+	st.w	[a10]44,d15
+	st.w	[a10]48,d2
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L9
+	j	.L10
+.L11:
+.L10:
+	j	.L11
+.L9:
+.L8:
+.L7:
+.L6:
+	ld.hu	d9,[a15]14
+.L133:
+	ld.bu	d15,[a15]2
+.L190:
+	jz.t	d15:0,.L12
+.L191:
+	ld.bu	d15,[a15]2
+.L192:
+	jne	d15,#1,.L13
+.L193:
+	ld.bu	d15,[a15]3
+.L194:
+	jne	d15,#0,.L14
+.L195:
+	ld.bu	d0,[a15]4
+.L196:
+	mov	d15,#94
+.L197:
+	jne	d15,d0,.L15
+.L198:
+	ld.bu	d15,[a13]13
+.L199:
+	or	d15,#16
+	st.b	[a13]13,d15
+.L15:
+.L14:
+	j	.L16
+.L13:
+	add.a	a15,#2
+	movh.a	a5,#@his(ethbroadcast)
+	lea	a5,[a5]@los(ethbroadcast)
+	mov	d4,#6
+	mov.aa	a4,a15
+.L134:
+	call	memcmp
+.L135:
+	jne	d2,#0,.L17
+.L200:
+	ld.bu	d15,[a13]13
+.L201:
+	or	d15,#8
+	st.b	[a13]13,d15
+.L17:
+.L16:
+.L12:
+	mov	d15,#8
+	jeq	d15,d9,.L18
+.L202:
+	mov	d15,#1544
+	jeq	d15,d9,.L19
+	j	.L20
+.L18:
+	ld.bu	d15,[a12]41
+.L203:
+	jnz.t	d15:3,.L21
+.L204:
+	j	.L22
+.L21:
+	mov.aa	a4,a13
+.L136:
+	mov	d4,d8
+.L138:
+	call	pbuf_remove_header
+.L137:
+	jeq	d2,#0,.L23
+.L24:
+	mov	d15,#0
+	jeq	d15,#0,.L25
+	mov	d15,#0
+	jeq	d15,#0,.L26
+	mov	d15,#1
+	jeq	d15,#0,.L27
+	ld.hu	d15,[a13]8
+	st.w	[a10],d15
+	st.w	[a10]4,d8
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L28
+	j	.L29
+.L30:
+.L29:
+	j	.L30
+.L28:
+.L27:
+.L26:
+.L25:
+.L31:
+	mov	d15,#0
+	jeq	d15,#0,.L32
+	mov	d15,#0
+	jeq	d15,#0,.L33
+	mov	d15,#1
+	jeq	d15,#0,.L34
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L35
+	j	.L36
+.L37:
+.L36:
+	j	.L37
+.L35:
+.L34:
+.L33:
+.L32:
+	j	.L38
+.L23:
+	mov.aa	a4,a13
+.L139:
+	mov.aa	a5,a12
+.L141:
+	call	ip4_input
+.L140:
+	j	.L39
+.L19:
+	ld.bu	d15,[a12]41
+.L205:
+	jnz.t	d15:3,.L40
+.L206:
+	j	.L41
+.L40:
+	mov.aa	a4,a13
+.L142:
+	mov	d4,d8
+.L144:
+	call	pbuf_remove_header
+.L143:
+	jeq	d2,#0,.L42
+.L43:
+	mov	d15,#0
+	jeq	d15,#0,.L44
+	mov	d15,#0
+	jeq	d15,#0,.L45
+	mov	d15,#1
+	jeq	d15,#0,.L46
+	ld.hu	d15,[a13]8
+	st.w	[a10],d15
+	st.w	[a10]4,d8
+	movh.a	a4,#@his(.4.str)
+	lea	a4,[a4]@los(.4.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L47
+	j	.L48
+.L49:
+.L48:
+	j	.L49
+.L47:
+.L46:
+.L45:
+.L44:
+.L50:
+	mov	d15,#0
+	jeq	d15,#0,.L51
+	mov	d15,#0
+	jeq	d15,#0,.L52
+	mov	d15,#1
+	jeq	d15,#0,.L53
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L54
+	j	.L55
+.L56:
+.L55:
+	j	.L56
+.L54:
+.L53:
+.L52:
+.L51:
+	movh.a	a15,#@his(lwip_stats)
+.L132:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]34
+	add	d15,#1
+	st.h	[a15]34,d15
+.L207:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]30
+	add	d15,#1
+	st.h	[a15]30,d15
+.L208:
+	j	.L57
+.L42:
+	mov.aa	a4,a13
+.L146:
+	mov.aa	a5,a12
+.L148:
+	call	etharp_input
+.L147:
+	j	.L58
+.L20:
+	movh.a	a15,#@his(lwip_stats)
+.L145:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]40
+	add	d15,#1
+	st.h	[a15]40,d15
+.L209:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]30
+	add	d15,#1
+	st.h	[a15]30,d15
+.L210:
+	j	.L59
+.L58:
+.L39:
+	mov	d2,#0
+.L211:
+	j	.L60
+.L3:
+.L22:
+.L38:
+.L41:
+.L57:
+.L59:
+	mov.aa	a4,a13
+.L149:
+	call	pbuf_free
+.L150:
+	mov	d2,#0
+.L212:
+	j	.L61
+.L61:
+.L60:
+	ret
+.L105:
+	
+__ethernet_input_function_end:
+	.size	ethernet_input,__ethernet_input_function_end-ethernet_input
+.L94:
+	; End of function
+	
+	.sdecl	'.text.ethernet.ethernet_output',code,cluster('ethernet_output')
+	.sect	'.text.ethernet.ethernet_output'
+	.align	2
+	
+	.global	ethernet_output
+; Function ethernet_output
+.L85:
+ethernet_output:	.type	func
+	sub.a	a10,#16
+.L151:
+	st.a	[a10]12,a4
+.L153:
+	mov.aa	a14,a5
+.L154:
+	mov.aa	a12,a6
+.L155:
+	mov.aa	a13,a7
+.L156:
+	call	lwip_htons
+.L152:
+	mov	d15,d2
+.L158:
+	mov	d4,#16
+	mov.aa	a4,a14
+.L160:
+	call	pbuf_add_header
+.L157:
+	jeq	d2,#0,.L62
+.L217:
+	j	.L63
+.L62:
+	ld.a	a15,[a14]4
+.L161:
+	st.h	[a15]14,d15
+.L218:
+	mov.aa	a4,a15
+.L163:
+	add.a	a4,#2
+.L162:
+	mov	d4,#6
+	mov.aa	a5,a13
+.L165:
+	call	memcpy
+.L164:
+	lea	a4,[a15]8
+.L166:
+	mov	d4,#6
+	mov.aa	a5,a12
+.L167:
+	call	memcpy
+.L64:
+	ld.a	a15,[a10]12
+.L168:
+	ld.bu	d15,[a15]40
+.L159:
+	jeq	d15,#6,.L65
+	movh.a	a15,#@his(.6.str)
+.L169:
+	lea	a15,[a15]@los(.6.str)
+	st.a	[a10],a15
+	mov	d15,#306
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.7.str)
+	lea	a15,[a15]@los(.7.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.5.str)
+	lea	a4,[a4]@los(.5.str)
+	call	Ifx_Lwip_printf
+.L65:
+.L66:
+	mov	d15,#0
+	jeq	d15,#0,.L67
+	mov	d15,#0
+	jeq	d15,#0,.L68
+	mov	d15,#1
+	jeq	d15,#0,.L69
+	st.a	[a10],a14
+	movh.a	a4,#@his(.8.str)
+	lea	a4,[a4]@los(.8.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L70
+	j	.L71
+.L72:
+.L71:
+	j	.L72
+.L70:
+.L69:
+.L68:
+.L67:
+	ld.a	a4,[a10]12
+.L170:
+	ld.a	a15,[a4]24
+.L219:
+	mov.aa	a5,a14
+.L172:
+	calli	a15
+.L171:
+	j	.L73
+.L63:
+.L74:
+	mov	d15,#0
+.L173:
+	jeq	d15,#0,.L75
+	mov	d15,#0
+	jeq	d15,#0,.L76
+	mov	d15,#1
+	jeq	d15,#0,.L77
+	movh.a	a4,#@his(.9.str)
+	lea	a4,[a4]@los(.9.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L78
+	j	.L79
+.L80:
+.L79:
+	j	.L80
+.L78:
+.L77:
+.L76:
+.L75:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]10
+	add	d15,#1
+	st.h	[a15]10,d15
+.L220:
+	mov	d2,#-2
+.L221:
+	j	.L81
+.L81:
+.L73:
+	ret
+.L115:
+	
+__ethernet_output_function_end:
+	.size	ethernet_output,__ethernet_output_function_end-ethernet_output
+.L99:
+	; End of function
+	
+	.sdecl	'.rodata.ethernet.ethbroadcast',data,rom,cluster('ethbroadcast')
+	.sect	'.rodata.ethernet.ethbroadcast'
+	.global	ethbroadcast
+	.align	2
+ethbroadcast:	.type	object
+	.size	ethbroadcast,6
+	.byte	255,255,255,255
+	.byte	255,255
+	.sdecl	'.rodata.ethernet.ethzero',data,rom,cluster('ethzero')
+	.sect	'.rodata.ethernet.ethzero'
+	.global	ethzero
+	.align	2
+ethzero:	.type	object
+	.size	ethzero,6
+	.space	6
+	.sdecl	'.rodata.ethernet..1.str',data,rom
+	.sect	'.rodata.ethernet..1.str'
+.1.str:	.type	object
+	.size	.1.str,120
+	.byte	101,116,104,101,114,110,101,116
+	.byte	95,105,110,112,117,116,58,32
+	.byte	100,101,115,116,58,37,48,50
+	.byte	104,104,120,58,37,48,50,104
+	.byte	104,120,58,37,48,50,104,104
+	.byte	120,58,37,48,50,104,104,120
+	.byte	58,37,48,50,104,104,120,58
+	.byte	37,48,50,104,104,120,44,32
+	.byte	115,114,99,58,37,48,50,104
+	.byte	104,120,58,37,48,50,104,104
+	.byte	120,58,37,48,50,104,104,120
+	.byte	58,37,48,50,104,104,120,58
+	.byte	37,48,50,104,104,120,58,37
+	.byte	48,50,104,104,120,44,32,116
+	.byte	121,112,101,58
+	.byte	37,120,10
+	.space	1
+	.sdecl	'.rodata.ethernet..2.str',data,rom
+	.sect	'.rodata.ethernet..2.str'
+.2.str:	.type	object
+	.size	.2.str,56
+	.byte	101,116,104,101,114,110,101,116
+	.byte	95,105,110,112,117,116,58,32
+	.byte	73,80,118,52,32,112,97,99
+	.byte	107,101,116,32,100,114,111,112
+	.byte	112,101,100,44,32,116,111,111
+	.byte	32,115,104,111,114,116,32,40
+	.byte	37,117,47,37
+	.byte	117,41,10
+	.space	1
+	.sdecl	'.rodata.ethernet..3.str',data,rom
+	.sect	'.rodata.ethernet..3.str'
+.3.str:	.type	object
+	.size	.3.str,33
+	.byte	67,97,110,39,116,32,109,111
+	.byte	118,101,32,111,118,101,114,32
+	.byte	104,101,97,100,101,114,32,105
+	.byte	110,32,112,97,99,107,101,116
+	.space	1
+	.sdecl	'.rodata.ethernet..4.str',data,rom
+	.sect	'.rodata.ethernet..4.str'
+.4.str:	.type	object
+	.size	.4.str,64
+	.byte	101,116,104,101,114,110,101,116
+	.byte	95,105,110,112,117,116,58,32
+	.byte	65,82,80,32,114,101,115,112
+	.byte	111,110,115,101,32,112,97,99
+	.byte	107,101,116,32,100,114,111,112
+	.byte	112,101,100,44,32,116,111,111
+	.byte	32,115,104,111,114,116,32,40
+	.byte	37,117,47,37
+	.byte	117,41,10
+	.space	1
+	.sdecl	'.rodata.ethernet..5.str',data,rom
+	.sect	'.rodata.ethernet..5.str'
+.5.str:	.type	object
+	.size	.5.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.ethernet..6.str',data,rom
+	.sect	'.rodata.ethernet..6.str'
+.6.str:	.type	object
+	.size	.6.str,49
+	.byte	110,101,116,105,102,45,62,104
+	.byte	119,97,100,100,114,95,108,101
+	.byte	110,32,109,117,115,116,32,98
+	.byte	101,32,54,32,102,111,114,32
+	.byte	101,116,104,101,114,110,101,116
+	.byte	95,111,117,116,112,117,116,33
+	.space	1
+	.sdecl	'.rodata.ethernet..7.str',data,rom
+	.sect	'.rodata.ethernet..7.str'
+.7.str:	.type	object
+	.size	.7.str,48
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,110
+	.byte	101,116,105,102,47,101,116,104
+	.byte	101,114,110,101
+	.byte	116,46,99
+	.space	1
+	.sdecl	'.rodata.ethernet..8.str',data,rom
+	.sect	'.rodata.ethernet..8.str'
+.8.str:	.type	object
+	.size	.8.str,36
+	.byte	101,116,104,101,114,110,101,116
+	.byte	95,111,117,116,112,117,116,58
+	.byte	32,115,101,110,100,105,110,103
+	.byte	32,112,97,99,107,101,116,32
+	.byte	37,112,10
+	.space	1
+	.sdecl	'.rodata.ethernet..9.str',data,rom
+	.sect	'.rodata.ethernet..9.str'
+.9.str:	.type	object
+	.size	.9.str,54
+	.byte	101,116,104,101,114,110,101,116
+	.byte	95,111,117,116,112,117,116,58
+	.byte	32,99,111,117,108,100,32,110
+	.byte	111,116,32,97,108,108,111,99
+	.byte	97,116,101,32,114,111,111,109
+	.byte	32,102,111,114,32,104,101,97
+	.byte	100,101,114,46
+	.byte	10
+	.space	1
+	.calls	'ethernet_input','lwip_htons'
+	.calls	'ethernet_input','Ifx_Lwip_printf'
+	.calls	'ethernet_input','memcmp'
+	.calls	'ethernet_input','pbuf_remove_header'
+	.calls	'ethernet_input','ip4_input'
+	.calls	'ethernet_input','etharp_input'
+	.calls	'ethernet_input','pbuf_free'
+	.calls	'ethernet_output','lwip_htons'
+	.calls	'ethernet_output','pbuf_add_header'
+	.calls	'ethernet_output','memcpy'
+	.calls	'ethernet_output','Ifx_Lwip_printf'
+	.calls	'ethernet_output','__INDIRECT__'
+	.calls	'ethernet_input','',56
+	.extern	Ifx_Lwip_printf
+	.extern	pbuf_add_header
+	.extern	pbuf_remove_header
+	.extern	pbuf_free
+	.extern	lwip_htons
+	.extern	lwip_stats
+	.extern	ip4_input
+	.extern	etharp_input
+	.extern	memcpy
+	.extern	memcmp
+	.extern	__INDIRECT__
+	.calls	'ethernet_output','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L87:
+	.word	3139
+	.half	3
+	.word	.L88
+	.byte	4
+.L86:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L89
+.L104:
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	233
+	.byte	4
+	.word	241
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	225
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	246
+	.byte	7,1,123,37,0,2
+	.byte	'unsigned char',0,1,8,8
+	.byte	'void',0,4
+	.word	311
+.L112:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,9
+	.byte	'pbuf',0,2,186,1,8,16,10
+	.byte	'next',0
+	.word	.L106-.L87
+	.byte	4,2,35,0,10
+	.byte	'payload',0
+	.word	317
+	.byte	4,2,35,4,10
+	.byte	'tot_len',0
+	.word	322
+	.byte	2,2,35,8,10
+	.byte	'len',0
+	.word	322
+	.byte	2,2,35,10,10
+	.byte	'type_internal',0
+	.word	294
+	.byte	1,2,35,12,10
+	.byte	'flags',0
+	.word	294
+	.byte	1,2,35,13,10
+	.byte	'ref',0
+	.word	294
+	.byte	1,2,35,14,10
+	.byte	'if_idx',0
+	.word	294
+	.byte	1,2,35,15,0
+.L106:
+	.byte	4
+	.word	344
+	.byte	2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'pbuf_add_header',0,2,160,2,6
+	.word	294
+	.byte	1,1,1,1,6
+	.byte	'p',0,2,160,2,35
+	.word	484
+	.byte	6
+	.byte	'header_size_increment',0,2,160,2,45
+	.word	489
+	.byte	0,5
+	.byte	'pbuf_remove_header',0,2,162,2,6
+	.word	294
+	.byte	1,1,1,1,6
+	.byte	'p',0,2,162,2,38
+	.word	484
+	.byte	6
+	.byte	'header_size',0,2,162,2,48
+	.word	489
+	.byte	0,5
+	.byte	'pbuf_free',0,2,165,2,6
+	.word	294
+	.byte	1,1,1,1,6
+	.byte	'p',0,2,165,2,29
+	.word	484
+	.byte	0,5
+	.byte	'lwip_htons',0,3,96,7
+	.word	322
+	.byte	1,1,1,1,6
+	.byte	'x',0,3,96,24
+	.word	322
+	.byte	0,2
+	.byte	'unsigned long int',0,4,7,9
+	.byte	'ip4_addr',0,5,51,8,4,10
+	.byte	'addr',0
+	.word	711
+	.byte	4,2,35,0,0,11
+	.word	225
+	.byte	1,1,12
+	.word	484
+	.byte	12
+	.word	.L108-.L87
+	.byte	0,4
+	.word	761
+	.byte	13
+	.byte	'netif_input_fn',0,4,178,1,17
+	.word	779
+	.byte	3
+	.word	732
+	.byte	4
+	.word	808
+	.byte	11
+	.word	225
+	.byte	1,1,12
+	.word	.L108-.L87
+	.byte	12
+	.word	484
+	.byte	12
+	.word	813
+	.byte	0,4
+	.word	818
+	.byte	13
+	.byte	'netif_output_fn',0,4,189,1,17
+	.word	841
+	.byte	11
+	.word	225
+	.byte	1,1,12
+	.word	.L108-.L87
+	.byte	12
+	.word	484
+	.byte	0,4
+	.word	871
+	.byte	13
+	.byte	'netif_linkoutput_fn',0,4,212,1,17
+	.word	889
+	.byte	14,6
+	.word	294
+	.byte	15,5,0,14,2
+	.word	233
+	.byte	15,1,0,9
+	.byte	'netif',0,4,132,2,8,48,10
+	.byte	'next',0
+	.word	.L108-.L87
+	.byte	4,2,35,0,10
+	.byte	'ip_addr',0
+	.word	732
+	.byte	4,2,35,4,10
+	.byte	'netmask',0
+	.word	732
+	.byte	4,2,35,8,10
+	.byte	'gw',0
+	.word	732
+	.byte	4,2,35,12,10
+	.byte	'input',0
+	.word	784
+	.byte	4,2,35,16,10
+	.byte	'output',0
+	.word	846
+	.byte	4,2,35,20,10
+	.byte	'linkoutput',0
+	.word	894
+	.byte	4,2,35,24,10
+	.byte	'state',0
+	.word	317
+	.byte	4,2,35,28,10
+	.byte	'mtu',0
+	.word	322
+	.byte	2,2,35,32,10
+	.byte	'hwaddr',0
+	.word	923
+	.byte	6,2,35,34,10
+	.byte	'hwaddr_len',0
+	.word	294
+	.byte	1,2,35,40,10
+	.byte	'flags',0
+	.word	294
+	.byte	1,2,35,41,10
+	.byte	'name',0
+	.word	932
+	.byte	2,2,35,42,10
+	.byte	'num',0
+	.word	294
+	.byte	1,2,35,44,10
+	.byte	'rs_count',0
+	.word	294
+	.byte	1,2,35,45,0
+.L108:
+	.byte	4
+	.word	941
+	.byte	4
+	.word	761
+	.byte	4
+	.word	818
+	.byte	4
+	.word	871
+	.byte	14,2
+	.word	294
+	.byte	15,1,0,9
+	.byte	'eth_addr',0,6,60,8,6,10
+	.byte	'addr',0
+	.word	923
+	.byte	6,2,35,0,0,9
+	.byte	'eth_hdr',0,6,76,8,16,10
+	.byte	'padding',0
+	.word	1209
+	.byte	2,2,35,0,10
+	.byte	'dest',0
+	.word	1218
+	.byte	6,2,35,2,10
+	.byte	'src',0
+	.word	1218
+	.byte	6,2,35,8,10
+	.byte	'type',0
+	.word	322
+	.byte	2,2,35,14,0
+.L110:
+	.byte	4
+	.word	1247
+	.byte	3
+	.word	1218
+.L118:
+	.byte	4
+	.word	1324
+	.byte	5
+	.byte	'ip4_input',0,7,71,7
+	.word	225
+	.byte	1,1,1,1,6
+	.byte	'p',0,7,71,30
+	.word	484
+	.byte	6
+	.byte	'inp',0,7,71,47
+	.word	1189
+	.byte	0,16
+	.byte	'etharp_input',0,8,96,6,1,1,1,1,6
+	.byte	'p',0,8,96,32
+	.word	484
+	.byte	6
+	.byte	'netif',0,8,96,49
+	.word	1189
+	.byte	0,17
+	.word	317
+	.byte	3
+	.word	311
+	.byte	4
+	.word	1430
+	.byte	17
+	.word	1435
+	.byte	5
+	.byte	'memcpy',0,9,53,17
+	.word	317
+	.byte	1,1,1,1,18,9,53,33
+	.word	1425
+	.byte	18,9,53,56
+	.word	1440
+	.byte	18,9,53,68
+	.word	489
+	.byte	0,2
+	.byte	'int',0,4,5,5
+	.byte	'memcmp',0,9,57,17
+	.word	1489
+	.byte	1,1,1,1,18,9,57,39
+	.word	1435
+	.byte	18,9,57,53
+	.word	1435
+	.byte	18,9,57,56
+	.word	489
+	.byte	0,19
+	.byte	'__INDIRECT__',0,10,1,1,1,1,1,2
+	.byte	'short int',0,2,5,13
+	.byte	'__wchar_t',0,10,1,1
+	.word	1560
+	.byte	13
+	.byte	'__size_t',0,10,1,1
+	.word	489
+	.byte	13
+	.byte	'__ptrdiff_t',0,10,1,1
+	.word	1489
+	.byte	20,1,4
+	.word	1628
+	.byte	13
+	.byte	'__codeptr',0,10,1,1
+	.word	1630
+	.byte	13
+	.byte	'__intptr_t',0,10,1,1
+	.word	1489
+	.byte	13
+	.byte	'__uintptr_t',0,10,1,1
+	.word	489
+	.byte	13
+	.byte	'size_t',0,11,24,25
+	.word	489
+	.byte	13
+	.byte	'uint8',0,12,108,29
+	.word	294
+	.byte	13
+	.byte	'uint16',0,12,112,29
+	.word	322
+	.byte	13
+	.byte	'uint32',0,12,116,29
+	.word	711
+	.byte	13
+	.byte	'sint8',0,12,125,29
+	.word	225
+	.byte	13
+	.byte	'sint16',0,12,129,1,29
+	.word	1560
+	.byte	2
+	.byte	'long int',0,4,5,13
+	.byte	'sint32',0,12,134,1,29
+	.word	1781
+	.byte	2
+	.byte	'long long int',0,8,5,13
+	.byte	'sint64',0,12,141,1,29
+	.word	1809
+	.byte	2
+	.byte	'float',0,4,4,13
+	.byte	'float32',0,12,170,1,29
+	.word	1842
+	.byte	13
+	.byte	'pvoid',0,13,54,28
+	.word	317
+	.byte	13
+	.byte	'Ifx_TickTime',0,13,76,28
+	.word	1809
+	.byte	13
+	.byte	'u8_t',0,1,85,16
+	.word	294
+	.byte	13
+	.byte	'u16_t',0,1,86,16
+	.word	322
+	.byte	13
+	.byte	'u32_t',0,1,87,16
+	.word	711
+	.byte	13
+	.byte	's8_t',0,1,88,16
+	.word	225
+	.byte	13
+	.byte	'intmax_t',0,14,198,2,41
+	.word	1809
+	.byte	13
+	.byte	'err_t',0,15,96,14
+	.word	225
+	.byte	21,1,1,12
+	.word	484
+	.byte	0,4
+	.word	1989
+	.byte	13
+	.byte	'pbuf_free_custom_fn',0,2,242,1,16
+	.word	1998
+	.byte	13
+	.byte	'ip4_addr_t',0,5,57,25
+	.word	732
+	.byte	13
+	.byte	'ip_addr_t',0,16,142,2,20
+	.word	732
+	.byte	13
+	.byte	'mem_size_t',0,17,67,15
+	.word	322
+	.byte	9
+	.byte	'stats_proto',0,18,64,8,24,10
+	.byte	'xmit',0
+	.word	322
+	.byte	2,2,35,0,10
+	.byte	'recv',0
+	.word	322
+	.byte	2,2,35,2,10
+	.byte	'fw',0
+	.word	322
+	.byte	2,2,35,4,10
+	.byte	'drop',0
+	.word	322
+	.byte	2,2,35,6,10
+	.byte	'chkerr',0
+	.word	322
+	.byte	2,2,35,8,10
+	.byte	'lenerr',0
+	.word	322
+	.byte	2,2,35,10,10
+	.byte	'memerr',0
+	.word	322
+	.byte	2,2,35,12,10
+	.byte	'rterr',0
+	.word	322
+	.byte	2,2,35,14,10
+	.byte	'proterr',0
+	.word	322
+	.byte	2,2,35,16,10
+	.byte	'opterr',0
+	.word	322
+	.byte	2,2,35,18,10
+	.byte	'err',0
+	.word	322
+	.byte	2,2,35,20,10
+	.byte	'cachehit',0
+	.word	322
+	.byte	2,2,35,22,0,9
+	.byte	'stats_mem',0,18,98,8,16,10
+	.byte	'name',0
+	.word	246
+	.byte	4,2,35,0,10
+	.byte	'err',0
+	.word	322
+	.byte	2,2,35,4,10
+	.byte	'avail',0
+	.word	322
+	.byte	2,2,35,6,10
+	.byte	'used',0
+	.word	322
+	.byte	2,2,35,8,10
+	.byte	'max',0
+	.word	322
+	.byte	2,2,35,10,10
+	.byte	'illegal',0
+	.word	322
+	.byte	2,2,35,12,0,4
+	.word	2288
+	.byte	14,36
+	.word	2390
+	.byte	15,8,0,9
+	.byte	'stats_',0,18,232,1,8,220,1,10
+	.byte	'link',0
+	.word	2089
+	.byte	24,2,35,0,10
+	.byte	'etharp',0
+	.word	2089
+	.byte	24,2,35,24,10
+	.byte	'ip_frag',0
+	.word	2089
+	.byte	24,2,35,48,10
+	.byte	'ip',0
+	.word	2089
+	.byte	24,2,35,72,10
+	.byte	'icmp',0
+	.word	2089
+	.byte	24,2,35,96,10
+	.byte	'udp',0
+	.word	2089
+	.byte	24,2,35,120,10
+	.byte	'tcp',0
+	.word	2089
+	.byte	24,3,35,144,1,10
+	.byte	'mem',0
+	.word	2288
+	.byte	16,3,35,168,1,10
+	.byte	'memp',0
+	.word	2395
+	.byte	36,3,35,184,1,0,22
+	.byte	'lwip_stats',0,18,176,2,22
+	.word	2404
+	.byte	1,1,9
+	.byte	'link_changed_s',0,4,213,4,10,1,10
+	.byte	'state',0
+	.word	294
+	.byte	1,2,35,0,0,9
+	.byte	'status_changed_s',0,4,219,4,10,1,10
+	.byte	'state',0
+	.word	294
+	.byte	1,2,35,0,0,3
+	.word	732
+	.byte	4
+	.word	2646
+	.byte	9
+	.byte	'ipv4_changed_s',0,4,225,4,10,12,10
+	.byte	'old_address',0
+	.word	2651
+	.byte	4,2,35,0,10
+	.byte	'old_netmask',0
+	.word	2651
+	.byte	4,2,35,4,10
+	.byte	'old_gw',0
+	.word	2651
+	.byte	4,2,35,8,0,9
+	.byte	'ipv6_set_s',0,4,233,4,10,8,10
+	.byte	'addr_index',0
+	.word	225
+	.byte	1,2,35,0,10
+	.byte	'old_address',0
+	.word	2651
+	.byte	4,2,35,4,0,9
+	.byte	'ipv6_addr_state_changed_s',0,4,241,4,10,8,10
+	.byte	'addr_index',0
+	.word	225
+	.byte	1,2,35,0,10
+	.byte	'old_state',0
+	.word	294
+	.byte	1,2,35,1,10
+	.byte	'address',0
+	.word	2651
+	.byte	4,2,35,4,0,23,4,210,4,9,12,10
+	.byte	'link_changed',0
+	.word	2570
+	.byte	1,2,35,0,10
+	.byte	'status_changed',0
+	.word	2607
+	.byte	1,2,35,0,10
+	.byte	'ipv4_changed',0
+	.word	2656
+	.byte	12,2,35,0,10
+	.byte	'ipv6_set',0
+	.word	2736
+	.byte	8,2,35,0,10
+	.byte	'ipv6_addr_state_changed',0
+	.word	2795
+	.byte	8,2,35,0,0,3
+	.word	2884
+	.byte	4
+	.word	3010
+	.byte	21,1,1,12
+	.word	1189
+	.byte	12
+	.word	322
+	.byte	12
+	.word	3015
+	.byte	0,4
+	.word	3020
+	.byte	13
+	.byte	'netif_ext_callback_fn',0,4,132,5,16
+	.word	3039
+.L124:
+	.byte	3
+	.word	1218
+.L125:
+	.byte	3
+	.word	1218
+	.byte	9
+	.byte	'ip4_addr_packed',0,19,53,8,4,10
+	.byte	'addr',0
+	.word	711
+	.byte	4,2,35,0,0,13
+	.byte	'ip4_addr_p_t',0,19,61,32
+	.word	3085
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,59,0,3,8,0,0,9,19,1,3,8,58,15,59,15,57,15,11,15,0,0,10,13,0,3,8,73,19
+	.byte	11,15,56,9,0,0,11,21,1,73,19,54,15,39,12,0,0,12,5,0,73,19,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0
+	.byte	14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0,16,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,17
+	.byte	55,0,73,19,0,0,18,5,0,58,15,59,15,57,15,73,19,0,0,19,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0
+	.byte	20,21,0,54,15,0,0,21,21,1,54,15,39,12,0,0,22,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,23,23,1
+	.byte	58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L89:
+	.word	.L175-.L174
+.L174:
+	.half	3
+	.word	.L177-.L176
+.L176:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\etharp.h',0
+	.byte	0,0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0,0,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\stats.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	0,0,0,0
+.L177:
+.L175:
+	.sdecl	'.debug_info',debug,cluster('ethernet_input')
+	.sect	'.debug_info'
+.L90:
+	.word	376
+	.half	3
+	.word	.L91
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L93,.L92
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'ethernet_input',0,1,81,1
+	.word	.L104
+	.byte	1,1,1
+	.word	.L83,.L105,.L82
+	.byte	4
+	.byte	'p',0,1,81,29
+	.word	.L106,.L107
+	.byte	4
+	.byte	'netif',0,1,81,46
+	.word	.L108,.L109
+	.byte	5
+	.word	.L83,.L105
+	.byte	6
+	.byte	'ethhdr',0,1,83,19
+	.word	.L110,.L111
+	.byte	6
+	.byte	'type',0,1,84,9
+	.word	.L112,.L113
+	.byte	6
+	.byte	'next_hdr_offset',0,1,86,9
+	.word	.L112,.L114
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ethernet_input')
+	.sect	'.debug_abbrev'
+.L91:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ethernet_input')
+	.sect	'.debug_line'
+.L92:
+	.word	.L179-.L178
+.L178:
+	.half	3
+	.word	.L181-.L180
+.L180:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0,0,0,0,0
+.L181:
+	.byte	5,1,7,0,5,2
+	.word	.L83
+	.byte	3,208,0,1,5,25,9
+	.half	.L130-.L83
+	.byte	3,5,1,5,8,9
+	.half	.L131-.L130
+	.byte	3,5,1,5,17,9
+	.half	.L182-.L131
+	.byte	1,5,3,9
+	.half	.L183-.L182
+	.byte	1,5,5,7,9
+	.half	.L184-.L183
+	.byte	3,2,1,9
+	.half	.L185-.L184
+	.byte	3,1,1,9
+	.half	.L186-.L185
+	.byte	3,2,1,5,8,9
+	.half	.L2-.L186
+	.byte	3,3,1,5,3,9
+	.half	.L187-.L2
+	.byte	1,5,17,7,9
+	.half	.L188-.L187
+	.byte	3,1,1,5,15,9
+	.half	.L189-.L188
+	.byte	1,5,31,9
+	.half	.L4-.L189
+	.byte	3,4,1,5,3,9
+	.half	.L5-.L4
+	.byte	3,1,1,5,16,9
+	.half	.L6-.L5
+	.byte	3,8,1,5,24,9
+	.half	.L133-.L6
+	.byte	3,33,1,5,3,9
+	.half	.L190-.L133
+	.byte	1,5,26,7,9
+	.half	.L191-.L190
+	.byte	3,2,1,5,5,9
+	.half	.L192-.L191
+	.byte	1,5,29,7,9
+	.half	.L193-.L192
+	.byte	3,2,1,5,11,9
+	.half	.L194-.L193
+	.byte	1,5,29,7,9
+	.half	.L195-.L194
+	.byte	3,1,1,5,36,9
+	.half	.L196-.L195
+	.byte	1,5,33,9
+	.half	.L197-.L196
+	.byte	1,5,10,7,9
+	.half	.L198-.L197
+	.byte	3,2,1,5,18,9
+	.half	.L199-.L198
+	.byte	1,5,60,9
+	.half	.L14-.L199
+	.byte	3,126,1,5,14,9
+	.half	.L13-.L14
+	.byte	3,13,1,5,10,9
+	.half	.L135-.L13
+	.byte	1,5,8,7,9
+	.half	.L200-.L135
+	.byte	3,2,1,5,16,9
+	.half	.L201-.L200
+	.byte	1,5,10,9
+	.half	.L12-.L201
+	.byte	3,7,1,9
+	.half	.L202-.L12
+	.byte	3,17,1,5,18,9
+	.half	.L18-.L202
+	.byte	3,112,1,5,12,9
+	.half	.L203-.L18
+	.byte	1,5,9,7,9
+	.half	.L204-.L203
+	.byte	3,1,1,5,33,9
+	.half	.L21-.L204
+	.byte	3,3,1,5,7,9
+	.half	.L137-.L21
+	.byte	1,5,9,7,9
+	.half	.L24-.L137
+	.byte	3,1,1,9
+	.half	.L31-.L24
+	.byte	3,3,1,9
+	.half	.L32-.L31
+	.byte	3,1,1,5,22,9
+	.half	.L23-.L32
+	.byte	3,3,1,5,7,9
+	.half	.L140-.L23
+	.byte	3,2,1,5,18,9
+	.half	.L19-.L140
+	.byte	3,3,1,5,12,9
+	.half	.L205-.L19
+	.byte	1,5,9,7,9
+	.half	.L206-.L205
+	.byte	3,1,1,5,33,9
+	.half	.L40-.L206
+	.byte	3,3,1,5,7,9
+	.half	.L143-.L40
+	.byte	1,5,9,7,9
+	.half	.L43-.L143
+	.byte	3,1,1,9
+	.half	.L50-.L43
+	.byte	3,3,1,9
+	.half	.L51-.L50
+	.byte	3,1,1,9
+	.half	.L207-.L51
+	.byte	3,1,1,9
+	.half	.L208-.L207
+	.byte	3,1,1,5,25,9
+	.half	.L42-.L208
+	.byte	3,3,1,5,7,9
+	.half	.L147-.L42
+	.byte	3,2,1,9
+	.half	.L20-.L147
+	.byte	3,33,1,9
+	.half	.L209-.L20
+	.byte	3,1,1,9
+	.half	.L210-.L209
+	.byte	3,2,1,5,10,9
+	.half	.L39-.L210
+	.byte	3,5,1,5,3,9
+	.half	.L211-.L39
+	.byte	1,5,13,9
+	.half	.L59-.L211
+	.byte	3,3,1,5,10,9
+	.half	.L150-.L59
+	.byte	3,1,1,5,3,9
+	.half	.L212-.L150
+	.byte	1,5,1,9
+	.half	.L60-.L212
+	.byte	3,1,1,7,9
+	.half	.L94-.L60
+	.byte	0,1,1
+.L179:
+	.sdecl	'.debug_ranges',debug,cluster('ethernet_input')
+	.sect	'.debug_ranges'
+.L93:
+	.word	-1,.L83,0,.L94-.L83,0,0
+	.sdecl	'.debug_info',debug,cluster('ethernet_output')
+	.sect	'.debug_info'
+.L95:
+	.word	417
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L98,.L97
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'ethernet_output',0,1,142,2,1
+	.word	.L104
+	.byte	1,1,1
+	.word	.L85,.L115,.L84
+	.byte	4
+	.byte	'netif',0,1,142,2,32
+	.word	.L108,.L116
+	.byte	4
+	.byte	'p',0,1,142,2,53
+	.word	.L106,.L117
+	.byte	4
+	.byte	'src',0,1,143,2,41
+	.word	.L118,.L119
+	.byte	4
+	.byte	'dst',0,1,143,2,70
+	.word	.L118,.L120
+	.byte	4
+	.byte	'eth_type',0,1,144,2,23
+	.word	.L112,.L121
+	.byte	5
+	.word	.L85,.L115
+	.byte	6
+	.byte	'ethhdr',0,1,145,2,19
+	.word	.L110,.L122
+	.byte	6
+	.byte	'eth_type_be',0,1,146,2,9
+	.word	.L112,.L123
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ethernet_output')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ethernet_output')
+	.sect	'.debug_line'
+.L97:
+	.word	.L214-.L213
+.L213:
+	.half	3
+	.word	.L216-.L215
+.L215:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0,0,0,0,0
+.L216:
+	.byte	5,1,7,0,5,2
+	.word	.L85
+	.byte	3,141,2,1,5,34,9
+	.half	.L156-.L85
+	.byte	3,4,1,5,21,9
+	.half	.L152-.L156
+	.byte	1,5,28,9
+	.half	.L158-.L152
+	.byte	3,20,1,5,5,9
+	.half	.L157-.L158
+	.byte	1,5,7,7,9
+	.half	.L217-.L157
+	.byte	3,1,1,5,31,9
+	.half	.L62-.L217
+	.byte	3,6,1,5,16,9
+	.half	.L161-.L62
+	.byte	3,1,1,5,3,9
+	.half	.L218-.L161
+	.byte	3,1,1,9
+	.half	.L164-.L218
+	.byte	3,1,1,9
+	.half	.L64-.L164
+	.byte	3,2,1,9
+	.half	.L66-.L64
+	.byte	3,2,1,5,15,9
+	.half	.L67-.L66
+	.byte	3,4,1,5,35,9
+	.half	.L219-.L67
+	.byte	1,5,3,9
+	.half	.L171-.L219
+	.byte	1,9
+	.half	.L74-.L171
+	.byte	3,3,1,9
+	.half	.L75-.L74
+	.byte	3,2,1,5,10,9
+	.half	.L220-.L75
+	.byte	3,1,1,5,3,9
+	.half	.L221-.L220
+	.byte	1,5,1,9
+	.half	.L73-.L221
+	.byte	3,1,1,7,9
+	.half	.L99-.L73
+	.byte	0,1,1
+.L214:
+	.sdecl	'.debug_ranges',debug,cluster('ethernet_output')
+	.sect	'.debug_ranges'
+.L98:
+	.word	-1,.L85,0,.L99-.L85,0,0
+	.sdecl	'.debug_info',debug,cluster('ethbroadcast')
+	.sect	'.debug_info'
+.L100:
+	.word	251
+	.half	3
+	.word	.L101
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'ethbroadcast',0,10,63,23
+	.word	.L124
+	.byte	1,5,3
+	.word	ethbroadcast
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ethbroadcast')
+	.sect	'.debug_abbrev'
+.L101:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('ethzero')
+	.sect	'.debug_info'
+.L102:
+	.word	246
+	.half	3
+	.word	.L103
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/netif/ethernet.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'ethzero',0,10,64,23
+	.word	.L125
+	.byte	1,5,3
+	.word	ethzero
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ethzero')
+	.sect	'.debug_abbrev'
+.L103:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('ethernet_input')
+	.sect	'.debug_loc'
+.L82:
+	.word	-1,.L83,0,.L126-.L83
+	.half	2
+	.byte	138,0
+	.word	.L126-.L83,.L105-.L83
+	.half	2
+	.byte	138,56
+	.word	.L105-.L83,.L105-.L83
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L111:
+	.word	-1,.L83,.L5-.L83,.L132-.L83
+	.half	1
+	.byte	111
+	.word	.L134-.L83,.L135-.L83
+	.half	1
+	.byte	100
+	.word	.L42-.L83,.L145-.L83
+	.half	1
+	.byte	111
+	.word	.L39-.L83,.L59-.L83
+	.half	1
+	.byte	111
+	.word	0,0
+.L109:
+	.word	-1,.L83,0,.L127-.L83
+	.half	1
+	.byte	101
+	.word	.L130-.L83,.L105-.L83
+	.half	1
+	.byte	108
+	.word	.L141-.L83,.L140-.L83
+	.half	1
+	.byte	101
+	.word	.L148-.L83,.L147-.L83
+	.half	1
+	.byte	101
+	.word	0,0
+.L114:
+	.word	-1,.L83,.L131-.L83,.L105-.L83
+	.half	1
+	.byte	88
+	.word	.L138-.L83,.L137-.L83
+	.half	1
+	.byte	84
+	.word	.L144-.L83,.L143-.L83
+	.half	1
+	.byte	84
+	.word	0,0
+.L107:
+	.word	-1,.L83,0,.L128-.L83
+	.half	1
+	.byte	100
+	.word	.L129-.L83,.L105-.L83
+	.half	1
+	.byte	109
+	.word	.L2-.L83,.L127-.L83
+	.half	1
+	.byte	100
+	.word	.L136-.L83,.L137-.L83
+	.half	1
+	.byte	100
+	.word	.L139-.L83,.L140-.L83
+	.half	1
+	.byte	100
+	.word	.L142-.L83,.L143-.L83
+	.half	1
+	.byte	100
+	.word	.L146-.L83,.L147-.L83
+	.half	1
+	.byte	100
+	.word	.L149-.L83,.L150-.L83
+	.half	1
+	.byte	100
+	.word	0,0
+.L113:
+	.word	-1,.L83,.L133-.L83,.L59-.L83
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ethernet_output')
+	.sect	'.debug_loc'
+.L120:
+	.word	-1,.L85,0,.L152-.L85
+	.half	1
+	.byte	103
+	.word	.L156-.L85,.L115-.L85
+	.half	1
+	.byte	109
+	.word	.L165-.L85,.L164-.L85
+	.half	1
+	.byte	101
+	.word	0,0
+.L121:
+	.word	-1,.L85,0,.L152-.L85
+	.half	1
+	.byte	84
+	.word	0,0
+.L123:
+	.word	-1,.L85,.L152-.L85,.L157-.L85
+	.half	1
+	.byte	82
+	.word	.L158-.L85,.L159-.L85
+	.half	1
+	.byte	95
+	.word	.L74-.L85,.L173-.L85
+	.half	1
+	.byte	95
+	.word	0,0
+.L84:
+	.word	-1,.L85,0,.L151-.L85
+	.half	2
+	.byte	138,0
+	.word	.L151-.L85,.L115-.L85
+	.half	2
+	.byte	138,16
+	.word	.L115-.L85,.L115-.L85
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L122:
+	.word	-1,.L85,.L161-.L85,.L162-.L85
+	.half	1
+	.byte	111
+	.word	.L163-.L85,.L164-.L85
+	.half	1
+	.byte	100
+	.word	.L164-.L85,.L166-.L85
+	.half	1
+	.byte	111
+	.word	0,0
+.L116:
+	.word	-1,.L85,0,.L152-.L85
+	.half	1
+	.byte	100
+	.word	.L153-.L85,.L115-.L85
+	.half	2
+	.byte	145,124
+	.word	.L168-.L85,.L169-.L85
+	.half	1
+	.byte	111
+	.word	.L170-.L85,.L171-.L85
+	.half	1
+	.byte	100
+	.word	0,0
+.L117:
+	.word	-1,.L85,0,.L152-.L85
+	.half	1
+	.byte	101
+	.word	.L154-.L85,.L115-.L85
+	.half	1
+	.byte	110
+	.word	.L160-.L85,.L157-.L85
+	.half	1
+	.byte	100
+	.word	.L172-.L85,.L171-.L85
+	.half	1
+	.byte	101
+	.word	0,0
+.L119:
+	.word	-1,.L85,0,.L152-.L85
+	.half	1
+	.byte	102
+	.word	.L155-.L85,.L115-.L85
+	.half	1
+	.byte	108
+	.word	.L167-.L85,.L64-.L85
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L222:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ethernet_input')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L222,.L83,.L105-.L83
+	.byte	4
+	.word	(.L126-.L83)/2
+	.byte	19,56,22,26,3,19,138,56,4
+	.word	(.L105-.L126)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('ethernet_output')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L222,.L85,.L115-.L85
+	.byte	4
+	.word	(.L151-.L85)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L115-.L151)/2
+	.byte	19,0,8,26,0,0
+	; Module end

@@ -1,0 +1,3046 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc3856a --dep-file=timeouts.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/core/timeouts.src ../Libraries/Ethernet/lwip/src/core/timeouts.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/core/timeouts.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.timeouts.tcpip_tcp_timer',code,cluster('tcpip_tcp_timer')
+	.sect	'.text.timeouts.tcpip_tcp_timer'
+	.align	2
+	
+; Function tcpip_tcp_timer
+.L67:
+tcpip_tcp_timer:	.type	func
+	call	tcp_tmr
+.L197:
+	movh.a	a15,#@his(tcp_active_pcbs)
+	lea	a15,[a15]@los(tcp_active_pcbs)
+	ld.w	d15,[a15]
+	jne	d15,#0,.L2
+.L340:
+	movh.a	a15,#@his(tcp_tw_pcbs)
+	lea	a15,[a15]@los(tcp_tw_pcbs)
+	ld.w	d15,[a15]
+	jeq	d15,#0,.L3
+.L2:
+	mov	d4,#250
+.L341:
+	movh.a	a4,#@his(tcpip_tcp_timer)
+	lea	a4,[a4]@los(tcpip_tcp_timer)
+.L342:
+	mov.a	a5,#0
+	call	sys_timeout
+.L343:
+	j	.L4
+.L3:
+	movh.a	a15,#@his(tcpip_tcp_timer_active)
+	lea	a15,[a15]@los(tcpip_tcp_timer_active)
+.L344:
+	mov	d15,#0
+.L345:
+	st.w	[a15],d15
+.L4:
+	ret
+.L180:
+	
+__tcpip_tcp_timer_function_end:
+	.size	tcpip_tcp_timer,__tcpip_tcp_timer_function_end-tcpip_tcp_timer
+.L129:
+	; End of function
+	
+	.sdecl	'.text.timeouts.tcp_timer_needed',code,cluster('tcp_timer_needed')
+	.sect	'.text.timeouts.tcp_timer_needed'
+	.align	2
+	
+	.global	tcp_timer_needed
+; Function tcp_timer_needed
+.L69:
+tcp_timer_needed:	.type	func
+	movh.a	a15,#@his(tcpip_tcp_timer_active)
+	lea	a15,[a15]@los(tcpip_tcp_timer_active)
+	ld.w	d15,[a15]
+	jne	d15,#0,.L5
+.L329:
+	movh.a	a15,#@his(tcp_active_pcbs)
+	lea	a15,[a15]@los(tcp_active_pcbs)
+	ld.w	d15,[a15]
+	jne	d15,#0,.L6
+.L330:
+	movh.a	a15,#@his(tcp_tw_pcbs)
+	lea	a15,[a15]@los(tcp_tw_pcbs)
+	ld.w	d15,[a15]
+	jeq	d15,#0,.L7
+.L6:
+	movh.a	a15,#@his(tcpip_tcp_timer_active)
+	lea	a15,[a15]@los(tcpip_tcp_timer_active)
+.L331:
+	mov	d15,#1
+.L332:
+	st.w	[a15],d15
+.L333:
+	mov	d4,#250
+.L334:
+	movh.a	a4,#@his(tcpip_tcp_timer)
+	lea	a4,[a4]@los(tcpip_tcp_timer)
+.L335:
+	mov.a	a5,#0
+	call	sys_timeout
+.L7:
+.L5:
+	ret
+.L179:
+	
+__tcp_timer_needed_function_end:
+	.size	tcp_timer_needed,__tcp_timer_needed_function_end-tcp_timer_needed
+.L124:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_timeout_abs',code,cluster('sys_timeout_abs')
+	.sect	'.text.timeouts.sys_timeout_abs'
+	.align	2
+	
+; Function sys_timeout_abs
+.L71:
+sys_timeout_abs:	.type	func
+	sub.a	a10,#16
+.L198:
+	mov	d8,d4
+.L201:
+	mov.aa	a15,a4
+.L202:
+	mov.aa	a12,a5
+.L204:
+	mov	d4,#6
+.L199:
+	call	memp_malloc
+.L200:
+	jnz.a	a2,.L8
+.L9:
+	jnz.a	a2,.L10
+.L350:
+	movh.a	a15,#@his(.2.str)
+.L203:
+	lea	a15,[a15]@los(.2.str)
+	st.a	[a10],a15
+	mov	d15,#190
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L10:
+	j	.L11
+.L8:
+	mov.a	a4,#0
+.L351:
+	st.a	[a2],a4
+.L352:
+	st.a	[a2]8,a15
+.L353:
+	st.a	[a2]12,a12
+.L354:
+	st.w	[a2]4,d8
+.L355:
+	movh.a	a15,#@his(next_timeout)
+.L205:
+	lea	a15,[a15]@los(next_timeout)
+	ld.w	d15,[a15]
+.L356:
+	jne	d15,#0,.L12
+.L357:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+.L358:
+	st.a	[a15],a2
+.L359:
+	j	.L13
+.L12:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+	ld.w	d15,[a15]4
+	sub	d0,d8,d15
+	mov.u	d1,#65535
+	addih	d1,d1,#32767
+	jge.u	d1,d0,.L14
+	mov	d15,#1
+	j	.L15
+.L14:
+	mov	d15,#0
+.L15:
+	jeq	d15,#0,.L16
+.L360:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+.L361:
+	st.a	[a2],a15
+.L362:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+.L363:
+	st.a	[a15],a2
+.L364:
+	j	.L17
+.L16:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a4,[a15]
+.L206:
+	j	.L18
+.L19:
+	ld.w	d15,[a4]
+.L365:
+	jeq	d15,#0,.L20
+.L366:
+	ld.a	a15,[a4]
+	ld.w	d15,[a15]4
+	sub	d15,d8,d15
+	mov.u	d0,#65535
+	addih	d0,d0,#32767
+	jge.u	d0,d15,.L21
+	mov	d15,#1
+	j	.L22
+.L21:
+	mov	d15,#0
+.L22:
+	jeq	d15,#0,.L23
+.L20:
+	ld.a	a15,[a4]
+.L367:
+	st.a	[a2],a15
+.L368:
+	st.a	[a4],a2
+.L369:
+	j	.L24
+.L23:
+	ld.a	a4,[a4]
+.L18:
+	jnz.a	a4,.L19
+.L24:
+.L17:
+.L13:
+.L11:
+	ret
+.L182:
+	
+__sys_timeout_abs_function_end:
+	.size	sys_timeout_abs,__sys_timeout_abs_function_end-sys_timeout_abs
+.L134:
+	; End of function
+	
+	.sdecl	'.text.timeouts.lwip_cyclic_timer',code,cluster('lwip_cyclic_timer')
+	.sect	'.text.timeouts.lwip_cyclic_timer'
+	.align	2
+	
+; Function lwip_cyclic_timer
+.L73:
+lwip_cyclic_timer:	.type	func
+	mov.aa	a15,a4
+.L208:
+	ld.a	a2,[a15]4
+.L374:
+	calli	a2
+.L207:
+	call	sys_now
+.L375:
+	movh.a	a2,#@his(current_timeout_due_time)
+	lea	a2,[a2]@los(current_timeout_due_time)
+	ld.w	d4,[a2]
+.L376:
+	ld.w	d15,[a15]
+.L209:
+	add	d4,d15
+.L211:
+	sub	d15,d4,d2
+.L212:
+	mov.u	d0,#65535
+	addih	d0,d0,#32767
+	jge.u	d0,d15,.L25
+	mov	d15,#1
+	j	.L26
+.L25:
+	mov	d15,#0
+.L26:
+	jeq	d15,#0,.L27
+.L377:
+	ld.w	d4,[a15]
+.L210:
+	add	d4,d2
+.L213:
+	movh.a	a4,#@his(lwip_cyclic_timer)
+	lea	a4,[a4]@los(lwip_cyclic_timer)
+.L378:
+	mov.aa	a5,a15
+.L214:
+	call	sys_timeout_abs
+.L215:
+	j	.L28
+.L27:
+	movh.a	a4,#@his(lwip_cyclic_timer)
+	lea	a4,[a4]@los(lwip_cyclic_timer)
+.L379:
+	mov.aa	a5,a15
+.L216:
+	call	sys_timeout_abs
+.L28:
+	ret
+.L188:
+	
+__lwip_cyclic_timer_function_end:
+	.size	lwip_cyclic_timer,__lwip_cyclic_timer_function_end-lwip_cyclic_timer
+.L139:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_timeouts_init',code,cluster('sys_timeouts_init')
+	.sect	'.text.timeouts.sys_timeouts_init'
+	.align	2
+	
+	.global	sys_timeouts_init
+; Function sys_timeouts_init
+.L75:
+sys_timeouts_init:	.type	func
+	mov	d8,#1
+.L217:
+	j	.L29
+.L30:
+	mul	d15,d8,#8
+.L262:
+	movh.a	a15,#@his(lwip_cyclic_timers)
+	lea	a15,[a15]@los(lwip_cyclic_timers)
+.L263:
+	addsc.a	a15,a15,d15,#0
+.L264:
+	ld.w	d4,[a15]
+.L265:
+	movh.a	a4,#@his(lwip_cyclic_timer)
+	lea	a4,[a4]@los(lwip_cyclic_timer)
+.L266:
+	mul	d15,d8,#8
+	movh.a	a15,#@his(lwip_cyclic_timers)
+	lea	a15,[a15]@los(lwip_cyclic_timers)
+	addsc.a	a15,a15,d15,#0
+	mov.d	d15,a15
+	mov.a	a5,d15
+	call	sys_timeout
+.L267:
+	add	d8,#1
+.L29:
+	jlt.u	d8,#3,.L30
+.L268:
+	ret
+.L150:
+	
+__sys_timeouts_init_function_end:
+	.size	sys_timeouts_init,__sys_timeouts_init_function_end-sys_timeouts_init
+.L94:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_timeout',code,cluster('sys_timeout')
+	.sect	'.text.timeouts.sys_timeout'
+	.align	2
+	
+	.global	sys_timeout
+; Function sys_timeout
+.L77:
+sys_timeout:	.type	func
+	sub.a	a10,#16
+.L218:
+	mov	d8,d4
+.L220:
+	mov.aa	a12,a4
+.L221:
+	mov.aa	a13,a5
+.L31:
+	mov.u	d15,#65535
+	addih	d15,d15,#16383
+	jge.u	d15,d8,.L32
+	movh.a	a15,#@his(.4.str)
+	lea	a15,[a15]@los(.4.str)
+	st.a	[a10],a15
+	mov	d15,#297
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L219:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L32:
+	call	sys_now
+.L273:
+	add	d4,d8,d2
+.L222:
+	mov.aa	a4,a12
+.L224:
+	mov.aa	a5,a13
+.L225:
+	call	sys_timeout_abs
+.L223:
+	ret
+.L153:
+	
+__sys_timeout_function_end:
+	.size	sys_timeout,__sys_timeout_function_end-sys_timeout
+.L99:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_untimeout',code,cluster('sys_untimeout')
+	.sect	'.text.timeouts.sys_untimeout'
+	.align	2
+	
+	.global	sys_untimeout
+; Function sys_untimeout
+.L79:
+sys_untimeout:	.type	func
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.w	d15,[a15]
+.L278:
+	jne	d15,#0,.L33
+.L279:
+	j	.L34
+.L33:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+.L228:
+	mov.a	a2,#0
+.L229:
+	j	.L35
+.L36:
+	ld.a	a6,[a15]8
+.L280:
+	jne.a	a6,a4,.L37
+.L281:
+	ld.a	a6,[a15]12
+.L282:
+	jne.a	a6,a5,.L38
+.L283:
+	jnz.a	a2,.L39
+.L284:
+	movh.a	a2,#@his(next_timeout)
+.L230:
+	lea	a2,[a2]@los(next_timeout)
+.L285:
+	ld.a	a4,[a15]
+.L227:
+	st.a	[a2],a4
+.L286:
+	j	.L40
+.L39:
+	ld.a	a4,[a15]
+.L231:
+	st.a	[a2],a4
+.L40:
+	mov	d4,#6
+.L287:
+	mov.aa	a4,a15
+.L232:
+	call	memp_free
+.L226:
+	j	.L41
+.L38:
+.L37:
+	mov.aa	a2,a15
+.L288:
+	ld.a	a15,[a15]
+.L35:
+	jnz.a	a15,.L36
+.L289:
+	j	.L42
+.L42:
+.L41:
+.L34:
+	ret
+.L161:
+	
+__sys_untimeout_function_end:
+	.size	sys_untimeout,__sys_untimeout_function_end-sys_untimeout
+.L104:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_check_timeouts',code,cluster('sys_check_timeouts')
+	.sect	'.text.timeouts.sys_check_timeouts'
+	.align	2
+	
+	.global	sys_check_timeouts
+; Function sys_check_timeouts
+.L81:
+sys_check_timeouts:	.type	func
+	call	sys_now
+.L233:
+	mov	d8,d2
+.L43:
+.L44:
+	movh.a	a15,#@his(pbuf_free_ooseq_pending)
+	lea	a15,[a15]@los(pbuf_free_ooseq_pending)
+	ld.bu	d15,[a15]
+	jeq	d15,#0,.L45
+	call	pbuf_free_ooseq
+.L45:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a4,[a15]
+.L234:
+	jnz.a	a4,.L46
+.L305:
+	j	.L47
+.L46:
+	ld.w	d15,[a4]4
+	sub	d15,d8,d15
+	mov.u	d0,#65535
+	addih	d0,d0,#32767
+	jge.u	d0,d15,.L48
+	mov	d15,#1
+	j	.L49
+.L48:
+	mov	d15,#0
+.L49:
+	jeq	d15,#0,.L50
+.L306:
+	j	.L51
+.L50:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+.L307:
+	ld.a	a2,[a4]
+.L308:
+	st.a	[a15],a2
+.L309:
+	ld.a	a15,[a4]8
+.L236:
+	ld.a	a12,[a4]12
+.L237:
+	movh.a	a2,#@his(current_timeout_due_time)
+	lea	a2,[a2]@los(current_timeout_due_time)
+.L310:
+	ld.w	d15,[a4]4
+.L311:
+	st.w	[a2],d15
+.L312:
+	mov	d4,#6
+.L313:
+	call	memp_free
+.L235:
+	jz.a	a15,.L52
+.L314:
+	mov.aa	a4,a12
+.L238:
+	calli	a15
+.L52:
+	j	.L43
+.L51:
+.L47:
+	ret
+.L171:
+	
+__sys_check_timeouts_function_end:
+	.size	sys_check_timeouts,__sys_check_timeouts_function_end-sys_check_timeouts
+.L114:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_restart_timeouts',code,cluster('sys_restart_timeouts')
+	.sect	'.text.timeouts.sys_restart_timeouts'
+	.align	2
+	
+	.global	sys_restart_timeouts
+; Function sys_restart_timeouts
+.L83:
+sys_restart_timeouts:	.type	func
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.w	d15,[a15]
+.L294:
+	jne	d15,#0,.L53
+.L295:
+	j	.L54
+.L53:
+	call	sys_now
+.L239:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+.L296:
+	ld.w	d1,[a15]4
+.L240:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+.L241:
+	j	.L55
+.L56:
+	ld.w	d15,[a15]4
+.L297:
+	sub	d0,d15,d1
+.L298:
+	add	d0,d2
+.L299:
+	st.w	[a15]4,d0
+.L300:
+	ld.a	a15,[a15]
+.L55:
+	jnz.a	a15,.L56
+.L54:
+	ret
+.L167:
+	
+__sys_restart_timeouts_function_end:
+	.size	sys_restart_timeouts,__sys_restart_timeouts_function_end-sys_restart_timeouts
+.L109:
+	; End of function
+	
+	.sdecl	'.text.timeouts.sys_timeouts_sleeptime',code,cluster('sys_timeouts_sleeptime')
+	.sect	'.text.timeouts.sys_timeouts_sleeptime'
+	.align	2
+	
+	.global	sys_timeouts_sleeptime
+; Function sys_timeouts_sleeptime
+.L85:
+sys_timeouts_sleeptime:	.type	func
+	sub.a	a10,#16
+.L242:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.w	d15,[a15]
+.L319:
+	jne	d15,#0,.L57
+.L320:
+	mov	d2,#-1
+.L321:
+	j	.L58
+.L57:
+	call	sys_now
+.L243:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+	ld.w	d15,[a15]4
+	sub	d15,d2
+	mov.u	d0,#65535
+	addih	d0,d0,#32767
+	jge.u	d0,d15,.L59
+	mov	d15,#1
+	j	.L60
+.L59:
+	mov	d15,#0
+.L60:
+	jeq	d15,#0,.L61
+.L322:
+	mov	d2,#0
+.L244:
+	j	.L62
+.L61:
+	movh.a	a15,#@his(next_timeout)
+	lea	a15,[a15]@los(next_timeout)
+	ld.a	a15,[a15]
+.L323:
+	ld.w	d15,[a15]4
+.L324:
+	sub	d8,d15,d2
+.L63:
+	mov.u	d15,#65535
+	addih	d15,d15,#32767
+	jge.u	d15,d8,.L64
+	movh.a	a15,#@his(.5.str)
+	lea	a15,[a15]@los(.5.str)
+	st.a	[a10],a15
+	mov	d15,#440
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L64:
+	mov	d2,d8
+.L245:
+	j	.L65
+.L65:
+.L62:
+.L58:
+	ret
+.L176:
+	
+__sys_timeouts_sleeptime_function_end:
+	.size	sys_timeouts_sleeptime,__sys_timeouts_sleeptime_function_end-sys_timeouts_sleeptime
+.L119:
+	; End of function
+	
+	.sdecl	'.rodata.timeouts.lwip_cyclic_timers',data,rom,cluster('lwip_cyclic_timers')
+	.sect	'.rodata.timeouts.lwip_cyclic_timers'
+	.global	lwip_cyclic_timers
+	.align	4
+lwip_cyclic_timers:	.type	object
+	.size	lwip_cyclic_timers,24
+	.word	250,tcp_tmr,1000,ip_reass_tmr
+	.word	1000,etharp_tmr
+	.sdecl	'.rodata.timeouts.lwip_num_cyclic_timers',data,rom,cluster('lwip_num_cyclic_timers')
+	.sect	'.rodata.timeouts.lwip_num_cyclic_timers'
+	.global	lwip_num_cyclic_timers
+	.align	2
+lwip_num_cyclic_timers:	.type	object
+	.size	lwip_num_cyclic_timers,4
+	.word	3
+	.sdecl	'.bss.timeouts.next_timeout',data,cluster('next_timeout')
+	.sect	'.bss.timeouts.next_timeout'
+	.align	4
+next_timeout:	.type	object
+	.size	next_timeout,4
+	.space	4
+	.sdecl	'.bss.timeouts.current_timeout_due_time',data,cluster('current_timeout_due_time')
+	.sect	'.bss.timeouts.current_timeout_due_time'
+	.align	2
+current_timeout_due_time:	.type	object
+	.size	current_timeout_due_time,4
+	.space	4
+	.sdecl	'.bss.timeouts.tcpip_tcp_timer_active',data,cluster('tcpip_tcp_timer_active')
+	.sect	'.bss.timeouts.tcpip_tcp_timer_active'
+	.align	2
+tcpip_tcp_timer_active:	.type	object
+	.size	tcpip_tcp_timer_active,4
+	.space	4
+	.sdecl	'.rodata.timeouts..1.str',data,rom
+	.sect	'.rodata.timeouts..1.str'
+.1.str:	.type	object
+	.size	.1.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.timeouts..2.str',data,rom
+	.sect	'.rodata.timeouts..2.str'
+.2.str:	.type	object
+	.size	.2.str,61
+	.byte	115,121,115,95,116,105,109,101
+	.byte	111,117,116,58,32,116,105,109
+	.byte	101,111,117,116,32,33,61,32
+	.byte	78,85,76,76,44,32,112,111
+	.byte	111,108,32,77,69,77,80,95
+	.byte	83,89,83,95,84,73,77,69
+	.byte	79,85,84,32,105,115,32,101
+	.byte	109,112,116,121
+	.space	1
+	.sdecl	'.rodata.timeouts..3.str',data,rom
+	.sect	'.rodata.timeouts..3.str'
+.3.str:	.type	object
+	.size	.3.str,47
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,99
+	.byte	111,114,101,47,116,105,109,101
+	.byte	111,117,116,115
+	.byte	46,99
+	.space	1
+	.sdecl	'.rodata.timeouts..4.str',data,rom
+	.sect	'.rodata.timeouts..4.str'
+.4.str:	.type	object
+	.size	.4.str,54
+	.byte	84,105,109,101,111,117,116,32
+	.byte	116,105,109,101,32,116,111,111
+	.byte	32,108,111,110,103,44,32,109
+	.byte	97,120,32,105,115,32,76,87
+	.byte	73,80,95,85,73,78,84,51
+	.byte	50,95,77,65,88,47,52,32
+	.byte	109,115,101,99
+	.byte	115
+	.space	1
+	.sdecl	'.rodata.timeouts..5.str',data,rom
+	.sect	'.rodata.timeouts..5.str'
+.5.str:	.type	object
+	.size	.5.str,18
+	.byte	105,110,118,97,108,105,100,32
+	.byte	115,108,101,101,112,116,105,109
+	.byte	101
+	.space	1
+	.calls	'__INDIRECT__','tcp_tmr'
+	.calls	'__INDIRECT__','ip_reass_tmr'
+	.calls	'__INDIRECT__','etharp_tmr'
+	.calls	'__INDIRECT__','tcpip_tcp_timer'
+	.calls	'__INDIRECT__','lwip_cyclic_timer'
+	.calls	'tcpip_tcp_timer','tcp_tmr'
+	.calls	'tcpip_tcp_timer','sys_timeout'
+	.calls	'tcp_timer_needed','sys_timeout'
+	.calls	'sys_timeout_abs','memp_malloc'
+	.calls	'sys_timeout_abs','Ifx_Lwip_printf'
+	.calls	'lwip_cyclic_timer','__INDIRECT__'
+	.calls	'lwip_cyclic_timer','sys_now'
+	.calls	'lwip_cyclic_timer','sys_timeout_abs'
+	.calls	'sys_timeouts_init','sys_timeout'
+	.calls	'sys_timeout','Ifx_Lwip_printf'
+	.calls	'sys_timeout','sys_now'
+	.calls	'sys_timeout','sys_timeout_abs'
+	.calls	'sys_untimeout','memp_free'
+	.calls	'sys_check_timeouts','sys_now'
+	.calls	'sys_check_timeouts','pbuf_free_ooseq'
+	.calls	'sys_check_timeouts','memp_free'
+	.calls	'sys_check_timeouts','__INDIRECT__'
+	.calls	'sys_restart_timeouts','sys_now'
+	.calls	'sys_timeouts_sleeptime','sys_now'
+	.calls	'sys_timeouts_sleeptime','Ifx_Lwip_printf'
+	.calls	'tcpip_tcp_timer','',0
+	.calls	'tcp_timer_needed','',0
+	.calls	'sys_timeout_abs','',16
+	.calls	'lwip_cyclic_timer','',0
+	.calls	'sys_timeouts_init','',0
+	.calls	'sys_timeout','',16
+	.calls	'sys_untimeout','',0
+	.calls	'sys_check_timeouts','',0
+	.calls	'sys_restart_timeouts','',0
+	.extern	Ifx_Lwip_printf
+	.extern	pbuf_free_ooseq_pending
+	.extern	pbuf_free_ooseq
+	.extern	memp_malloc
+	.extern	memp_free
+	.extern	tcp_tmr
+	.extern	tcp_active_pcbs
+	.extern	tcp_tw_pcbs
+	.extern	ip_reass_tmr
+	.extern	etharp_tmr
+	.extern	sys_now
+	.extern	__INDIRECT__
+	.calls	'sys_timeouts_sleeptime','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L87:
+	.word	5000
+	.half	3
+	.word	.L88
+	.byte	4
+.L86:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L89
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	232
+	.byte	4
+	.word	240
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	224
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	245
+	.byte	7,1,123,37,0
+.L151:
+	.byte	2
+	.byte	'unsigned int',0,4,7
+.L154:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,8
+	.byte	'void',0
+.L158:
+	.byte	4
+	.word	330
+	.byte	9,1,1,10
+	.word	336
+	.byte	0,4
+	.word	341
+	.byte	4
+	.word	341
+.L156:
+	.byte	11
+	.byte	'sys_timeout_handler',0,2,91,17
+	.word	355
+	.byte	12
+	.byte	'sys_timeo',0,2,93,8,16,13
+	.byte	'next',0
+	.word	.L164-.L87
+	.byte	4,2,35,0,13
+	.byte	'time',0
+	.word	309
+	.byte	4,2,35,4,13
+	.byte	'h',0
+	.word	360
+	.byte	4,2,35,8,13
+	.byte	'arg',0
+	.word	336
+	.byte	4,2,35,12,0
+.L164:
+	.byte	4
+	.word	388
+	.byte	14
+	.byte	'pbuf_free_ooseq',0,3,131,2,6,1,1,1,1,15,4,52,9,1,16
+	.byte	'MEMP_UDP_PCB',0,0,16
+	.byte	'MEMP_TCP_PCB',0,1,16
+	.byte	'MEMP_TCP_PCB_LISTEN',0,2,16
+	.byte	'MEMP_TCP_SEG',0,3,16
+	.byte	'MEMP_REASSDATA',0,4,16
+	.byte	'MEMP_FRAG_PBUF',0,5,16
+	.byte	'MEMP_SYS_TIMEOUT',0,6,16
+	.byte	'MEMP_PBUF',0,7,16
+	.byte	'MEMP_PBUF_POOL',0,8,16
+	.byte	'MEMP_MAX',0,9,0,5
+	.byte	'memp_malloc',0,4,147,1,7
+	.word	336
+	.byte	1,1,1,1,6
+	.byte	'type',0,4,147,1,26
+	.word	486
+	.byte	0,17
+	.byte	'memp_free',0,4,149,1,7,1,1,1,1,6
+	.byte	'type',0,4,149,1,24
+	.word	486
+	.byte	6
+	.byte	'mem',0,4,149,1,36
+	.word	336
+	.byte	0,14
+	.byte	'tcp_tmr',0,5,62,18,1,1,1,1,14
+	.byte	'ip_reass_tmr',0,6,71,6,1,1,1,1,14
+	.byte	'etharp_tmr',0,7,77,6,1,1,1,1,18
+	.byte	'sys_now',0,8,190,3,7
+	.word	309
+	.byte	1,1,1,1,19,1,1,4
+	.word	816
+	.byte	11
+	.byte	'lwip_cyclic_timer_handler',0,2,66,17
+	.word	819
+	.byte	12
+	.byte	'lwip_cyclic_timer',0,2,70,8,8,13
+	.byte	'interval_ms',0
+	.word	309
+	.byte	4,2,35,0,13
+	.byte	'handler',0
+	.word	824
+	.byte	4,2,35,4,0,3
+	.word	858
+.L192:
+	.byte	4
+	.word	920
+	.byte	4
+	.word	816
+	.byte	20
+	.byte	'__INDIRECT__',0,9,1,1,1,1,1,2
+	.byte	'short int',0,2,5,11
+	.byte	'__wchar_t',0,9,1,1
+	.word	955
+	.byte	11
+	.byte	'__size_t',0,9,1,1
+	.word	293
+.L196:
+	.byte	2
+	.byte	'int',0,4,5,11
+	.byte	'__ptrdiff_t',0,9,1,1
+	.word	1003
+	.byte	21,1,4
+	.word	1030
+	.byte	11
+	.byte	'__codeptr',0,9,1,1
+	.word	1032
+	.byte	11
+	.byte	'__intptr_t',0,9,1,1
+	.word	1003
+	.byte	11
+	.byte	'__uintptr_t',0,9,1,1
+	.word	293
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'uint8',0,10,108,29
+	.word	1094
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,10,112,29
+	.word	1125
+	.byte	11
+	.byte	'uint32',0,10,116,29
+	.word	309
+	.byte	11
+	.byte	'sint8',0,10,125,29
+	.word	224
+	.byte	11
+	.byte	'sint16',0,10,129,1,29
+	.word	955
+	.byte	2
+	.byte	'long int',0,4,5,11
+	.byte	'sint32',0,10,134,1,29
+	.word	1207
+	.byte	2
+	.byte	'long long int',0,8,5,11
+	.byte	'sint64',0,10,141,1,29
+	.word	1235
+	.byte	2
+	.byte	'float',0,4,4,11
+	.byte	'float32',0,10,170,1,29
+	.word	1268
+	.byte	11
+	.byte	'pvoid',0,11,54,28
+	.word	336
+	.byte	11
+	.byte	'Ifx_TickTime',0,11,76,28
+	.word	1235
+	.byte	11
+	.byte	'u8_t',0,1,85,16
+	.word	1094
+	.byte	11
+	.byte	'u16_t',0,1,86,16
+	.word	1125
+	.byte	11
+	.byte	'u32_t',0,1,87,16
+	.word	309
+	.byte	11
+	.byte	's8_t',0,1,88,16
+	.word	224
+	.byte	11
+	.byte	's16_t',0,1,89,16
+	.word	955
+	.byte	11
+	.byte	'intmax_t',0,12,198,2,41
+	.word	1235
+	.byte	11
+	.byte	'err_t',0,13,96,14
+	.word	224
+	.byte	22,24
+	.word	858
+	.byte	23,2,0
+.L194:
+	.byte	3
+	.word	1429
+.L195:
+	.byte	3
+	.word	1003
+	.byte	11
+	.byte	'tcpwnd_size_t',0,14,53,15
+	.word	1125
+	.byte	11
+	.byte	'mem_size_t',0,15,67,15
+	.word	1125
+	.byte	12
+	.byte	'pbuf',0,3,186,1,8,16,13
+	.byte	'next',0
+	.word	.L246-.L87
+	.byte	4,2,35,0,13
+	.byte	'payload',0
+	.word	336
+	.byte	4,2,35,4,13
+	.byte	'tot_len',0
+	.word	1125
+	.byte	2,2,35,8,13
+	.byte	'len',0
+	.word	1125
+	.byte	2,2,35,10,13
+	.byte	'type_internal',0
+	.word	1094
+	.byte	1,2,35,12,13
+	.byte	'flags',0
+	.word	1094
+	.byte	1,2,35,13,13
+	.byte	'ref',0
+	.word	1094
+	.byte	1,2,35,14,13
+	.byte	'if_idx',0
+	.word	1094
+	.byte	1,2,35,15,0
+.L246:
+	.byte	4
+	.word	1489
+	.byte	9,1,1,10
+	.word	1629
+	.byte	0,4
+	.word	1634
+	.byte	11
+	.byte	'pbuf_free_custom_fn',0,3,242,1,16
+	.word	1643
+	.byte	24
+	.word	1094
+	.byte	25
+	.byte	'pbuf_free_ooseq_pending',0,3,130,2,22
+	.word	1677
+	.byte	1,1,12
+	.byte	'ip4_addr',0,16,51,8,4,13
+	.byte	'addr',0
+	.word	309
+	.byte	4,2,35,0,0,11
+	.byte	'ip4_addr_t',0,16,57,25
+	.word	1717
+	.byte	11
+	.byte	'ip_addr_t',0,17,142,2,20
+	.word	1717
+	.byte	11
+	.byte	'memp_t',0,4,56,3
+	.word	486
+	.byte	3
+	.word	1717
+	.byte	4
+	.word	1799
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	.L247-.L87
+	.byte	10
+	.word	1629
+	.byte	10
+	.word	1804
+	.byte	0,4
+	.word	1809
+	.byte	11
+	.byte	'netif_output_fn',0,18,189,1,17
+	.word	1832
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	.L247-.L87
+	.byte	10
+	.word	1629
+	.byte	0,4
+	.word	1862
+	.byte	11
+	.byte	'netif_linkoutput_fn',0,18,212,1,17
+	.word	1880
+	.byte	22,6
+	.word	1094
+	.byte	23,5,0,22,2
+	.word	232
+	.byte	23,1,0,12
+	.byte	'netif',0,18,132,2,8,48,13
+	.byte	'next',0
+	.word	.L247-.L87
+	.byte	4,2,35,0,13
+	.byte	'ip_addr',0
+	.word	1717
+	.byte	4,2,35,4,13
+	.byte	'netmask',0
+	.word	1717
+	.byte	4,2,35,8,13
+	.byte	'gw',0
+	.word	1717
+	.byte	4,2,35,12,13
+	.byte	'input',0
+	.word	.L248-.L87
+	.byte	4,2,35,16,13
+	.byte	'output',0
+	.word	1837
+	.byte	4,2,35,20,13
+	.byte	'linkoutput',0
+	.word	1885
+	.byte	4,2,35,24,13
+	.byte	'state',0
+	.word	336
+	.byte	4,2,35,28,13
+	.byte	'mtu',0
+	.word	1125
+	.byte	2,2,35,32,13
+	.byte	'hwaddr',0
+	.word	1914
+	.byte	6,2,35,34,13
+	.byte	'hwaddr_len',0
+	.word	1094
+	.byte	1,2,35,40,13
+	.byte	'flags',0
+	.word	1094
+	.byte	1,2,35,41,13
+	.byte	'name',0
+	.word	1923
+	.byte	2,2,35,42,13
+	.byte	'num',0
+	.word	1094
+	.byte	1,2,35,44,13
+	.byte	'rs_count',0
+	.word	1094
+	.byte	1,2,35,45,0
+.L247:
+	.byte	4
+	.word	1932
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	1629
+	.byte	10
+	.word	2180
+	.byte	0,4
+	.word	2185
+.L248:
+	.byte	11
+	.byte	'netif_input_fn',0,18,178,1,17
+	.word	2203
+	.byte	4
+	.word	2185
+	.byte	4
+	.word	1809
+	.byte	4
+	.word	1862
+	.byte	12
+	.byte	'link_changed_s',0,18,213,4,10,1,13
+	.byte	'state',0
+	.word	1094
+	.byte	1,2,35,0,0,12
+	.byte	'status_changed_s',0,18,219,4,10,1,13
+	.byte	'state',0
+	.word	1094
+	.byte	1,2,35,0,0,3
+	.word	1717
+	.byte	4
+	.word	2323
+	.byte	12
+	.byte	'ipv4_changed_s',0,18,225,4,10,12,13
+	.byte	'old_address',0
+	.word	2328
+	.byte	4,2,35,0,13
+	.byte	'old_netmask',0
+	.word	2328
+	.byte	4,2,35,4,13
+	.byte	'old_gw',0
+	.word	2328
+	.byte	4,2,35,8,0,12
+	.byte	'ipv6_set_s',0,18,233,4,10,8,13
+	.byte	'addr_index',0
+	.word	224
+	.byte	1,2,35,0,13
+	.byte	'old_address',0
+	.word	2328
+	.byte	4,2,35,4,0,12
+	.byte	'ipv6_addr_state_changed_s',0,18,241,4,10,8,13
+	.byte	'addr_index',0
+	.word	224
+	.byte	1,2,35,0,13
+	.byte	'old_state',0
+	.word	1094
+	.byte	1,2,35,1,13
+	.byte	'address',0
+	.word	2328
+	.byte	4,2,35,4,0,27,18,210,4,9,12,13
+	.byte	'link_changed',0
+	.word	2247
+	.byte	1,2,35,0,13
+	.byte	'status_changed',0
+	.word	2284
+	.byte	1,2,35,0,13
+	.byte	'ipv4_changed',0
+	.word	2333
+	.byte	12,2,35,0,13
+	.byte	'ipv6_set',0
+	.word	2413
+	.byte	8,2,35,0,13
+	.byte	'ipv6_addr_state_changed',0
+	.word	2472
+	.byte	8,2,35,0,0,3
+	.word	2561
+	.byte	4
+	.word	2687
+	.byte	9,1,1,10
+	.word	2180
+	.byte	10
+	.word	1125
+	.byte	10
+	.word	2692
+	.byte	0,4
+	.word	2697
+	.byte	11
+	.byte	'netif_ext_callback_fn',0,18,132,5,16
+	.word	2716
+	.byte	12
+	.byte	'ip4_addr_packed',0,19,53,8,4,13
+	.byte	'addr',0
+	.word	309
+	.byte	4,2,35,0,0,11
+	.byte	'ip4_addr_p_t',0,19,61,32
+	.word	2752
+	.byte	28
+	.byte	'tcp_state',0,14,56,6,1,16
+	.byte	'CLOSED',0,0,16
+	.byte	'LISTEN',0,1,16
+	.byte	'SYN_SENT',0,2,16
+	.byte	'SYN_RCVD',0,3,16
+	.byte	'ESTABLISHED',0,4,16
+	.byte	'FIN_WAIT_1',0,5,16
+	.byte	'FIN_WAIT_2',0,6,16
+	.byte	'CLOSE_WAIT',0,7,16
+	.byte	'CLOSING',0,8,16
+	.byte	'LAST_ACK',0,9,16
+	.byte	'TIME_WAIT',0,10,0,12
+	.byte	'tcp_hdr',0,21,56,8,20,13
+	.byte	'src',0
+	.word	1125
+	.byte	2,2,35,0,13
+	.byte	'dest',0
+	.word	1125
+	.byte	2,2,35,2,13
+	.byte	'seqno',0
+	.word	309
+	.byte	4,2,35,4,13
+	.byte	'ackno',0
+	.word	309
+	.byte	4,2,35,8,13
+	.byte	'_hdrlen_rsvd_flags',0
+	.word	1125
+	.byte	2,2,35,12,13
+	.byte	'wnd',0
+	.word	1125
+	.byte	2,2,35,14,13
+	.byte	'chksum',0
+	.word	1125
+	.byte	2,2,35,16,13
+	.byte	'urgp',0
+	.word	1125
+	.byte	2,2,35,18,0,4
+	.word	2951
+	.byte	12
+	.byte	'tcp_seg',0,5,253,1,8,20,13
+	.byte	'next',0
+	.word	.L249-.L87
+	.byte	4,2,35,0,13
+	.byte	'p',0
+	.word	1629
+	.byte	4,2,35,4,13
+	.byte	'len',0
+	.word	1125
+	.byte	2,2,35,8,13
+	.byte	'oversize_left',0
+	.word	1125
+	.byte	2,2,35,10,13
+	.byte	'flags',0
+	.word	1094
+	.byte	1,2,35,12,13
+	.byte	'tcphdr',0
+	.word	3093
+	.byte	4,2,35,16,0
+.L249:
+	.byte	4
+	.word	3098
+	.byte	12
+	.byte	'tcp_pcb_listen',0,20,223,1,8,28,13
+	.byte	'local_ip',0
+	.word	1717
+	.byte	4,2,35,0,13
+	.byte	'remote_ip',0
+	.word	1717
+	.byte	4,2,35,4,13
+	.byte	'netif_idx',0
+	.word	1094
+	.byte	1,2,35,8,13
+	.byte	'so_options',0
+	.word	1094
+	.byte	1,2,35,9,13
+	.byte	'tos',0
+	.word	1094
+	.byte	1,2,35,10,13
+	.byte	'ttl',0
+	.word	1094
+	.byte	1,2,35,11,13
+	.byte	'next',0
+	.word	.L250-.L87
+	.byte	4,2,35,12,13
+	.byte	'callback_arg',0
+	.word	336
+	.byte	4,2,35,16,13
+	.byte	'state',0
+	.word	2809
+	.byte	1,2,35,20,13
+	.byte	'prio',0
+	.word	1094
+	.byte	1,2,35,21,13
+	.byte	'local_port',0
+	.word	1125
+	.byte	2,2,35,22,13
+	.byte	'accept',0
+	.word	.L251-.L87
+	.byte	4,2,35,24,0
+.L250:
+	.byte	4
+	.word	3210
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	336
+	.byte	10
+	.word	.L252-.L87
+	.byte	10
+	.word	1125
+	.byte	0,4
+	.word	3440
+	.byte	11
+	.byte	'tcp_sent_fn',0,20,96,17
+	.word	3463
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	336
+	.byte	10
+	.word	.L252-.L87
+	.byte	10
+	.word	1629
+	.byte	10
+	.word	224
+	.byte	0,4
+	.word	3488
+	.byte	11
+	.byte	'tcp_recv_fn',0,20,82,17
+	.word	3516
+	.byte	11
+	.byte	'tcp_connected_fn',0,20,134,1,17
+	.word	.L253-.L87
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	336
+	.byte	10
+	.word	.L252-.L87
+	.byte	0,4
+	.word	3567
+	.byte	11
+	.byte	'tcp_poll_fn',0,20,108,17
+	.word	3585
+	.byte	9,1,1,10
+	.word	336
+	.byte	10
+	.word	224
+	.byte	0,4
+	.word	3610
+	.byte	11
+	.byte	'tcp_err_fn',0,20,120,17
+	.word	3624
+	.byte	12
+	.byte	'tcp_pcb',0,20,242,1,8,156,1,13
+	.byte	'local_ip',0
+	.word	1717
+	.byte	4,2,35,0,13
+	.byte	'remote_ip',0
+	.word	1717
+	.byte	4,2,35,4,13
+	.byte	'netif_idx',0
+	.word	1094
+	.byte	1,2,35,8,13
+	.byte	'so_options',0
+	.word	1094
+	.byte	1,2,35,9,13
+	.byte	'tos',0
+	.word	1094
+	.byte	1,2,35,10,13
+	.byte	'ttl',0
+	.word	1094
+	.byte	1,2,35,11,13
+	.byte	'next',0
+	.word	.L252-.L87
+	.byte	4,2,35,12,13
+	.byte	'callback_arg',0
+	.word	336
+	.byte	4,2,35,16,13
+	.byte	'state',0
+	.word	2809
+	.byte	1,2,35,20,13
+	.byte	'prio',0
+	.word	1094
+	.byte	1,2,35,21,13
+	.byte	'local_port',0
+	.word	1125
+	.byte	2,2,35,22,13
+	.byte	'remote_port',0
+	.word	1125
+	.byte	2,2,35,24,13
+	.byte	'flags',0
+	.word	1125
+	.byte	2,2,35,26,13
+	.byte	'polltmr',0
+	.word	1094
+	.byte	1,2,35,28,13
+	.byte	'pollinterval',0
+	.word	1094
+	.byte	1,2,35,29,13
+	.byte	'last_timer',0
+	.word	1094
+	.byte	1,2,35,30,13
+	.byte	'tmr',0
+	.word	309
+	.byte	4,2,35,32,13
+	.byte	'rcv_nxt',0
+	.word	309
+	.byte	4,2,35,36,13
+	.byte	'rcv_wnd',0
+	.word	1125
+	.byte	2,2,35,40,13
+	.byte	'rcv_ann_wnd',0
+	.word	1125
+	.byte	2,2,35,42,13
+	.byte	'rcv_ann_right_edge',0
+	.word	309
+	.byte	4,2,35,44,13
+	.byte	'rtime',0
+	.word	955
+	.byte	2,2,35,48,13
+	.byte	'mss',0
+	.word	1125
+	.byte	2,2,35,50,13
+	.byte	'rttest',0
+	.word	309
+	.byte	4,2,35,52,13
+	.byte	'rtseq',0
+	.word	309
+	.byte	4,2,35,56,13
+	.byte	'sa',0
+	.word	955
+	.byte	2,2,35,60,13
+	.byte	'sv',0
+	.word	955
+	.byte	2,2,35,62,13
+	.byte	'rto',0
+	.word	955
+	.byte	2,2,35,64,13
+	.byte	'nrtx',0
+	.word	1094
+	.byte	1,2,35,66,13
+	.byte	'dupacks',0
+	.word	1094
+	.byte	1,2,35,67,13
+	.byte	'lastack',0
+	.word	309
+	.byte	4,2,35,68,13
+	.byte	'cwnd',0
+	.word	1125
+	.byte	2,2,35,72,13
+	.byte	'ssthresh',0
+	.word	1125
+	.byte	2,2,35,74,13
+	.byte	'rto_end',0
+	.word	309
+	.byte	4,2,35,76,13
+	.byte	'snd_nxt',0
+	.word	309
+	.byte	4,2,35,80,13
+	.byte	'snd_wl1',0
+	.word	309
+	.byte	4,2,35,84,13
+	.byte	'snd_wl2',0
+	.word	309
+	.byte	4,2,35,88,13
+	.byte	'snd_lbb',0
+	.word	309
+	.byte	4,2,35,92,13
+	.byte	'snd_wnd',0
+	.word	1125
+	.byte	2,2,35,96,13
+	.byte	'snd_wnd_max',0
+	.word	1125
+	.byte	2,2,35,98,13
+	.byte	'snd_buf',0
+	.word	1125
+	.byte	2,2,35,100,13
+	.byte	'snd_queuelen',0
+	.word	1125
+	.byte	2,2,35,102,13
+	.byte	'unsent_oversize',0
+	.word	1125
+	.byte	2,2,35,104,13
+	.byte	'bytes_acked',0
+	.word	1125
+	.byte	2,2,35,106,13
+	.byte	'unsent',0
+	.word	3205
+	.byte	4,2,35,108,13
+	.byte	'unacked',0
+	.word	3205
+	.byte	4,2,35,112,13
+	.byte	'ooseq',0
+	.word	3205
+	.byte	4,2,35,116,13
+	.byte	'refused_data',0
+	.word	1629
+	.byte	4,2,35,120,13
+	.byte	'listener',0
+	.word	3435
+	.byte	4,2,35,124,13
+	.byte	'sent',0
+	.word	3468
+	.byte	4,3,35,128,1,13
+	.byte	'recv',0
+	.word	3521
+	.byte	4,3,35,132,1,13
+	.byte	'connected',0
+	.word	3541
+	.byte	4,3,35,136,1,13
+	.byte	'poll',0
+	.word	3590
+	.byte	4,3,35,140,1,13
+	.byte	'errf',0
+	.word	3629
+	.byte	4,3,35,144,1,13
+	.byte	'keep_idle',0
+	.word	309
+	.byte	4,3,35,148,1,13
+	.byte	'persist_cnt',0
+	.word	1094
+	.byte	1,3,35,152,1,13
+	.byte	'persist_backoff',0
+	.word	1094
+	.byte	1,3,35,153,1,13
+	.byte	'persist_probe',0
+	.word	1094
+	.byte	1,3,35,154,1,13
+	.byte	'keep_cnt_sent',0
+	.word	1094
+	.byte	1,3,35,155,1,0
+.L252:
+	.byte	4
+	.word	3648
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	336
+	.byte	10
+	.word	4710
+	.byte	10
+	.word	224
+	.byte	0
+.L253:
+	.byte	4
+	.word	4715
+.L251:
+	.byte	11
+	.byte	'tcp_accept_fn',0,20,70,17
+	.word	4738
+	.byte	4
+	.word	4715
+	.byte	4
+	.word	3440
+	.byte	4
+	.word	3488
+	.byte	4
+	.word	4715
+	.byte	4
+	.word	3567
+	.byte	4
+	.word	3610
+	.byte	9,1,1,10
+	.word	1094
+	.byte	10
+	.word	336
+	.byte	0,4
+	.word	4795
+	.byte	11
+	.byte	'tcp_extarg_callback_pcb_destroyed_fn',0,20,173,1,16
+	.word	4809
+	.byte	26
+	.word	224
+	.byte	1,1,10
+	.word	1094
+	.byte	10
+	.word	3435
+	.byte	10
+	.word	4710
+	.byte	0,4
+	.word	4860
+	.byte	11
+	.byte	'tcp_extarg_callback_passive_open_fn',0,20,182,1,17
+	.word	4883
+	.byte	11
+	.byte	'tcpflags_t',0,20,206,1,15
+	.word	1125
+	.byte	25
+	.byte	'tcp_active_pcbs',0,5,209,2,24
+	.word	4710
+	.byte	1,1,25
+	.byte	'tcp_tw_pcbs',0,5,212,2,24
+	.word	4710
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,59,0,3,8,0,0,9,21,1,54,15,39,12,0,0,10,5,0,73,19,0,0,11,22,0,3,8,58,15
+	.byte	59,15,57,15,73,19,0,0,12,19,1,3,8,58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,46,0
+	.byte	3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,15,4,1,58,15,59,15,57,15,11,15,0,0,16,40,0,3,8,28,13
+	.byte	0,0,17,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,18,46,0,3,8,58,15,59,15,57,15,73,19,54,15
+	.byte	39,12,63,12,60,12,0,0,19,21,0,54,15,39,12,0,0,20,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,21,21
+	.byte	0,54,15,0,0,22,1,1,11,15,73,19,0,0,23,33,0,47,15,0,0,24,53,0,73,19,0,0,25,52,0,3,8,58,15,59,15,57,15,73
+	.byte	19,63,12,60,12,0,0,26,21,1,73,19,54,15,39,12,0,0,27,23,1,58,15,59,15,57,15,11,15,0,0,28,4,1,3,8,58,15
+	.byte	59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L89:
+	.word	.L255-.L254
+.L254:
+	.half	3
+	.word	.L257-.L256
+.L256:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\timeouts.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\memp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\priv\\tcp_priv.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_frag.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\etharp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\sys.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcpbase.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\tcp.h',0
+	.byte	0,0,0,0
+.L257:
+.L255:
+	.sdecl	'.debug_info',debug,cluster('sys_timeouts_init')
+	.sect	'.debug_info'
+.L90:
+	.word	294
+	.half	3
+	.word	.L91
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L93,.L92
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_timeouts_init',0,1,136,2,6,1,1,1
+	.word	.L75,.L150,.L74
+	.byte	4
+	.word	.L75,.L150
+	.byte	5
+	.byte	'i',0,1,138,2,10
+	.word	.L151,.L152
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_timeouts_init')
+	.sect	'.debug_abbrev'
+.L91:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_timeouts_init')
+	.sect	'.debug_line'
+.L92:
+	.word	.L259-.L258
+.L258:
+	.half	3
+	.word	.L261-.L260
+.L260:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L261:
+	.byte	5,10,7,0,5,2
+	.word	.L75
+	.byte	3,139,2,1,5,70,9
+	.half	.L217-.L75
+	.byte	1,5,35,9
+	.half	.L30-.L217
+	.byte	3,3,1,5,17,9
+	.half	.L262-.L30
+	.byte	1,5,35,9
+	.half	.L263-.L262
+	.byte	1,5,38,9
+	.half	.L264-.L263
+	.byte	1,5,52,9
+	.half	.L265-.L264
+	.byte	1,5,71,9
+	.half	.L266-.L265
+	.byte	1,5,73,9
+	.half	.L267-.L266
+	.byte	3,125,1,5,70,9
+	.half	.L29-.L267
+	.byte	1,5,1,7,9
+	.half	.L268-.L29
+	.byte	3,5,1,7,9
+	.half	.L94-.L268
+	.byte	0,1,1
+.L259:
+	.sdecl	'.debug_ranges',debug,cluster('sys_timeouts_init')
+	.sect	'.debug_ranges'
+.L93:
+	.word	-1,.L75,0,.L94-.L75,0,0
+	.sdecl	'.debug_info',debug,cluster('sys_timeout')
+	.sect	'.debug_info'
+.L95:
+	.word	361
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L98,.L97
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_timeout',0,1,162,2,1,1,1,1
+	.word	.L77,.L153,.L76
+	.byte	4
+	.byte	'msecs',0,1,162,2,19
+	.word	.L154,.L155
+	.byte	4
+	.byte	'handler',0,1,162,2,46
+	.word	.L156,.L157
+	.byte	4
+	.byte	'arg',0,1,162,2,61
+	.word	.L158,.L159
+	.byte	5
+	.word	.L77,.L153
+	.byte	6
+	.byte	'next_timeout_time',0,1,165,2,9
+	.word	.L154,.L160
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_timeout')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_timeout')
+	.sect	'.debug_line'
+.L97:
+	.word	.L270-.L269
+.L269:
+	.half	3
+	.word	.L272-.L271
+.L271:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L272:
+	.byte	5,1,7,0,5,2
+	.word	.L77
+	.byte	3,161,2,1,5,3,9
+	.half	.L31-.L77
+	.byte	3,7,1,5,38,9
+	.half	.L32-.L31
+	.byte	3,2,1,5,41,9
+	.half	.L273-.L32
+	.byte	1,5,47,9
+	.half	.L222-.L273
+	.byte	3,5,1,5,1,9
+	.half	.L223-.L222
+	.byte	3,2,1,7,9
+	.half	.L99-.L223
+	.byte	0,1,1
+.L270:
+	.sdecl	'.debug_ranges',debug,cluster('sys_timeout')
+	.sect	'.debug_ranges'
+.L98:
+	.word	-1,.L77,0,.L99-.L77,0,0
+	.sdecl	'.debug_info',debug,cluster('sys_untimeout')
+	.sect	'.debug_info'
+.L100:
+	.word	348
+	.half	3
+	.word	.L101
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L103,.L102
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_untimeout',0,1,189,2,1,1,1,1
+	.word	.L79,.L161,.L78
+	.byte	4
+	.byte	'handler',0,1,189,2,35
+	.word	.L156,.L162
+	.byte	4
+	.byte	'arg',0,1,189,2,50
+	.word	.L158,.L163
+	.byte	5
+	.word	.L79,.L161
+	.byte	6
+	.byte	'prev_t',0,1,191,2,21
+	.word	.L164,.L165
+	.byte	6
+	.byte	't',0,1,191,2,30
+	.word	.L164,.L166
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_untimeout')
+	.sect	'.debug_abbrev'
+.L101:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_untimeout')
+	.sect	'.debug_line'
+.L102:
+	.word	.L275-.L274
+.L274:
+	.half	3
+	.word	.L277-.L276
+.L276:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L277:
+	.byte	5,7,7,0,5,2
+	.word	.L79
+	.byte	3,194,2,1,5,3,9
+	.half	.L278-.L79
+	.byte	1,5,5,7,9
+	.half	.L279-.L278
+	.byte	3,1,1,5,12,9
+	.half	.L33-.L279
+	.byte	3,3,1,5,33,9
+	.half	.L228-.L33
+	.byte	1,5,50,9
+	.half	.L229-.L228
+	.byte	1,5,11,9
+	.half	.L36-.L229
+	.byte	3,1,1,5,9,9
+	.half	.L280-.L36
+	.byte	1,5,32,7,9
+	.half	.L281-.L280
+	.byte	1,5,38,9
+	.half	.L282-.L281
+	.byte	1,5,7,7,9
+	.half	.L283-.L282
+	.byte	3,3,1,5,9,7,9
+	.half	.L284-.L283
+	.byte	3,1,1,5,25,9
+	.half	.L285-.L284
+	.byte	1,5,22,9
+	.half	.L227-.L285
+	.byte	1,5,31,9
+	.half	.L286-.L227
+	.byte	1,5,25,9
+	.half	.L39-.L286
+	.byte	3,2,1,5,22,9
+	.half	.L231-.L39
+	.byte	1,5,17,9
+	.half	.L40-.L231
+	.byte	3,2,1,5,35,9
+	.half	.L287-.L40
+	.byte	1,5,7,9
+	.half	.L226-.L287
+	.byte	3,1,1,5,59,9
+	.half	.L37-.L226
+	.byte	3,118,1,5,69,9
+	.half	.L288-.L37
+	.byte	1,5,50,9
+	.half	.L35-.L288
+	.byte	1,5,3,7,9
+	.half	.L289-.L35
+	.byte	3,13,1,5,1,9
+	.half	.L34-.L289
+	.byte	3,1,1,7,9
+	.half	.L104-.L34
+	.byte	0,1,1
+.L275:
+	.sdecl	'.debug_ranges',debug,cluster('sys_untimeout')
+	.sect	'.debug_ranges'
+.L103:
+	.word	-1,.L79,0,.L104-.L79,0,0
+	.sdecl	'.debug_info',debug,cluster('sys_restart_timeouts')
+	.sect	'.debug_info'
+.L105:
+	.word	332
+	.half	3
+	.word	.L106
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L108,.L107
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_restart_timeouts',0,1,148,3,1,1,1,1
+	.word	.L83,.L167,.L82
+	.byte	4
+	.word	.L83,.L167
+	.byte	5
+	.byte	'now',0,1,150,3,9
+	.word	.L154,.L168
+	.byte	5
+	.byte	'base',0,1,151,3,9
+	.word	.L154,.L169
+	.byte	5
+	.byte	't',0,1,152,3,21
+	.word	.L164,.L170
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_restart_timeouts')
+	.sect	'.debug_abbrev'
+.L106:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_restart_timeouts')
+	.sect	'.debug_line'
+.L107:
+	.word	.L291-.L290
+.L290:
+	.half	3
+	.word	.L293-.L292
+.L292:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L293:
+	.byte	5,7,7,0,5,2
+	.word	.L83
+	.byte	3,153,3,1,5,3,9
+	.half	.L294-.L83
+	.byte	1,5,5,7,9
+	.half	.L295-.L294
+	.byte	3,1,1,5,16,9
+	.half	.L53-.L295
+	.byte	3,3,1,5,10,9
+	.half	.L239-.L53
+	.byte	3,1,1,5,22,9
+	.half	.L296-.L239
+	.byte	1,5,12,9
+	.half	.L240-.L296
+	.byte	3,2,1,5,35,9
+	.half	.L241-.L240
+	.byte	1,5,17,9
+	.half	.L56-.L241
+	.byte	3,1,1,5,24,9
+	.half	.L297-.L56
+	.byte	1,5,32,9
+	.half	.L298-.L297
+	.byte	1,5,13,9
+	.half	.L299-.L298
+	.byte	1,5,42,9
+	.half	.L300-.L299
+	.byte	3,127,1,5,35,9
+	.half	.L55-.L300
+	.byte	1,5,1,7,9
+	.half	.L54-.L55
+	.byte	3,3,1,7,9
+	.half	.L109-.L54
+	.byte	0,1,1
+.L291:
+	.sdecl	'.debug_ranges',debug,cluster('sys_restart_timeouts')
+	.sect	'.debug_ranges'
+.L108:
+	.word	-1,.L83,0,.L109-.L83,0,0
+	.sdecl	'.debug_info',debug,cluster('sys_check_timeouts')
+	.sect	'.debug_info'
+.L110:
+	.word	369
+	.half	3
+	.word	.L111
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L113,.L112
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_check_timeouts',0,1,224,2,1,1,1,1
+	.word	.L81,.L171,.L80
+	.byte	4
+	.word	.L81,.L171
+	.byte	5
+	.byte	'now',0,1,226,2,9
+	.word	.L154,.L172
+	.byte	4
+	.word	.L44,.L52
+	.byte	5
+	.byte	'tmptimeout',0,1,234,2,23
+	.word	.L164,.L173
+	.byte	5
+	.byte	'handler',0,1,235,2,25
+	.word	.L156,.L174
+	.byte	5
+	.byte	'arg',0,1,236,2,11
+	.word	.L158,.L175
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_check_timeouts')
+	.sect	'.debug_abbrev'
+.L111:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_check_timeouts')
+	.sect	'.debug_line'
+.L112:
+	.word	.L302-.L301
+.L301:
+	.half	3
+	.word	.L304-.L303
+.L303:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L304:
+	.byte	5,16,7,0,5,2
+	.word	.L81
+	.byte	3,230,2,1,5,7,9
+	.half	.L233-.L81
+	.byte	1,5,5,9
+	.half	.L44-.L233
+	.byte	3,7,1,5,18,9
+	.half	.L45-.L44
+	.byte	3,2,1,5,5,9
+	.half	.L234-.L45
+	.byte	3,1,1,5,7,7,9
+	.half	.L305-.L234
+	.byte	3,1,1,5,9,9
+	.half	.L46-.L305
+	.byte	3,3,1,5,5,9
+	.half	.L49-.L46
+	.byte	1,5,7,7,9
+	.half	.L306-.L49
+	.byte	3,1,1,5,5,9
+	.half	.L50-.L306
+	.byte	3,4,1,5,30,9
+	.half	.L307-.L50
+	.byte	1,5,18,9
+	.half	.L308-.L307
+	.byte	1,5,25,9
+	.half	.L309-.L308
+	.byte	3,1,1,5,21,9
+	.half	.L236-.L309
+	.byte	3,1,1,5,5,9
+	.half	.L237-.L236
+	.byte	3,1,1,5,42,9
+	.half	.L310-.L237
+	.byte	1,5,30,9
+	.half	.L311-.L310
+	.byte	1,5,15,9
+	.half	.L312-.L311
+	.byte	3,7,1,5,33,9
+	.half	.L313-.L312
+	.byte	1,5,5,9
+	.half	.L235-.L313
+	.byte	3,1,1,5,15,7,9
+	.half	.L314-.L235
+	.byte	3,1,1,5,14,9
+	.half	.L52-.L314
+	.byte	3,5,1,5,1,9
+	.half	.L47-.L52
+	.byte	3,1,1,7,9
+	.half	.L114-.L47
+	.byte	0,1,1
+.L302:
+	.sdecl	'.debug_ranges',debug,cluster('sys_check_timeouts')
+	.sect	'.debug_ranges'
+.L113:
+	.word	-1,.L81,0,.L114-.L81,0,0
+	.sdecl	'.debug_info',debug,cluster('sys_timeouts_sleeptime')
+	.sect	'.debug_info'
+.L115:
+	.word	332
+	.half	3
+	.word	.L116
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L118,.L117
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_timeouts_sleeptime',0,1,170,3,1
+	.word	.L154
+	.byte	1,1,1
+	.word	.L85,.L176,.L84
+	.byte	4
+	.word	.L85,.L176
+	.byte	5
+	.byte	'now',0,1,172,3,9
+	.word	.L154,.L177
+	.byte	4
+	.word	.L61,.L58
+	.byte	5
+	.byte	'ret',0,1,183,3,11
+	.word	.L154,.L178
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_timeouts_sleeptime')
+	.sect	'.debug_abbrev'
+.L116:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_timeouts_sleeptime')
+	.sect	'.debug_line'
+.L117:
+	.word	.L316-.L315
+.L315:
+	.half	3
+	.word	.L318-.L317
+.L317:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L318:
+	.byte	5,1,7,0,5,2
+	.word	.L85
+	.byte	3,169,3,1,5,7,9
+	.half	.L242-.L85
+	.byte	3,6,1,5,3,9
+	.half	.L319-.L242
+	.byte	1,5,12,7,9
+	.half	.L320-.L319
+	.byte	3,1,1,5,5,9
+	.half	.L321-.L320
+	.byte	1,5,16,9
+	.half	.L57-.L321
+	.byte	3,2,1,5,7,9
+	.half	.L243-.L57
+	.byte	3,1,1,5,3,9
+	.half	.L60-.L243
+	.byte	1,5,12,7,9
+	.half	.L322-.L60
+	.byte	3,1,1,5,5,9
+	.half	.L244-.L322
+	.byte	1,5,25,9
+	.half	.L61-.L244
+	.byte	3,2,1,5,37,9
+	.half	.L323-.L61
+	.byte	1,5,44,9
+	.half	.L324-.L323
+	.byte	1,5,5,9
+	.half	.L63-.L324
+	.byte	3,1,1,9
+	.half	.L64-.L63
+	.byte	3,1,1,5,1,9
+	.half	.L58-.L64
+	.byte	3,2,1,7,9
+	.half	.L119-.L58
+	.byte	0,1,1
+.L316:
+	.sdecl	'.debug_ranges',debug,cluster('sys_timeouts_sleeptime')
+	.sect	'.debug_ranges'
+.L118:
+	.word	-1,.L85,0,.L119-.L85,0,0
+	.sdecl	'.debug_info',debug,cluster('tcp_timer_needed')
+	.sect	'.debug_info'
+.L120:
+	.word	277
+	.half	3
+	.word	.L121
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L123,.L122
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'tcp_timer_needed',0,1,166,1,1,1,1,1
+	.word	.L69,.L179,.L68
+	.byte	4
+	.word	.L69,.L179
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('tcp_timer_needed')
+	.sect	'.debug_abbrev'
+.L121:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('tcp_timer_needed')
+	.sect	'.debug_line'
+.L122:
+	.word	.L326-.L325
+.L325:
+	.half	3
+	.word	.L328-.L327
+.L327:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L328:
+	.byte	5,8,7,0,5,2
+	.word	.L69
+	.byte	3,170,1,1,5,35,9
+	.half	.L329-.L69
+	.byte	1,5,54,9
+	.half	.L330-.L329
+	.byte	1,5,5,9
+	.half	.L6-.L330
+	.byte	3,2,1,5,30,9
+	.half	.L331-.L6
+	.byte	1,5,28,9
+	.half	.L332-.L331
+	.byte	1,5,17,9
+	.half	.L333-.L332
+	.byte	3,1,1,5,35,9
+	.half	.L334-.L333
+	.byte	1,5,52,9
+	.half	.L335-.L334
+	.byte	1,5,1,9
+	.half	.L5-.L335
+	.byte	3,2,1,7,9
+	.half	.L124-.L5
+	.byte	0,1,1
+.L326:
+	.sdecl	'.debug_ranges',debug,cluster('tcp_timer_needed')
+	.sect	'.debug_ranges'
+.L123:
+	.word	-1,.L69,0,.L124-.L69,0,0
+	.sdecl	'.debug_info',debug,cluster('tcpip_tcp_timer')
+	.sect	'.debug_info'
+.L125:
+	.word	292
+	.half	3
+	.word	.L126
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L128,.L127
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'tcpip_tcp_timer',0,1,144,1,1,1,1
+	.word	.L67,.L180,.L66
+	.byte	4
+	.byte	'arg',0,1,144,1,23
+	.word	.L158,.L181
+	.byte	5
+	.word	.L67,.L180
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('tcpip_tcp_timer')
+	.sect	'.debug_abbrev'
+.L126:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('tcpip_tcp_timer')
+	.sect	'.debug_line'
+.L127:
+	.word	.L337-.L336
+.L336:
+	.half	3
+	.word	.L339-.L338
+.L338:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L339:
+	.byte	5,10,7,0,5,2
+	.word	.L67
+	.byte	3,148,1,1,5,7,9
+	.half	.L197-.L67
+	.byte	3,2,1,5,26,9
+	.half	.L340-.L197
+	.byte	1,5,17,9
+	.half	.L2-.L340
+	.byte	3,2,1,5,35,9
+	.half	.L341-.L2
+	.byte	1,5,52,9
+	.half	.L342-.L341
+	.byte	1,5,57,9
+	.half	.L343-.L342
+	.byte	1,5,5,9
+	.half	.L3-.L343
+	.byte	3,3,1,5,30,9
+	.half	.L344-.L3
+	.byte	1,5,28,9
+	.half	.L345-.L344
+	.byte	1,5,1,9
+	.half	.L4-.L345
+	.byte	3,2,1,7,9
+	.half	.L129-.L4
+	.byte	0,1,1
+.L337:
+	.sdecl	'.debug_ranges',debug,cluster('tcpip_tcp_timer')
+	.sect	'.debug_ranges'
+.L128:
+	.word	-1,.L67,0,.L129-.L67,0,0
+	.sdecl	'.debug_info',debug,cluster('sys_timeout_abs')
+	.sect	'.debug_info'
+.L130:
+	.word	372
+	.half	3
+	.word	.L131
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L133,.L132
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'sys_timeout_abs',0,1,183,1,1,1,1
+	.word	.L71,.L182,.L70
+	.byte	4
+	.byte	'abs_time',0,1,183,1,23
+	.word	.L154,.L183
+	.byte	4
+	.byte	'handler',0,1,183,1,53
+	.word	.L156,.L184
+	.byte	4
+	.byte	'arg',0,1,183,1,68
+	.word	.L158,.L185
+	.byte	5
+	.word	.L71,.L182
+	.byte	6
+	.byte	'timeout',0,1,186,1,21
+	.word	.L164,.L186
+	.byte	6
+	.byte	't',0,1,186,1,31
+	.word	.L164,.L187
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sys_timeout_abs')
+	.sect	'.debug_abbrev'
+.L131:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sys_timeout_abs')
+	.sect	'.debug_line'
+.L132:
+	.word	.L347-.L346
+.L346:
+	.half	3
+	.word	.L349-.L348
+.L348:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L349:
+	.byte	5,1,7,0,5,2
+	.word	.L71
+	.byte	3,182,1,1,5,45,9
+	.half	.L204-.L71
+	.byte	3,5,1,5,3,9
+	.half	.L200-.L204
+	.byte	3,1,1,5,5,7,9
+	.half	.L9-.L200
+	.byte	3,1,1,7,9
+	.half	.L350-.L9
+	.byte	1,9
+	.half	.L10-.L350
+	.byte	3,1,1,5,19,9
+	.half	.L8-.L10
+	.byte	3,3,1,5,17,9
+	.half	.L351-.L8
+	.byte	1,5,14,9
+	.half	.L352-.L351
+	.byte	3,1,1,5,16,9
+	.half	.L353-.L352
+	.byte	3,1,1,5,17,9
+	.half	.L354-.L353
+	.byte	3,1,1,5,7,9
+	.half	.L355-.L354
+	.byte	3,8,1,5,3,9
+	.half	.L356-.L355
+	.byte	1,5,5,7,9
+	.half	.L357-.L356
+	.byte	3,1,1,5,18,9
+	.half	.L358-.L357
+	.byte	1,5,5,9
+	.half	.L359-.L358
+	.byte	3,1,1,5,7,9
+	.half	.L12-.L359
+	.byte	3,2,1,5,3,9
+	.half	.L15-.L12
+	.byte	1,5,21,7,9
+	.half	.L360-.L15
+	.byte	3,1,1,5,19,9
+	.half	.L361-.L360
+	.byte	1,5,5,9
+	.half	.L362-.L361
+	.byte	3,1,1,5,18,9
+	.half	.L363-.L362
+	.byte	1,5,33,9
+	.half	.L364-.L363
+	.byte	3,127,1,5,14,9
+	.half	.L16-.L364
+	.byte	3,3,1,5,37,9
+	.half	.L206-.L16
+	.byte	1,5,13,9
+	.half	.L19-.L206
+	.byte	3,1,1,5,11,9
+	.half	.L365-.L19
+	.byte	1,5,32,7,9
+	.half	.L366-.L365
+	.byte	1,5,26,9
+	.half	.L20-.L366
+	.byte	3,1,1,5,23,9
+	.half	.L367-.L20
+	.byte	1,5,17,9
+	.half	.L368-.L367
+	.byte	3,1,1,5,9,9
+	.half	.L369-.L368
+	.byte	3,1,1,5,44,9
+	.half	.L23-.L369
+	.byte	3,124,1,5,37,9
+	.half	.L18-.L23
+	.byte	1,5,1,7,9
+	.half	.L11-.L18
+	.byte	3,8,1,7,9
+	.half	.L134-.L11
+	.byte	0,1,1
+.L347:
+	.sdecl	'.debug_ranges',debug,cluster('sys_timeout_abs')
+	.sect	'.debug_ranges'
+.L133:
+	.word	-1,.L71,0,.L134-.L71,0,0
+	.sdecl	'.debug_info',debug,cluster('lwip_cyclic_timer')
+	.sect	'.debug_info'
+.L135:
+	.word	363
+	.half	3
+	.word	.L136
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L138,.L137
+	.byte	2
+	.word	.L86
+	.byte	3
+	.byte	'lwip_cyclic_timer',0,1,232,1,1,1,1
+	.word	.L73,.L188,.L72
+	.byte	4
+	.byte	'arg',0,1,232,1,25
+	.word	.L158,.L189
+	.byte	5
+	.word	.L73,.L188
+	.byte	6
+	.byte	'now',0,1,234,1,9
+	.word	.L154,.L190
+	.byte	6
+	.byte	'next_timeout_time',0,1,235,1,9
+	.word	.L154,.L191
+	.byte	6
+	.byte	'cyclic',0,1,236,1,35
+	.word	.L192,.L193
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('lwip_cyclic_timer')
+	.sect	'.debug_abbrev'
+.L136:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('lwip_cyclic_timer')
+	.sect	'.debug_line'
+.L137:
+	.word	.L371-.L370
+.L370:
+	.half	3
+	.word	.L373-.L372
+.L372:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0,0,0,0,0
+.L373:
+	.byte	5,1,7,0,5,2
+	.word	.L73
+	.byte	3,231,1,1,5,9,9
+	.half	.L208-.L73
+	.byte	3,9,1,5,18,9
+	.half	.L374-.L208
+	.byte	1,5,16,9
+	.half	.L207-.L374
+	.byte	3,2,1,5,31,9
+	.half	.L375-.L207
+	.byte	3,1,1,5,64,9
+	.half	.L376-.L375
+	.byte	1,5,56,9
+	.half	.L209-.L376
+	.byte	1,5,7,9
+	.half	.L211-.L209
+	.byte	3,1,1,5,3,9
+	.half	.L26-.L211
+	.byte	1,5,41,7,9
+	.half	.L377-.L26
+	.byte	3,5,1,5,33,9
+	.half	.L210-.L377
+	.byte	1,5,57,9
+	.half	.L213-.L210
+	.byte	1,5,76,9
+	.half	.L378-.L213
+	.byte	1,5,80,9
+	.half	.L215-.L378
+	.byte	1,5,40,9
+	.half	.L27-.L215
+	.byte	3,8,1,5,59,9
+	.half	.L379-.L27
+	.byte	1,5,1,9
+	.half	.L28-.L379
+	.byte	3,3,1,7,9
+	.half	.L139-.L28
+	.byte	0,1,1
+.L371:
+	.sdecl	'.debug_ranges',debug,cluster('lwip_cyclic_timer')
+	.sect	'.debug_ranges'
+.L138:
+	.word	-1,.L73,0,.L139-.L73,0,0
+	.sdecl	'.debug_info',debug,cluster('lwip_cyclic_timers')
+	.sect	'.debug_info'
+.L140:
+	.word	256
+	.half	3
+	.word	.L141
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'lwip_cyclic_timers',0,9,77,32
+	.word	.L194
+	.byte	1,5,3
+	.word	lwip_cyclic_timers
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('lwip_cyclic_timers')
+	.sect	'.debug_abbrev'
+.L141:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('lwip_num_cyclic_timers')
+	.sect	'.debug_info'
+.L142:
+	.word	260
+	.half	3
+	.word	.L143
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'lwip_num_cyclic_timers',0,9,117,11
+	.word	.L195
+	.byte	1,5,3
+	.word	lwip_num_cyclic_timers
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('lwip_num_cyclic_timers')
+	.sect	'.debug_abbrev'
+.L143:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('next_timeout')
+	.sect	'.debug_info'
+.L144:
+	.word	249
+	.half	3
+	.word	.L145
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'next_timeout',0,9,122,26
+	.word	.L164
+	.byte	5,3
+	.word	next_timeout
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('next_timeout')
+	.sect	'.debug_abbrev'
+.L145:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('current_timeout_due_time')
+	.sect	'.debug_info'
+.L146:
+	.word	261
+	.half	3
+	.word	.L147
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'current_timeout_due_time',0,9,124,14
+	.word	.L154
+	.byte	5,3
+	.word	current_timeout_due_time
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('current_timeout_due_time')
+	.sect	'.debug_abbrev'
+.L147:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('tcpip_tcp_timer_active')
+	.sect	'.debug_info'
+.L148:
+	.word	260
+	.half	3
+	.word	.L149
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/timeouts.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L86
+	.byte	3
+	.byte	'tcpip_tcp_timer_active',0,9,136,1,12
+	.word	.L196
+	.byte	5,3
+	.word	tcpip_tcp_timer_active
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('tcpip_tcp_timer_active')
+	.sect	'.debug_abbrev'
+.L149:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('lwip_cyclic_timer')
+	.sect	'.debug_loc'
+.L189:
+	.word	-1,.L73,0,.L207-.L73
+	.half	1
+	.byte	100
+	.word	.L208-.L73,.L188-.L73
+	.half	1
+	.byte	111
+	.word	.L214-.L73,.L215-.L73
+	.half	1
+	.byte	101
+	.word	.L216-.L73,.L28-.L73
+	.half	1
+	.byte	101
+	.word	0,0
+.L193:
+	.word	0,0
+.L72:
+	.word	-1,.L73,0,.L188-.L73
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L191:
+	.word	-1,.L73,.L209-.L73,.L210-.L73
+	.half	1
+	.byte	84
+	.word	.L27-.L73,.L28-.L73
+	.half	1
+	.byte	84
+	.word	0,0
+.L190:
+	.word	-1,.L73,.L211-.L73,.L212-.L73
+	.half	1
+	.byte	82
+	.word	.L210-.L73,.L213-.L73
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_check_timeouts')
+	.sect	'.debug_loc'
+.L175:
+	.word	-1,.L81,.L237-.L81,.L47-.L81
+	.half	1
+	.byte	108
+	.word	.L238-.L81,.L52-.L81
+	.half	1
+	.byte	100
+	.word	0,0
+.L174:
+	.word	-1,.L81,.L236-.L81,.L47-.L81
+	.half	1
+	.byte	111
+	.word	0,0
+.L172:
+	.word	-1,.L81,.L233-.L81,.L44-.L81
+	.half	1
+	.byte	82
+	.word	.L44-.L81,.L171-.L81
+	.half	1
+	.byte	88
+	.word	0,0
+.L80:
+	.word	-1,.L81,0,.L171-.L81
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L173:
+	.word	-1,.L81,.L234-.L81,.L235-.L81
+	.half	1
+	.byte	100
+	.word	.L47-.L81,.L171-.L81
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_restart_timeouts')
+	.sect	'.debug_loc'
+.L169:
+	.word	-1,.L83,.L240-.L83,.L54-.L83
+	.half	1
+	.byte	81
+	.word	0,0
+.L168:
+	.word	-1,.L83,.L239-.L83,.L54-.L83
+	.half	1
+	.byte	82
+	.word	0,0
+.L82:
+	.word	-1,.L83,0,.L167-.L83
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L170:
+	.word	-1,.L83,.L241-.L83,.L54-.L83
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_timeout')
+	.sect	'.debug_loc'
+.L159:
+	.word	-1,.L77,0,.L32-.L77
+	.half	1
+	.byte	101
+	.word	.L31-.L77,.L153-.L77
+	.half	1
+	.byte	109
+	.word	.L225-.L77,.L223-.L77
+	.half	1
+	.byte	101
+	.word	0,0
+.L157:
+	.word	-1,.L77,0,.L219-.L77
+	.half	1
+	.byte	100
+	.word	.L221-.L77,.L153-.L77
+	.half	1
+	.byte	108
+	.word	.L224-.L77,.L223-.L77
+	.half	1
+	.byte	100
+	.word	0,0
+.L155:
+	.word	-1,.L77,0,.L32-.L77
+	.half	1
+	.byte	84
+	.word	.L220-.L77,.L153-.L77
+	.half	1
+	.byte	88
+	.word	0,0
+.L160:
+	.word	-1,.L77,.L222-.L77,.L223-.L77
+	.half	1
+	.byte	84
+	.word	0,0
+.L76:
+	.word	-1,.L77,0,.L218-.L77
+	.half	2
+	.byte	138,0
+	.word	.L218-.L77,.L153-.L77
+	.half	2
+	.byte	138,16
+	.word	.L153-.L77,.L153-.L77
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_timeout_abs')
+	.sect	'.debug_loc'
+.L183:
+	.word	-1,.L71,0,.L199-.L71
+	.half	1
+	.byte	84
+	.word	.L201-.L71,.L182-.L71
+	.half	1
+	.byte	88
+	.word	0,0
+.L185:
+	.word	-1,.L71,0,.L200-.L71
+	.half	1
+	.byte	101
+	.word	.L204-.L71,.L182-.L71
+	.half	1
+	.byte	108
+	.word	0,0
+.L184:
+	.word	-1,.L71,0,.L200-.L71
+	.half	1
+	.byte	100
+	.word	.L202-.L71,.L203-.L71
+	.half	1
+	.byte	111
+	.word	.L8-.L71,.L205-.L71
+	.half	1
+	.byte	111
+	.word	0,0
+.L70:
+	.word	-1,.L71,0,.L198-.L71
+	.half	2
+	.byte	138,0
+	.word	.L198-.L71,.L182-.L71
+	.half	2
+	.byte	138,16
+	.word	.L182-.L71,.L182-.L71
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L187:
+	.word	-1,.L71,.L206-.L71,.L11-.L71
+	.half	1
+	.byte	100
+	.word	0,0
+.L186:
+	.word	-1,.L71,.L200-.L71,.L10-.L71
+	.half	1
+	.byte	98
+	.word	.L8-.L71,.L11-.L71
+	.half	1
+	.byte	98
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_timeouts_init')
+	.sect	'.debug_loc'
+.L152:
+	.word	-1,.L75,.L217-.L75,.L150-.L75
+	.half	1
+	.byte	88
+	.word	0,0
+.L74:
+	.word	-1,.L75,0,.L150-.L75
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_timeouts_sleeptime')
+	.sect	'.debug_loc'
+.L177:
+	.word	-1,.L85,.L243-.L85,.L244-.L85
+	.half	1
+	.byte	82
+	.word	.L61-.L85,.L64-.L85
+	.half	1
+	.byte	82
+	.word	0,0
+.L178:
+	.word	-1,.L85,.L63-.L85,.L58-.L85
+	.half	1
+	.byte	88
+	.word	.L245-.L85,.L58-.L85
+	.half	1
+	.byte	82
+	.word	0,0
+.L84:
+	.word	-1,.L85,0,.L242-.L85
+	.half	2
+	.byte	138,0
+	.word	.L242-.L85,.L176-.L85
+	.half	2
+	.byte	138,16
+	.word	.L176-.L85,.L176-.L85
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sys_untimeout')
+	.sect	'.debug_loc'
+.L163:
+	.word	-1,.L79,0,.L226-.L79
+	.half	1
+	.byte	101
+	.word	.L37-.L79,.L34-.L79
+	.half	1
+	.byte	101
+	.word	0,0
+.L162:
+	.word	-1,.L79,0,.L227-.L79
+	.half	1
+	.byte	100
+	.word	.L39-.L79,.L231-.L79
+	.half	1
+	.byte	100
+	.word	.L37-.L79,.L34-.L79
+	.half	1
+	.byte	100
+	.word	0,0
+.L165:
+	.word	-1,.L79,.L229-.L79,.L230-.L79
+	.half	1
+	.byte	98
+	.word	.L39-.L79,.L40-.L79
+	.half	1
+	.byte	98
+	.word	.L37-.L79,.L34-.L79
+	.half	1
+	.byte	98
+	.word	0,0
+.L78:
+	.word	-1,.L79,0,.L161-.L79
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L166:
+	.word	-1,.L79,.L228-.L79,.L34-.L79
+	.half	1
+	.byte	111
+	.word	.L232-.L79,.L226-.L79
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('tcp_timer_needed')
+	.sect	'.debug_loc'
+.L68:
+	.word	-1,.L69,0,.L179-.L69
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('tcpip_tcp_timer')
+	.sect	'.debug_loc'
+.L181:
+	.word	-1,.L67,0,.L197-.L67
+	.half	1
+	.byte	100
+	.word	0,0
+.L66:
+	.word	-1,.L67,0,.L180-.L67
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L380:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('tcpip_tcp_timer')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L67,.L180-.L67
+	.sdecl	'.debug_frame',debug,cluster('tcp_timer_needed')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L69,.L179-.L69
+	.sdecl	'.debug_frame',debug,cluster('sys_timeout_abs')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L380,.L71,.L182-.L71
+	.byte	4
+	.word	(.L198-.L71)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L182-.L198)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('lwip_cyclic_timer')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L73,.L188-.L73
+	.sdecl	'.debug_frame',debug,cluster('sys_timeouts_init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L75,.L150-.L75
+	.sdecl	'.debug_frame',debug,cluster('sys_timeout')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L380,.L77,.L153-.L77
+	.byte	4
+	.word	(.L218-.L77)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L153-.L218)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('sys_untimeout')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L79,.L161-.L79
+	.sdecl	'.debug_frame',debug,cluster('sys_check_timeouts')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L81,.L171-.L81
+	.sdecl	'.debug_frame',debug,cluster('sys_restart_timeouts')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L380,.L83,.L167-.L83
+	.sdecl	'.debug_frame',debug,cluster('sys_timeouts_sleeptime')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L380,.L85,.L176-.L85
+	.byte	4
+	.word	(.L242-.L85)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L176-.L242)/2
+	.byte	19,0,8,26,0,0
+	; Module end

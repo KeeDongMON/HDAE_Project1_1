@@ -1,0 +1,498 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc22436a --dep-file=Headlight.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/Headlight.src ../Modules/Headlight.c"
+	.compiler_name		"ctc"
+	;source	'../Modules/Headlight.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Headlight.HBA_Init',code,cluster('HBA_Init')
+	.sect	'.text.Headlight.HBA_Init'
+	.align	2
+	
+	.global	HBA_Init
+; Function HBA_Init
+.L5:
+HBA_Init:	.type	func
+	ret
+.L36:
+	
+__HBA_Init_function_end:
+	.size	HBA_Init,__HBA_Init_function_end-HBA_Init
+.L28:
+	; End of function
+	
+	.sdecl	'.text.Headlight.HBA_ON',code,cluster('HBA_ON')
+	.sect	'.text.Headlight.HBA_ON'
+	.align	2
+	
+	.global	HBA_ON
+; Function HBA_ON
+.L7:
+HBA_ON:	.type	func
+	sub.a	a10,#8
+.L37:
+	call	Evadc_readVR
+.L38:
+	mov	d8,d2
+.L39:
+	st.w	[a10],d8
+.L50:
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	my_printf
+.L33:
+	mov	d15,#20
+.L51:
+	div	e8,d8,d15
+.L40:
+	mov	d15,#100
+.L52:
+	jlt	d15,d8,.L2
+.L53:
+	jlt	d8,#0,.L3
+.L54:
+	mov	d4,d8
+.L41:
+	call	GtmAtomPwm_SetDutyCycle
+.L3:
+.L2:
+	st.w	[a10],d8
+.L55:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	call	my_printf
+.L56:
+	mov	d4,#1
+.L57:
+	mov	d5,#1
+	call	GPIO_SetLed
+.L58:
+	ret
+.L29:
+	
+__HBA_ON_function_end:
+	.size	HBA_ON,__HBA_ON_function_end-HBA_ON
+.L18:
+	; End of function
+	
+	.sdecl	'.text.Headlight.HBA_OFF',code,cluster('HBA_OFF')
+	.sect	'.text.Headlight.HBA_OFF'
+	.align	2
+	
+	.global	HBA_OFF
+; Function HBA_OFF
+.L9:
+HBA_OFF:	.type	func
+	mov	d4,#1
+.L63:
+	mov	d5,#0
+	call	GPIO_SetLed
+.L64:
+	ret
+.L35:
+	
+__HBA_OFF_function_end:
+	.size	HBA_OFF,__HBA_OFF_function_end-HBA_OFF
+.L23:
+	; End of function
+	
+	.sdecl	'.rodata.Headlight..1.str',data,rom
+	.sect	'.rodata.Headlight..1.str'
+.1.str:	.type	object
+	.size	.1.str,9
+	.byte	80,82,32,58,32,37,100,10
+	.space	1
+	.sdecl	'.rodata.Headlight..2.str',data,rom
+	.sect	'.rodata.Headlight..2.str'
+.2.str:	.type	object
+	.size	.2.str,11
+	.byte	68,117,116,121,32,58,32,37
+	.byte	100,10
+	.space	1
+	.calls	'HBA_ON','Evadc_readVR'
+	.calls	'HBA_ON','my_printf'
+	.calls	'HBA_ON','GtmAtomPwm_SetDutyCycle'
+	.calls	'HBA_ON','GPIO_SetLed'
+	.calls	'HBA_OFF','GPIO_SetLed'
+	.calls	'HBA_Init','',0
+	.calls	'HBA_ON','',8
+	.extern	GPIO_SetLed
+	.extern	Evadc_readVR
+	.extern	GtmAtomPwm_SetDutyCycle
+	.extern	my_printf
+	.calls	'HBA_OFF','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L11:
+	.word	746
+	.half	3
+	.word	.L12
+	.byte	4
+.L10:
+	.byte	1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L13
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'GPIO_SetLed',0,1,6,6,1,1,1,1,4
+	.byte	'num_LED',0,1,6,32
+	.word	200
+	.byte	4
+	.byte	'onOff',0,1,6,55
+	.word	200
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'Evadc_readVR',0,2,7,14
+	.word	268
+	.byte	1,1,1,1,2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'GtmAtomPwm_SetDutyCycle',0,3,7,6,1,1,1,1,4
+	.byte	'dutyCycle',0,3,7,37
+	.word	309
+	.byte	0,2
+	.byte	'char',0,1,6,6
+	.word	381
+	.byte	7
+	.word	389
+	.byte	3
+	.byte	'my_printf',0,4,5,6,1,1,1,1,4
+	.byte	'fmt',0,4,5,28
+	.word	394
+	.byte	8,4,5,33,0
+.L30:
+	.byte	2
+	.byte	'int',0,4,5,2
+	.byte	'short int',0,2,5,9
+	.byte	'__wchar_t',0,5,1,1
+	.word	441
+	.byte	9
+	.byte	'__size_t',0,5,1,1
+	.word	268
+	.byte	9
+	.byte	'__ptrdiff_t',0,5,1,1
+	.word	434
+	.byte	10,1,7
+	.word	509
+	.byte	9
+	.byte	'__codeptr',0,5,1,1
+	.word	511
+	.byte	9
+	.byte	'uint8',0,6,108,29
+	.word	200
+	.byte	2
+	.byte	'unsigned short int',0,2,7,9
+	.byte	'uint16',0,6,112,29
+	.word	548
+	.byte	9
+	.byte	'uint32',0,6,116,29
+	.word	309
+	.byte	9
+	.byte	'sint16',0,6,129,1,29
+	.word	441
+	.byte	2
+	.byte	'long int',0,4,5,9
+	.byte	'sint32',0,6,134,1,29
+	.word	616
+	.byte	2
+	.byte	'long long int',0,8,5,9
+	.byte	'sint64',0,6,141,1,29
+	.word	644
+	.byte	2
+	.byte	'float',0,4,4,9
+	.byte	'float32',0,6,170,1,29
+	.word	677
+	.byte	11
+	.byte	'void',0,7
+	.word	703
+	.byte	9
+	.byte	'pvoid',0,7,54,28
+	.word	709
+	.byte	9
+	.byte	'Ifx_TickTime',0,7,76,28
+	.word	644
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L12:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,46,0,3,8,58,15,59,15,57,15,73,19,54
+	.byte	15,39,12,63,12,60,12,0,0,6,38,0,73,19,0,0,7,15,0,73,19,0,0,8,24,0,58,15,59,15,57,15,0,0,9,22,0,3,8,58
+	.byte	15,59,15,57,15,73,19,0,0,10,21,0,54,15,0,0,11,59,0,3,8,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L13:
+	.word	.L43-.L42
+.L42:
+	.half	3
+	.word	.L45-.L44
+.L44:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc',0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'GPIO.h',0,1,0,0
+	.byte	'Evadc.h',0,2,0,0
+	.byte	'gtm_atom_pwm.h',0,2,0,0
+	.byte	'my_stdio.h',0,3,0,0
+	.byte	'../Modules/Headlight.c',0,0,0,0
+	.byte	'Platform_Types.h',0,4,0,0
+	.byte	'Ifx_Types.h',0,4,0,0,0
+.L45:
+.L43:
+	.sdecl	'.debug_info',debug,cluster('HBA_ON')
+	.sect	'.debug_info'
+.L14:
+	.word	316
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L17,.L16
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'HBA_ON',0,1,37,6,1,1,1
+	.word	.L7,.L29,.L6
+	.byte	4
+	.word	.L7,.L29
+	.byte	5
+	.byte	'adcResult',0,1,40,9
+	.word	.L30,.L31
+	.byte	5
+	.byte	'transResult',0,1,41,9
+	.word	.L30,.L32
+	.byte	4
+	.word	.L33,.L29
+	.byte	5
+	.byte	'duty',0,1,45,9
+	.word	.L30,.L34
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('HBA_ON')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('HBA_ON')
+	.sect	'.debug_line'
+.L16:
+	.word	.L47-.L46
+.L46:
+	.half	3
+	.word	.L49-.L48
+.L48:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L49:
+	.byte	5,6,7,0,5,2
+	.word	.L7
+	.byte	3,36,1,5,31,9
+	.half	.L37-.L7
+	.byte	3,3,1,5,18,9
+	.half	.L38-.L37
+	.byte	1,5,27,9
+	.half	.L39-.L38
+	.byte	3,3,1,5,15,9
+	.half	.L50-.L39
+	.byte	1,5,28,9
+	.half	.L33-.L50
+	.byte	3,2,1,5,27,9
+	.half	.L51-.L33
+	.byte	1,5,14,9
+	.half	.L40-.L51
+	.byte	3,1,1,5,8,9
+	.half	.L52-.L40
+	.byte	1,5,25,7,9
+	.half	.L53-.L52
+	.byte	1,5,33,7,9
+	.half	.L54-.L53
+	.byte	3,1,1,5,29,9
+	.half	.L2-.L54
+	.byte	3,2,1,5,15,9
+	.half	.L55-.L2
+	.byte	1,5,17,9
+	.half	.L56-.L55
+	.byte	3,3,1,5,19,9
+	.half	.L57-.L56
+	.byte	1,5,1,9
+	.half	.L58-.L57
+	.byte	3,9,1,7,9
+	.half	.L18-.L58
+	.byte	0,1,1
+.L47:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_ON')
+	.sect	'.debug_ranges'
+.L17:
+	.word	-1,.L7,0,.L18-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('HBA_OFF')
+	.sect	'.debug_info'
+.L19:
+	.word	243
+	.half	3
+	.word	.L20
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L22,.L21
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'HBA_OFF',0,1,63,6,1,1,1
+	.word	.L9,.L35,.L8
+	.byte	4
+	.word	.L9,.L35
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('HBA_OFF')
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('HBA_OFF')
+	.sect	'.debug_line'
+.L21:
+	.word	.L60-.L59
+.L59:
+	.half	3
+	.word	.L62-.L61
+.L61:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L62:
+	.byte	5,17,7,0,5,2
+	.word	.L9
+	.byte	3,63,1,5,19,9
+	.half	.L63-.L9
+	.byte	1,5,1,9
+	.half	.L64-.L63
+	.byte	3,1,1,7,9
+	.half	.L23-.L64
+	.byte	0,1,1
+.L60:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_OFF')
+	.sect	'.debug_ranges'
+.L22:
+	.word	-1,.L9,0,.L23-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('HBA_Init')
+	.sect	'.debug_info'
+.L24:
+	.word	244
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'HBA_Init',0,1,29,6,1,1,1
+	.word	.L5,.L36,.L4
+	.byte	4
+	.word	.L5,.L36
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('HBA_Init')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('HBA_Init')
+	.sect	'.debug_line'
+.L26:
+	.word	.L66-.L65
+.L65:
+	.half	3
+	.word	.L68-.L67
+.L67:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L68:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,34,1,7,9
+	.half	.L28-.L5
+	.byte	0,1,1
+.L66:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_Init')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L5,0,.L28-.L5,0,0
+	.sdecl	'.debug_loc',debug,cluster('HBA_Init')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L36-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('HBA_OFF')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L35-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('HBA_ON')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L37-.L7
+	.half	2
+	.byte	138,0
+	.word	.L37-.L7,.L29-.L7
+	.half	2
+	.byte	138,8
+	.word	.L29-.L7,.L29-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L31:
+	.word	-1,.L7,.L38-.L7,.L33-.L7
+	.half	1
+	.byte	82
+	.word	.L39-.L7,.L40-.L7
+	.half	1
+	.byte	88
+	.word	0,0
+.L34:
+	.word	-1,.L7,.L40-.L7,.L29-.L7
+	.half	1
+	.byte	88
+	.word	.L41-.L7,.L2-.L7
+	.half	1
+	.byte	84
+	.word	0,0
+.L32:
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L69:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('HBA_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L69,.L5,.L36-.L5
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('HBA_ON')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L69,.L7,.L29-.L7
+	.byte	4
+	.word	(.L37-.L7)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L29-.L37)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('HBA_OFF')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L69,.L9,.L35-.L9
+	; Module end
