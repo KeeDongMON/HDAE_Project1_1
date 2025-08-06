@@ -14,9 +14,10 @@ void GPIO_Init(void)
     GPIO_SetLed(1, 0);
     GPIO_SetLed(2, 0);
 
+
     /* Set P2.0(SW1) * P2.1(SW2) as input pull-up */
     MODULE_P02.IOCR0.B.PC0 = 0x02;
-//    MODULE_P02.IOCR0.B.PC1 = 0x02;
+    MODULE_P02.IOCR0.B.PC1 = 0x02;
 
     /* Set P00.7 (TC375 LED1) as a input pull-up */
     MODULE_P00.IOCR4.B.PC7 = 0x02;
@@ -32,6 +33,7 @@ void GPIO_SetLed(unsigned char num_LED, unsigned char onOff)
         case 2 :
             MODULE_P10.OUT.B.P1 = onOff;
             break;
+
     }
 }
 
@@ -50,7 +52,7 @@ void GPIO_ToggleLed(unsigned char num_LED)
 
 int GPIO_getSW1(void)
 {
-    return MODULE_P02.IN.B.P0 ^ 1;
+    return MODULE_P02.IN.B.P0 ^ 1; // 2.0 핀
 }
 
 int GPIO_getSW2(void)

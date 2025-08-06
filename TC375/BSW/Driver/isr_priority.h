@@ -16,11 +16,11 @@
 #define ISR_PRIORITY_BLE_RX         15
 #define ISR_PRIORITY_BLE_TX         16
 
-#define ISR_PRIORITY_ERU_INT0       17
+#define ISR_PRIORITY_ERU_INT0       7
 
 
-#define ISR_PRIORITY_GPT1T3_TIMER   5       /* Define the GPT12 Timer interrupt priority  */
-#define ISR_PRIORITY_GPT2T6_TIMER   6       /* Define the GPT12 Timer interrupt priority  */
+#define ISR_PRIORITY_GPT1T3_TIMER   8       /* Define the GPT12 Timer interrupt priority  */
+#define ISR_PRIORITY_GPT2T6_TIMER   9       /* Define the GPT12 Timer interrupt priority  */
 
 #define ISR_PRIORITY_ATOM           20
 

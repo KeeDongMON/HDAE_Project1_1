@@ -432,6 +432,7 @@ IFX_EXTERN void IfxAsclin_Asc_isrTransmit(IfxAsclin_Asc *asclin);
  * A coding example can be found in \ref IfxLld_Asclin_Asc_Usage
  *
  */
+
 IFX_EXTERN uint8 IfxAsclin_Asc_blockingRead(IfxAsclin_Asc *asclin);
 
 /** \brief Writes data into the Tx FIFO

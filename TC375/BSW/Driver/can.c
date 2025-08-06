@@ -19,10 +19,13 @@ void Can_TxIsrHandler(void)
 {
     /* Clear the "Transmission Completed" interrupt flag */
     IfxCan_Node_clearInterruptFlag(g_mcmcan.canSrcNode.node, IfxCan_Interrupt_transmissionCompleted);
+
+
+
 }
 #ifndef CAN_PROJECT
 /* Default CAN Rx Handler */
-IFX_INTERRUPT(Can_RxIsrHandler, 0, ISR_PRIORITY_CAN_RX);
+//IFX_INTERRUPT(Can_RxIsrHandler, 0, ISR_PRIORITY_CAN_RX);
 void Can_RxIsrHandler (void)
 {
     unsigned int rxID;

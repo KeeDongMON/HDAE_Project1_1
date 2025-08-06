@@ -1,0 +1,7533 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc8904a --dep-file=netif.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/core/netif.src ../Libraries/Ethernet/lwip/src/core/netif.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/core/netif.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.netif.netif_init',code,cluster('netif_init')
+	.sect	'.text.netif.netif_init'
+	.align	2
+	
+	.global	netif_init
+; Function netif_init
+.L306:
+netif_init:	.type	func
+	ret
+.L506:
+	
+__netif_init_function_end:
+	.size	netif_init,__netif_init_function_end-netif_init
+.L367:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_input',code,cluster('netif_input')
+	.sect	'.text.netif.netif_input'
+	.align	2
+	
+	.global	netif_input
+; Function netif_input
+.L308:
+netif_input:	.type	func
+	sub.a	a10,#16
+.L650:
+	mov.aa	a12,a4
+.L652:
+	mov.aa	a13,a5
+.L2:
+	jnz.a	a12,.L3
+.L1036:
+	movh.a	a15,#@his(.2.str)
+	lea	a15,[a15]@los(.2.str)
+	st.a	[a10],a15
+	mov	d15,#221
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L651:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L3:
+.L4:
+	jnz.a	a13,.L5
+.L1037:
+	movh.a	a15,#@his(.4.str)
+	lea	a15,[a15]@los(.4.str)
+	st.a	[a10],a15
+	mov	d15,#222
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L5:
+	ld.bu	d15,[a13]41
+.L1038:
+	and	d15,#24
+.L1039:
+	jeq	d15,#0,.L6
+.L1040:
+	mov.aa	a4,a12
+.L653:
+	mov.aa	a5,a13
+.L655:
+	call	ethernet_input
+.L654:
+	j	.L7
+.L6:
+	mov.aa	a4,a12
+.L656:
+	mov.aa	a5,a13
+.L658:
+	call	ip4_input
+.L657:
+	j	.L8
+.L8:
+.L7:
+	ret
+.L595:
+	
+__netif_input_function_end:
+	.size	netif_input,__netif_input_function_end-netif_input
+.L437:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_add_noaddr',code,cluster('netif_add_noaddr')
+	.sect	'.text.netif.netif_add_noaddr'
+	.align	2
+	
+	.global	netif_add_noaddr
+; Function netif_add_noaddr
+.L310:
+netif_add_noaddr:	.type	func
+	sub.a	a10,#16
+.L659:
+	st.a	[a10],a5
+.L871:
+	st.a	[a10]4,a6
+.L872:
+	st.a	[a10]8,a7
+.L873:
+	mov.a	a5,#0
+.L663:
+	mov.a	a6,#0
+.L660:
+	mov.a	a7,#0
+.L661:
+	call	netif_add
+.L662:
+	j	.L9
+.L9:
+	ret
+.L508:
+	
+__netif_add_noaddr_function_end:
+	.size	netif_add_noaddr,__netif_add_noaddr_function_end-netif_add_noaddr
+.L372:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_add',code,cluster('netif_add')
+	.sect	'.text.netif.netif_add'
+	.align	2
+	
+	.global	netif_add
+; Function netif_add
+.L312:
+netif_add:	.type	func
+	sub.a	a10,#24
+.L664:
+	mov.aa	a12,a4
+.L666:
+	mov.aa	a13,a5
+.L667:
+	mov.aa	a14,a6
+.L668:
+	st.a	[a10]20,a7
+.L669:
+	ld.a	a2,[a10]24
+.L670:
+	ld.a	a4,[a10]32
+.L10:
+	jnz.a	a12,.L11
+.L878:
+	movh.a	a15,#@his(.5.str)
+	lea	a15,[a15]@los(.5.str)
+	st.a	[a10],a15
+	mov	d15,#295
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L671:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L665:
+	mov.a	a2,#0
+	j	.L12
+.L11:
+.L13:
+	ld.a	a15,[a10]28
+.L674:
+	jnz.a	a15,.L14
+	movh.a	a15,#@his(.6.str)
+.L675:
+	lea	a15,[a15]@los(.6.str)
+	st.a	[a10],a15
+	mov	d15,#296
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L673:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L672:
+	mov.a	a2,#0
+	j	.L15
+.L14:
+	jnz.a	a13,.L16
+.L879:
+	movh.a	a13,#@his(ip_addr_any)
+.L678:
+	lea	a13,[a13]@los(ip_addr_any)
+.L16:
+	jnz.a	a14,.L17
+.L880:
+	movh.a	a14,#@his(ip_addr_any)
+.L679:
+	lea	a14,[a14]@los(ip_addr_any)
+.L17:
+	ld.a	a15,[a10]20
+.L676:
+	jnz.a	a15,.L18
+.L881:
+	movh.a	a15,#@his(ip_addr_any)
+	lea	a15,[a15]@los(ip_addr_any)
+	st.a	[a10]20,a15
+.L18:
+	mov	d15,#0
+	st.w	[a12]4,d15
+.L882:
+	mov	d15,#0
+	st.w	[a12]8,d15
+.L883:
+	mov	d15,#0
+	st.w	[a12]12,d15
+.L884:
+	movh.a	a15,#@his(netif_null_output_ip4)
+	lea	a15,[a15]@los(netif_null_output_ip4)
+.L885:
+	st.a	[a12]20,a15
+.L886:
+	mov	d15,#0
+.L887:
+	st.h	[a12]32,d15
+.L888:
+	mov	d15,#0
+.L889:
+	st.b	[a12]41,d15
+.L890:
+	st.a	[a12]28,a2
+.L891:
+	movh.a	a15,#@his(netif_num)
+	lea	a15,[a15]@los(netif_num)
+	ld.bu	d15,[a15]
+.L892:
+	st.b	[a12]44,d15
+.L893:
+	st.a	[a12]16,a4
+.L894:
+	mov.aa	a4,a12
+.L677:
+	mov.aa	a5,a13
+.L681:
+	mov.aa	a6,a14
+.L682:
+	ld.a	a7,[a10]20
+.L683:
+	call	netif_set_addr
+.L680:
+	mov.aa	a4,a12
+.L684:
+	ld.a	a15,[a10]28
+.L686:
+	calli	a15
+.L685:
+	jeq	d2,#0,.L19
+.L895:
+	mov.a	a2,#0
+.L896:
+	j	.L20
+.L19:
+.L21:
+	ld.bu	d0,[a12]44
+.L897:
+	mov	d15,#255
+.L898:
+	jne	d15,d0,.L22
+.L899:
+	mov	d15,#0
+.L900:
+	st.b	[a12]44,d15
+.L22:
+	mov	d8,#0
+.L687:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a15,[a15]
+.L688:
+	st.a	[a10]16,a15
+.L690:
+	j	.L23
+.L24:
+.L25:
+	jne.a	a15,a12,.L26
+.L689:
+	movh.a	a15,#@his(.7.str)
+	lea	a15,[a15]@los(.7.str)
+	st.a	[a10],a15
+	mov	d15,#395
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L26:
+	add	d8,#1
+.L27:
+	mov	d15,#255
+	jge	d15,d8,.L28
+	movh.a	a15,#@his(.8.str)
+	lea	a15,[a15]@los(.8.str)
+	st.a	[a10],a15
+	mov	d15,#397
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L28:
+	ld.a	a15,[a10]16
+.L691:
+	ld.bu	d15,[a15]44
+.L901:
+	ld.bu	d0,[a12]44
+.L902:
+	jne	d15,d0,.L29
+.L903:
+	ld.bu	d15,[a12]44
+.L904:
+	add	d15,#1
+	st.b	[a12]44,d15
+.L905:
+	j	.L30
+.L29:
+	ld.a	a15,[a15]
+	st.a	[a10]16,a15
+.L23:
+	jnz.a	a15,.L24
+.L30:
+	jnz.a	a15,.L21
+.L525:
+	ld.bu	d0,[a12]44
+.L906:
+	mov	d15,#254
+.L907:
+	jne	d15,d0,.L31
+.L908:
+	movh.a	a15,#@his(netif_num)
+	lea	a15,[a15]@los(netif_num)
+.L909:
+	mov	d15,#0
+.L910:
+	st.b	[a15],d15
+.L911:
+	j	.L32
+.L31:
+	movh.a	a15,#@his(netif_num)
+	lea	a15,[a15]@los(netif_num)
+.L912:
+	ld.bu	d15,[a12]44
+.L913:
+	add	d15,#1
+.L914:
+	st.b	[a15],d15
+.L32:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a15,[a15]
+.L915:
+	st.a	[a12],a15
+.L916:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+.L917:
+	st.a	[a15],a12
+.L33:
+	mov	d15,#1
+	jeq	d15,#0,.L34
+	mov	d15,#0
+	jeq	d15,#0,.L35
+	mov	d15,#1
+	jeq	d15,#0,.L36
+	ld.b	d15,[a12]42
+	st.w	[a10],d15
+	ld.b	d15,[a12]43
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.9.str)
+	lea	a4,[a4]@los(.9.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L37
+	j	.L38
+.L39:
+.L38:
+	j	.L39
+.L37:
+.L36:
+.L35:
+.L34:
+.L40:
+	mov	d15,#1
+	jeq	d15,#0,.L41
+	mov	d15,#0
+	jeq	d15,#0,.L42
+	mov	d15,#1
+	jeq	d15,#0,.L43
+	movh.a	a4,#@his(.10.str)
+	lea	a4,[a4]@los(.10.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L44
+	j	.L45
+.L46:
+.L45:
+	j	.L46
+.L44:
+.L43:
+.L42:
+.L41:
+.L47:
+	mov	d15,#1
+	jeq	d15,#0,.L48
+	mov	d15,#0
+	jeq	d15,#0,.L49
+	mov	d15,#1
+	jeq	d15,#0,.L50
+	jz.a	a13,.L51
+	ld.bu	d0,[a13]
+	j	.L52
+.L51:
+	mov	d0,#0
+.L52:
+	jz.a	a13,.L53
+	ld.bu	d15,[a13]1
+	j	.L54
+.L53:
+	mov	d15,#0
+.L54:
+	jz.a	a13,.L55
+	ld.bu	d1,[a13]2
+	j	.L56
+.L55:
+	mov	d1,#0
+.L56:
+	jz.a	a13,.L57
+	ld.bu	d2,[a13]3
+	j	.L58
+.L57:
+	mov	d2,#0
+.L58:
+	st.w	[a10],d0
+	st.w	[a10]4,d15
+	st.w	[a10]8,d1
+	st.w	[a10]12,d2
+	movh.a	a4,#@his(.11.str)
+	lea	a4,[a4]@los(.11.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L59
+	j	.L60
+.L61:
+.L60:
+	j	.L61
+.L59:
+.L50:
+.L49:
+.L48:
+.L62:
+	mov	d15,#1
+	jeq	d15,#0,.L63
+	mov	d15,#0
+	jeq	d15,#0,.L64
+	mov	d15,#1
+	jeq	d15,#0,.L65
+	movh.a	a4,#@his(.12.str)
+	lea	a4,[a4]@los(.12.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L66
+	j	.L67
+.L68:
+.L67:
+	j	.L68
+.L66:
+.L65:
+.L64:
+.L63:
+.L69:
+	mov	d15,#1
+	jeq	d15,#0,.L70
+	mov	d15,#0
+	jeq	d15,#0,.L71
+	mov	d15,#1
+	jeq	d15,#0,.L72
+	jz.a	a14,.L73
+	ld.bu	d0,[a14]
+	j	.L74
+.L73:
+	mov	d0,#0
+.L74:
+	jz.a	a14,.L75
+	ld.bu	d15,[a14]1
+	j	.L76
+.L75:
+	mov	d15,#0
+.L76:
+	jz.a	a14,.L77
+	ld.bu	d1,[a14]2
+	j	.L78
+.L77:
+	mov	d1,#0
+.L78:
+	jz.a	a14,.L79
+	ld.bu	d2,[a14]3
+	j	.L80
+.L79:
+	mov	d2,#0
+.L80:
+	st.w	[a10],d0
+	st.w	[a10]4,d15
+	st.w	[a10]8,d1
+	st.w	[a10]12,d2
+	movh.a	a4,#@his(.11.str)
+	lea	a4,[a4]@los(.11.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L81
+	j	.L82
+.L83:
+.L82:
+	j	.L83
+.L81:
+.L72:
+.L71:
+.L70:
+.L84:
+	mov	d15,#1
+	jeq	d15,#0,.L85
+	mov	d15,#0
+	jeq	d15,#0,.L86
+	mov	d15,#1
+	jeq	d15,#0,.L87
+	movh.a	a4,#@his(.13.str)
+	lea	a4,[a4]@los(.13.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L88
+	j	.L89
+.L90:
+.L89:
+	j	.L90
+.L88:
+.L87:
+.L86:
+.L85:
+.L91:
+	mov	d15,#1
+	jeq	d15,#0,.L92
+	mov	d15,#0
+	jeq	d15,#0,.L93
+	mov	d15,#1
+	jeq	d15,#0,.L94
+	ld.a	a15,[a10]20
+.L692:
+	jz.a	a15,.L95
+	ld.bu	d0,[a15]
+	j	.L96
+.L95:
+	mov	d0,#0
+.L96:
+	jz.a	a15,.L97
+	ld.bu	d15,[a15]1
+	j	.L98
+.L97:
+	mov	d15,#0
+.L98:
+	jz.a	a15,.L99
+	ld.bu	d1,[a15]2
+	j	.L100
+.L99:
+	mov	d1,#0
+.L100:
+	jz.a	a15,.L101
+	ld.bu	d2,[a15]3
+	j	.L102
+.L101:
+	mov	d2,#0
+.L102:
+	st.w	[a10],d0
+	st.w	[a10]4,d15
+	st.w	[a10]8,d1
+	st.w	[a10]12,d2
+	movh.a	a4,#@his(.11.str)
+	lea	a4,[a4]@los(.11.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L103
+	j	.L104
+.L105:
+.L104:
+	j	.L105
+.L103:
+.L94:
+.L93:
+.L92:
+.L106:
+	mov	d15,#1
+	jeq	d15,#0,.L107
+	mov	d15,#0
+	jeq	d15,#0,.L108
+	mov	d15,#1
+	jeq	d15,#0,.L109
+	movh.a	a4,#@his(.14.str)
+	lea	a4,[a4]@los(.14.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L110
+	j	.L111
+.L112:
+.L111:
+	j	.L112
+.L110:
+.L109:
+.L108:
+.L107:
+	mov	d4,#1
+.L918:
+	mov.a	a5,#0
+	mov.aa	a4,a12
+.L693:
+	call	netif_invoke_ext_callback
+.L694:
+	mov.aa	a2,a12
+.L695:
+	j	.L113
+.L113:
+.L20:
+.L15:
+.L12:
+	ret
+.L516:
+	
+__netif_add_function_end:
+	.size	netif_add,__netif_add_function_end-netif_add
+.L377:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_do_ip_addr_changed',code,cluster('netif_do_ip_addr_changed')
+	.sect	'.text.netif.netif_do_ip_addr_changed'
+	.align	2
+	
+; Function netif_do_ip_addr_changed
+.L314:
+netif_do_ip_addr_changed:	.type	func
+	mov.aa	a15,a4
+.L697:
+	mov.aa	a12,a5
+.L698:
+	mov.aa	a4,a15
+	mov.aa	a5,a12
+	call	tcp_netif_ip_addr_changed
+.L696:
+	mov.aa	a4,a15
+.L699:
+	mov.aa	a5,a12
+.L701:
+	call	udp_netif_ip_addr_changed
+.L700:
+	ret
+.L632:
+	
+__netif_do_ip_addr_changed_function_end:
+	.size	netif_do_ip_addr_changed,__netif_do_ip_addr_changed_function_end-netif_do_ip_addr_changed
+.L482:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_do_set_ipaddr',code,cluster('netif_do_set_ipaddr')
+	.sect	'.text.netif.netif_do_set_ipaddr'
+	.align	2
+	
+; Function netif_do_set_ipaddr
+.L316:
+netif_do_set_ipaddr:	.type	func
+	sub.a	a10,#16
+.L702:
+	mov.aa	a15,a4
+.L704:
+	mov.aa	a12,a5
+.L705:
+	mov.aa	a13,a6
+.L114:
+	jnz.a	a12,.L115
+.L1129:
+	movh.a	a2,#@his(.15.str)
+	lea	a2,[a2]@los(.15.str)
+	st.a	[a10],a2
+	mov	d15,#459
+	st.w	[a10]4,d15
+	movh.a	a2,#@his(.3.str)
+	lea	a2,[a2]@los(.3.str)
+	st.a	[a10]8,a2
+	movh.a	a4,#@his(.1.str)
+.L703:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L115:
+.L116:
+	jnz.a	a13,.L117
+.L1130:
+	movh.a	a2,#@his(.15.str)
+	lea	a2,[a2]@los(.15.str)
+	st.a	[a10],a2
+	mov	d15,#460
+	st.w	[a10]4,d15
+	movh.a	a2,#@his(.3.str)
+	lea	a2,[a2]@los(.3.str)
+	st.a	[a10]8,a2
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L117:
+	ld.w	d0,[a12]
+	ld.w	d15,[a15]4
+	eq	d15,d0,d15
+.L1131:
+	jne	d15,#0,.L118
+.L640:
+	ld.w	d15,[a12]
+.L1132:
+	st.w	[a10]12,d15
+.L1133:
+	ld.w	d15,[a15]4
+	st.w	[a13],d15
+.L119:
+	mov	d15,#1
+	jeq	d15,#0,.L120
+	mov	d15,#1
+	jeq	d15,#0,.L121
+	mov	d15,#1
+	jeq	d15,#0,.L122
+	movh.a	a4,#@his(.16.str)
+	lea	a4,[a4]@los(.16.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L123
+	j	.L124
+.L125:
+.L124:
+	j	.L125
+.L123:
+.L122:
+.L121:
+.L120:
+	lea	a5,[a10]12
+	mov.aa	a4,a13
+.L706:
+	call	netif_do_ip_addr_changed
+.L707:
+	jnz.a	a12,.L126
+.L1134:
+	mov	d15,#0
+	j	.L127
+.L126:
+	ld.w	d15,[a12]
+.L127:
+	st.w	[a15]4,d15
+.L1135:
+	mov	d4,#1
+	mov.aa	a4,a15
+.L708:
+	call	netif_issue_reports
+.L709:
+	mov	d2,#1
+.L1136:
+	j	.L128
+.L118:
+	mov	d2,#0
+.L1137:
+	j	.L129
+.L129:
+.L128:
+	ret
+.L636:
+	
+__netif_do_set_ipaddr_function_end:
+	.size	netif_do_set_ipaddr,__netif_do_set_ipaddr_function_end-netif_do_set_ipaddr
+.L487:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_ipaddr',code,cluster('netif_set_ipaddr')
+	.sect	'.text.netif.netif_set_ipaddr'
+	.align	2
+	
+	.global	netif_set_ipaddr
+; Function netif_set_ipaddr
+.L318:
+netif_set_ipaddr:	.type	func
+	sub.a	a10,#32
+.L710:
+	mov.aa	a12,a4
+.L130:
+	jnz.a	a12,.L131
+.L971:
+	movh.a	a15,#@his(.17.str)
+	lea	a15,[a15]@los(.17.str)
+	st.a	[a10],a15
+	mov	d15,#504
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L712:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L711:
+	j	.L132
+.L131:
+	jnz.a	a5,.L133
+.L972:
+	movh.a	a5,#@his(ip_addr_any)
+	lea	a5,[a5]@los(ip_addr_any)
+.L133:
+	lea	a6,[a10]12
+	mov.aa	a4,a12
+	call	netif_do_set_ipaddr
+.L713:
+	jeq	d2,#0,.L134
+.L561:
+	lea	a15,[a10]12
+.L973:
+	st.a	[a10]16,a15
+.L974:
+	mov	d4,#16
+.L975:
+	lea	a5,[a10]16
+	mov.aa	a4,a12
+.L714:
+	call	netif_invoke_ext_callback
+.L134:
+.L132:
+	ret
+.L557:
+	
+__netif_set_ipaddr_function_end:
+	.size	netif_set_ipaddr,__netif_set_ipaddr_function_end-netif_set_ipaddr
+.L402:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_do_set_netmask',code,cluster('netif_do_set_netmask')
+	.sect	'.text.netif.netif_do_set_netmask'
+	.align	2
+	
+; Function netif_do_set_netmask
+.L320:
+netif_do_set_netmask:	.type	func
+	sub.a	a10,#24
+.L715:
+	mov.aa	a15,a4
+.L717:
+	mov.aa	a12,a5
+.L718:
+	mov.aa	a13,a6
+.L719:
+	ld.w	d0,[a12]
+	ld.w	d15,[a15]8
+	eq	d15,d0,d15
+.L1142:
+	jne	d15,#0,.L135
+.L136:
+	jnz.a	a13,.L137
+.L1143:
+	movh.a	a2,#@his(.15.str)
+	lea	a2,[a2]@los(.15.str)
+	st.a	[a10],a2
+	mov	d15,#528
+	st.w	[a10]4,d15
+	movh.a	a2,#@his(.3.str)
+	lea	a2,[a2]@los(.3.str)
+	st.a	[a10]8,a2
+	movh.a	a4,#@his(.1.str)
+.L716:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L137:
+	ld.w	d15,[a15]8
+	st.w	[a13],d15
+.L1144:
+	jnz.a	a12,.L138
+.L1145:
+	mov	d15,#0
+	j	.L139
+.L138:
+	ld.w	d15,[a12]
+.L139:
+	st.w	[a15]8,d15
+.L140:
+	mov	d15,#1
+	jeq	d15,#0,.L141
+	mov	d15,#1
+	jeq	d15,#0,.L142
+	mov	d15,#1
+	jeq	d15,#0,.L143
+	ld.b	d15,[a15]42
+	st.w	[a10],d15
+	ld.b	d15,[a15]43
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]8
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]9
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]10
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]11
+	st.w	[a10]20,d15
+	movh.a	a4,#@his(.18.str)
+	lea	a4,[a4]@los(.18.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L144
+	j	.L145
+.L146:
+.L145:
+	j	.L146
+.L144:
+.L143:
+.L142:
+.L141:
+	mov	d2,#1
+.L1146:
+	j	.L147
+.L135:
+	mov	d2,#0
+.L1147:
+	j	.L148
+.L148:
+.L147:
+	ret
+.L642:
+	
+__netif_do_set_netmask_function_end:
+	.size	netif_do_set_netmask,__netif_do_set_netmask_function_end-netif_do_set_netmask
+.L492:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_netmask',code,cluster('netif_set_netmask')
+	.sect	'.text.netif.netif_set_netmask'
+	.align	2
+	
+	.global	netif_set_netmask
+; Function netif_set_netmask
+.L322:
+netif_set_netmask:	.type	func
+	sub.a	a10,#32
+.L720:
+	mov.aa	a12,a4
+.L723:
+	lea	a15,[a10]12
+.L149:
+	jnz.a	a12,.L150
+.L980:
+	movh.a	a15,#@his(.19.str)
+.L724:
+	lea	a15,[a15]@los(.19.str)
+	st.a	[a10],a15
+	mov	d15,#570
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L721:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L722:
+	j	.L151
+.L150:
+	jnz.a	a5,.L152
+.L981:
+	movh.a	a5,#@his(ip_addr_any)
+	lea	a5,[a5]@los(ip_addr_any)
+.L152:
+	mov.aa	a4,a12
+	mov.aa	a6,a15
+.L726:
+	call	netif_do_set_netmask
+.L725:
+	jeq	d2,#0,.L153
+.L568:
+	st.a	[a10]20,a15
+.L982:
+	mov	d4,#64
+.L983:
+	lea	a5,[a10]16
+	mov.aa	a4,a12
+.L727:
+	call	netif_invoke_ext_callback
+.L153:
+.L151:
+	ret
+.L563:
+	
+__netif_set_netmask_function_end:
+	.size	netif_set_netmask,__netif_set_netmask_function_end-netif_set_netmask
+.L407:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_do_set_gw',code,cluster('netif_do_set_gw')
+	.sect	'.text.netif.netif_do_set_gw'
+	.align	2
+	
+; Function netif_do_set_gw
+.L324:
+netif_do_set_gw:	.type	func
+	sub.a	a10,#24
+.L728:
+	mov.aa	a15,a4
+.L730:
+	mov.aa	a12,a5
+.L731:
+	mov.aa	a13,a6
+.L732:
+	ld.w	d0,[a12]
+	ld.w	d15,[a15]12
+	eq	d15,d0,d15
+.L1152:
+	jne	d15,#0,.L154
+.L155:
+	jnz.a	a13,.L156
+.L1153:
+	movh.a	a2,#@his(.15.str)
+	lea	a2,[a2]@los(.15.str)
+	st.a	[a10],a2
+	mov	d15,#592
+	st.w	[a10]4,d15
+	movh.a	a2,#@his(.3.str)
+	lea	a2,[a2]@los(.3.str)
+	st.a	[a10]8,a2
+	movh.a	a4,#@his(.1.str)
+.L729:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L156:
+	ld.w	d15,[a15]12
+	st.w	[a13],d15
+.L1154:
+	jnz.a	a12,.L157
+.L1155:
+	mov	d15,#0
+	j	.L158
+.L157:
+	ld.w	d15,[a12]
+.L158:
+	st.w	[a15]12,d15
+.L159:
+	mov	d15,#1
+	jeq	d15,#0,.L160
+	mov	d15,#1
+	jeq	d15,#0,.L161
+	mov	d15,#1
+	jeq	d15,#0,.L162
+	ld.b	d15,[a15]42
+	st.w	[a10],d15
+	ld.b	d15,[a15]43
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]12
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]13
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]14
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]15
+	st.w	[a10]20,d15
+	movh.a	a4,#@his(.20.str)
+	lea	a4,[a4]@los(.20.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L163
+	j	.L164
+.L165:
+.L164:
+	j	.L165
+.L163:
+.L162:
+.L161:
+.L160:
+	mov	d2,#1
+.L1156:
+	j	.L166
+.L154:
+	mov	d2,#0
+.L1157:
+	j	.L167
+.L167:
+.L166:
+	ret
+.L646:
+	
+__netif_do_set_gw_function_end:
+	.size	netif_do_set_gw,__netif_do_set_gw_function_end-netif_do_set_gw
+.L497:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_gw',code,cluster('netif_set_gw')
+	.sect	'.text.netif.netif_set_gw'
+	.align	2
+	
+	.global	netif_set_gw
+; Function netif_set_gw
+.L326:
+netif_set_gw:	.type	func
+	sub.a	a10,#32
+.L733:
+	mov.aa	a12,a4
+.L736:
+	lea	a15,[a10]12
+.L168:
+	jnz.a	a12,.L169
+.L988:
+	movh.a	a15,#@his(.21.str)
+.L737:
+	lea	a15,[a15]@los(.21.str)
+	st.a	[a10],a15
+	mov	d15,#631
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L735:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L734:
+	j	.L170
+.L169:
+	jnz.a	a5,.L171
+.L989:
+	movh.a	a5,#@his(ip_addr_any)
+	lea	a5,[a5]@los(ip_addr_any)
+.L171:
+	mov.aa	a4,a12
+	mov.aa	a6,a15
+.L739:
+	call	netif_do_set_gw
+.L738:
+	jeq	d2,#0,.L172
+.L575:
+	st.a	[a10]24,a15
+.L990:
+	mov	d4,#32
+.L991:
+	lea	a5,[a10]16
+	mov.aa	a4,a12
+.L740:
+	call	netif_invoke_ext_callback
+.L172:
+.L170:
+	ret
+.L570:
+	
+__netif_set_gw_function_end:
+	.size	netif_set_gw,__netif_set_gw_function_end-netif_set_gw
+.L412:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_addr',code,cluster('netif_set_addr')
+	.sect	'.text.netif.netif_set_addr'
+	.align	2
+	
+	.global	netif_set_addr
+; Function netif_set_addr
+.L328:
+netif_set_addr:	.type	func
+	sub.a	a10,#24
+.L741:
+	mov.aa	a12,a4
+.L746:
+	mov.aa	a13,a5
+.L747:
+	mov.aa	a15,a6
+.L748:
+	mov.aa	a14,a7
+.L750:
+	mov	d8,#0
+.L751:
+	jnz.a	a13,.L173
+.L923:
+	movh.a	a13,#@his(ip_addr_any)
+.L743:
+	lea	a13,[a13]@los(ip_addr_any)
+.L173:
+	jnz.a	a15,.L174
+.L924:
+	movh.a	a15,#@his(ip_addr_any)
+.L745:
+	lea	a15,[a15]@los(ip_addr_any)
+.L174:
+	jnz.a	a14,.L175
+.L925:
+	movh.a	a14,#@his(ip_addr_any)
+.L742:
+	lea	a14,[a14]@los(ip_addr_any)
+.L175:
+	mov	d9,#0
+	jz.a	a13,.L176
+	ld.w	d15,[a13]
+	jne	d15,#0,.L177
+.L176:
+	mov	d9,#1
+.L177:
+	jeq	d9,#0,.L178
+.L926:
+	lea	a6,[a10]20
+	mov.aa	a4,a12
+	mov.aa	a5,a13
+.L753:
+	call	netif_do_set_ipaddr
+.L744:
+	jeq	d2,#0,.L179
+.L927:
+	or	d8,d8,#16
+.L928:
+	lea	a2,[a10]20
+.L929:
+	st.a	[a10],a2
+.L179:
+.L178:
+	mov.aa	a4,a12
+.L754:
+	mov.aa	a5,a15
+.L756:
+	lea	a6,[a10]12
+.L757:
+	call	netif_do_set_netmask
+.L755:
+	jeq	d2,#0,.L180
+.L930:
+	or	d8,d8,#64
+.L931:
+	lea	a15,[a10]12
+.L749:
+	st.a	[a10]4,a15
+.L180:
+	mov.aa	a4,a12
+.L758:
+	mov.aa	a5,a14
+.L760:
+	lea	a6,[a10]16
+.L761:
+	call	netif_do_set_gw
+.L759:
+	jeq	d2,#0,.L181
+.L932:
+	or	d8,d8,#32
+.L933:
+	lea	a15,[a10]16
+.L762:
+	st.a	[a10]8,a15
+.L181:
+	jne	d9,#0,.L182
+.L934:
+	lea	a6,[a10]20
+	mov.aa	a4,a12
+.L763:
+	mov.aa	a5,a13
+.L765:
+	call	netif_do_set_ipaddr
+.L764:
+	jeq	d2,#0,.L183
+.L935:
+	or	d8,d8,#16
+.L936:
+	lea	a15,[a10]20
+.L937:
+	st.a	[a10],a15
+.L183:
+.L182:
+	jeq	d8,#0,.L184
+.L938:
+	or	d4,d8,#128
+.L752:
+	lea	a5,[a10]0
+	mov.aa	a4,a12
+.L766:
+	call	netif_invoke_ext_callback
+.L184:
+	ret
+.L529:
+	
+__netif_set_addr_function_end:
+	.size	netif_set_addr,__netif_set_addr_function_end-netif_set_addr
+.L382:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_remove',code,cluster('netif_remove')
+	.sect	'.text.netif.netif_remove'
+	.align	2
+	
+	.global	netif_remove
+; Function netif_remove
+.L330:
+netif_remove:	.type	func
+	mov.aa	a15,a4
+.L768:
+	jnz.a	a15,.L185
+.L943:
+	j	.L186
+.L185:
+	mov	d4,#2
+.L944:
+	mov.a	a5,#0
+	mov.aa	a4,a15
+	call	netif_invoke_ext_callback
+.L767:
+	ld.w	d15,[a15]4
+	jeq	d15,#0,.L187
+.L945:
+	mov.aa	a4,a15
+.L770:
+	add.a	a4,#4
+.L769:
+	mov.a	a5,#0
+	call	netif_do_ip_addr_changed
+.L187:
+	ld.bu	d15,[a15]41
+.L771:
+	jz.t	d15:0,.L188
+	mov	d15,#1
+	j	.L189
+.L188:
+	mov	d15,#0
+.L189:
+	jeq	d15,#0,.L190
+.L772:
+	mov.aa	a4,a15
+.L773:
+	call	netif_set_down
+.L190:
+	movh.a	a2,#@his(netif_default)
+	lea	a2,[a2]@los(netif_default)
+	ld.a	a2,[a2]
+.L774:
+	jne.a	a2,a15,.L191
+.L775:
+	mov.a	a4,#0
+	call	netif_set_default
+.L191:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L776:
+	jne.a	a2,a15,.L192
+.L777:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+.L778:
+	ld.a	a15,[a15]
+.L779:
+	st.a	[a2],a15
+.L946:
+	j	.L193
+.L192:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L780:
+	j	.L194
+.L195:
+	ld.a	a4,[a2]
+.L781:
+	jne.a	a4,a15,.L196
+.L947:
+	ld.a	a15,[a15]
+.L782:
+	st.a	[a2],a15
+.L948:
+	j	.L197
+.L196:
+	ld.a	a2,[a2]
+.L194:
+	jnz.a	a2,.L195
+.L197:
+	jnz.a	a2,.L198
+.L949:
+	j	.L199
+.L198:
+.L193:
+.L200:
+	mov	d15,#1
+	jeq	d15,#0,.L201
+	mov	d15,#0
+	jeq	d15,#0,.L202
+	mov	d15,#1
+	jeq	d15,#0,.L203
+	movh.a	a4,#@his(.22.str)
+	lea	a4,[a4]@los(.22.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L204
+	j	.L205
+.L206:
+.L205:
+	j	.L206
+.L204:
+.L203:
+.L202:
+.L201:
+.L199:
+.L186:
+	ret
+.L546:
+	
+__netif_remove_function_end:
+	.size	netif_remove,__netif_remove_function_end-netif_remove
+.L387:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_default',code,cluster('netif_set_default')
+	.sect	'.text.netif.netif_set_default'
+	.align	2
+	
+	.global	netif_set_default
+; Function netif_set_default
+.L332:
+netif_set_default:	.type	func
+	sub.a	a10,#8
+.L783:
+	jnz.a	a4,.L207
+.L965:
+	j	.L208
+.L207:
+.L208:
+	movh.a	a15,#@his(netif_default)
+	lea	a15,[a15]@los(netif_default)
+.L966:
+	st.a	[a15],a4
+.L209:
+	mov	d15,#1
+	jeq	d15,#0,.L210
+	mov	d15,#0
+	jeq	d15,#0,.L211
+	mov	d15,#1
+	jeq	d15,#0,.L212
+	jz.a	a4,.L213
+	ld.b	d0,[a4]42
+	j	.L214
+.L213:
+	mov	d0,#39
+.L214:
+	jz.a	a4,.L215
+	ld.b	d15,[a4]43
+	j	.L216
+.L215:
+	mov	d15,#39
+.L216:
+	st.w	[a10],d0
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.23.str)
+.L784:
+	lea	a4,[a4]@los(.23.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L217
+	j	.L218
+.L219:
+.L218:
+	j	.L219
+.L217:
+.L212:
+.L211:
+.L210:
+	ret
+.L555:
+	
+__netif_set_default_function_end:
+	.size	netif_set_default,__netif_set_default_function_end-netif_set_default
+.L397:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_up',code,cluster('netif_set_up')
+	.sect	'.text.netif.netif_set_up'
+	.align	2
+	
+	.global	netif_set_up
+; Function netif_set_up
+.L334:
+netif_set_up:	.type	func
+	sub.a	a10,#24
+.L785:
+	mov.aa	a15,a4
+.L220:
+	jnz.a	a15,.L221
+.L996:
+	movh.a	a15,#@his(.24.str)
+.L787:
+	lea	a15,[a15]@los(.24.str)
+	st.a	[a10],a15
+	mov	d15,#848
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L786:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	j	.L222
+.L221:
+	ld.bu	d15,[a15]41
+.L997:
+	jnz.t	d15:0,.L223
+.L224:
+	ld.bu	d15,[a15]41
+	or	d15,#1
+	st.b	[a15]41,d15
+.L579:
+	mov	d15,#1
+.L998:
+	st.b	[a10]12,d15
+.L999:
+	mov	d4,#8
+.L1000:
+	lea	a5,[a10]12
+	mov.aa	a4,a15
+	call	netif_invoke_ext_callback
+.L580:
+	mov	d4,#3
+	mov.aa	a4,a15
+.L788:
+	call	netif_issue_reports
+.L223:
+.L222:
+	ret
+.L577:
+	
+__netif_set_up_function_end:
+	.size	netif_set_up,__netif_set_up_function_end-netif_set_up
+.L417:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_issue_reports',code,cluster('netif_issue_reports')
+	.sect	'.text.netif.netif_issue_reports'
+	.align	2
+	
+; Function netif_issue_reports
+.L336:
+netif_issue_reports:	.type	func
+	sub.a	a10,#16
+.L789:
+	mov.aa	a12,a4
+.L791:
+	mov	d8,d4
+.L225:
+	jnz.a	a12,.L226
+.L1108:
+	movh.a	a15,#@his(.25.str)
+	lea	a15,[a15]@los(.25.str)
+	st.a	[a10],a15
+	mov	d15,#877
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L790:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L226:
+	ld.bu	d15,[a12]41
+.L1109:
+	jz.t	d15:2,.L227
+.L1110:
+	ld.bu	d15,[a12]41
+.L1111:
+	jnz.t	d15:0,.L228
+.L227:
+	j	.L229
+.L228:
+	jz.t	d8:0,.L230
+.L1112:
+	ld.w	d15,[a12]4
+	jeq	d15,#0,.L231
+.L1113:
+	ld.bu	d15,[a12]41
+.L1114:
+	jz.t	d15:3,.L232
+.L1115:
+	mov.aa	a5,a12
+.L793:
+	add.a	a5,#4
+	mov.aa	a4,a12
+.L792:
+	call	etharp_request
+.L232:
+.L231:
+.L230:
+.L229:
+	ret
+.L625:
+	
+__netif_issue_reports_function_end:
+	.size	netif_issue_reports,__netif_issue_reports_function_end-netif_issue_reports
+.L472:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_down',code,cluster('netif_set_down')
+	.sect	'.text.netif.netif_set_down'
+	.align	2
+	
+	.global	netif_set_down
+; Function netif_set_down
+.L338:
+netif_set_down:	.type	func
+	sub.a	a10,#24
+.L794:
+	mov.aa	a15,a4
+.L233:
+	jnz.a	a15,.L234
+.L1005:
+	movh.a	a15,#@his(.26.str)
+.L796:
+	lea	a15,[a15]@los(.26.str)
+	st.a	[a10],a15
+	mov	d15,#923
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L795:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	j	.L235
+.L234:
+	ld.bu	d15,[a15]41
+.L1006:
+	jz.t	d15:0,.L236
+.L584:
+	mov	d15,#0
+.L1007:
+	st.b	[a10]12,d15
+.L1008:
+	mov	d4,#8
+.L1009:
+	lea	a5,[a10]12
+	mov.aa	a4,a15
+	call	netif_invoke_ext_callback
+.L237:
+	ld.bu	d15,[a15]41
+	and	d15,#254
+	st.b	[a15]41,d15
+.L1010:
+	ld.bu	d15,[a15]41
+.L1011:
+	jz.t	d15:3,.L238
+.L1012:
+	mov.aa	a4,a15
+.L797:
+	call	etharp_cleanup_netif
+.L238:
+.L236:
+.L235:
+	ret
+.L582:
+	
+__netif_set_down_function_end:
+	.size	netif_set_down,__netif_set_down_function_end-netif_set_down
+.L422:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_link_up',code,cluster('netif_set_link_up')
+	.sect	'.text.netif.netif_set_link_up'
+	.align	2
+	
+	.global	netif_set_link_up
+; Function netif_set_link_up
+.L340:
+netif_set_link_up:	.type	func
+	sub.a	a10,#24
+.L798:
+	mov.aa	a15,a4
+.L239:
+	jnz.a	a15,.L240
+.L1017:
+	movh.a	a15,#@his(.27.str)
+.L800:
+	lea	a15,[a15]@los(.27.str)
+	st.a	[a10],a15
+	mov	d15,#992
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L799:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	j	.L241
+.L240:
+	ld.bu	d15,[a15]41
+.L1018:
+	jnz.t	d15:2,.L242
+.L243:
+	ld.bu	d15,[a15]41
+	or	d15,#4
+	st.b	[a15]41,d15
+.L1019:
+	mov	d4,#3
+	mov.aa	a4,a15
+	call	netif_issue_reports
+.L588:
+	mov	d15,#1
+.L1020:
+	st.b	[a10]12,d15
+.L1021:
+	mov	d4,#4
+.L1022:
+	lea	a5,[a10]12
+	mov.aa	a4,a15
+.L801:
+	call	netif_invoke_ext_callback
+.L242:
+.L241:
+	ret
+.L586:
+	
+__netif_set_link_up_function_end:
+	.size	netif_set_link_up,__netif_set_link_up_function_end-netif_set_link_up
+.L427:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_set_link_down',code,cluster('netif_set_link_down')
+	.sect	'.text.netif.netif_set_link_down'
+	.align	2
+	
+	.global	netif_set_link_down
+; Function netif_set_link_down
+.L342:
+netif_set_link_down:	.type	func
+	sub.a	a10,#24
+.L244:
+	jnz.a	a4,.L245
+.L1027:
+	movh.a	a15,#@his(.28.str)
+	lea	a15,[a15]@los(.28.str)
+	st.a	[a10],a15
+	mov	d15,#1030
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L802:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	j	.L246
+.L245:
+	ld.bu	d15,[a4]41
+.L1028:
+	jz.t	d15:2,.L247
+.L248:
+	ld.bu	d15,[a4]41
+	and	d15,#251
+	st.b	[a4]41,d15
+.L592:
+	mov	d15,#0
+.L1029:
+	st.b	[a10]12,d15
+.L1030:
+	mov	d4,#4
+.L1031:
+	lea	a5,[a10]12
+	call	netif_invoke_ext_callback
+.L247:
+.L246:
+	ret
+.L590:
+	
+__netif_set_link_down_function_end:
+	.size	netif_set_link_down,__netif_set_link_down_function_end-netif_set_link_down
+.L432:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_null_output_ip4',code,cluster('netif_null_output_ip4')
+	.sect	'.text.netif.netif_null_output_ip4'
+	.align	2
+	
+; Function netif_null_output_ip4
+.L344:
+netif_null_output_ip4:	.type	func
+	mov	d2,#-12
+.L1120:
+	j	.L249
+.L249:
+	ret
+.L628:
+	
+__netif_null_output_ip4_function_end:
+	.size	netif_null_output_ip4,__netif_null_output_ip4_function_end-netif_null_output_ip4
+.L477:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_name_to_index',code,cluster('netif_name_to_index')
+	.sect	'.text.netif.netif_name_to_index'
+	.align	2
+	
+	.global	netif_name_to_index
+; Function netif_name_to_index
+.L346:
+netif_name_to_index:	.type	func
+	call	netif_find
+.L803:
+	jz.a	a2,.L250
+.L1045:
+	ld.bu	d15,[a2]44
+	add	d15,#1
+	extr.u	d2,d15,#0,#8
+.L1046:
+	j	.L251
+.L250:
+	mov	d2,#0
+.L1047:
+	j	.L252
+.L252:
+.L251:
+	ret
+.L599:
+	
+__netif_name_to_index_function_end:
+	.size	netif_name_to_index,__netif_name_to_index_function_end-netif_name_to_index
+.L442:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_index_to_name',code,cluster('netif_index_to_name')
+	.sect	'.text.netif.netif_index_to_name'
+	.align	2
+	
+	.global	netif_index_to_name
+; Function netif_index_to_name
+.L348:
+netif_index_to_name:	.type	func
+	mov	d8,d4
+.L805:
+	mov.aa	a15,a4
+.L806:
+	mov	d4,d8
+	call	netif_get_by_index
+.L804:
+	jz.a	a2,.L253
+.L1052:
+	ld.b	d15,[a2]42
+.L1053:
+	st.b	[a15],d15
+.L1054:
+	ld.b	d15,[a2]43
+.L1055:
+	st.b	[a15]1,d15
+.L1056:
+	mov.aa	a4,a15
+.L809:
+	add.a	a4,#2
+.L807:
+	mov	d4,#4
+.L1057:
+	add	d5,d8,#-1
+	call	lwip_itoa
+.L808:
+	mov.aa	a2,a15
+.L810:
+	j	.L254
+.L253:
+	mov.a	a2,#0
+.L811:
+	j	.L255
+.L255:
+.L254:
+	ret
+.L603:
+	
+__netif_index_to_name_function_end:
+	.size	netif_index_to_name,__netif_index_to_name_function_end-netif_index_to_name
+.L447:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_get_by_index',code,cluster('netif_get_by_index')
+	.sect	'.text.netif.netif_get_by_index'
+	.align	2
+	
+	.global	netif_get_by_index
+; Function netif_get_by_index
+.L350:
+netif_get_by_index:	.type	func
+	jeq	d4,#0,.L256
+.L1062:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a2,[a15]
+.L812:
+	j	.L257
+.L258:
+	ld.bu	d15,[a2]44
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+.L1063:
+	jne	d15,d4,.L259
+.L1064:
+	j	.L260
+.L259:
+	ld.a	a2,[a2]
+.L257:
+	jnz.a	a2,.L258
+.L256:
+	mov.a	a2,#0
+.L1065:
+	j	.L261
+.L261:
+.L260:
+	ret
+.L607:
+	
+__netif_get_by_index_function_end:
+	.size	netif_get_by_index,__netif_get_by_index_function_end-netif_get_by_index
+.L452:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_find',code,cluster('netif_find')
+	.sect	'.text.netif.netif_find'
+	.align	2
+	
+	.global	netif_find
+; Function netif_find
+.L352:
+netif_find:	.type	func
+	sub.a	a10,#8
+.L813:
+	mov.aa	a15,a4
+.L815:
+	jnz.a	a15,.L262
+.L954:
+	mov.a	a2,#0
+.L955:
+	j	.L263
+.L262:
+	mov.aa	a4,a15
+.L956:
+	add.a	a4,#2
+.L816:
+	call	atoi
+.L814:
+	extr.u	d15,d2,#0,#8
+.L817:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a12,[a2]
+.L819:
+	j	.L264
+.L265:
+	ld.bu	d0,[a12]44
+.L957:
+	jne	d15,d0,.L266
+.L820:
+	ld.b	d0,[a15]0
+.L821:
+	ld.b	d1,[a12]42
+.L958:
+	jne	d0,d1,.L267
+.L822:
+	ld.b	d0,[a15]1
+.L823:
+	ld.b	d1,[a12]43
+.L959:
+	jne	d0,d1,.L268
+.L269:
+	mov	d15,#1
+.L818:
+	jeq	d15,#0,.L270
+	mov	d15,#0
+	jeq	d15,#0,.L271
+	mov	d15,#1
+	jeq	d15,#0,.L272
+.L824:
+	ld.b	d15,[a15]0
+.L825:
+	st.w	[a10],d15
+.L826:
+	ld.b	d15,[a15]1
+.L827:
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.29.str)
+	lea	a4,[a4]@los(.29.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L273
+	j	.L274
+.L275:
+.L274:
+	j	.L275
+.L273:
+.L272:
+.L271:
+.L270:
+	mov.aa	a2,a12
+.L828:
+	j	.L276
+.L268:
+.L267:
+.L266:
+	ld.a	a12,[a12]
+.L264:
+	jnz.a	a12,.L265
+.L277:
+	mov	d15,#1
+.L829:
+	jeq	d15,#0,.L278
+	mov	d15,#0
+	jeq	d15,#0,.L279
+	mov	d15,#1
+	jeq	d15,#0,.L280
+.L830:
+	ld.b	d15,[a15]0
+.L831:
+	st.w	[a10],d15
+.L832:
+	ld.b	d15,[a15]1
+.L833:
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.30.str)
+	lea	a4,[a4]@los(.30.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L281
+	j	.L282
+.L283:
+.L282:
+	j	.L283
+.L281:
+.L280:
+.L279:
+.L278:
+	mov.a	a2,#0
+.L960:
+	j	.L284
+.L284:
+.L276:
+.L263:
+	ret
+.L549:
+	
+__netif_find_function_end:
+	.size	netif_find,__netif_find_function_end-netif_find
+.L392:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_add_ext_callback',code,cluster('netif_add_ext_callback')
+	.sect	'.text.netif.netif_add_ext_callback'
+	.align	2
+	
+	.global	netif_add_ext_callback
+; Function netif_add_ext_callback
+.L354:
+netif_add_ext_callback:	.type	func
+	sub.a	a10,#16
+.L834:
+	mov.aa	a12,a4
+.L836:
+	mov.aa	a13,a5
+.L285:
+	jnz.a	a12,.L286
+.L1070:
+	movh.a	a2,#@his(.31.str)
+	lea	a2,[a2]@los(.31.str)
+	st.a	[a10],a2
+	mov	d15,#1737
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L835:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L286:
+.L287:
+	jnz.a	a13,.L288
+.L1071:
+	movh.a	a15,#@his(.32.str)
+	lea	a15,[a15]@los(.32.str)
+	st.a	[a10],a15
+	mov	d15,#1738
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L288:
+	st.a	[a12],a13
+.L1072:
+	movh.a	a15,#@his(ext_callback)
+	lea	a15,[a15]@los(ext_callback)
+	ld.a	a15,[a15]
+.L1073:
+	st.a	[a12]4,a15
+.L1074:
+	movh.a	a15,#@his(ext_callback)
+	lea	a15,[a15]@los(ext_callback)
+.L1075:
+	st.a	[a15],a12
+.L1076:
+	ret
+.L610:
+	
+__netif_add_ext_callback_function_end:
+	.size	netif_add_ext_callback,__netif_add_ext_callback_function_end-netif_add_ext_callback
+.L457:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_remove_ext_callback',code,cluster('netif_remove_ext_callback')
+	.sect	'.text.netif.netif_remove_ext_callback'
+	.align	2
+	
+	.global	netif_remove_ext_callback
+; Function netif_remove_ext_callback
+.L356:
+netif_remove_ext_callback:	.type	func
+	sub.a	a10,#16
+.L837:
+	mov.aa	a12,a4
+.L289:
+	jnz.a	a12,.L290
+.L1081:
+	movh.a	a2,#@his(.31.str)
+	lea	a2,[a2]@los(.31.str)
+	st.a	[a10],a2
+	mov	d15,#1756
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L838:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L290:
+	movh.a	a2,#@his(ext_callback)
+	lea	a2,[a2]@los(ext_callback)
+	ld.w	d15,[a2]
+.L1082:
+	jne	d15,#0,.L291
+.L1083:
+	j	.L292
+.L291:
+	movh.a	a15,#@his(ext_callback)
+	lea	a15,[a15]@los(ext_callback)
+	ld.a	a15,[a15]
+.L1084:
+	jne.a	a12,a15,.L293
+.L1085:
+	movh.a	a2,#@his(ext_callback)
+	lea	a2,[a2]@los(ext_callback)
+.L1086:
+	movh.a	a15,#@his(ext_callback)
+	lea	a15,[a15]@los(ext_callback)
+	ld.a	a15,[a15]
+.L1087:
+	ld.a	a15,[a15]4
+.L1088:
+	st.a	[a2],a15
+.L1089:
+	j	.L294
+.L293:
+	movh.a	a15,#@his(ext_callback)
+	lea	a15,[a15]@los(ext_callback)
+	ld.a	a13,[a15]
+.L839:
+	movh.a	a2,#@his(ext_callback)
+	lea	a2,[a2]@los(ext_callback)
+	ld.a	a15,[a2]
+.L1090:
+	ld.a	a15,[a15]4
+.L840:
+	j	.L295
+.L296:
+	jne.a	a15,a12,.L297
+.L298:
+	jnz.a	a13,.L299
+.L1091:
+	movh.a	a15,#@his(.33.str)
+.L841:
+	lea	a15,[a15]@los(.33.str)
+	st.a	[a10],a15
+	mov	d15,#1768
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L299:
+	ld.a	a15,[a12]4
+.L1092:
+	st.a	[a13]4,a15
+.L1093:
+	mov.a	a15,#0
+.L1094:
+	st.a	[a12]4,a15
+.L1095:
+	j	.L300
+.L297:
+	mov.aa	a13,a15
+.L1096:
+	ld.a	a15,[a15]4
+.L295:
+	jnz.a	a15,.L296
+.L294:
+.L300:
+.L292:
+	ret
+.L615:
+	
+__netif_remove_ext_callback_function_end:
+	.size	netif_remove_ext_callback,__netif_remove_ext_callback_function_end-netif_remove_ext_callback
+.L462:
+	; End of function
+	
+	.sdecl	'.text.netif.netif_invoke_ext_callback',code,cluster('netif_invoke_ext_callback')
+	.sect	'.text.netif.netif_invoke_ext_callback'
+	.align	2
+	
+	.global	netif_invoke_ext_callback
+; Function netif_invoke_ext_callback
+.L358:
+netif_invoke_ext_callback:	.type	func
+	sub.a	a10,#16
+.L842:
+	mov.aa	a12,a4
+.L844:
+	mov	d8,d4
+.L845:
+	mov.aa	a13,a5
+.L846:
+	movh.a	a15,#@his(ext_callback)
+	lea	a15,[a15]@los(ext_callback)
+	ld.a	a14,[a15]
+.L301:
+	jnz.a	a12,.L302
+.L1101:
+	movh.a	a2,#@his(.34.str)
+	lea	a2,[a2]@los(.34.str)
+	st.a	[a10],a2
+	mov	d15,#1788
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L843:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L302:
+	j	.L303
+.L304:
+	ld.a	a15,[a14]
+.L1102:
+	mov.aa	a4,a12
+.L847:
+	mov	d4,d8
+.L849:
+	mov.aa	a5,a13
+.L850:
+	calli	a15
+.L848:
+	ld.a	a14,[a14]4
+.L303:
+	jnz.a	a14,.L304
+.L1103:
+	ret
+.L619:
+	
+__netif_invoke_ext_callback_function_end:
+	.size	netif_invoke_ext_callback,__netif_invoke_ext_callback_function_end-netif_invoke_ext_callback
+.L467:
+	; End of function
+	
+	.sdecl	'.bss.netif.ext_callback',data,cluster('ext_callback')
+	.sect	'.bss.netif.ext_callback'
+	.align	4
+ext_callback:	.type	object
+	.size	ext_callback,4
+	.space	4
+	.sdecl	'.bss.netif.netif_list',data,cluster('netif_list')
+	.sect	'.bss.netif.netif_list'
+	.global	netif_list
+	.align	4
+netif_list:	.type	object
+	.size	netif_list,4
+	.space	4
+	.sdecl	'.bss.netif.netif_default',data,cluster('netif_default')
+	.sect	'.bss.netif.netif_default'
+	.global	netif_default
+	.align	4
+netif_default:	.type	object
+	.size	netif_default,4
+	.space	4
+	.sdecl	'.bss.netif.netif_num',data,cluster('netif_num')
+	.sect	'.bss.netif.netif_num'
+netif_num:	.type	object
+	.size	netif_num,1
+	.space	1
+	.sdecl	'.rodata.netif..1.str',data,rom
+	.sect	'.rodata.netif..1.str'
+.1.str:	.type	object
+	.size	.1.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.netif..2.str',data,rom
+	.sect	'.rodata.netif..2.str'
+.2.str:	.type	object
+	.size	.2.str,26
+	.byte	110,101,116,105,102,95,105,110
+	.byte	112,117,116,58,32,105,110,118
+	.byte	97,108,105,100,32,112,98,117
+	.byte	102
+	.space	1
+	.sdecl	'.rodata.netif..3.str',data,rom
+	.sect	'.rodata.netif..3.str'
+.3.str:	.type	object
+	.size	.3.str,44
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,99
+	.byte	111,114,101,47,110,101,116,105
+	.byte	102,46,99
+	.space	1
+	.sdecl	'.rodata.netif..4.str',data,rom
+	.sect	'.rodata.netif..4.str'
+.4.str:	.type	object
+	.size	.4.str,27
+	.byte	110,101,116,105,102,95,105,110
+	.byte	112,117,116,58,32,105,110,118
+	.byte	97,108,105,100,32,110,101,116
+	.byte	105,102
+	.space	1
+	.sdecl	'.rodata.netif..5.str',data,rom
+	.sect	'.rodata.netif..5.str'
+.5.str:	.type	object
+	.size	.5.str,25
+	.byte	110,101,116,105,102,95,97,100
+	.byte	100,58,32,105,110,118,97,108
+	.byte	105,100,32,110,101,116,105,102
+	.space	1
+	.sdecl	'.rodata.netif..6.str',data,rom
+	.sect	'.rodata.netif..6.str'
+.6.str:	.type	object
+	.size	.6.str,34
+	.byte	110,101,116,105,102,95,97,100
+	.byte	100,58,32,78,111,32,105,110
+	.byte	105,116,32,102,117,110,99,116
+	.byte	105,111,110,32,103,105,118,101
+	.byte	110
+	.space	1
+	.sdecl	'.rodata.netif..7.str',data,rom
+	.sect	'.rodata.netif..7.str'
+.7.str:	.type	object
+	.size	.7.str,20
+	.byte	110,101,116,105,102,32,97,108
+	.byte	114,101,97,100,121,32,97,100
+	.byte	100,101,100
+	.space	1
+	.sdecl	'.rodata.netif..8.str',data,rom
+	.sect	'.rodata.netif..8.str'
+.8.str:	.type	object
+	.size	.8.str,46
+	.byte	116,111,111,32,109,97,110,121
+	.byte	32,110,101,116,105,102,115,44
+	.byte	32,109,97,120,46,32,115,117
+	.byte	112,112,111,114,116,101,100,32
+	.byte	110,117,109,98,101,114,32,105
+	.byte	115,32,50,53
+	.byte	53
+	.space	1
+	.sdecl	'.rodata.netif..9.str',data,rom
+	.sect	'.rodata.netif..9.str'
+.9.str:	.type	object
+	.size	.9.str,31
+	.byte	110,101,116,105,102,58,32,97
+	.byte	100,100,101,100,32,105,110,116
+	.byte	101,114,102,97,99,101,32,37
+	.byte	99,37,99,32
+	.byte	73,80
+	.space	1
+	.sdecl	'.rodata.netif..10.str',data,rom
+	.sect	'.rodata.netif..10.str'
+.10.str:	.type	object
+	.size	.10.str,7
+	.byte	32,97,100,100
+	.byte	114,32
+	.space	1
+	.sdecl	'.rodata.netif..11.str',data,rom
+	.sect	'.rodata.netif..11.str'
+.11.str:	.type	object
+	.size	.11.str,12
+	.byte	37,117,46,37,117,46,37,117
+	.byte	46,37,117
+	.space	1
+	.sdecl	'.rodata.netif..12.str',data,rom
+	.sect	'.rodata.netif..12.str'
+.12.str:	.type	object
+	.size	.12.str,10
+	.byte	32,110,101,116,109,97,115,107
+	.byte	32
+	.space	1
+	.sdecl	'.rodata.netif..13.str',data,rom
+	.sect	'.rodata.netif..13.str'
+.13.str:	.type	object
+	.size	.13.str,5
+	.byte	32,103,119,32
+	.space	1
+	.sdecl	'.rodata.netif..14.str',data,rom
+	.sect	'.rodata.netif..14.str'
+.14.str:	.type	object
+	.size	.14.str,2
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.netif..15.str',data,rom
+	.sect	'.rodata.netif..15.str'
+.15.str:	.type	object
+	.size	.15.str,16
+	.byte	105,110,118,97,108,105,100,32
+	.byte	112,111,105,110
+	.byte	116,101,114
+	.space	1
+	.sdecl	'.rodata.netif..16.str',data,rom
+	.sect	'.rodata.netif..16.str'
+.16.str:	.type	object
+	.size	.16.str,47
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,105,112,97,100,100,114
+	.byte	58,32,110,101,116,105,102,32
+	.byte	97,100,100,114,101,115,115,32
+	.byte	98,101,105,110,103,32,99,104
+	.byte	97,110,103,101
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.netif..17.str',data,rom
+	.sect	'.rodata.netif..17.str'
+.17.str:	.type	object
+	.size	.17.str,32
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,105,112,97,100,100,114
+	.byte	58,32,105,110,118,97,108,105
+	.byte	100,32,110,101
+	.byte	116,105,102
+	.space	1
+	.sdecl	'.rodata.netif..18.str',data,rom
+	.sect	'.rodata.netif..18.str'
+.18.str:	.type	object
+	.size	.18.str,53
+	.byte	110,101,116,105,102,58,32,110
+	.byte	101,116,109,97,115,107,32,111
+	.byte	102,32,105,110,116,101,114,102
+	.byte	97,99,101,32,37,99,37,99
+	.byte	32,115,101,116,32,116,111,32
+	.byte	37,117,46,37,117,46,37,117
+	.byte	46,37,117,10
+	.space	1
+	.sdecl	'.rodata.netif..19.str',data,rom
+	.sect	'.rodata.netif..19.str'
+.19.str:	.type	object
+	.size	.19.str,33
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,110,101,116,109,97,115
+	.byte	107,58,32,105,110,118,97,108
+	.byte	105,100,32,110,101,116,105,102
+	.space	1
+	.sdecl	'.rodata.netif..20.str',data,rom
+	.sect	'.rodata.netif..20.str'
+.20.str:	.type	object
+	.size	.20.str,56
+	.byte	110,101,116,105,102,58,32,71
+	.byte	87,32,97,100,100,114,101,115
+	.byte	115,32,111,102,32,105,110,116
+	.byte	101,114,102,97,99,101,32,37
+	.byte	99,37,99,32,115,101,116,32
+	.byte	116,111,32,37,117,46,37,117
+	.byte	46,37,117,46
+	.byte	37,117,10
+	.space	1
+	.sdecl	'.rodata.netif..21.str',data,rom
+	.sect	'.rodata.netif..21.str'
+.21.str:	.type	object
+	.size	.21.str,28
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,103,119,58,32,105,110
+	.byte	118,97,108,105,100,32,110,101
+	.byte	116,105,102
+	.space	1
+	.sdecl	'.rodata.netif..22.str',data,rom
+	.sect	'.rodata.netif..22.str'
+.22.str:	.type	object
+	.size	.22.str,29
+	.byte	110,101,116,105,102,95,114,101
+	.byte	109,111,118,101,58,32,114,101
+	.byte	109,111,118,101,100,32,110,101
+	.byte	116,105,102,10
+	.space	1
+	.sdecl	'.rodata.netif..23.str',data,rom
+	.sect	'.rodata.netif..23.str'
+.23.str:	.type	object
+	.size	.23.str,39
+	.byte	110,101,116,105,102,58,32,115
+	.byte	101,116,116,105,110,103,32,100
+	.byte	101,102,97,117,108,116,32,105
+	.byte	110,116,101,114,102,97,99,101
+	.byte	32,37,99,37
+	.byte	99,10
+	.space	1
+	.sdecl	'.rodata.netif..24.str',data,rom
+	.sect	'.rodata.netif..24.str'
+.24.str:	.type	object
+	.size	.24.str,28
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,117,112,58,32,105,110
+	.byte	118,97,108,105,100,32,110,101
+	.byte	116,105,102
+	.space	1
+	.sdecl	'.rodata.netif..25.str',data,rom
+	.sect	'.rodata.netif..25.str'
+.25.str:	.type	object
+	.size	.25.str,35
+	.byte	110,101,116,105,102,95,105,115
+	.byte	115,117,101,95,114,101,112,111
+	.byte	114,116,115,58,32,105,110,118
+	.byte	97,108,105,100,32,110,101,116
+	.byte	105,102
+	.space	1
+	.sdecl	'.rodata.netif..26.str',data,rom
+	.sect	'.rodata.netif..26.str'
+.26.str:	.type	object
+	.size	.26.str,30
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,100,111,119,110,58,32
+	.byte	105,110,118,97,108,105,100,32
+	.byte	110,101,116,105
+	.byte	102
+	.space	1
+	.sdecl	'.rodata.netif..27.str',data,rom
+	.sect	'.rodata.netif..27.str'
+.27.str:	.type	object
+	.size	.27.str,33
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,108,105,110,107,95,117
+	.byte	112,58,32,105,110,118,97,108
+	.byte	105,100,32,110,101,116,105,102
+	.space	1
+	.sdecl	'.rodata.netif..28.str',data,rom
+	.sect	'.rodata.netif..28.str'
+.28.str:	.type	object
+	.size	.28.str,35
+	.byte	110,101,116,105,102,95,115,101
+	.byte	116,95,108,105,110,107,95,100
+	.byte	111,119,110,58,32,105,110,118
+	.byte	97,108,105,100,32,110,101,116
+	.byte	105,102
+	.space	1
+	.sdecl	'.rodata.netif..29.str',data,rom
+	.sect	'.rodata.netif..29.str'
+.29.str:	.type	object
+	.size	.29.str,24
+	.byte	110,101,116,105,102,95,102,105
+	.byte	110,100,58,32,102,111,117,110
+	.byte	100,32,37,99
+	.byte	37,99,10
+	.space	1
+	.sdecl	'.rodata.netif..30.str',data,rom
+	.sect	'.rodata.netif..30.str'
+.30.str:	.type	object
+	.size	.30.str,30
+	.byte	110,101,116,105,102,95,102,105
+	.byte	110,100,58,32,100,105,100,110
+	.byte	39,116,32,102,105,110,100,32
+	.byte	37,99,37,99
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.netif..31.str',data,rom
+	.sect	'.rodata.netif..31.str'
+.31.str:	.type	object
+	.size	.31.str,25
+	.byte	99,97,108,108,98,97,99,107
+	.byte	32,109,117,115,116,32,98,101
+	.byte	32,33,61,32,78,85,76,76
+	.space	1
+	.sdecl	'.rodata.netif..32.str',data,rom
+	.sect	'.rodata.netif..32.str'
+.32.str:	.type	object
+	.size	.32.str,19
+	.byte	102,110,32,109,117,115,116,32
+	.byte	98,101,32,33,61,32,78,85
+	.byte	76,76
+	.space	1
+	.sdecl	'.rodata.netif..33.str',data,rom
+	.sect	'.rodata.netif..33.str'
+.33.str:	.type	object
+	.size	.33.str,13
+	.byte	108,97,115,116,32,33,61,32
+	.byte	78,85,76,76
+	.space	1
+	.sdecl	'.rodata.netif..34.str',data,rom
+	.sect	'.rodata.netif..34.str'
+.34.str:	.type	object
+	.size	.34.str,22
+	.byte	110,101,116,105,102,32,109,117
+	.byte	115,116,32,98,101,32,33,61
+	.byte	32,78,85,76
+	.byte	76
+	.space	1
+	.calls	'__INDIRECT__','netif_null_output_ip4'
+	.calls	'netif_input','Ifx_Lwip_printf'
+	.calls	'netif_input','ethernet_input'
+	.calls	'netif_input','ip4_input'
+	.calls	'netif_add_noaddr','netif_add'
+	.calls	'netif_add','Ifx_Lwip_printf'
+	.calls	'netif_add','netif_set_addr'
+	.calls	'netif_add','__INDIRECT__'
+	.calls	'netif_add','netif_invoke_ext_callback'
+	.calls	'netif_do_ip_addr_changed','tcp_netif_ip_addr_changed'
+	.calls	'netif_do_ip_addr_changed','udp_netif_ip_addr_changed'
+	.calls	'netif_do_set_ipaddr','Ifx_Lwip_printf'
+	.calls	'netif_do_set_ipaddr','netif_do_ip_addr_changed'
+	.calls	'netif_do_set_ipaddr','netif_issue_reports'
+	.calls	'netif_set_ipaddr','Ifx_Lwip_printf'
+	.calls	'netif_set_ipaddr','netif_do_set_ipaddr'
+	.calls	'netif_set_ipaddr','netif_invoke_ext_callback'
+	.calls	'netif_do_set_netmask','Ifx_Lwip_printf'
+	.calls	'netif_set_netmask','Ifx_Lwip_printf'
+	.calls	'netif_set_netmask','netif_do_set_netmask'
+	.calls	'netif_set_netmask','netif_invoke_ext_callback'
+	.calls	'netif_do_set_gw','Ifx_Lwip_printf'
+	.calls	'netif_set_gw','Ifx_Lwip_printf'
+	.calls	'netif_set_gw','netif_do_set_gw'
+	.calls	'netif_set_gw','netif_invoke_ext_callback'
+	.calls	'netif_set_addr','netif_do_set_ipaddr'
+	.calls	'netif_set_addr','netif_do_set_netmask'
+	.calls	'netif_set_addr','netif_do_set_gw'
+	.calls	'netif_set_addr','netif_invoke_ext_callback'
+	.calls	'netif_remove','netif_invoke_ext_callback'
+	.calls	'netif_remove','netif_do_ip_addr_changed'
+	.calls	'netif_remove','netif_set_down'
+	.calls	'netif_remove','netif_set_default'
+	.calls	'netif_remove','Ifx_Lwip_printf'
+	.calls	'netif_set_default','Ifx_Lwip_printf'
+	.calls	'netif_set_up','Ifx_Lwip_printf'
+	.calls	'netif_set_up','netif_invoke_ext_callback'
+	.calls	'netif_set_up','netif_issue_reports'
+	.calls	'netif_issue_reports','Ifx_Lwip_printf'
+	.calls	'netif_issue_reports','etharp_request'
+	.calls	'netif_set_down','Ifx_Lwip_printf'
+	.calls	'netif_set_down','netif_invoke_ext_callback'
+	.calls	'netif_set_down','etharp_cleanup_netif'
+	.calls	'netif_set_link_up','Ifx_Lwip_printf'
+	.calls	'netif_set_link_up','netif_issue_reports'
+	.calls	'netif_set_link_up','netif_invoke_ext_callback'
+	.calls	'netif_set_link_down','Ifx_Lwip_printf'
+	.calls	'netif_set_link_down','netif_invoke_ext_callback'
+	.calls	'netif_name_to_index','netif_find'
+	.calls	'netif_index_to_name','netif_get_by_index'
+	.calls	'netif_index_to_name','lwip_itoa'
+	.calls	'netif_find','atoi'
+	.calls	'netif_find','Ifx_Lwip_printf'
+	.calls	'netif_add_ext_callback','Ifx_Lwip_printf'
+	.calls	'netif_remove_ext_callback','Ifx_Lwip_printf'
+	.calls	'netif_invoke_ext_callback','Ifx_Lwip_printf'
+	.calls	'netif_invoke_ext_callback','__INDIRECT__'
+	.calls	'netif_init','',0
+	.calls	'netif_input','',16
+	.calls	'netif_add_noaddr','',16
+	.calls	'netif_add','',24
+	.calls	'netif_do_ip_addr_changed','',0
+	.calls	'netif_do_set_ipaddr','',16
+	.calls	'netif_set_ipaddr','',32
+	.calls	'netif_do_set_netmask','',24
+	.calls	'netif_set_netmask','',32
+	.calls	'netif_do_set_gw','',24
+	.calls	'netif_set_gw','',32
+	.calls	'netif_set_addr','',24
+	.calls	'netif_remove','',0
+	.calls	'netif_set_default','',8
+	.calls	'netif_set_up','',24
+	.calls	'netif_issue_reports','',16
+	.calls	'netif_set_down','',24
+	.calls	'netif_set_link_up','',24
+	.calls	'netif_set_link_down','',24
+	.calls	'netif_null_output_ip4','',0
+	.calls	'netif_name_to_index','',0
+	.calls	'netif_index_to_name','',0
+	.calls	'netif_get_by_index','',0
+	.calls	'netif_find','',8
+	.calls	'netif_add_ext_callback','',16
+	.calls	'netif_remove_ext_callback','',16
+	.extern	Ifx_Lwip_printf
+	.extern	atoi
+	.extern	lwip_itoa
+	.extern	ip_addr_any
+	.extern	ip4_input
+	.extern	tcp_netif_ip_addr_changed
+	.extern	udp_netif_ip_addr_changed
+	.extern	etharp_request
+	.extern	etharp_cleanup_netif
+	.extern	ethernet_input
+	.extern	__INDIRECT__
+	.calls	'netif_invoke_ext_callback','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L360:
+	.word	5279
+	.half	3
+	.word	.L361
+	.byte	4
+.L359:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L362
+.L594:
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	222
+.L550:
+	.byte	4
+	.word	230
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	214
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	235
+	.byte	7,1,123,37,0
+.L527:
+	.byte	2
+	.byte	'int',0,4,5,5
+	.byte	'atoi',0,2,62,33
+	.word	283
+	.byte	1,1,1,1,8,2,62,55
+	.word	235
+	.byte	0
+.L602:
+	.byte	4
+	.word	222
+	.byte	2
+	.byte	'unsigned int',0,4,7,9
+	.byte	'lwip_itoa',0,3,133,1,7,1,1,1,1,6
+	.byte	'result',0,3,133,1,23
+	.word	316
+	.byte	6
+	.byte	'bufsize',0,3,133,1,38
+	.word	321
+	.byte	6
+	.byte	'number',0,3,133,1,51
+	.word	283
+	.byte	0,2
+	.byte	'unsigned long int',0,4,7
+.L538:
+	.byte	10
+	.byte	'ip4_addr',0,5,51,8,4,11
+	.byte	'addr',0
+	.word	406
+	.byte	4,2,35,0,0,12
+	.byte	'void',0
+.L510:
+	.byte	4
+	.word	456
+.L534:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L553:
+	.byte	2
+	.byte	'unsigned char',0,1,8,10
+	.byte	'pbuf',0,6,186,1,8,16,11
+	.byte	'next',0
+	.word	.L596-.L360
+	.byte	4,2,35,0,11
+	.byte	'payload',0
+	.word	462
+	.byte	4,2,35,4,11
+	.byte	'tot_len',0
+	.word	467
+	.byte	2,2,35,8,11
+	.byte	'len',0
+	.word	467
+	.byte	2,2,35,10,11
+	.byte	'type_internal',0
+	.word	489
+	.byte	1,2,35,12,11
+	.byte	'flags',0
+	.word	489
+	.byte	1,2,35,13,11
+	.byte	'ref',0
+	.word	489
+	.byte	1,2,35,14,11
+	.byte	'if_idx',0
+	.word	489
+	.byte	1,2,35,15,0
+.L596:
+	.byte	4
+	.word	506
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	646
+	.byte	14
+	.word	.L507-.L360
+	.byte	0,4
+	.word	651
+.L514:
+	.byte	15
+	.byte	'netif_input_fn',0,4,178,1,17
+	.word	669
+	.byte	3
+	.word	427
+	.byte	4
+	.word	698
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	.L507-.L360
+	.byte	14
+	.word	646
+	.byte	14
+	.word	703
+	.byte	0,4
+	.word	708
+	.byte	15
+	.byte	'netif_output_fn',0,4,189,1,17
+	.word	731
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	.L507-.L360
+	.byte	14
+	.word	646
+	.byte	0,4
+	.word	761
+	.byte	15
+	.byte	'netif_linkoutput_fn',0,4,212,1,17
+	.word	779
+	.byte	16,6
+	.word	489
+	.byte	17,5,0,16,2
+	.word	222
+	.byte	17,1,0,10
+	.byte	'netif',0,4,132,2,8,48,11
+	.byte	'next',0
+	.word	.L507-.L360
+	.byte	4,2,35,0,11
+	.byte	'ip_addr',0
+	.word	427
+	.byte	4,2,35,4,11
+	.byte	'netmask',0
+	.word	427
+	.byte	4,2,35,8,11
+	.byte	'gw',0
+	.word	427
+	.byte	4,2,35,12,11
+	.byte	'input',0
+	.word	674
+	.byte	4,2,35,16,11
+	.byte	'output',0
+	.word	736
+	.byte	4,2,35,20,11
+	.byte	'linkoutput',0
+	.word	784
+	.byte	4,2,35,24,11
+	.byte	'state',0
+	.word	462
+	.byte	4,2,35,28,11
+	.byte	'mtu',0
+	.word	467
+	.byte	2,2,35,32,11
+	.byte	'hwaddr',0
+	.word	813
+	.byte	6,2,35,34,11
+	.byte	'hwaddr_len',0
+	.word	489
+	.byte	1,2,35,40,11
+	.byte	'flags',0
+	.word	489
+	.byte	1,2,35,41,11
+	.byte	'name',0
+	.word	822
+	.byte	2,2,35,42,11
+	.byte	'num',0
+	.word	489
+	.byte	1,2,35,44,11
+	.byte	'rs_count',0
+	.word	489
+	.byte	1,2,35,45,0
+.L507:
+	.byte	4
+	.word	831
+	.byte	4
+	.word	651
+	.byte	4
+	.word	708
+	.byte	4
+	.word	761
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	1079
+	.byte	0,4
+	.word	1099
+	.byte	4
+	.word	1099
+.L512:
+	.byte	15
+	.byte	'netif_init_fn',0,4,168,1,17
+	.word	1117
+	.byte	3
+	.word	427
+.L518:
+	.byte	4
+	.word	1145
+	.byte	10
+	.byte	'link_changed_s',0,4,213,4,10,1,11
+	.byte	'state',0
+	.word	489
+	.byte	1,2,35,0,0,10
+	.byte	'status_changed_s',0,4,219,4,10,1,11
+	.byte	'state',0
+	.word	489
+	.byte	1,2,35,0,0,3
+	.word	427
+.L633:
+	.byte	4
+	.word	1231
+	.byte	10
+	.byte	'ipv4_changed_s',0,4,225,4,10,12,11
+	.byte	'old_address',0
+	.word	1236
+	.byte	4,2,35,0,11
+	.byte	'old_netmask',0
+	.word	1236
+	.byte	4,2,35,4,11
+	.byte	'old_gw',0
+	.word	1236
+	.byte	4,2,35,8,0,10
+	.byte	'ipv6_set_s',0,4,233,4,10,8,11
+	.byte	'addr_index',0
+	.word	214
+	.byte	1,2,35,0,11
+	.byte	'old_address',0
+	.word	1236
+	.byte	4,2,35,4,0,10
+	.byte	'ipv6_addr_state_changed_s',0,4,241,4,10,8,11
+	.byte	'addr_index',0
+	.word	214
+	.byte	1,2,35,0,11
+	.byte	'old_state',0
+	.word	489
+	.byte	1,2,35,1,11
+	.byte	'address',0
+	.word	1236
+	.byte	4,2,35,4,0
+.L536:
+	.byte	18,4,210,4,9,12,11
+	.byte	'link_changed',0
+	.word	1155
+	.byte	1,2,35,0,11
+	.byte	'status_changed',0
+	.word	1192
+	.byte	1,2,35,0,11
+	.byte	'ipv4_changed',0
+	.word	1241
+	.byte	12,2,35,0,11
+	.byte	'ipv6_set',0
+	.word	1321
+	.byte	8,2,35,0,11
+	.byte	'ipv6_addr_state_changed',0
+	.word	1380
+	.byte	8,2,35,0,0
+.L541:
+	.byte	4
+	.word	427
+	.byte	3
+	.word	1469
+	.byte	4
+	.word	1600
+	.byte	19,1,1,14
+	.word	1079
+	.byte	14
+	.word	467
+	.byte	14
+	.word	1605
+	.byte	0,4
+	.word	1610
+.L613:
+	.byte	15
+	.byte	'netif_ext_callback_fn',0,4,132,5,16
+	.word	1629
+	.byte	4
+	.word	.L851-.L360
+.L851:
+	.byte	10
+	.byte	'netif_ext_callback',0,4,136,5,16,8,11
+	.byte	'callback_fn',0
+	.word	1634
+	.byte	4,2,35,0,11
+	.byte	'next',0
+	.word	1665
+	.byte	4,2,35,4,0
+.L611:
+	.byte	4
+	.word	1670
+	.byte	4
+	.word	1610
+	.byte	3
+	.word	1469
+.L622:
+	.byte	4
+	.word	1741
+	.byte	5
+	.byte	'ip4_input',0,7,71,7
+	.word	214
+	.byte	1,1,1,1,6
+	.byte	'p',0,7,71,30
+	.word	646
+	.byte	6
+	.byte	'inp',0,7,71,47
+	.word	1079
+	.byte	0,9
+	.byte	'tcp_netif_ip_addr_changed',0,8,251,3,6,1,1,1,1,6
+	.byte	'old_addr',0,8,251,3,49
+	.word	1236
+	.byte	6
+	.byte	'new_addr',0,8,251,3,76
+	.word	1236
+	.byte	0,9
+	.byte	'udp_netif_ip_addr_changed',0,9,187,1,6,1,1,1,1,6
+	.byte	'old_addr',0,9,187,1,49
+	.word	1236
+	.byte	6
+	.byte	'new_addr',0,9,187,1,76
+	.word	1236
+	.byte	0,5
+	.byte	'etharp_request',0,10,83,7
+	.word	214
+	.byte	1,1,1,1,6
+	.byte	'netif',0,10,83,36
+	.word	1079
+	.byte	6
+	.byte	'ipaddr',0,10,83,61
+	.word	1150
+	.byte	0,9
+	.byte	'etharp_cleanup_netif',0,10,89,6,1,1,1,1,6
+	.byte	'netif',0,10,89,41
+	.word	1079
+	.byte	0,5
+	.byte	'ethernet_input',0,11,66,7
+	.word	214
+	.byte	1,1,1,1,6
+	.byte	'p',0,11,66,35
+	.word	646
+	.byte	6
+	.byte	'netif',0,11,66,52
+	.word	1079
+	.byte	0,20
+	.byte	'__INDIRECT__',0,12,1,1,1,1,1,2
+	.byte	'short int',0,2,5,15
+	.byte	'__wchar_t',0,12,1,1
+	.word	2113
+	.byte	15
+	.byte	'__size_t',0,12,1,1
+	.word	321
+	.byte	15
+	.byte	'__ptrdiff_t',0,12,1,1
+	.word	283
+	.byte	21,1,4
+	.word	2181
+	.byte	15
+	.byte	'__codeptr',0,12,1,1
+	.word	2183
+	.byte	15
+	.byte	'__intptr_t',0,12,1,1
+	.word	283
+	.byte	15
+	.byte	'__uintptr_t',0,12,1,1
+	.word	321
+	.byte	15
+	.byte	'size_t',0,13,24,25
+	.word	321
+	.byte	15
+	.byte	'uint8',0,14,108,29
+	.word	489
+	.byte	15
+	.byte	'uint16',0,14,112,29
+	.word	467
+	.byte	15
+	.byte	'uint32',0,14,116,29
+	.word	406
+	.byte	15
+	.byte	'sint8',0,14,125,29
+	.word	214
+	.byte	15
+	.byte	'sint16',0,14,129,1,29
+	.word	2113
+	.byte	2
+	.byte	'long int',0,4,5,15
+	.byte	'sint32',0,14,134,1,29
+	.word	2334
+	.byte	2
+	.byte	'long long int',0,8,5,15
+	.byte	'sint64',0,14,141,1,29
+	.word	2362
+	.byte	2
+	.byte	'float',0,4,4,15
+	.byte	'float32',0,14,170,1,29
+	.word	2395
+	.byte	15
+	.byte	'pvoid',0,15,54,28
+	.word	462
+	.byte	15
+	.byte	'Ifx_TickTime',0,15,76,28
+	.word	2362
+	.byte	15
+	.byte	'u8_t',0,1,85,16
+	.word	489
+	.byte	15
+	.byte	'u16_t',0,1,86,16
+	.word	467
+	.byte	15
+	.byte	'u32_t',0,1,87,16
+	.word	406
+	.byte	15
+	.byte	's8_t',0,1,88,16
+	.word	214
+	.byte	15
+	.byte	's16_t',0,1,89,16
+	.word	2113
+	.byte	15
+	.byte	'intmax_t',0,16,198,2,41
+	.word	2362
+	.byte	15
+	.byte	'ip4_addr_t',0,5,57,25
+	.word	427
+	.byte	15
+	.byte	'ip_addr_t',0,17,142,2,20
+	.word	427
+	.byte	3
+	.word	427
+	.byte	22
+	.byte	'ip_addr_any',0,17,241,2,24
+	.word	2580
+	.byte	1,1,15
+	.byte	'err_t',0,18,96,14
+	.word	214
+	.byte	19,1,1,14
+	.word	646
+	.byte	0,4
+	.word	2622
+	.byte	15
+	.byte	'pbuf_free_custom_fn',0,6,242,1,16
+	.word	2631
+	.byte	15
+	.byte	'mem_size_t',0,19,67,15
+	.word	467
+	.byte	15
+	.byte	'netif_nsc_reason_t',0,4,180,4,15
+	.word	467
+	.byte	15
+	.byte	'netif_ext_callback_args_t',0,4,250,4,3
+	.word	1469
+	.byte	15
+	.byte	'netif_ext_callback_t',0,4,140,5,3
+	.word	1670
+	.byte	15
+	.byte	'tcpwnd_size_t',0,20,53,15
+	.word	467
+	.byte	10
+	.byte	'ip4_addr_packed',0,21,53,8,4,11
+	.byte	'addr',0
+	.word	406
+	.byte	4,2,35,0,0,15
+	.byte	'ip4_addr_p_t',0,21,61,32
+	.word	2799
+	.byte	23
+	.byte	'tcp_state',0,20,56,6,1,24
+	.byte	'CLOSED',0,0,24
+	.byte	'LISTEN',0,1,24
+	.byte	'SYN_SENT',0,2,24
+	.byte	'SYN_RCVD',0,3,24
+	.byte	'ESTABLISHED',0,4,24
+	.byte	'FIN_WAIT_1',0,5,24
+	.byte	'FIN_WAIT_2',0,6,24
+	.byte	'CLOSE_WAIT',0,7,24
+	.byte	'CLOSING',0,8,24
+	.byte	'LAST_ACK',0,9,24
+	.byte	'TIME_WAIT',0,10,0,10
+	.byte	'tcp_hdr',0,23,56,8,20,11
+	.byte	'src',0
+	.word	467
+	.byte	2,2,35,0,11
+	.byte	'dest',0
+	.word	467
+	.byte	2,2,35,2,11
+	.byte	'seqno',0
+	.word	406
+	.byte	4,2,35,4,11
+	.byte	'ackno',0
+	.word	406
+	.byte	4,2,35,8,11
+	.byte	'_hdrlen_rsvd_flags',0
+	.word	467
+	.byte	2,2,35,12,11
+	.byte	'wnd',0
+	.word	467
+	.byte	2,2,35,14,11
+	.byte	'chksum',0
+	.word	467
+	.byte	2,2,35,16,11
+	.byte	'urgp',0
+	.word	467
+	.byte	2,2,35,18,0,4
+	.word	2998
+	.byte	10
+	.byte	'tcp_seg',0,8,253,1,8,20,11
+	.byte	'next',0
+	.word	.L852-.L360
+	.byte	4,2,35,0,11
+	.byte	'p',0
+	.word	646
+	.byte	4,2,35,4,11
+	.byte	'len',0
+	.word	467
+	.byte	2,2,35,8,11
+	.byte	'oversize_left',0
+	.word	467
+	.byte	2,2,35,10,11
+	.byte	'flags',0
+	.word	489
+	.byte	1,2,35,12,11
+	.byte	'tcphdr',0
+	.word	3140
+	.byte	4,2,35,16,0
+.L852:
+	.byte	4
+	.word	3145
+	.byte	10
+	.byte	'tcp_pcb_listen',0,22,223,1,8,28,11
+	.byte	'local_ip',0
+	.word	427
+	.byte	4,2,35,0,11
+	.byte	'remote_ip',0
+	.word	427
+	.byte	4,2,35,4,11
+	.byte	'netif_idx',0
+	.word	489
+	.byte	1,2,35,8,11
+	.byte	'so_options',0
+	.word	489
+	.byte	1,2,35,9,11
+	.byte	'tos',0
+	.word	489
+	.byte	1,2,35,10,11
+	.byte	'ttl',0
+	.word	489
+	.byte	1,2,35,11,11
+	.byte	'next',0
+	.word	.L853-.L360
+	.byte	4,2,35,12,11
+	.byte	'callback_arg',0
+	.word	462
+	.byte	4,2,35,16,11
+	.byte	'state',0
+	.word	2856
+	.byte	1,2,35,20,11
+	.byte	'prio',0
+	.word	489
+	.byte	1,2,35,21,11
+	.byte	'local_port',0
+	.word	467
+	.byte	2,2,35,22,11
+	.byte	'accept',0
+	.word	.L854-.L360
+	.byte	4,2,35,24,0
+.L853:
+	.byte	4
+	.word	3257
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	462
+	.byte	14
+	.word	.L855-.L360
+	.byte	14
+	.word	467
+	.byte	0,4
+	.word	3487
+	.byte	15
+	.byte	'tcp_sent_fn',0,22,96,17
+	.word	3510
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	462
+	.byte	14
+	.word	.L855-.L360
+	.byte	14
+	.word	646
+	.byte	14
+	.word	214
+	.byte	0,4
+	.word	3535
+	.byte	15
+	.byte	'tcp_recv_fn',0,22,82,17
+	.word	3563
+	.byte	15
+	.byte	'tcp_connected_fn',0,22,134,1,17
+	.word	.L856-.L360
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	462
+	.byte	14
+	.word	.L855-.L360
+	.byte	0,4
+	.word	3614
+	.byte	15
+	.byte	'tcp_poll_fn',0,22,108,17
+	.word	3632
+	.byte	19,1,1,14
+	.word	462
+	.byte	14
+	.word	214
+	.byte	0,4
+	.word	3657
+	.byte	15
+	.byte	'tcp_err_fn',0,22,120,17
+	.word	3671
+	.byte	10
+	.byte	'tcp_pcb',0,22,242,1,8,156,1,11
+	.byte	'local_ip',0
+	.word	427
+	.byte	4,2,35,0,11
+	.byte	'remote_ip',0
+	.word	427
+	.byte	4,2,35,4,11
+	.byte	'netif_idx',0
+	.word	489
+	.byte	1,2,35,8,11
+	.byte	'so_options',0
+	.word	489
+	.byte	1,2,35,9,11
+	.byte	'tos',0
+	.word	489
+	.byte	1,2,35,10,11
+	.byte	'ttl',0
+	.word	489
+	.byte	1,2,35,11,11
+	.byte	'next',0
+	.word	.L855-.L360
+	.byte	4,2,35,12,11
+	.byte	'callback_arg',0
+	.word	462
+	.byte	4,2,35,16,11
+	.byte	'state',0
+	.word	2856
+	.byte	1,2,35,20,11
+	.byte	'prio',0
+	.word	489
+	.byte	1,2,35,21,11
+	.byte	'local_port',0
+	.word	467
+	.byte	2,2,35,22,11
+	.byte	'remote_port',0
+	.word	467
+	.byte	2,2,35,24,11
+	.byte	'flags',0
+	.word	467
+	.byte	2,2,35,26,11
+	.byte	'polltmr',0
+	.word	489
+	.byte	1,2,35,28,11
+	.byte	'pollinterval',0
+	.word	489
+	.byte	1,2,35,29,11
+	.byte	'last_timer',0
+	.word	489
+	.byte	1,2,35,30,11
+	.byte	'tmr',0
+	.word	406
+	.byte	4,2,35,32,11
+	.byte	'rcv_nxt',0
+	.word	406
+	.byte	4,2,35,36,11
+	.byte	'rcv_wnd',0
+	.word	467
+	.byte	2,2,35,40,11
+	.byte	'rcv_ann_wnd',0
+	.word	467
+	.byte	2,2,35,42,11
+	.byte	'rcv_ann_right_edge',0
+	.word	406
+	.byte	4,2,35,44,11
+	.byte	'rtime',0
+	.word	2113
+	.byte	2,2,35,48,11
+	.byte	'mss',0
+	.word	467
+	.byte	2,2,35,50,11
+	.byte	'rttest',0
+	.word	406
+	.byte	4,2,35,52,11
+	.byte	'rtseq',0
+	.word	406
+	.byte	4,2,35,56,11
+	.byte	'sa',0
+	.word	2113
+	.byte	2,2,35,60,11
+	.byte	'sv',0
+	.word	2113
+	.byte	2,2,35,62,11
+	.byte	'rto',0
+	.word	2113
+	.byte	2,2,35,64,11
+	.byte	'nrtx',0
+	.word	489
+	.byte	1,2,35,66,11
+	.byte	'dupacks',0
+	.word	489
+	.byte	1,2,35,67,11
+	.byte	'lastack',0
+	.word	406
+	.byte	4,2,35,68,11
+	.byte	'cwnd',0
+	.word	467
+	.byte	2,2,35,72,11
+	.byte	'ssthresh',0
+	.word	467
+	.byte	2,2,35,74,11
+	.byte	'rto_end',0
+	.word	406
+	.byte	4,2,35,76,11
+	.byte	'snd_nxt',0
+	.word	406
+	.byte	4,2,35,80,11
+	.byte	'snd_wl1',0
+	.word	406
+	.byte	4,2,35,84,11
+	.byte	'snd_wl2',0
+	.word	406
+	.byte	4,2,35,88,11
+	.byte	'snd_lbb',0
+	.word	406
+	.byte	4,2,35,92,11
+	.byte	'snd_wnd',0
+	.word	467
+	.byte	2,2,35,96,11
+	.byte	'snd_wnd_max',0
+	.word	467
+	.byte	2,2,35,98,11
+	.byte	'snd_buf',0
+	.word	467
+	.byte	2,2,35,100,11
+	.byte	'snd_queuelen',0
+	.word	467
+	.byte	2,2,35,102,11
+	.byte	'unsent_oversize',0
+	.word	467
+	.byte	2,2,35,104,11
+	.byte	'bytes_acked',0
+	.word	467
+	.byte	2,2,35,106,11
+	.byte	'unsent',0
+	.word	3252
+	.byte	4,2,35,108,11
+	.byte	'unacked',0
+	.word	3252
+	.byte	4,2,35,112,11
+	.byte	'ooseq',0
+	.word	3252
+	.byte	4,2,35,116,11
+	.byte	'refused_data',0
+	.word	646
+	.byte	4,2,35,120,11
+	.byte	'listener',0
+	.word	3482
+	.byte	4,2,35,124,11
+	.byte	'sent',0
+	.word	3515
+	.byte	4,3,35,128,1,11
+	.byte	'recv',0
+	.word	3568
+	.byte	4,3,35,132,1,11
+	.byte	'connected',0
+	.word	3588
+	.byte	4,3,35,136,1,11
+	.byte	'poll',0
+	.word	3637
+	.byte	4,3,35,140,1,11
+	.byte	'errf',0
+	.word	3676
+	.byte	4,3,35,144,1,11
+	.byte	'keep_idle',0
+	.word	406
+	.byte	4,3,35,148,1,11
+	.byte	'persist_cnt',0
+	.word	489
+	.byte	1,3,35,152,1,11
+	.byte	'persist_backoff',0
+	.word	489
+	.byte	1,3,35,153,1,11
+	.byte	'persist_probe',0
+	.word	489
+	.byte	1,3,35,154,1,11
+	.byte	'keep_cnt_sent',0
+	.word	489
+	.byte	1,3,35,155,1,0
+.L855:
+	.byte	4
+	.word	3695
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	462
+	.byte	14
+	.word	4757
+	.byte	14
+	.word	214
+	.byte	0
+.L856:
+	.byte	4
+	.word	4762
+.L854:
+	.byte	15
+	.byte	'tcp_accept_fn',0,22,70,17
+	.word	4785
+	.byte	4
+	.word	4762
+	.byte	4
+	.word	3487
+	.byte	4
+	.word	3535
+	.byte	4
+	.word	4762
+	.byte	4
+	.word	3614
+	.byte	4
+	.word	3657
+	.byte	19,1,1,14
+	.word	489
+	.byte	14
+	.word	462
+	.byte	0,4
+	.word	4842
+	.byte	15
+	.byte	'tcp_extarg_callback_pcb_destroyed_fn',0,22,173,1,16
+	.word	4856
+	.byte	13
+	.word	214
+	.byte	1,1,14
+	.word	489
+	.byte	14
+	.word	3482
+	.byte	14
+	.word	4757
+	.byte	0,4
+	.word	4907
+	.byte	15
+	.byte	'tcp_extarg_callback_passive_open_fn',0,22,182,1,17
+	.word	4930
+	.byte	15
+	.byte	'tcpflags_t',0,22,206,1,15
+	.word	467
+	.byte	10
+	.byte	'udp_pcb',0,9,81,8,32,11
+	.byte	'local_ip',0
+	.word	427
+	.byte	4,2,35,0,11
+	.byte	'remote_ip',0
+	.word	427
+	.byte	4,2,35,4,11
+	.byte	'netif_idx',0
+	.word	489
+	.byte	1,2,35,8,11
+	.byte	'so_options',0
+	.word	489
+	.byte	1,2,35,9,11
+	.byte	'tos',0
+	.word	489
+	.byte	1,2,35,10,11
+	.byte	'ttl',0
+	.word	489
+	.byte	1,2,35,11,11
+	.byte	'next',0
+	.word	.L857-.L360
+	.byte	4,2,35,12,11
+	.byte	'flags',0
+	.word	489
+	.byte	1,2,35,16,11
+	.byte	'local_port',0
+	.word	467
+	.byte	2,2,35,18,11
+	.byte	'remote_port',0
+	.word	467
+	.byte	2,2,35,20,11
+	.byte	'recv',0
+	.word	.L858-.L360
+	.byte	4,2,35,24,11
+	.byte	'recv_arg',0
+	.word	462
+	.byte	4,2,35,28,0
+.L857:
+	.byte	4
+	.word	5000
+	.byte	19,1,1,14
+	.word	462
+	.byte	14
+	.word	5218
+	.byte	14
+	.word	646
+	.byte	14
+	.word	703
+	.byte	14
+	.word	467
+	.byte	0,4
+	.word	5223
+.L858:
+	.byte	15
+	.byte	'udp_recv_fn',0,9,77,16
+	.word	5252
+	.byte	4
+	.word	5223
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L361:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,5,0,58,15,59,15,57,15,73,19,0,0,9,46,1,3,8,58,15,59,15,57,15,54,15,39
+	.byte	12,63,12,60,12,0,0,10,19,1,3,8,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0,0,12,59,0,3
+	.byte	8,0,0,13,21,1,73,19,54,15,39,12,0,0,14,5,0,73,19,0,0,15,22,0,3,8,58,15,59,15,57,15,73,19,0,0,16,1,1,11
+	.byte	15,73,19,0,0,17,33,0,47,15,0,0,18,23,1,58,15,59,15,57,15,11,15,0,0,19,21,1,54,15,39,12,0,0,20,46,0,3,8
+	.byte	58,15,59,15,57,15,54,15,63,12,60,12,0,0,21,21,0,54,15,0,0,22,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60
+	.byte	12,0,0,23,4,1,3,8,58,15,59,15,57,15,11,15,0,0,24,40,0,3,8,28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L362:
+	.word	.L860-.L859
+.L859:
+	.half	3
+	.word	.L862-.L861
+.L861:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'stdlib.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\priv\\tcp_priv.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\udp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\etharp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\netif\\ethernet.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcpbase.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\tcp.h',0
+	.byte	0,0,0,0
+.L862:
+.L860:
+	.sdecl	'.debug_info',debug,cluster('netif_init')
+	.sect	'.debug_info'
+.L363:
+	.word	261
+	.half	3
+	.word	.L364
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L366,.L365
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_init',0,1,177,1,1,1,1,1
+	.word	.L306,.L506,.L305
+	.byte	4
+	.word	.L306,.L506
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_init')
+	.sect	'.debug_abbrev'
+.L364:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_init')
+	.sect	'.debug_line'
+.L365:
+	.word	.L864-.L863
+.L863:
+	.half	3
+	.word	.L866-.L865
+.L865:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L866:
+	.byte	5,1,7,0,5,2
+	.word	.L306
+	.byte	3,204,1,1,7,9
+	.half	.L367-.L306
+	.byte	0,1,1
+.L864:
+	.sdecl	'.debug_ranges',debug,cluster('netif_init')
+	.sect	'.debug_ranges'
+.L366:
+	.word	-1,.L306,0,.L367-.L306,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_add_noaddr')
+	.sect	'.debug_info'
+.L368:
+	.word	346
+	.half	3
+	.word	.L369
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L371,.L370
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_add_noaddr',0,1,239,1,1
+	.word	.L507
+	.byte	1,1,1
+	.word	.L310,.L508,.L309
+	.byte	4
+	.byte	'netif',0,1,239,1,32
+	.word	.L507,.L509
+	.byte	4
+	.byte	'state',0,1,239,1,45
+	.word	.L510,.L511
+	.byte	4
+	.byte	'init',0,1,239,1,66
+	.word	.L512,.L513
+	.byte	4
+	.byte	'input',0,1,239,1,87
+	.word	.L514,.L515
+	.byte	5
+	.word	.L310,.L508
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_add_noaddr')
+	.sect	'.debug_abbrev'
+.L369:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_add_noaddr')
+	.sect	'.debug_line'
+.L370:
+	.word	.L868-.L867
+.L867:
+	.half	3
+	.word	.L870-.L869
+.L869:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L870:
+	.byte	5,1,7,0,5,2
+	.word	.L310
+	.byte	3,238,1,1,5,20,9
+	.half	.L659-.L310
+	.byte	3,6,1,5,27,9
+	.half	.L871-.L659
+	.byte	1,5,33,9
+	.half	.L872-.L871
+	.byte	1,5,20,9
+	.half	.L873-.L872
+	.byte	3,126,1,5,26,9
+	.half	.L663-.L873
+	.byte	1,5,32,9
+	.half	.L660-.L663
+	.byte	1,5,3,9
+	.half	.L662-.L660
+	.byte	3,126,1,5,1,9
+	.half	.L9-.L662
+	.byte	3,5,1,7,9
+	.half	.L372-.L9
+	.byte	0,1,1
+.L868:
+	.sdecl	'.debug_ranges',debug,cluster('netif_add_noaddr')
+	.sect	'.debug_ranges'
+.L371:
+	.word	-1,.L310,0,.L372-.L310,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_add')
+	.sect	'.debug_info'
+.L373:
+	.word	451
+	.half	3
+	.word	.L374
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L376,.L375
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_add',0,1,148,2,1
+	.word	.L507
+	.byte	1,1,1
+	.word	.L312,.L516,.L311
+	.byte	4
+	.byte	'netif',0,1,148,2,25
+	.word	.L507,.L517
+	.byte	4
+	.byte	'ipaddr',0,1,150,2,29
+	.word	.L518,.L519
+	.byte	4
+	.byte	'netmask',0,1,150,2,55
+	.word	.L518,.L520
+	.byte	4
+	.byte	'gw',0,1,150,2,82
+	.word	.L518,.L521
+	.byte	4
+	.byte	'state',0,1,152,2,17
+	.word	.L510,.L522
+	.byte	4
+	.byte	'init',0,1,152,2,38
+	.word	.L512,.L523
+	.byte	4
+	.byte	'input',0,1,152,2,59
+	.word	.L514,.L524
+	.byte	5
+	.word	.L312,.L516
+	.byte	5
+	.word	.L21,.L525
+	.byte	6
+	.byte	'netif2',0,1,131,3,19
+	.word	.L507,.L526
+	.byte	6
+	.byte	'num_netifs',0,1,132,3,9
+	.word	.L527,.L528
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_add')
+	.sect	'.debug_abbrev'
+.L374:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_add')
+	.sect	'.debug_line'
+.L375:
+	.word	.L875-.L874
+.L874:
+	.half	3
+	.word	.L877-.L876
+.L876:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L877:
+	.byte	5,1,7,0,5,2
+	.word	.L312
+	.byte	3,147,2,1,5,3,9
+	.half	.L10-.L312
+	.byte	3,19,1,7,9
+	.half	.L878-.L10
+	.byte	1,9
+	.half	.L13-.L878
+	.byte	3,1,1,9
+	.half	.L14-.L13
+	.byte	3,3,1,5,14,7,9
+	.half	.L879-.L14
+	.byte	3,1,1,5,3,9
+	.half	.L16-.L879
+	.byte	3,2,1,5,15,7,9
+	.half	.L880-.L16
+	.byte	3,1,1,5,3,9
+	.half	.L17-.L880
+	.byte	3,2,1,5,10,9
+	.half	.L881-.L17
+	.byte	3,1,1,5,3,9
+	.half	.L18-.L881
+	.byte	3,4,1,9
+	.half	.L882-.L18
+	.byte	3,1,1,9
+	.half	.L883-.L882
+	.byte	3,1,1,5,19,9
+	.half	.L884-.L883
+	.byte	3,1,1,5,17,9
+	.half	.L885-.L884
+	.byte	1,5,16,9
+	.half	.L886-.L885
+	.byte	3,14,1,5,14,9
+	.half	.L887-.L886
+	.byte	1,5,18,9
+	.half	.L888-.L887
+	.byte	3,1,1,5,16,9
+	.half	.L889-.L888
+	.byte	1,9
+	.half	.L890-.L889
+	.byte	3,29,1,9
+	.half	.L891-.L890
+	.byte	3,1,1,5,14,9
+	.half	.L892-.L891
+	.byte	1,5,16,9
+	.half	.L893-.L892
+	.byte	3,1,1,5,42,9
+	.half	.L894-.L893
+	.byte	3,8,1,5,12,9
+	.half	.L680-.L894
+	.byte	3,4,1,5,3,9
+	.half	.L685-.L680
+	.byte	1,5,12,7,9
+	.half	.L895-.L685
+	.byte	3,1,1,5,5,9
+	.half	.L896-.L895
+	.byte	1,5,16,9
+	.half	.L21-.L896
+	.byte	3,18,1,5,25,9
+	.half	.L897-.L21
+	.byte	1,5,7,9
+	.half	.L898-.L897
+	.byte	1,5,22,7,9
+	.half	.L899-.L898
+	.byte	3,1,1,5,20,9
+	.half	.L900-.L899
+	.byte	1,5,18,9
+	.half	.L22-.L900
+	.byte	3,2,1,5,21,9
+	.half	.L687-.L22
+	.byte	3,1,1,5,47,9
+	.half	.L690-.L687
+	.byte	1,5,9,9
+	.half	.L25-.L690
+	.byte	3,1,1,7,9
+	.half	.L689-.L25
+	.byte	1,5,19,9
+	.half	.L26-.L689
+	.byte	3,1,1,5,9,9
+	.half	.L27-.L26
+	.byte	3,1,1,5,19,9
+	.half	.L28-.L27
+	.byte	3,1,1,5,33,9
+	.half	.L901-.L28
+	.byte	1,5,9,9
+	.half	.L902-.L901
+	.byte	1,5,16,7,9
+	.half	.L903-.L902
+	.byte	3,1,1,5,21,9
+	.half	.L904-.L903
+	.byte	1,5,11,9
+	.half	.L905-.L904
+	.byte	3,1,1,5,64,9
+	.half	.L29-.L905
+	.byte	3,122,1,5,47,9
+	.half	.L23-.L29
+	.byte	1,5,29,7,9
+	.half	.L30-.L23
+	.byte	3,9,1,5,12,7,9
+	.half	.L525-.L30
+	.byte	3,2,1,5,21,9
+	.half	.L906-.L525
+	.byte	1,5,3,9
+	.half	.L907-.L906
+	.byte	1,5,5,7,9
+	.half	.L908-.L907
+	.byte	3,1,1,5,17,9
+	.half	.L909-.L908
+	.byte	1,5,15,9
+	.half	.L910-.L909
+	.byte	1,5,18,9
+	.half	.L911-.L910
+	.byte	1,5,5,9
+	.half	.L31-.L911
+	.byte	3,2,1,5,29,9
+	.half	.L912-.L31
+	.byte	1,5,35,9
+	.half	.L913-.L912
+	.byte	1,5,15,9
+	.half	.L914-.L913
+	.byte	1,5,17,9
+	.half	.L32-.L914
+	.byte	3,4,1,5,15,9
+	.half	.L915-.L32
+	.byte	1,5,3,9
+	.half	.L916-.L915
+	.byte	3,1,1,5,14,9
+	.half	.L917-.L916
+	.byte	1,5,3,9
+	.half	.L33-.L917
+	.byte	3,11,1,9
+	.half	.L40-.L33
+	.byte	3,3,1,9
+	.half	.L47-.L40
+	.byte	3,1,1,9
+	.half	.L62-.L47
+	.byte	3,1,1,9
+	.half	.L69-.L62
+	.byte	3,1,1,9
+	.half	.L84-.L69
+	.byte	3,1,1,9
+	.half	.L91-.L84
+	.byte	3,1,1,9
+	.half	.L106-.L91
+	.byte	3,2,1,5,36,9
+	.half	.L107-.L106
+	.byte	3,2,1,5,58,9
+	.half	.L918-.L107
+	.byte	1,5,3,9
+	.half	.L694-.L918
+	.byte	3,2,1,5,1,9
+	.half	.L12-.L694
+	.byte	3,1,1,7,9
+	.half	.L377-.L12
+	.byte	0,1,1
+.L875:
+	.sdecl	'.debug_ranges',debug,cluster('netif_add')
+	.sect	'.debug_ranges'
+.L376:
+	.word	-1,.L312,0,.L377-.L312,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_addr')
+	.sect	'.debug_info'
+.L378:
+	.word	520
+	.half	3
+	.word	.L379
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L381,.L380
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_addr',0,1,146,5,1,1,1,1
+	.word	.L328,.L529,.L327
+	.byte	4
+	.byte	'netif',0,1,146,5,30
+	.word	.L507,.L530
+	.byte	4
+	.byte	'ipaddr',0,1,146,5,55
+	.word	.L518,.L531
+	.byte	4
+	.byte	'netmask',0,1,146,5,81
+	.word	.L518,.L532
+	.byte	4
+	.byte	'gw',0,1,147,5,34
+	.word	.L518,.L533
+	.byte	5
+	.word	.L328,.L529
+	.byte	6
+	.byte	'change_reason',0,1,150,5,22
+	.word	.L534,.L535
+	.byte	6
+	.byte	'cb_args',0,1,151,5,29
+	.word	.L536,.L537
+	.byte	6
+	.byte	'old_nm_val',0,1,152,5,13
+	.word	.L538,.L539
+	.byte	6
+	.byte	'old_gw_val',0,1,153,5,13
+	.word	.L538,.L540
+	.byte	6
+	.byte	'old_nm',0,1,154,5,14
+	.word	.L541,.L542
+	.byte	6
+	.byte	'old_gw',0,1,155,5,14
+	.word	.L541,.L543
+	.byte	6
+	.byte	'old_addr',0,1,160,5,13
+	.word	.L538,.L544
+	.byte	6
+	.byte	'remove',0,1,161,5,7
+	.word	.L527,.L545
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_addr')
+	.sect	'.debug_abbrev'
+.L379:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_addr')
+	.sect	'.debug_line'
+.L380:
+	.word	.L920-.L919
+.L919:
+	.half	3
+	.word	.L922-.L921
+.L921:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L922:
+	.byte	5,1,7,0,5,2
+	.word	.L328
+	.byte	3,145,5,1,5,36,9
+	.half	.L750-.L328
+	.byte	3,4,1,5,3,9
+	.half	.L751-.L750
+	.byte	3,16,1,5,14,7,9
+	.half	.L923-.L751
+	.byte	3,1,1,5,3,9
+	.half	.L173-.L923
+	.byte	3,2,1,5,15,7,9
+	.half	.L924-.L173
+	.byte	3,1,1,5,3,9
+	.half	.L174-.L924
+	.byte	3,2,1,5,10,7,9
+	.half	.L925-.L174
+	.byte	3,1,1,5,12,9
+	.half	.L175-.L925
+	.byte	3,3,1,5,3,9
+	.half	.L177-.L175
+	.byte	3,1,1,5,45,7,9
+	.half	.L926-.L177
+	.byte	3,3,1,5,5,9
+	.half	.L744-.L926
+	.byte	1,5,21,7,9
+	.half	.L927-.L744
+	.byte	3,2,1,5,43,9
+	.half	.L928-.L927
+	.byte	3,1,1,5,40,9
+	.half	.L929-.L928
+	.byte	1,5,44,9
+	.half	.L178-.L929
+	.byte	3,4,1,5,24,9
+	.half	.L756-.L178
+	.byte	3,95,1,5,44,9
+	.half	.L757-.L756
+	.byte	3,33,1,5,3,9
+	.half	.L755-.L757
+	.byte	1,5,19,7,9
+	.half	.L930-.L755
+	.byte	3,2,1,5,24,9
+	.half	.L931-.L930
+	.byte	3,93,1,5,38,9
+	.half	.L749-.L931
+	.byte	3,36,1,5,34,9
+	.half	.L180-.L749
+	.byte	3,3,1,5,24,9
+	.half	.L760-.L180
+	.byte	3,90,1,5,34,9
+	.half	.L761-.L760
+	.byte	3,38,1,5,3,9
+	.half	.L759-.L761
+	.byte	1,5,19,7,9
+	.half	.L932-.L759
+	.byte	3,2,1,5,24,9
+	.half	.L933-.L932
+	.byte	3,88,1,5,33,9
+	.half	.L762-.L933
+	.byte	3,41,1,5,8,9
+	.half	.L181-.L762
+	.byte	3,3,1,5,45,7,9
+	.half	.L934-.L181
+	.byte	3,2,1,5,5,9
+	.half	.L764-.L934
+	.byte	1,5,21,7,9
+	.half	.L935-.L764
+	.byte	3,2,1,5,43,9
+	.half	.L936-.L935
+	.byte	3,1,1,5,40,9
+	.half	.L937-.L936
+	.byte	1,5,3,9
+	.half	.L182-.L937
+	.byte	3,6,1,5,19,7,9
+	.half	.L938-.L182
+	.byte	3,1,1,5,54,9
+	.half	.L752-.L938
+	.byte	3,1,1,5,1,9
+	.half	.L184-.L752
+	.byte	3,3,1,7,9
+	.half	.L382-.L184
+	.byte	0,1,1
+.L920:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_addr')
+	.sect	'.debug_ranges'
+.L381:
+	.word	-1,.L328,0,.L382-.L328,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_remove')
+	.sect	'.debug_info'
+.L383:
+	.word	316
+	.half	3
+	.word	.L384
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L386,.L385
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_remove',0,1,225,5,1,1,1,1
+	.word	.L330,.L546,.L329
+	.byte	4
+	.byte	'netif',0,1,225,5,28
+	.word	.L507,.L547
+	.byte	5
+	.word	.L330,.L546
+	.byte	5
+	.word	.L192,.L200
+	.byte	6
+	.byte	'tmp_netif',0,1,153,6,19
+	.word	.L507,.L548
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_remove')
+	.sect	'.debug_abbrev'
+.L384:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_remove')
+	.sect	'.debug_line'
+.L385:
+	.word	.L940-.L939
+.L939:
+	.half	3
+	.word	.L942-.L941
+.L941:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L942:
+	.byte	5,1,7,0,5,2
+	.word	.L330
+	.byte	3,224,5,1,5,3,9
+	.half	.L768-.L330
+	.byte	3,8,1,5,5,7,9
+	.half	.L943-.L768
+	.byte	3,1,1,5,36,9
+	.half	.L185-.L943
+	.byte	3,3,1,5,60,9
+	.half	.L944-.L185
+	.byte	1,5,8,9
+	.half	.L767-.L944
+	.byte	3,3,1,5,30,9
+	.half	.L945-.L767
+	.byte	3,1,1,5,53,9
+	.half	.L769-.L945
+	.byte	1,5,7,9
+	.half	.L187-.L769
+	.byte	3,22,1,5,3,9
+	.half	.L189-.L187
+	.byte	1,5,20,7,9
+	.half	.L772-.L189
+	.byte	3,2,1,5,7,9
+	.half	.L190-.L772
+	.byte	3,6,1,5,3,9
+	.half	.L774-.L190
+	.byte	1,5,23,7,9
+	.half	.L775-.L774
+	.byte	3,2,1,5,7,9
+	.half	.L191-.L775
+	.byte	3,4,1,5,3,9
+	.half	.L776-.L191
+	.byte	1,5,5,7,9
+	.half	.L777-.L776
+	.byte	3,1,1,5,23,9
+	.half	.L778-.L777
+	.byte	1,5,16,9
+	.half	.L779-.L778
+	.byte	1,5,29,9
+	.half	.L946-.L779
+	.byte	1,5,5,9
+	.half	.L192-.L946
+	.byte	3,4,1,5,20,9
+	.half	.L195-.L192
+	.byte	3,1,1,5,7,9
+	.half	.L781-.L195
+	.byte	1,5,32,7,9
+	.half	.L947-.L781
+	.byte	3,1,1,5,25,9
+	.half	.L782-.L947
+	.byte	1,5,9,9
+	.half	.L948-.L782
+	.byte	3,1,1,5,5,9
+	.half	.L196-.L948
+	.byte	3,125,1,9
+	.half	.L197-.L196
+	.byte	3,6,1,5,7,7,9
+	.half	.L949-.L197
+	.byte	3,1,1,5,3,9
+	.half	.L200-.L949
+	.byte	3,10,1,5,1,9
+	.half	.L186-.L200
+	.byte	3,1,1,7,9
+	.half	.L387-.L186
+	.byte	0,1,1
+.L940:
+	.sdecl	'.debug_ranges',debug,cluster('netif_remove')
+	.sect	'.debug_ranges'
+.L386:
+	.word	-1,.L330,0,.L387-.L330,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_find')
+	.sect	'.debug_info'
+.L388:
+	.word	320
+	.half	3
+	.word	.L389
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L391,.L390
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_find',0,1,165,13,1
+	.word	.L507
+	.byte	1,1,1
+	.word	.L352,.L549,.L351
+	.byte	4
+	.byte	'name',0,1,165,13,24
+	.word	.L550,.L551
+	.byte	5
+	.word	.L352,.L549
+	.byte	6
+	.byte	'netif',0,1,167,13,17
+	.word	.L507,.L552
+	.byte	6
+	.byte	'num',0,1,168,13,8
+	.word	.L553,.L554
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_find')
+	.sect	'.debug_abbrev'
+.L389:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_find')
+	.sect	'.debug_line'
+.L390:
+	.word	.L951-.L950
+.L950:
+	.half	3
+	.word	.L953-.L952
+.L952:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L953:
+	.byte	5,1,7,0,5,2
+	.word	.L352
+	.byte	3,164,13,1,5,3,9
+	.half	.L815-.L352
+	.byte	3,7,1,5,12,7,9
+	.half	.L954-.L815
+	.byte	3,1,1,5,5,9
+	.half	.L955-.L954
+	.byte	1,5,26,9
+	.half	.L262-.L955
+	.byte	3,3,1,5,25,9
+	.half	.L956-.L262
+	.byte	1,5,9,9
+	.half	.L814-.L956
+	.byte	1,5,3,9
+	.half	.L817-.L814
+	.byte	3,2,1,5,21,9
+	.half	.L265-.L817
+	.byte	3,1,1,5,9,9
+	.half	.L957-.L265
+	.byte	1,5,13,7,9
+	.half	.L820-.L957
+	.byte	3,1,1,5,31,9
+	.half	.L821-.L820
+	.byte	1,5,17,9
+	.half	.L958-.L821
+	.byte	1,5,13,7,9
+	.half	.L822-.L958
+	.byte	3,1,1,5,31,9
+	.half	.L823-.L822
+	.byte	1,5,17,9
+	.half	.L959-.L823
+	.byte	1,5,7,7,9
+	.half	.L269-.L959
+	.byte	3,1,1,9
+	.half	.L270-.L269
+	.byte	3,1,1,5,3,9
+	.half	.L266-.L270
+	.byte	3,123,1,9
+	.half	.L277-.L266
+	.byte	3,8,1,5,10,9
+	.half	.L278-.L277
+	.byte	3,1,1,5,3,9
+	.half	.L960-.L278
+	.byte	1,5,1,9
+	.half	.L263-.L960
+	.byte	3,1,1,7,9
+	.half	.L392-.L263
+	.byte	0,1,1
+.L951:
+	.sdecl	'.debug_ranges',debug,cluster('netif_find')
+	.sect	'.debug_ranges'
+.L391:
+	.word	-1,.L352,0,.L392-.L352,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_default')
+	.sect	'.debug_info'
+.L393:
+	.word	287
+	.half	3
+	.word	.L394
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L396,.L395
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_default',0,1,182,6,1,1,1,1
+	.word	.L332,.L555,.L331
+	.byte	4
+	.byte	'netif',0,1,182,6,33
+	.word	.L507,.L556
+	.byte	5
+	.word	.L332,.L555
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_default')
+	.sect	'.debug_abbrev'
+.L394:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_default')
+	.sect	'.debug_line'
+.L395:
+	.word	.L962-.L961
+.L961:
+	.half	3
+	.word	.L964-.L963
+.L963:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L964:
+	.byte	5,1,7,0,5,2
+	.word	.L332
+	.byte	3,181,6,1,5,3,9
+	.half	.L783-.L332
+	.byte	3,4,1,7,9
+	.half	.L965-.L783
+	.byte	1,9
+	.half	.L208-.L965
+	.byte	3,7,1,5,17,9
+	.half	.L966-.L208
+	.byte	1,5,3,9
+	.half	.L209-.L966
+	.byte	3,1,1,5,1,9
+	.half	.L210-.L209
+	.byte	3,2,1,7,9
+	.half	.L397-.L210
+	.byte	0,1,1
+.L962:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_default')
+	.sect	'.debug_ranges'
+.L396:
+	.word	-1,.L332,0,.L397-.L332,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_ipaddr')
+	.sect	'.debug_info'
+.L398:
+	.word	357
+	.half	3
+	.word	.L399
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L401,.L400
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_ipaddr',0,1,244,3,1,1,1,1
+	.word	.L318,.L557,.L317
+	.byte	4
+	.byte	'netif',0,1,244,3,32
+	.word	.L507,.L558
+	.byte	4
+	.byte	'ipaddr',0,1,244,3,57
+	.word	.L518,.L559
+	.byte	5
+	.word	.L318,.L557
+	.byte	6
+	.byte	'old_addr',0,1,246,3,13
+	.word	.L538,.L560
+	.byte	5
+	.word	.L561,.L132
+	.byte	6
+	.byte	'args',0,1,131,4,31
+	.word	.L536,.L562
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_ipaddr')
+	.sect	'.debug_abbrev'
+.L399:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_ipaddr')
+	.sect	'.debug_line'
+.L400:
+	.word	.L968-.L967
+.L967:
+	.half	3
+	.word	.L970-.L969
+.L969:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L970:
+	.byte	5,1,7,0,5,2
+	.word	.L318
+	.byte	3,243,3,1,5,3,9
+	.half	.L130-.L318
+	.byte	3,4,1,7,9
+	.half	.L971-.L130
+	.byte	1,9
+	.half	.L131-.L971
+	.byte	3,3,1,5,14,7,9
+	.half	.L972-.L131
+	.byte	3,1,1,5,43,9
+	.half	.L133-.L972
+	.byte	3,5,1,5,3,9
+	.half	.L713-.L133
+	.byte	1,5,38,7,9
+	.half	.L561-.L713
+	.byte	3,3,1,5,35,9
+	.half	.L973-.L561
+	.byte	1,5,38,9
+	.half	.L974-.L973
+	.byte	3,1,1,5,70,9
+	.half	.L975-.L974
+	.byte	1,5,1,9
+	.half	.L132-.L975
+	.byte	3,3,1,7,9
+	.half	.L402-.L132
+	.byte	0,1,1
+.L968:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_ipaddr')
+	.sect	'.debug_ranges'
+.L401:
+	.word	-1,.L318,0,.L402-.L318,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_netmask')
+	.sect	'.debug_info'
+.L403:
+	.word	381
+	.half	3
+	.word	.L404
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L406,.L405
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_netmask',0,1,176,4,1,1,1,1
+	.word	.L322,.L563,.L321
+	.byte	4
+	.byte	'netif',0,1,176,4,33
+	.word	.L507,.L564
+	.byte	4
+	.byte	'netmask',0,1,176,4,58
+	.word	.L518,.L565
+	.byte	5
+	.word	.L322,.L563
+	.byte	6
+	.byte	'old_nm_val',0,1,179,4,13
+	.word	.L538,.L566
+	.byte	6
+	.byte	'old_nm',0,1,180,4,14
+	.word	.L541,.L567
+	.byte	5
+	.word	.L568,.L151
+	.byte	6
+	.byte	'args',0,1,195,4,31
+	.word	.L536,.L569
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_netmask')
+	.sect	'.debug_abbrev'
+.L404:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_netmask')
+	.sect	'.debug_line'
+.L405:
+	.word	.L977-.L976
+.L976:
+	.half	3
+	.word	.L979-.L978
+.L978:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L979:
+	.byte	5,1,7,0,5,2
+	.word	.L322
+	.byte	3,175,4,1,5,24,9
+	.half	.L723-.L322
+	.byte	3,4,1,5,3,9
+	.half	.L149-.L723
+	.byte	3,6,1,7,9
+	.half	.L980-.L149
+	.byte	1,9
+	.half	.L150-.L980
+	.byte	3,3,1,5,15,7,9
+	.half	.L981-.L150
+	.byte	3,1,1,5,44,9
+	.half	.L152-.L981
+	.byte	3,3,1,5,3,9
+	.half	.L725-.L152
+	.byte	1,5,35,7,9
+	.half	.L568-.L725
+	.byte	3,3,1,5,38,9
+	.half	.L982-.L568
+	.byte	3,1,1,5,70,9
+	.half	.L983-.L982
+	.byte	1,5,1,9
+	.half	.L151-.L983
+	.byte	3,3,1,7,9
+	.half	.L407-.L151
+	.byte	0,1,1
+.L977:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_netmask')
+	.sect	'.debug_ranges'
+.L406:
+	.word	-1,.L322,0,.L407-.L322,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_gw')
+	.sect	'.debug_info'
+.L408:
+	.word	371
+	.half	3
+	.word	.L409
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L411,.L410
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_gw',0,1,237,4,1,1,1,1
+	.word	.L326,.L570,.L325
+	.byte	4
+	.byte	'netif',0,1,237,4,28
+	.word	.L507,.L571
+	.byte	4
+	.byte	'gw',0,1,237,4,53
+	.word	.L518,.L572
+	.byte	5
+	.word	.L326,.L570
+	.byte	6
+	.byte	'old_gw_val',0,1,240,4,13
+	.word	.L538,.L573
+	.byte	6
+	.byte	'old_gw',0,1,241,4,14
+	.word	.L541,.L574
+	.byte	5
+	.word	.L575,.L170
+	.byte	6
+	.byte	'args',0,1,128,5,31
+	.word	.L536,.L576
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_gw')
+	.sect	'.debug_abbrev'
+.L409:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_gw')
+	.sect	'.debug_line'
+.L410:
+	.word	.L985-.L984
+.L984:
+	.half	3
+	.word	.L987-.L986
+.L986:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L987:
+	.byte	5,1,7,0,5,2
+	.word	.L326
+	.byte	3,236,4,1,5,24,9
+	.half	.L736-.L326
+	.byte	3,4,1,5,3,9
+	.half	.L168-.L736
+	.byte	3,6,1,7,9
+	.half	.L988-.L168
+	.byte	1,9
+	.half	.L169-.L988
+	.byte	3,3,1,5,10,7,9
+	.half	.L989-.L169
+	.byte	3,1,1,5,34,9
+	.half	.L171-.L989
+	.byte	3,3,1,5,3,9
+	.half	.L738-.L171
+	.byte	1,5,30,7,9
+	.half	.L575-.L738
+	.byte	3,3,1,5,38,9
+	.half	.L990-.L575
+	.byte	3,1,1,5,70,9
+	.half	.L991-.L990
+	.byte	1,5,1,9
+	.half	.L170-.L991
+	.byte	3,3,1,7,9
+	.half	.L412-.L170
+	.byte	0,1,1
+.L985:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_gw')
+	.sect	'.debug_ranges'
+.L411:
+	.word	-1,.L326,0,.L412-.L326,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_up')
+	.sect	'.debug_info'
+.L413:
+	.word	311
+	.half	3
+	.word	.L414
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L416,.L415
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_up',0,1,204,6,1,1,1,1
+	.word	.L334,.L577,.L333
+	.byte	4
+	.byte	'netif',0,1,204,6,28
+	.word	.L507,.L578
+	.byte	5
+	.word	.L334,.L577
+	.byte	5
+	.word	.L579,.L580
+	.byte	6
+	.byte	'args',0,1,219,6,33
+	.word	.L536,.L581
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_up')
+	.sect	'.debug_abbrev'
+.L414:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_up')
+	.sect	'.debug_line'
+.L415:
+	.word	.L993-.L992
+.L992:
+	.half	3
+	.word	.L995-.L994
+.L994:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L995:
+	.byte	5,1,7,0,5,2
+	.word	.L334
+	.byte	3,203,6,1,5,3,9
+	.half	.L220-.L334
+	.byte	3,4,1,7,9
+	.half	.L996-.L220
+	.byte	1,5,14,9
+	.half	.L221-.L996
+	.byte	3,2,1,5,8,9
+	.half	.L997-.L221
+	.byte	1,5,5,7,9
+	.half	.L224-.L997
+	.byte	3,1,1,5,35,9
+	.half	.L579-.L224
+	.byte	3,9,1,5,33,9
+	.half	.L998-.L579
+	.byte	1,5,40,9
+	.half	.L999-.L998
+	.byte	3,1,1,5,66,9
+	.half	.L1000-.L999
+	.byte	1,5,55,9
+	.half	.L580-.L1000
+	.byte	3,4,1,5,1,9
+	.half	.L222-.L580
+	.byte	3,5,1,7,9
+	.half	.L417-.L222
+	.byte	0,1,1
+.L993:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_up')
+	.sect	'.debug_ranges'
+.L416:
+	.word	-1,.L334,0,.L417-.L334,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_down')
+	.sect	'.debug_info'
+.L418:
+	.word	313
+	.half	3
+	.word	.L419
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L421,.L420
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_down',0,1,151,7,1,1,1,1
+	.word	.L338,.L582,.L337
+	.byte	4
+	.byte	'netif',0,1,151,7,30
+	.word	.L507,.L583
+	.byte	5
+	.word	.L338,.L582
+	.byte	5
+	.word	.L584,.L237
+	.byte	6
+	.byte	'args',0,1,160,7,33
+	.word	.L536,.L585
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_down')
+	.sect	'.debug_abbrev'
+.L419:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_down')
+	.sect	'.debug_line'
+.L420:
+	.word	.L1002-.L1001
+.L1001:
+	.half	3
+	.word	.L1004-.L1003
+.L1003:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1004:
+	.byte	5,1,7,0,5,2
+	.word	.L338
+	.byte	3,150,7,1,5,3,9
+	.half	.L233-.L338
+	.byte	3,4,1,7,9
+	.half	.L1005-.L233
+	.byte	1,5,12,9
+	.half	.L234-.L1005
+	.byte	3,2,1,5,3,9
+	.half	.L1006-.L234
+	.byte	1,5,35,7,9
+	.half	.L584-.L1006
+	.byte	3,4,1,5,33,9
+	.half	.L1007-.L584
+	.byte	1,5,40,9
+	.half	.L1008-.L1007
+	.byte	3,1,1,5,66,9
+	.half	.L1009-.L1008
+	.byte	1,5,5,9
+	.half	.L237-.L1009
+	.byte	3,4,1,5,14,9
+	.half	.L1010-.L237
+	.byte	3,4,1,5,5,9
+	.half	.L1011-.L1010
+	.byte	1,5,28,7,9
+	.half	.L1012-.L1011
+	.byte	3,1,1,5,1,9
+	.half	.L235-.L1012
+	.byte	3,10,1,7,9
+	.half	.L422-.L235
+	.byte	0,1,1
+.L1002:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_down')
+	.sect	'.debug_ranges'
+.L421:
+	.word	-1,.L338,0,.L422-.L338,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_link_up')
+	.sect	'.debug_info'
+.L423:
+	.word	316
+	.half	3
+	.word	.L424
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L426,.L425
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_link_up',0,1,220,7,1,1,1,1
+	.word	.L340,.L586,.L339
+	.byte	4
+	.byte	'netif',0,1,220,7,33
+	.word	.L507,.L587
+	.byte	5
+	.word	.L340,.L586
+	.byte	5
+	.word	.L588,.L241
+	.byte	6
+	.byte	'args',0,1,245,7,33
+	.word	.L536,.L589
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_link_up')
+	.sect	'.debug_abbrev'
+.L424:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_link_up')
+	.sect	'.debug_line'
+.L425:
+	.word	.L1014-.L1013
+.L1013:
+	.half	3
+	.word	.L1016-.L1015
+.L1015:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1016:
+	.byte	5,1,7,0,5,2
+	.word	.L340
+	.byte	3,219,7,1,5,3,9
+	.half	.L239-.L340
+	.byte	3,4,1,7,9
+	.half	.L1017-.L239
+	.byte	1,5,14,9
+	.half	.L240-.L1017
+	.byte	3,2,1,5,8,9
+	.half	.L1018-.L240
+	.byte	1,5,5,7,9
+	.half	.L243-.L1018
+	.byte	3,1,1,5,55,9
+	.half	.L1019-.L243
+	.byte	3,10,1,5,33,9
+	.half	.L588-.L1019
+	.byte	3,9,1,5,31,9
+	.half	.L1020-.L588
+	.byte	1,5,40,9
+	.half	.L1021-.L1020
+	.byte	3,1,1,5,64,9
+	.half	.L1022-.L1021
+	.byte	1,5,1,9
+	.half	.L241-.L1022
+	.byte	3,4,1,7,9
+	.half	.L427-.L241
+	.byte	0,1,1
+.L1014:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_link_up')
+	.sect	'.debug_ranges'
+.L426:
+	.word	-1,.L340,0,.L427-.L340,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_set_link_down')
+	.sect	'.debug_info'
+.L428:
+	.word	318
+	.half	3
+	.word	.L429
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L431,.L430
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_set_link_down',0,1,130,8,1,1,1,1
+	.word	.L342,.L590,.L341
+	.byte	4
+	.byte	'netif',0,1,130,8,35
+	.word	.L507,.L591
+	.byte	5
+	.word	.L342,.L590
+	.byte	5
+	.word	.L592,.L246
+	.byte	6
+	.byte	'args',0,1,141,8,33
+	.word	.L536,.L593
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_set_link_down')
+	.sect	'.debug_abbrev'
+.L429:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_set_link_down')
+	.sect	'.debug_line'
+.L430:
+	.word	.L1024-.L1023
+.L1023:
+	.half	3
+	.word	.L1026-.L1025
+.L1025:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1026:
+	.byte	5,1,7,0,5,2
+	.word	.L342
+	.byte	3,129,8,1,5,3,9
+	.half	.L244-.L342
+	.byte	3,4,1,7,9
+	.half	.L1027-.L244
+	.byte	1,5,12,9
+	.half	.L245-.L1027
+	.byte	3,2,1,5,3,9
+	.half	.L1028-.L245
+	.byte	1,5,5,7,9
+	.half	.L248-.L1028
+	.byte	3,1,1,5,33,9
+	.half	.L592-.L248
+	.byte	3,5,1,5,31,9
+	.half	.L1029-.L592
+	.byte	1,5,40,9
+	.half	.L1030-.L1029
+	.byte	3,1,1,5,64,9
+	.half	.L1031-.L1030
+	.byte	1,5,1,9
+	.half	.L246-.L1031
+	.byte	3,4,1,7,9
+	.half	.L432-.L246
+	.byte	0,1,1
+.L1024:
+	.sdecl	'.debug_ranges',debug,cluster('netif_set_link_down')
+	.sect	'.debug_ranges'
+.L431:
+	.word	-1,.L342,0,.L432-.L342,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_input')
+	.sect	'.debug_info'
+.L433:
+	.word	298
+	.half	3
+	.word	.L434
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L436,.L435
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_input',0,1,217,1,1
+	.word	.L594
+	.byte	1,1,1
+	.word	.L308,.L595,.L307
+	.byte	4
+	.byte	'p',0,1,217,1,26
+	.word	.L596,.L597
+	.byte	4
+	.byte	'inp',0,1,217,1,43
+	.word	.L507,.L598
+	.byte	5
+	.word	.L308,.L595
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_input')
+	.sect	'.debug_abbrev'
+.L434:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_input')
+	.sect	'.debug_line'
+.L435:
+	.word	.L1033-.L1032
+.L1032:
+	.half	3
+	.word	.L1035-.L1034
+.L1034:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1035:
+	.byte	5,1,7,0,5,2
+	.word	.L308
+	.byte	3,216,1,1,5,3,9
+	.half	.L2-.L308
+	.byte	3,4,1,7,9
+	.half	.L1036-.L2
+	.byte	1,9
+	.half	.L4-.L1036
+	.byte	3,1,1,7,9
+	.half	.L1037-.L4
+	.byte	1,5,10,9
+	.half	.L5-.L1037
+	.byte	3,3,1,5,18,9
+	.half	.L1038-.L5
+	.byte	1,5,3,9
+	.half	.L1039-.L1038
+	.byte	1,5,30,7,9
+	.half	.L1040-.L1039
+	.byte	3,1,1,5,5,9
+	.half	.L654-.L1040
+	.byte	1,5,24,9
+	.half	.L6-.L654
+	.byte	3,3,1,5,5,9
+	.half	.L657-.L6
+	.byte	1,5,1,9
+	.half	.L7-.L657
+	.byte	3,1,1,7,9
+	.half	.L437-.L7
+	.byte	0,1,1
+.L1033:
+	.sdecl	'.debug_ranges',debug,cluster('netif_input')
+	.sect	'.debug_ranges'
+.L436:
+	.word	-1,.L308,0,.L437-.L308,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_name_to_index')
+	.sect	'.debug_info'
+.L438:
+	.word	312
+	.half	3
+	.word	.L439
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L441,.L440
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_name_to_index',0,1,229,12,1
+	.word	.L553
+	.byte	1,1,1
+	.word	.L346,.L599,.L345
+	.byte	4
+	.byte	'name',0,1,229,12,33
+	.word	.L550,.L600
+	.byte	5
+	.word	.L346,.L599
+	.byte	6
+	.byte	'netif',0,1,231,12,17
+	.word	.L507,.L601
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_name_to_index')
+	.sect	'.debug_abbrev'
+.L439:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_name_to_index')
+	.sect	'.debug_line'
+.L440:
+	.word	.L1042-.L1041
+.L1041:
+	.half	3
+	.word	.L1044-.L1043
+.L1043:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1044:
+	.byte	5,36,7,0,5,2
+	.word	.L346
+	.byte	3,230,12,1,5,3,9
+	.half	.L803-.L346
+	.byte	3,1,1,5,12,7,9
+	.half	.L1045-.L803
+	.byte	3,1,1,5,5,9
+	.half	.L1046-.L1045
+	.byte	1,5,10,9
+	.half	.L250-.L1046
+	.byte	3,3,1,5,3,9
+	.half	.L1047-.L250
+	.byte	1,5,1,9
+	.half	.L251-.L1047
+	.byte	3,1,1,7,9
+	.half	.L442-.L251
+	.byte	0,1,1
+.L1042:
+	.sdecl	'.debug_ranges',debug,cluster('netif_name_to_index')
+	.sect	'.debug_ranges'
+.L441:
+	.word	-1,.L346,0,.L442-.L346,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_index_to_name')
+	.sect	'.debug_info'
+.L443:
+	.word	329
+	.half	3
+	.word	.L444
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L446,.L445
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_index_to_name',0,1,248,12,1
+	.word	.L602
+	.byte	1,1,1
+	.word	.L348,.L603,.L347
+	.byte	4
+	.byte	'idx',0,1,248,12,26
+	.word	.L553,.L604
+	.byte	4
+	.byte	'name',0,1,248,12,37
+	.word	.L602,.L605
+	.byte	5
+	.word	.L348,.L603
+	.byte	6
+	.byte	'netif',0,1,250,12,17
+	.word	.L507,.L606
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_index_to_name')
+	.sect	'.debug_abbrev'
+.L444:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_index_to_name')
+	.sect	'.debug_line'
+.L445:
+	.word	.L1049-.L1048
+.L1048:
+	.half	3
+	.word	.L1051-.L1050
+.L1050:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1051:
+	.byte	5,1,7,0,5,2
+	.word	.L348
+	.byte	3,247,12,1,5,44,9
+	.half	.L806-.L348
+	.byte	3,2,1,5,3,9
+	.half	.L804-.L806
+	.byte	3,2,1,5,26,7,9
+	.half	.L1052-.L804
+	.byte	3,1,1,5,13,9
+	.half	.L1053-.L1052
+	.byte	1,5,26,9
+	.half	.L1054-.L1053
+	.byte	3,1,1,5,13,9
+	.half	.L1055-.L1054
+	.byte	1,5,21,9
+	.half	.L1056-.L1055
+	.byte	3,1,1,5,20,9
+	.half	.L809-.L1056
+	.byte	1,5,40,9
+	.half	.L807-.L809
+	.byte	1,5,45,9
+	.half	.L1057-.L807
+	.byte	1,5,5,9
+	.half	.L808-.L1057
+	.byte	3,1,1,5,10,9
+	.half	.L253-.L808
+	.byte	3,2,1,5,3,9
+	.half	.L811-.L253
+	.byte	1,5,1,9
+	.half	.L254-.L811
+	.byte	3,1,1,7,9
+	.half	.L447-.L254
+	.byte	0,1,1
+.L1049:
+	.sdecl	'.debug_ranges',debug,cluster('netif_index_to_name')
+	.sect	'.debug_ranges'
+.L446:
+	.word	-1,.L348,0,.L447-.L348,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_get_by_index')
+	.sect	'.debug_info'
+.L448:
+	.word	310
+	.half	3
+	.word	.L449
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L451,.L450
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_get_by_index',0,1,140,13,1
+	.word	.L507
+	.byte	1,1,1
+	.word	.L350,.L607,.L349
+	.byte	4
+	.byte	'idx',0,1,140,13,25
+	.word	.L553,.L608
+	.byte	5
+	.word	.L350,.L607
+	.byte	6
+	.byte	'netif',0,1,142,13,17
+	.word	.L507,.L609
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_get_by_index')
+	.sect	'.debug_abbrev'
+.L449:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_get_by_index')
+	.sect	'.debug_line'
+.L450:
+	.word	.L1059-.L1058
+.L1058:
+	.half	3
+	.word	.L1061-.L1060
+.L1060:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1061:
+	.byte	5,3,7,0,5,2
+	.word	.L350
+	.byte	3,145,13,1,5,5,7,9
+	.half	.L1062-.L350
+	.byte	3,1,1,5,18,9
+	.half	.L258-.L1062
+	.byte	3,1,1,5,7,9
+	.half	.L1063-.L258
+	.byte	1,5,9,7,9
+	.half	.L1064-.L1063
+	.byte	3,1,1,5,5,9
+	.half	.L259-.L1064
+	.byte	3,126,1,5,10,9
+	.half	.L256-.L259
+	.byte	3,7,1,5,3,9
+	.half	.L1065-.L256
+	.byte	1,5,1,9
+	.half	.L260-.L1065
+	.byte	3,1,1,7,9
+	.half	.L452-.L260
+	.byte	0,1,1
+.L1059:
+	.sdecl	'.debug_ranges',debug,cluster('netif_get_by_index')
+	.sect	'.debug_ranges'
+.L451:
+	.word	-1,.L350,0,.L452-.L350,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_add_ext_callback')
+	.sect	'.debug_info'
+.L453:
+	.word	311
+	.half	3
+	.word	.L454
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L456,.L455
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_add_ext_callback',0,1,198,13,1,1,1,1
+	.word	.L354,.L610,.L353
+	.byte	4
+	.byte	'callback',0,1,198,13,46
+	.word	.L611,.L612
+	.byte	4
+	.byte	'fn',0,1,198,13,78
+	.word	.L613,.L614
+	.byte	5
+	.word	.L354,.L610
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_add_ext_callback')
+	.sect	'.debug_abbrev'
+.L454:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_add_ext_callback')
+	.sect	'.debug_line'
+.L455:
+	.word	.L1067-.L1066
+.L1066:
+	.half	3
+	.word	.L1069-.L1068
+.L1068:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1069:
+	.byte	5,1,7,0,5,2
+	.word	.L354
+	.byte	3,197,13,1,5,3,9
+	.half	.L285-.L354
+	.byte	3,3,1,7,9
+	.half	.L1070-.L285
+	.byte	1,9
+	.half	.L287-.L1070
+	.byte	3,1,1,7,9
+	.half	.L1071-.L287
+	.byte	1,5,25,9
+	.half	.L288-.L1071
+	.byte	3,2,1,5,27,9
+	.half	.L1072-.L288
+	.byte	3,1,1,5,25,9
+	.half	.L1073-.L1072
+	.byte	1,5,3,9
+	.half	.L1074-.L1073
+	.byte	3,1,1,5,25,9
+	.half	.L1075-.L1074
+	.byte	1,5,1,9
+	.half	.L1076-.L1075
+	.byte	3,1,1,7,9
+	.half	.L457-.L1076
+	.byte	0,1,1
+.L1067:
+	.sdecl	'.debug_ranges',debug,cluster('netif_add_ext_callback')
+	.sect	'.debug_ranges'
+.L456:
+	.word	-1,.L354,0,.L457-.L354,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_remove_ext_callback')
+	.sect	'.debug_info'
+.L458:
+	.word	335
+	.half	3
+	.word	.L459
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L461,.L460
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_remove_ext_callback',0,1,215,13,1,1,1,1
+	.word	.L356,.L615,.L355
+	.byte	4
+	.byte	'callback',0,1,215,13,49
+	.word	.L611,.L616
+	.byte	5
+	.word	.L356,.L615
+	.byte	6
+	.byte	'last',0,1,217,13,25
+	.word	.L611,.L617
+	.byte	6
+	.byte	'iter',0,1,217,13,32
+	.word	.L611,.L618
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_remove_ext_callback')
+	.sect	'.debug_abbrev'
+.L459:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_remove_ext_callback')
+	.sect	'.debug_line'
+.L460:
+	.word	.L1078-.L1077
+.L1077:
+	.half	3
+	.word	.L1080-.L1079
+.L1079:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1080:
+	.byte	5,1,7,0,5,2
+	.word	.L356
+	.byte	3,214,13,1,5,3,9
+	.half	.L289-.L356
+	.byte	3,5,1,7,9
+	.half	.L1081-.L289
+	.byte	1,5,7,9
+	.half	.L290-.L1081
+	.byte	3,2,1,5,3,9
+	.half	.L1082-.L290
+	.byte	1,5,5,7,9
+	.half	.L1083-.L1082
+	.byte	3,1,1,5,19,9
+	.half	.L291-.L1083
+	.byte	3,3,1,5,3,9
+	.half	.L1084-.L291
+	.byte	1,5,5,7,9
+	.half	.L1085-.L1084
+	.byte	3,1,1,5,20,9
+	.half	.L1086-.L1085
+	.byte	1,5,32,9
+	.half	.L1087-.L1086
+	.byte	1,5,18,9
+	.half	.L1088-.L1087
+	.byte	1,5,38,9
+	.half	.L1089-.L1088
+	.byte	1,5,12,9
+	.half	.L293-.L1089
+	.byte	3,2,1,5,17,9
+	.half	.L839-.L293
+	.byte	3,1,1,5,29,9
+	.half	.L1090-.L839
+	.byte	1,5,49,9
+	.half	.L840-.L1090
+	.byte	1,5,7,9
+	.half	.L296-.L840
+	.byte	3,1,1,5,9,7,9
+	.half	.L298-.L296
+	.byte	3,1,1,7,9
+	.half	.L1091-.L298
+	.byte	1,5,30,9
+	.half	.L299-.L1091
+	.byte	3,1,1,5,20,9
+	.half	.L1092-.L299
+	.byte	1,5,26,9
+	.half	.L1093-.L1092
+	.byte	3,1,1,5,24,9
+	.half	.L1094-.L1093
+	.byte	1,5,9,9
+	.half	.L1095-.L1094
+	.byte	3,1,1,5,56,9
+	.half	.L297-.L1095
+	.byte	3,123,1,5,75,9
+	.half	.L1096-.L297
+	.byte	1,5,49,9
+	.half	.L295-.L1096
+	.byte	1,5,1,7,9
+	.half	.L292-.L295
+	.byte	3,9,1,7,9
+	.half	.L462-.L292
+	.byte	0,1,1
+.L1078:
+	.sdecl	'.debug_ranges',debug,cluster('netif_remove_ext_callback')
+	.sect	'.debug_ranges'
+.L461:
+	.word	-1,.L356,0,.L462-.L356,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_invoke_ext_callback')
+	.sect	'.debug_info'
+.L463:
+	.word	356
+	.half	3
+	.word	.L464
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L466,.L465
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_invoke_ext_callback',0,1,248,13,1,1,1,1
+	.word	.L358,.L619,.L357
+	.byte	4
+	.byte	'netif',0,1,248,13,41
+	.word	.L507,.L620
+	.byte	4
+	.byte	'reason',0,1,248,13,67
+	.word	.L534,.L621
+	.byte	4
+	.byte	'args',0,1,248,13,108
+	.word	.L622,.L623
+	.byte	5
+	.word	.L358,.L619
+	.byte	6
+	.byte	'callback',0,1,250,13,25
+	.word	.L611,.L624
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_invoke_ext_callback')
+	.sect	'.debug_abbrev'
+.L464:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_invoke_ext_callback')
+	.sect	'.debug_line'
+.L465:
+	.word	.L1098-.L1097
+.L1097:
+	.half	3
+	.word	.L1100-.L1099
+.L1099:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1100:
+	.byte	5,1,7,0,5,2
+	.word	.L358
+	.byte	3,247,13,1,5,36,9
+	.half	.L846-.L358
+	.byte	3,2,1,5,3,9
+	.half	.L301-.L846
+	.byte	3,2,1,7,9
+	.half	.L1101-.L301
+	.byte	1,5,26,9
+	.half	.L302-.L1101
+	.byte	3,2,1,5,13,9
+	.half	.L304-.L302
+	.byte	3,1,1,5,42,9
+	.half	.L1102-.L304
+	.byte	1,5,24,9
+	.half	.L848-.L1102
+	.byte	3,1,1,5,26,9
+	.half	.L303-.L848
+	.byte	3,126,1,5,1,7,9
+	.half	.L1103-.L303
+	.byte	3,4,1,7,9
+	.half	.L467-.L1103
+	.byte	0,1,1
+.L1098:
+	.sdecl	'.debug_ranges',debug,cluster('netif_invoke_ext_callback')
+	.sect	'.debug_ranges'
+.L466:
+	.word	-1,.L358,0,.L467-.L358,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_issue_reports')
+	.sect	'.debug_info'
+.L468:
+	.word	313
+	.half	3
+	.word	.L469
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L471,.L470
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_issue_reports',0,1,235,6,1,1,1
+	.word	.L336,.L625,.L335
+	.byte	4
+	.byte	'netif',0,1,235,6,35
+	.word	.L507,.L626
+	.byte	4
+	.byte	'report_type',0,1,235,6,47
+	.word	.L553,.L627
+	.byte	5
+	.word	.L336,.L625
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_issue_reports')
+	.sect	'.debug_abbrev'
+.L469:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_issue_reports')
+	.sect	'.debug_line'
+.L470:
+	.word	.L1105-.L1104
+.L1104:
+	.half	3
+	.word	.L1107-.L1106
+.L1106:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1107:
+	.byte	5,1,7,0,5,2
+	.word	.L336
+	.byte	3,234,6,1,5,3,9
+	.half	.L225-.L336
+	.byte	3,2,1,7,9
+	.half	.L1108-.L225
+	.byte	1,5,14,9
+	.half	.L226-.L1108
+	.byte	3,3,1,5,8,9
+	.half	.L1109-.L226
+	.byte	1,5,14,7,9
+	.half	.L1110-.L1109
+	.byte	3,1,1,5,8,9
+	.half	.L1111-.L1110
+	.byte	1,5,5,7,9
+	.half	.L227-.L1111
+	.byte	3,1,1,5,7,9
+	.half	.L228-.L227
+	.byte	3,4,1,5,8,7,9
+	.half	.L1112-.L228
+	.byte	3,1,1,5,14,9
+	.half	.L1113-.L1112
+	.byte	3,3,1,5,5,9
+	.half	.L1114-.L1113
+	.byte	1,5,7,7,9
+	.half	.L1115-.L1114
+	.byte	3,1,1,5,1,9
+	.half	.L229-.L1115
+	.byte	3,21,1,7,9
+	.half	.L472-.L229
+	.byte	0,1,1
+.L1105:
+	.sdecl	'.debug_ranges',debug,cluster('netif_issue_reports')
+	.sect	'.debug_ranges'
+.L471:
+	.word	-1,.L336,0,.L472-.L336,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_null_output_ip4')
+	.sect	'.debug_info'
+.L473:
+	.word	329
+	.half	3
+	.word	.L474
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L476,.L475
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_null_output_ip4',0,1,211,12,1
+	.word	.L594
+	.byte	1,1
+	.word	.L344,.L628,.L343
+	.byte	4
+	.byte	'netif',0,1,211,12,37
+	.word	.L507,.L629
+	.byte	4
+	.byte	'p',0,1,211,12,57
+	.word	.L596,.L630
+	.byte	4
+	.byte	'ipaddr',0,1,211,12,78
+	.word	.L518,.L631
+	.byte	5
+	.word	.L344,.L628
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_null_output_ip4')
+	.sect	'.debug_abbrev'
+.L474:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_null_output_ip4')
+	.sect	'.debug_line'
+.L475:
+	.word	.L1117-.L1116
+.L1116:
+	.half	3
+	.word	.L1119-.L1118
+.L1118:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1119:
+	.byte	5,10,7,0,5,2
+	.word	.L344
+	.byte	3,216,12,1,5,3,9
+	.half	.L1120-.L344
+	.byte	1,5,1,9
+	.half	.L249-.L1120
+	.byte	3,1,1,7,9
+	.half	.L477-.L249
+	.byte	0,1,1
+.L1117:
+	.sdecl	'.debug_ranges',debug,cluster('netif_null_output_ip4')
+	.sect	'.debug_ranges'
+.L476:
+	.word	-1,.L344,0,.L477-.L344,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_do_ip_addr_changed')
+	.sect	'.debug_info'
+.L478:
+	.word	318
+	.half	3
+	.word	.L479
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L481,.L480
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_do_ip_addr_changed',0,1,186,3,1,1,1
+	.word	.L314,.L632,.L313
+	.byte	4
+	.byte	'old_addr',0,1,186,3,43
+	.word	.L633,.L634
+	.byte	4
+	.byte	'new_addr',0,1,186,3,70
+	.word	.L633,.L635
+	.byte	5
+	.word	.L314,.L632
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_do_ip_addr_changed')
+	.sect	'.debug_abbrev'
+.L479:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_do_ip_addr_changed')
+	.sect	'.debug_line'
+.L480:
+	.word	.L1122-.L1121
+.L1121:
+	.half	3
+	.word	.L1124-.L1123
+.L1123:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1124:
+	.byte	5,1,7,0,5,2
+	.word	.L314
+	.byte	3,185,3,1,5,39,9
+	.half	.L698-.L314
+	.byte	3,3,1,9
+	.half	.L696-.L698
+	.byte	3,3,1,5,1,9
+	.half	.L700-.L696
+	.byte	3,5,1,7,9
+	.half	.L482-.L700
+	.byte	0,1,1
+.L1122:
+	.sdecl	'.debug_ranges',debug,cluster('netif_do_ip_addr_changed')
+	.sect	'.debug_ranges'
+.L481:
+	.word	-1,.L314,0,.L482-.L314,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_do_set_ipaddr')
+	.sect	'.debug_info'
+.L483:
+	.word	367
+	.half	3
+	.word	.L484
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L486,.L485
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_do_set_ipaddr',0,1,201,3,1
+	.word	.L527
+	.byte	1,1
+	.word	.L316,.L636,.L315
+	.byte	4
+	.byte	'netif',0,1,201,3,35
+	.word	.L507,.L637
+	.byte	4
+	.byte	'ipaddr',0,1,201,3,60
+	.word	.L518,.L638
+	.byte	4
+	.byte	'old_addr',0,1,201,3,79
+	.word	.L541,.L639
+	.byte	5
+	.word	.L316,.L636
+	.byte	5
+	.word	.L640,.L118
+	.byte	6
+	.byte	'new_addr',0,1,208,3,15
+	.word	.L538,.L641
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_do_set_ipaddr')
+	.sect	'.debug_abbrev'
+.L484:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_do_set_ipaddr')
+	.sect	'.debug_line'
+.L485:
+	.word	.L1126-.L1125
+.L1125:
+	.half	3
+	.word	.L1128-.L1127
+.L1127:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1128:
+	.byte	5,1,7,0,5,2
+	.word	.L316
+	.byte	3,200,3,1,5,3,9
+	.half	.L114-.L316
+	.byte	3,2,1,7,9
+	.half	.L1129-.L114
+	.byte	1,9
+	.half	.L116-.L1129
+	.byte	3,1,1,7,9
+	.half	.L1130-.L116
+	.byte	1,5,7,9
+	.half	.L117-.L1130
+	.byte	3,3,1,5,3,9
+	.half	.L1131-.L117
+	.byte	1,5,28,7,9
+	.half	.L640-.L1131
+	.byte	3,2,1,5,26,9
+	.half	.L1132-.L640
+	.byte	1,5,5,9
+	.half	.L1133-.L1132
+	.byte	3,3,1,9
+	.half	.L119-.L1133
+	.byte	3,2,1,5,41,9
+	.half	.L120-.L119
+	.byte	3,1,1,5,5,9
+	.half	.L707-.L120
+	.byte	3,5,1,7,9
+	.half	.L1134-.L707
+	.byte	1,5,32,9
+	.half	.L1135-.L1134
+	.byte	3,5,1,5,12,9
+	.half	.L709-.L1135
+	.byte	3,3,1,5,5,9
+	.half	.L1136-.L709
+	.byte	1,5,10,9
+	.half	.L118-.L1136
+	.byte	3,2,1,5,3,9
+	.half	.L1137-.L118
+	.byte	1,5,1,9
+	.half	.L128-.L1137
+	.byte	3,1,1,7,9
+	.half	.L487-.L128
+	.byte	0,1,1
+.L1126:
+	.sdecl	'.debug_ranges',debug,cluster('netif_do_set_ipaddr')
+	.sect	'.debug_ranges'
+.L486:
+	.word	-1,.L316,0,.L487-.L316,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_do_set_netmask')
+	.sect	'.debug_info'
+.L488:
+	.word	334
+	.half	3
+	.word	.L489
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L491,.L490
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_do_set_netmask',0,1,139,4,1
+	.word	.L527
+	.byte	1,1
+	.word	.L320,.L642,.L319
+	.byte	4
+	.byte	'netif',0,1,139,4,36
+	.word	.L507,.L643
+	.byte	4
+	.byte	'netmask',0,1,139,4,61
+	.word	.L518,.L644
+	.byte	4
+	.byte	'old_nm',0,1,139,4,81
+	.word	.L541,.L645
+	.byte	5
+	.word	.L320,.L642
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_do_set_netmask')
+	.sect	'.debug_abbrev'
+.L489:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_do_set_netmask')
+	.sect	'.debug_line'
+.L490:
+	.word	.L1139-.L1138
+.L1138:
+	.half	3
+	.word	.L1141-.L1140
+.L1140:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1141:
+	.byte	5,1,7,0,5,2
+	.word	.L320
+	.byte	3,138,4,1,5,7,9
+	.half	.L719-.L320
+	.byte	3,3,1,5,3,9
+	.half	.L1142-.L719
+	.byte	1,5,5,7,9
+	.half	.L136-.L1142
+	.byte	3,2,1,7,9
+	.half	.L1143-.L136
+	.byte	1,9
+	.half	.L137-.L1143
+	.byte	3,1,1,9
+	.half	.L1144-.L137
+	.byte	3,6,1,7,9
+	.half	.L1145-.L1144
+	.byte	1,9
+	.half	.L140-.L1145
+	.byte	3,3,1,5,12,9
+	.half	.L141-.L140
+	.byte	3,6,1,5,5,9
+	.half	.L1146-.L141
+	.byte	1,5,10,9
+	.half	.L135-.L1146
+	.byte	3,2,1,5,3,9
+	.half	.L1147-.L135
+	.byte	1,5,1,9
+	.half	.L147-.L1147
+	.byte	3,1,1,7,9
+	.half	.L492-.L147
+	.byte	0,1,1
+.L1139:
+	.sdecl	'.debug_ranges',debug,cluster('netif_do_set_netmask')
+	.sect	'.debug_ranges'
+.L491:
+	.word	-1,.L320,0,.L492-.L320,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_do_set_gw')
+	.sect	'.debug_info'
+.L493:
+	.word	324
+	.half	3
+	.word	.L494
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L496,.L495
+	.byte	2
+	.word	.L359
+	.byte	3
+	.byte	'netif_do_set_gw',0,1,203,4,1
+	.word	.L527
+	.byte	1,1
+	.word	.L324,.L646,.L323
+	.byte	4
+	.byte	'netif',0,1,203,4,31
+	.word	.L507,.L647
+	.byte	4
+	.byte	'gw',0,1,203,4,56
+	.word	.L518,.L648
+	.byte	4
+	.byte	'old_gw',0,1,203,4,71
+	.word	.L541,.L649
+	.byte	5
+	.word	.L324,.L646
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_do_set_gw')
+	.sect	'.debug_abbrev'
+.L494:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('netif_do_set_gw')
+	.sect	'.debug_line'
+.L495:
+	.word	.L1149-.L1148
+.L1148:
+	.half	3
+	.word	.L1151-.L1150
+.L1150:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0,0,0,0,0
+.L1151:
+	.byte	5,1,7,0,5,2
+	.word	.L324
+	.byte	3,202,4,1,5,7,9
+	.half	.L732-.L324
+	.byte	3,3,1,5,3,9
+	.half	.L1152-.L732
+	.byte	1,5,5,7,9
+	.half	.L155-.L1152
+	.byte	3,2,1,7,9
+	.half	.L1153-.L155
+	.byte	1,9
+	.half	.L156-.L1153
+	.byte	3,1,1,9
+	.half	.L1154-.L156
+	.byte	3,5,1,7,9
+	.half	.L1155-.L1154
+	.byte	1,9
+	.half	.L159-.L1155
+	.byte	3,2,1,5,12,9
+	.half	.L160-.L159
+	.byte	3,6,1,5,5,9
+	.half	.L1156-.L160
+	.byte	1,5,10,9
+	.half	.L154-.L1156
+	.byte	3,2,1,5,3,9
+	.half	.L1157-.L154
+	.byte	1,5,1,9
+	.half	.L166-.L1157
+	.byte	3,1,1,7,9
+	.half	.L497-.L166
+	.byte	0,1,1
+.L1149:
+	.sdecl	'.debug_ranges',debug,cluster('netif_do_set_gw')
+	.sect	'.debug_ranges'
+.L496:
+	.word	-1,.L324,0,.L497-.L324,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_list')
+	.sect	'.debug_info'
+.L498:
+	.word	238
+	.half	3
+	.word	.L499
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L359
+	.byte	3
+	.byte	'netif_list',0,12,110,15
+	.word	.L507
+	.byte	1,5,3
+	.word	netif_list
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_list')
+	.sect	'.debug_abbrev'
+.L499:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_default')
+	.sect	'.debug_info'
+.L500:
+	.word	241
+	.half	3
+	.word	.L501
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L359
+	.byte	3
+	.byte	'netif_default',0,12,112,15
+	.word	.L507
+	.byte	1,5,3
+	.word	netif_default
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_default')
+	.sect	'.debug_abbrev'
+.L501:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('ext_callback')
+	.sect	'.debug_info'
+.L502:
+	.word	239
+	.half	3
+	.word	.L503
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L359
+	.byte	3
+	.byte	'ext_callback',0,12,106,30
+	.word	.L611
+	.byte	5,3
+	.word	ext_callback
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ext_callback')
+	.sect	'.debug_abbrev'
+.L503:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('netif_num')
+	.sect	'.debug_info'
+.L504:
+	.word	236
+	.half	3
+	.word	.L505
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/netif.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L359
+	.byte	3
+	.byte	'netif_num',0,12,115,13
+	.word	.L553
+	.byte	5,3
+	.word	netif_num
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('netif_num')
+	.sect	'.debug_abbrev'
+.L505:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_add')
+	.sect	'.debug_loc'
+.L521:
+	.word	-1,.L312,0,.L665-.L312
+	.half	1
+	.byte	103
+	.word	.L669-.L312,.L516-.L312
+	.half	2
+	.byte	145,124
+	.word	.L13-.L312,.L672-.L312
+	.half	1
+	.byte	103
+	.word	.L14-.L312,.L676-.L312
+	.half	1
+	.byte	103
+	.word	.L676-.L312,.L18-.L312
+	.half	1
+	.byte	111
+	.word	.L683-.L312,.L680-.L312
+	.half	1
+	.byte	103
+	.word	.L692-.L312,.L106-.L312
+	.half	1
+	.byte	111
+	.word	0,0
+.L523:
+	.word	-1,.L312,0,.L516-.L312
+	.half	2
+	.byte	145,4
+	.word	.L674-.L312,.L675-.L312
+	.half	1
+	.byte	111
+	.word	.L14-.L312,.L676-.L312
+	.half	1
+	.byte	111
+	.word	.L686-.L312,.L21-.L312
+	.half	1
+	.byte	111
+	.word	0,0
+.L524:
+	.word	-1,.L312,0,.L516-.L312
+	.half	2
+	.byte	145,8
+	.word	.L10-.L312,.L671-.L312
+	.half	1
+	.byte	100
+	.word	.L13-.L312,.L673-.L312
+	.half	1
+	.byte	100
+	.word	.L14-.L312,.L677-.L312
+	.half	1
+	.byte	100
+	.word	0,0
+.L519:
+	.word	-1,.L312,0,.L665-.L312
+	.half	1
+	.byte	101
+	.word	.L667-.L312,.L516-.L312
+	.half	1
+	.byte	109
+	.word	.L13-.L312,.L672-.L312
+	.half	1
+	.byte	101
+	.word	.L14-.L312,.L678-.L312
+	.half	1
+	.byte	101
+	.word	.L681-.L312,.L680-.L312
+	.half	1
+	.byte	101
+	.word	0,0
+.L517:
+	.word	-1,.L312,0,.L10-.L312
+	.half	1
+	.byte	100
+	.word	.L666-.L312,.L516-.L312
+	.half	1
+	.byte	108
+	.word	.L677-.L312,.L680-.L312
+	.half	1
+	.byte	100
+	.word	.L684-.L312,.L685-.L312
+	.half	1
+	.byte	100
+	.word	.L693-.L312,.L694-.L312
+	.half	1
+	.byte	100
+	.word	.L695-.L312,.L12-.L312
+	.half	1
+	.byte	98
+	.word	0,0
+.L526:
+	.word	-1,.L312,.L688-.L312,.L689-.L312
+	.half	1
+	.byte	111
+	.word	.L690-.L312,.L12-.L312
+	.half	2
+	.byte	145,120
+	.word	.L691-.L312,.L525-.L312
+	.half	1
+	.byte	111
+	.word	0,0
+.L311:
+	.word	-1,.L312,0,.L664-.L312
+	.half	2
+	.byte	138,0
+	.word	.L664-.L312,.L516-.L312
+	.half	2
+	.byte	138,24
+	.word	.L516-.L312,.L516-.L312
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L520:
+	.word	-1,.L312,0,.L665-.L312
+	.half	1
+	.byte	102
+	.word	.L668-.L312,.L516-.L312
+	.half	1
+	.byte	110
+	.word	.L13-.L312,.L672-.L312
+	.half	1
+	.byte	102
+	.word	.L14-.L312,.L679-.L312
+	.half	1
+	.byte	102
+	.word	.L682-.L312,.L680-.L312
+	.half	1
+	.byte	102
+	.word	0,0
+.L528:
+	.word	-1,.L312,.L687-.L312,.L12-.L312
+	.half	1
+	.byte	88
+	.word	0,0
+.L522:
+	.word	-1,.L312,0,.L516-.L312
+	.half	2
+	.byte	145,0
+	.word	.L670-.L312,.L665-.L312
+	.half	1
+	.byte	98
+	.word	.L13-.L312,.L672-.L312
+	.half	1
+	.byte	98
+	.word	.L14-.L312,.L680-.L312
+	.half	1
+	.byte	98
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_add_ext_callback')
+	.sect	'.debug_loc'
+.L612:
+	.word	-1,.L354,0,.L835-.L354
+	.half	1
+	.byte	100
+	.word	.L836-.L354,.L610-.L354
+	.half	1
+	.byte	108
+	.word	0,0
+.L614:
+	.word	-1,.L354,0,.L287-.L354
+	.half	1
+	.byte	101
+	.word	.L285-.L354,.L610-.L354
+	.half	1
+	.byte	109
+	.word	0,0
+.L353:
+	.word	-1,.L354,0,.L834-.L354
+	.half	2
+	.byte	138,0
+	.word	.L834-.L354,.L610-.L354
+	.half	2
+	.byte	138,16
+	.word	.L610-.L354,.L610-.L354
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_add_noaddr')
+	.sect	'.debug_loc'
+.L513:
+	.word	-1,.L310,0,.L660-.L310
+	.half	1
+	.byte	102
+	.word	0,0
+.L515:
+	.word	-1,.L310,0,.L661-.L310
+	.half	1
+	.byte	103
+	.word	0,0
+.L509:
+	.word	-1,.L310,0,.L662-.L310
+	.half	1
+	.byte	100
+	.word	0,0
+.L309:
+	.word	-1,.L310,0,.L659-.L310
+	.half	2
+	.byte	138,0
+	.word	.L659-.L310,.L508-.L310
+	.half	2
+	.byte	138,16
+	.word	.L508-.L310,.L508-.L310
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L511:
+	.word	-1,.L310,0,.L663-.L310
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_do_ip_addr_changed')
+	.sect	'.debug_loc'
+.L313:
+	.word	-1,.L314,0,.L632-.L314
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L635:
+	.word	-1,.L314,0,.L696-.L314
+	.half	1
+	.byte	101
+	.word	.L698-.L314,.L632-.L314
+	.half	1
+	.byte	108
+	.word	.L701-.L314,.L700-.L314
+	.half	1
+	.byte	101
+	.word	0,0
+.L634:
+	.word	-1,.L314,0,.L696-.L314
+	.half	1
+	.byte	100
+	.word	.L697-.L314,.L632-.L314
+	.half	1
+	.byte	111
+	.word	.L699-.L314,.L700-.L314
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_do_set_gw')
+	.sect	'.debug_loc'
+.L648:
+	.word	-1,.L324,0,.L156-.L324
+	.half	1
+	.byte	101
+	.word	.L731-.L324,.L646-.L324
+	.half	1
+	.byte	108
+	.word	.L154-.L324,.L166-.L324
+	.half	1
+	.byte	101
+	.word	0,0
+.L647:
+	.word	-1,.L324,0,.L729-.L324
+	.half	1
+	.byte	100
+	.word	.L730-.L324,.L646-.L324
+	.half	1
+	.byte	111
+	.word	.L154-.L324,.L166-.L324
+	.half	1
+	.byte	100
+	.word	0,0
+.L323:
+	.word	-1,.L324,0,.L728-.L324
+	.half	2
+	.byte	138,0
+	.word	.L728-.L324,.L646-.L324
+	.half	2
+	.byte	138,24
+	.word	.L646-.L324,.L646-.L324
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L649:
+	.word	-1,.L324,0,.L156-.L324
+	.half	1
+	.byte	102
+	.word	.L732-.L324,.L646-.L324
+	.half	1
+	.byte	109
+	.word	.L154-.L324,.L166-.L324
+	.half	1
+	.byte	102
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_do_set_ipaddr')
+	.sect	'.debug_loc'
+.L638:
+	.word	-1,.L316,0,.L116-.L316
+	.half	1
+	.byte	101
+	.word	.L705-.L316,.L636-.L316
+	.half	1
+	.byte	108
+	.word	0,0
+.L637:
+	.word	-1,.L316,0,.L703-.L316
+	.half	1
+	.byte	100
+	.word	.L704-.L316,.L636-.L316
+	.half	1
+	.byte	111
+	.word	.L708-.L316,.L709-.L316
+	.half	1
+	.byte	100
+	.word	0,0
+.L315:
+	.word	-1,.L316,0,.L702-.L316
+	.half	2
+	.byte	138,0
+	.word	.L702-.L316,.L636-.L316
+	.half	2
+	.byte	138,16
+	.word	.L636-.L316,.L636-.L316
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L641:
+	.word	-1,.L316,0,.L636-.L316
+	.half	2
+	.byte	145,124
+	.word	0,0
+.L639:
+	.word	-1,.L316,0,.L116-.L316
+	.half	1
+	.byte	102
+	.word	.L114-.L316,.L636-.L316
+	.half	1
+	.byte	109
+	.word	.L706-.L316,.L707-.L316
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_do_set_netmask')
+	.sect	'.debug_loc'
+.L643:
+	.word	-1,.L320,0,.L716-.L320
+	.half	1
+	.byte	100
+	.word	.L717-.L320,.L642-.L320
+	.half	1
+	.byte	111
+	.word	.L135-.L320,.L147-.L320
+	.half	1
+	.byte	100
+	.word	0,0
+.L319:
+	.word	-1,.L320,0,.L715-.L320
+	.half	2
+	.byte	138,0
+	.word	.L715-.L320,.L642-.L320
+	.half	2
+	.byte	138,24
+	.word	.L642-.L320,.L642-.L320
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L644:
+	.word	-1,.L320,0,.L137-.L320
+	.half	1
+	.byte	101
+	.word	.L718-.L320,.L642-.L320
+	.half	1
+	.byte	108
+	.word	.L135-.L320,.L147-.L320
+	.half	1
+	.byte	101
+	.word	0,0
+.L645:
+	.word	-1,.L320,0,.L137-.L320
+	.half	1
+	.byte	102
+	.word	.L719-.L320,.L642-.L320
+	.half	1
+	.byte	109
+	.word	.L135-.L320,.L147-.L320
+	.half	1
+	.byte	102
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_find')
+	.sect	'.debug_loc'
+.L551:
+	.word	-1,.L352,0,.L814-.L352
+	.half	1
+	.byte	100
+	.word	.L815-.L352,.L816-.L352
+	.half	1
+	.byte	111
+	.word	.L820-.L352,.L821-.L352
+	.half	1
+	.byte	111
+	.word	.L822-.L352,.L823-.L352
+	.half	1
+	.byte	111
+	.word	.L824-.L352,.L825-.L352
+	.half	1
+	.byte	111
+	.word	.L826-.L352,.L827-.L352
+	.half	1
+	.byte	111
+	.word	.L830-.L352,.L831-.L352
+	.half	1
+	.byte	111
+	.word	.L832-.L352,.L833-.L352
+	.half	1
+	.byte	111
+	.word	0,0
+.L552:
+	.word	-1,.L352,.L819-.L352,.L263-.L352
+	.half	1
+	.byte	108
+	.word	.L828-.L352,.L266-.L352
+	.half	1
+	.byte	98
+	.word	0,0
+.L351:
+	.word	-1,.L352,0,.L813-.L352
+	.half	2
+	.byte	138,0
+	.word	.L813-.L352,.L549-.L352
+	.half	2
+	.byte	138,8
+	.word	.L549-.L352,.L549-.L352
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L554:
+	.word	-1,.L352,.L817-.L352,.L818-.L352
+	.half	1
+	.byte	95
+	.word	.L266-.L352,.L829-.L352
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_get_by_index')
+	.sect	'.debug_loc'
+.L608:
+	.word	-1,.L350,0,.L607-.L350
+	.half	1
+	.byte	84
+	.word	0,0
+.L609:
+	.word	-1,.L350,.L812-.L350,.L256-.L350
+	.half	1
+	.byte	98
+	.word	0,0
+.L349:
+	.word	-1,.L350,0,.L607-.L350
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_index_to_name')
+	.sect	'.debug_loc'
+.L604:
+	.word	-1,.L348,0,.L804-.L348
+	.half	1
+	.byte	84
+	.word	.L805-.L348,.L603-.L348
+	.half	1
+	.byte	88
+	.word	0,0
+.L605:
+	.word	-1,.L348,0,.L804-.L348
+	.half	1
+	.byte	100
+	.word	.L806-.L348,.L807-.L348
+	.half	1
+	.byte	111
+	.word	.L809-.L348,.L808-.L348
+	.half	1
+	.byte	100
+	.word	.L808-.L348,.L810-.L348
+	.half	1
+	.byte	111
+	.word	.L810-.L348,.L253-.L348
+	.half	1
+	.byte	98
+	.word	.L253-.L348,.L254-.L348
+	.half	1
+	.byte	111
+	.word	0,0
+.L606:
+	.word	-1,.L348,.L804-.L348,.L808-.L348
+	.half	1
+	.byte	98
+	.word	.L253-.L348,.L811-.L348
+	.half	1
+	.byte	98
+	.word	0,0
+.L347:
+	.word	-1,.L348,0,.L603-.L348
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_init')
+	.sect	'.debug_loc'
+.L305:
+	.word	-1,.L306,0,.L506-.L306
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_input')
+	.sect	'.debug_loc'
+.L598:
+	.word	-1,.L308,0,.L4-.L308
+	.half	1
+	.byte	101
+	.word	.L2-.L308,.L595-.L308
+	.half	1
+	.byte	109
+	.word	.L655-.L308,.L654-.L308
+	.half	1
+	.byte	101
+	.word	.L658-.L308,.L657-.L308
+	.half	1
+	.byte	101
+	.word	0,0
+.L307:
+	.word	-1,.L308,0,.L650-.L308
+	.half	2
+	.byte	138,0
+	.word	.L650-.L308,.L595-.L308
+	.half	2
+	.byte	138,16
+	.word	.L595-.L308,.L595-.L308
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L597:
+	.word	-1,.L308,0,.L651-.L308
+	.half	1
+	.byte	100
+	.word	.L652-.L308,.L595-.L308
+	.half	1
+	.byte	108
+	.word	.L653-.L308,.L654-.L308
+	.half	1
+	.byte	100
+	.word	.L656-.L308,.L657-.L308
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_invoke_ext_callback')
+	.sect	'.debug_loc'
+.L623:
+	.word	-1,.L358,0,.L302-.L358
+	.half	1
+	.byte	101
+	.word	.L846-.L358,.L619-.L358
+	.half	1
+	.byte	109
+	.word	.L850-.L358,.L848-.L358
+	.half	1
+	.byte	101
+	.word	0,0
+.L624:
+	.word	-1,.L358,.L301-.L358,.L619-.L358
+	.half	1
+	.byte	110
+	.word	0,0
+.L620:
+	.word	-1,.L358,0,.L843-.L358
+	.half	1
+	.byte	100
+	.word	.L844-.L358,.L619-.L358
+	.half	1
+	.byte	108
+	.word	.L847-.L358,.L848-.L358
+	.half	1
+	.byte	100
+	.word	0,0
+.L357:
+	.word	-1,.L358,0,.L842-.L358
+	.half	2
+	.byte	138,0
+	.word	.L842-.L358,.L619-.L358
+	.half	2
+	.byte	138,16
+	.word	.L619-.L358,.L619-.L358
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L621:
+	.word	-1,.L358,0,.L302-.L358
+	.half	1
+	.byte	84
+	.word	.L845-.L358,.L619-.L358
+	.half	1
+	.byte	88
+	.word	.L849-.L358,.L848-.L358
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_issue_reports')
+	.sect	'.debug_loc'
+.L626:
+	.word	-1,.L336,0,.L790-.L336
+	.half	1
+	.byte	100
+	.word	.L791-.L336,.L792-.L336
+	.half	1
+	.byte	108
+	.word	.L793-.L336,.L229-.L336
+	.half	1
+	.byte	101
+	.word	.L792-.L336,.L229-.L336
+	.half	1
+	.byte	100
+	.word	0,0
+.L335:
+	.word	-1,.L336,0,.L789-.L336
+	.half	2
+	.byte	138,0
+	.word	.L789-.L336,.L625-.L336
+	.half	2
+	.byte	138,16
+	.word	.L625-.L336,.L625-.L336
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L627:
+	.word	-1,.L336,0,.L226-.L336
+	.half	1
+	.byte	84
+	.word	.L225-.L336,.L625-.L336
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_name_to_index')
+	.sect	'.debug_loc'
+.L600:
+	.word	-1,.L346,0,.L803-.L346
+	.half	1
+	.byte	100
+	.word	0,0
+.L601:
+	.word	-1,.L346,.L803-.L346,.L599-.L346
+	.half	1
+	.byte	98
+	.word	0,0
+.L345:
+	.word	-1,.L346,0,.L599-.L346
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_null_output_ip4')
+	.sect	'.debug_loc'
+.L631:
+	.word	-1,.L344,0,.L628-.L344
+	.half	1
+	.byte	102
+	.word	0,0
+.L629:
+	.word	-1,.L344,0,.L628-.L344
+	.half	1
+	.byte	100
+	.word	0,0
+.L343:
+	.word	-1,.L344,0,.L628-.L344
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L630:
+	.word	-1,.L344,0,.L628-.L344
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_remove')
+	.sect	'.debug_loc'
+.L547:
+	.word	-1,.L330,0,.L767-.L330
+	.half	1
+	.byte	100
+	.word	.L768-.L330,.L769-.L330
+	.half	1
+	.byte	111
+	.word	.L770-.L330,.L187-.L330
+	.half	1
+	.byte	100
+	.word	.L187-.L330,.L771-.L330
+	.half	1
+	.byte	111
+	.word	.L772-.L330,.L773-.L330
+	.half	1
+	.byte	111
+	.word	.L773-.L330,.L190-.L330
+	.half	1
+	.byte	100
+	.word	.L774-.L330,.L775-.L330
+	.half	1
+	.byte	111
+	.word	.L776-.L330,.L777-.L330
+	.half	1
+	.byte	111
+	.word	.L778-.L330,.L779-.L330
+	.half	1
+	.byte	111
+	.word	.L781-.L330,.L782-.L330
+	.half	1
+	.byte	111
+	.word	0,0
+.L329:
+	.word	-1,.L330,0,.L546-.L330
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L548:
+	.word	-1,.L330,.L780-.L330,.L200-.L330
+	.half	1
+	.byte	98
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_remove_ext_callback')
+	.sect	'.debug_loc'
+.L616:
+	.word	-1,.L356,0,.L838-.L356
+	.half	1
+	.byte	100
+	.word	.L289-.L356,.L615-.L356
+	.half	1
+	.byte	108
+	.word	0,0
+.L618:
+	.word	-1,.L356,.L840-.L356,.L841-.L356
+	.half	1
+	.byte	111
+	.word	.L297-.L356,.L292-.L356
+	.half	1
+	.byte	111
+	.word	0,0
+.L617:
+	.word	-1,.L356,.L839-.L356,.L292-.L356
+	.half	1
+	.byte	109
+	.word	0,0
+.L355:
+	.word	-1,.L356,0,.L837-.L356
+	.half	2
+	.byte	138,0
+	.word	.L837-.L356,.L615-.L356
+	.half	2
+	.byte	138,16
+	.word	.L615-.L356,.L615-.L356
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_addr')
+	.sect	'.debug_loc'
+.L537:
+	.word	-1,.L328,0,.L529-.L328
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L535:
+	.word	-1,.L328,.L751-.L328,.L752-.L328
+	.half	1
+	.byte	88
+	.word	.L752-.L328,.L184-.L328
+	.half	1
+	.byte	84
+	.word	0,0
+.L533:
+	.word	-1,.L328,0,.L742-.L328
+	.half	1
+	.byte	103
+	.word	.L750-.L328,.L529-.L328
+	.half	1
+	.byte	110
+	.word	.L760-.L328,.L759-.L328
+	.half	1
+	.byte	101
+	.word	0,0
+.L531:
+	.word	-1,.L328,0,.L743-.L328
+	.half	1
+	.byte	101
+	.word	.L747-.L328,.L529-.L328
+	.half	1
+	.byte	109
+	.word	.L753-.L328,.L744-.L328
+	.half	1
+	.byte	101
+	.word	.L765-.L328,.L764-.L328
+	.half	1
+	.byte	101
+	.word	0,0
+.L530:
+	.word	-1,.L328,0,.L744-.L328
+	.half	1
+	.byte	100
+	.word	.L746-.L328,.L529-.L328
+	.half	1
+	.byte	108
+	.word	.L754-.L328,.L755-.L328
+	.half	1
+	.byte	100
+	.word	.L758-.L328,.L759-.L328
+	.half	1
+	.byte	100
+	.word	.L763-.L328,.L764-.L328
+	.half	1
+	.byte	100
+	.word	.L766-.L328,.L184-.L328
+	.half	1
+	.byte	100
+	.word	0,0
+.L327:
+	.word	-1,.L328,0,.L741-.L328
+	.half	2
+	.byte	138,0
+	.word	.L741-.L328,.L529-.L328
+	.half	2
+	.byte	138,24
+	.word	.L529-.L328,.L529-.L328
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L532:
+	.word	-1,.L328,0,.L745-.L328
+	.half	1
+	.byte	102
+	.word	.L748-.L328,.L749-.L328
+	.half	1
+	.byte	111
+	.word	.L756-.L328,.L755-.L328
+	.half	1
+	.byte	101
+	.word	0,0
+.L544:
+	.word	-1,.L328,0,.L529-.L328
+	.half	2
+	.byte	145,124
+	.word	0,0
+.L543:
+	.word	-1,.L328,.L761-.L328,.L759-.L328
+	.half	1
+	.byte	102
+	.word	.L762-.L328,.L181-.L328
+	.half	1
+	.byte	111
+	.word	0,0
+.L540:
+	.word	-1,.L328,0,.L529-.L328
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L542:
+	.word	-1,.L328,.L757-.L328,.L755-.L328
+	.half	1
+	.byte	102
+	.word	.L749-.L328,.L180-.L328
+	.half	1
+	.byte	111
+	.word	0,0
+.L539:
+	.word	-1,.L328,0,.L529-.L328
+	.half	2
+	.byte	145,116
+	.word	0,0
+.L545:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_default')
+	.sect	'.debug_loc'
+.L556:
+	.word	-1,.L332,0,.L784-.L332
+	.half	1
+	.byte	100
+	.word	0,0
+.L331:
+	.word	-1,.L332,0,.L783-.L332
+	.half	2
+	.byte	138,0
+	.word	.L783-.L332,.L555-.L332
+	.half	2
+	.byte	138,8
+	.word	.L555-.L332,.L555-.L332
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_down')
+	.sect	'.debug_loc'
+.L585:
+	.word	-1,.L338,0,.L582-.L338
+	.half	2
+	.byte	145,116
+	.word	0,0
+.L583:
+	.word	-1,.L338,0,.L795-.L338
+	.half	1
+	.byte	100
+	.word	.L233-.L338,.L796-.L338
+	.half	1
+	.byte	111
+	.word	.L234-.L338,.L235-.L338
+	.half	1
+	.byte	111
+	.word	.L234-.L338,.L237-.L338
+	.half	1
+	.byte	100
+	.word	.L797-.L338,.L235-.L338
+	.half	1
+	.byte	100
+	.word	0,0
+.L337:
+	.word	-1,.L338,0,.L794-.L338
+	.half	2
+	.byte	138,0
+	.word	.L794-.L338,.L582-.L338
+	.half	2
+	.byte	138,24
+	.word	.L582-.L338,.L582-.L338
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_gw')
+	.sect	'.debug_loc'
+.L576:
+	.word	-1,.L326,0,.L570-.L326
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L572:
+	.word	-1,.L326,0,.L734-.L326
+	.half	1
+	.byte	101
+	.word	.L169-.L326,.L738-.L326
+	.half	1
+	.byte	101
+	.word	0,0
+.L571:
+	.word	-1,.L326,0,.L735-.L326
+	.half	1
+	.byte	100
+	.word	.L736-.L326,.L570-.L326
+	.half	1
+	.byte	108
+	.word	.L169-.L326,.L738-.L326
+	.half	1
+	.byte	100
+	.word	.L740-.L326,.L170-.L326
+	.half	1
+	.byte	100
+	.word	0,0
+.L325:
+	.word	-1,.L326,0,.L733-.L326
+	.half	2
+	.byte	138,0
+	.word	.L733-.L326,.L570-.L326
+	.half	2
+	.byte	138,32
+	.word	.L570-.L326,.L570-.L326
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L574:
+	.word	-1,.L326,.L168-.L326,.L737-.L326
+	.half	1
+	.byte	111
+	.word	.L169-.L326,.L170-.L326
+	.half	1
+	.byte	111
+	.word	.L739-.L326,.L738-.L326
+	.half	1
+	.byte	102
+	.word	0,0
+.L573:
+	.word	-1,.L326,0,.L570-.L326
+	.half	2
+	.byte	145,108
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_ipaddr')
+	.sect	'.debug_loc'
+.L562:
+	.word	-1,.L318,0,.L557-.L318
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L559:
+	.word	-1,.L318,0,.L711-.L318
+	.half	1
+	.byte	101
+	.word	.L131-.L318,.L713-.L318
+	.half	1
+	.byte	101
+	.word	0,0
+.L558:
+	.word	-1,.L318,0,.L712-.L318
+	.half	1
+	.byte	100
+	.word	.L130-.L318,.L557-.L318
+	.half	1
+	.byte	108
+	.word	.L131-.L318,.L713-.L318
+	.half	1
+	.byte	100
+	.word	.L714-.L318,.L132-.L318
+	.half	1
+	.byte	100
+	.word	0,0
+.L317:
+	.word	-1,.L318,0,.L710-.L318
+	.half	2
+	.byte	138,0
+	.word	.L710-.L318,.L557-.L318
+	.half	2
+	.byte	138,32
+	.word	.L557-.L318,.L557-.L318
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L560:
+	.word	-1,.L318,0,.L557-.L318
+	.half	2
+	.byte	145,108
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_link_down')
+	.sect	'.debug_loc'
+.L593:
+	.word	-1,.L342,0,.L590-.L342
+	.half	2
+	.byte	145,116
+	.word	0,0
+.L591:
+	.word	-1,.L342,0,.L802-.L342
+	.half	1
+	.byte	100
+	.word	.L245-.L342,.L246-.L342
+	.half	1
+	.byte	100
+	.word	0,0
+.L341:
+	.word	-1,.L342,0,.L244-.L342
+	.half	2
+	.byte	138,0
+	.word	.L244-.L342,.L590-.L342
+	.half	2
+	.byte	138,24
+	.word	.L590-.L342,.L590-.L342
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_link_up')
+	.sect	'.debug_loc'
+.L589:
+	.word	-1,.L340,0,.L586-.L340
+	.half	2
+	.byte	145,116
+	.word	0,0
+.L587:
+	.word	-1,.L340,0,.L799-.L340
+	.half	1
+	.byte	100
+	.word	.L239-.L340,.L800-.L340
+	.half	1
+	.byte	111
+	.word	.L240-.L340,.L241-.L340
+	.half	1
+	.byte	111
+	.word	.L240-.L340,.L588-.L340
+	.half	1
+	.byte	100
+	.word	.L801-.L340,.L241-.L340
+	.half	1
+	.byte	100
+	.word	0,0
+.L339:
+	.word	-1,.L340,0,.L798-.L340
+	.half	2
+	.byte	138,0
+	.word	.L798-.L340,.L586-.L340
+	.half	2
+	.byte	138,24
+	.word	.L586-.L340,.L586-.L340
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_netmask')
+	.sect	'.debug_loc'
+.L569:
+	.word	-1,.L322,0,.L563-.L322
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L564:
+	.word	-1,.L322,0,.L721-.L322
+	.half	1
+	.byte	100
+	.word	.L723-.L322,.L563-.L322
+	.half	1
+	.byte	108
+	.word	.L150-.L322,.L725-.L322
+	.half	1
+	.byte	100
+	.word	.L727-.L322,.L151-.L322
+	.half	1
+	.byte	100
+	.word	0,0
+.L321:
+	.word	-1,.L322,0,.L720-.L322
+	.half	2
+	.byte	138,0
+	.word	.L720-.L322,.L563-.L322
+	.half	2
+	.byte	138,32
+	.word	.L563-.L322,.L563-.L322
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L565:
+	.word	-1,.L322,0,.L722-.L322
+	.half	1
+	.byte	101
+	.word	.L150-.L322,.L725-.L322
+	.half	1
+	.byte	101
+	.word	0,0
+.L567:
+	.word	-1,.L322,.L149-.L322,.L724-.L322
+	.half	1
+	.byte	111
+	.word	.L150-.L322,.L151-.L322
+	.half	1
+	.byte	111
+	.word	.L726-.L322,.L725-.L322
+	.half	1
+	.byte	102
+	.word	0,0
+.L566:
+	.word	-1,.L322,0,.L563-.L322
+	.half	2
+	.byte	145,108
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('netif_set_up')
+	.sect	'.debug_loc'
+.L581:
+	.word	-1,.L334,0,.L577-.L334
+	.half	2
+	.byte	145,116
+	.word	0,0
+.L578:
+	.word	-1,.L334,0,.L786-.L334
+	.half	1
+	.byte	100
+	.word	.L220-.L334,.L787-.L334
+	.half	1
+	.byte	111
+	.word	.L221-.L334,.L222-.L334
+	.half	1
+	.byte	111
+	.word	.L221-.L334,.L580-.L334
+	.half	1
+	.byte	100
+	.word	.L788-.L334,.L222-.L334
+	.half	1
+	.byte	100
+	.word	0,0
+.L333:
+	.word	-1,.L334,0,.L785-.L334
+	.half	2
+	.byte	138,0
+	.word	.L785-.L334,.L577-.L334
+	.half	2
+	.byte	138,24
+	.word	.L577-.L334,.L577-.L334
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L1158:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('netif_init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1158,.L306,.L506-.L306
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('netif_input')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L308,.L595-.L308
+	.byte	4
+	.word	(.L650-.L308)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L595-.L650)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_add_noaddr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L310,.L508-.L310
+	.byte	4
+	.word	(.L659-.L310)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L508-.L659)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_add')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L312,.L516-.L312
+	.byte	4
+	.word	(.L664-.L312)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L516-.L664)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_do_ip_addr_changed')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1158,.L314,.L632-.L314
+	.sdecl	'.debug_frame',debug,cluster('netif_do_set_ipaddr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L316,.L636-.L316
+	.byte	4
+	.word	(.L702-.L316)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L636-.L702)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_ipaddr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L318,.L557-.L318
+	.byte	4
+	.word	(.L710-.L318)/2
+	.byte	19,32,22,26,3,19,138,32,4
+	.word	(.L557-.L710)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_do_set_netmask')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L320,.L642-.L320
+	.byte	4
+	.word	(.L715-.L320)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L642-.L715)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_netmask')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L322,.L563-.L322
+	.byte	4
+	.word	(.L720-.L322)/2
+	.byte	19,32,22,26,3,19,138,32,4
+	.word	(.L563-.L720)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_do_set_gw')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L324,.L646-.L324
+	.byte	4
+	.word	(.L728-.L324)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L646-.L728)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_gw')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L326,.L570-.L326
+	.byte	4
+	.word	(.L733-.L326)/2
+	.byte	19,32,22,26,3,19,138,32,4
+	.word	(.L570-.L733)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_addr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L328,.L529-.L328
+	.byte	4
+	.word	(.L741-.L328)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L529-.L741)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_remove')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1158,.L330,.L546-.L330
+	.sdecl	'.debug_frame',debug,cluster('netif_set_default')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L332,.L555-.L332
+	.byte	4
+	.word	(.L783-.L332)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L555-.L783)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_up')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L334,.L577-.L334
+	.byte	4
+	.word	(.L785-.L334)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L577-.L785)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_issue_reports')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L336,.L625-.L336
+	.byte	4
+	.word	(.L789-.L336)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L625-.L789)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_down')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L338,.L582-.L338
+	.byte	4
+	.word	(.L794-.L338)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L582-.L794)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_link_up')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L340,.L586-.L340
+	.byte	4
+	.word	(.L798-.L340)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L586-.L798)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_set_link_down')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L342,.L590-.L342
+	.byte	4
+	.word	(.L244-.L342)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L590-.L244)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_null_output_ip4')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1158,.L344,.L628-.L344
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('netif_name_to_index')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1158,.L346,.L599-.L346
+	.sdecl	'.debug_frame',debug,cluster('netif_index_to_name')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1158,.L348,.L603-.L348
+	.sdecl	'.debug_frame',debug,cluster('netif_get_by_index')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1158,.L350,.L607-.L350
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_find')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L352,.L549-.L352
+	.byte	4
+	.word	(.L813-.L352)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L549-.L813)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_add_ext_callback')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L354,.L610-.L354
+	.byte	4
+	.word	(.L834-.L354)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L610-.L834)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_remove_ext_callback')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L356,.L615-.L356
+	.byte	4
+	.word	(.L837-.L356)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L615-.L837)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('netif_invoke_ext_callback')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1158,.L358,.L619-.L358
+	.byte	4
+	.word	(.L842-.L358)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L619-.L842)/2
+	.byte	19,0,8,26,0,0
+	; Module end

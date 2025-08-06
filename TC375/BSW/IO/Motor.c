@@ -94,5 +94,3 @@ void Motor_movChB_PWM(int duty, int dir)
 
     MODULE_P02.OUT.B.P6 = 0;   /* 모터 Brake 해제 (1: 정지, 0: PWM-A에 따라 동작) */
 }
-
-
