@@ -52,8 +52,7 @@ float velocity(void){
     Disable_Enc_Interrupt();
     return ((21.0 *10000)/ (t2-t1)); // m/s  즉 21* 10^-2 / 10^-6 = 21 * 10^4
 }
-
-float Braking_Distance(float v){
+float Get_Braking_Distance(float v){
     float dis  = 1.0 * (v * v) /(3 * Deceleration_rate());
     return 1000 * dis; // m단위이니 tof 단위로 하려면 곱하기 1000을 함.//
 //
@@ -64,28 +63,31 @@ float Deceleration_rate(void){ // 함수보다 실험적으로 값을 구해서 
 
 void Emergency_stop(void){
     my_printf("work\n");
-    if (Tof_GetValue() < 100+ Braking_Distance(velocity()))//
+    if (Tof_GetValue() < 100+ Braking_Distance)//
         {
            my_printf("tof distance: %d\n",Tof_GetValue());
-           Motor_stopChA();
-           Motor_stopChB();
+           if(!AEB_flag){
+               Motor_All_Stop();
+           }
            my_printf("stop");
-           int front_duty = 30;
-           int back_duty = 30;
+           AEB_flag=1;
            //긴급 제동 Debugging용
            //TODO : 상세 로직 역회전하기.
            //Motor_movChA_PWM(front_duty, 0);
            //Motor_movChB_PWM(back_duty, 0);
            //delay_ms(500);
        }
-    else{
-        Motor_movChA_PWM(50, 1);
-        Motor_movChB_PWM(50, 1);
+    else {
+        AEB_flag =0;
     }
+//    else{
+//        Motor_movChA_PWM(50, 1);
+//        Motor_movChB_PWM(50, 1);
+//    }
 
 
 
-    }
+}
 
 
 

@@ -95,9 +95,8 @@ static inline float safe_read_left(void)
 
 void calc_parking_distance (void)
 {
-    parking_state = PARKING_STATE_MEASURING;
+    parking_state = PARKING_STATE_SEARCHING;
     while(parking_state!=PARKING_STATE_FINISH){
-        delay_ms(50);
         switch (parking_state)
            {
                //자리 찾으러 가기
@@ -124,7 +123,7 @@ void calc_parking_distance (void)
                    {
                        Disable_Enc_Interrupt();
 
-                       float32 parking_width_cm = ((float32) count_enc * WHEEL_CIRCUM) / ENC_DISK;
+                       float32 parking_width_cm = ((float32) count_enc * WHEEL_CIRCUM) / (ENC_DISK*4);
                        my_printf("Measurement complete! Distance = %.2f cm, Parking space width: %.2f cm\n", safe_read_left(),
                                parking_width_cm);
 

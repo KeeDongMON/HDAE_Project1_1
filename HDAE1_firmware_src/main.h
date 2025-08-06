@@ -25,6 +25,7 @@
 #include "ToF.h"
 #include "geth_lwip.h"
 #include "my_stdio.h"
+#include "Headlight.h"
 #include "UltraBuzzer.h"
 #include "LightButton.h"
 #include "Drive.h"

@@ -53,6 +53,8 @@ void core0_main(void)
     while(1)
     {
         Asclin1_PollCMD();
+        HBA_ON();
+        Emergency_stop();
 //        //UltraBuzzer();
 //        setLedCycle(400);
 //        setLightButton(1);

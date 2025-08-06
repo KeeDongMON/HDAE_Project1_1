@@ -47,8 +47,10 @@
 #include "can.h"
 #include "ToF.h"
 //unsigned int Tof_getValue(void);
+extern float current_velocity;
+extern float Braking_Distance;
 float velocity(void);
-float Braking_Distance(float v);
+float Get_Braking_Distance(float v);
 float Deceleration_rate(void);
 //void TofIsrHandler(void);//
 static inline void Enable_Enc_Interrupt (void);

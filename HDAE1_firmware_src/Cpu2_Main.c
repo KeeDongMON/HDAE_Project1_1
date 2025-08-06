@@ -27,10 +27,12 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
+#include "Emergency_stop.h"
 
 extern IfxCpu_syncEvent g_cpuSyncEvent;
 
-float v =0;
+float current_velocity =0;
+float Braking_Distance = 0;
 
 void core2_main(void)
 {
@@ -47,12 +49,12 @@ void core2_main(void)
     
     while(1)
     {
-        float v = velocity();
-        int b = Braking_Distance(v);
-        my_printf("PWM:50 Deceleration_rate: 1\n");
-        my_printf("braking distance : %d\n", b);//v 안에 안갇혀있으니, v값이 들어왔을떄만 코드가 돌아가도록해라.
-        my_printf(": %fm/s\n", v);
-        Emergency_stop();
+        current_velocity = velocity();
+        Braking_Distance = Get_Braking_Distance(current_velocity);
+        //my_printf("PWM:50 Deceleration_rate: 1\n");
+        my_printf("braking distance : %d\n", Braking_Distance);//v 안에 안갇혀있으니, v값이 들어왔을떄만 코드가 돌아가도록해라.
+        my_printf("current V: %fm/s\n", current_velocity);
+        //Emergency_stop();
 
     }
 }

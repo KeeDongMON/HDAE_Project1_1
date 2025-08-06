@@ -32,6 +32,7 @@ void HBA_Init(){
     // Set duty 0
     GtmAtomPwm_SetDutyCycle(0);
     */
+    HBA_OFF();
 }
 
 void HBA_ON(){

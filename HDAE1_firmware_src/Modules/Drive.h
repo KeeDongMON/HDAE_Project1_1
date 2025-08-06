@@ -44,10 +44,13 @@
 #include "main.h"
 
 #define ASCLIN_CMD_BUF_SZ 64
-
-extern void Control_CMD(int x, int y, int swL, int swR, int swH, int swP, int swLK, int dir);
 extern unsigned int front_duty;
 extern unsigned int back_duty;
+extern int AEB_flag;
+
+
+extern void Control_CMD(int x, int y, int swL, int swR, int swH, int swP, int swLK, int dir);
+
 extern void Asclin1_PollCMD(void);
 extern void Motor_All_Stop(void);
 extern char Asclin1_InUartNonBlock(void);
