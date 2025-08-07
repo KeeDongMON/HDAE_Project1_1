@@ -41,6 +41,9 @@ static int CMD_Start = 0;
 
 
 int AEB_flag = 0;
+int VEL_flag = 1;
+int Car_dir = 1;
+
 char Asclin1_InUartNonBlock(void)
 {
     unsigned char ch = 0;
@@ -63,12 +66,12 @@ void Asclin1_PollCMD(void){
     int swH = 0;
     int swP = 0;
     int swLK = 0;
-    int dir = 1;
+    Car_dir = 1;
 
-    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swH,&swP,&swLK,&dir);
+    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swH,&swP,&swLK,&Car_dir);
     //my_printf("check : %d\n",check_sum);
     if(check_sum == 8){
-            Control_CMD(x,y,swL,swR,swH,swP,swLK,dir);
+            Control_CMD(x,y,swL,swR,swH,swP,swLK,Car_dir);
             CMD_Start = 1;
             Prev_swL = swL;
             Prev_swR = swR;

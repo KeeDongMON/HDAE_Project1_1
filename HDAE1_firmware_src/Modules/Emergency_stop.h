@@ -49,12 +49,18 @@
 //unsigned int Tof_getValue(void);
 extern float current_velocity;
 extern float Braking_Distance;
+extern unsigned int ToftofValue;
+
 float velocity(void);
 float Get_Braking_Distance(float v);
 float Deceleration_rate(void);
+
 //void TofIsrHandler(void);//
 static inline void Enable_Enc_Interrupt (void);
 static inline void Disable_Enc_Interrupt (void);
+
+#define Deceleration_rate 1.5f
+
 void Emergency_stop(void);
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/

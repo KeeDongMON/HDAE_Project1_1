@@ -38,6 +38,7 @@ volatile float left_distance  __attribute__((section(".lmu_data"))) = 0.0f;
 volatile float rear_distance  __attribute__((section(".lmu_data"))) = 0.0f;
 volatile IfxCpu_mutexLock distLock __attribute__((section(".lmu_data"))) = 0;
 
+unsigned int ToftofValue = 0;
 
 void core0_main(void)
 {
@@ -63,7 +64,7 @@ void core0_main(void)
         Asclin1_PollCMD();
         HBA_ON();
         //my_printf("en : %d\n",count_enc);
-        //Emergency_stop();
+        Emergency_stop();
 //        //UltraBuzzer();
 //        setLedCycle(400);
 //        setLightButton(1);
@@ -78,7 +79,7 @@ void core0_main(void)
 
 
 
-//IFX_INTERRUPT(CanRxHandler, 0, ISR_PRIORITY_CAN_RX);
+IFX_INTERRUPT(CanRxHandler, 0, ISR_PRIORITY_CAN_RX);
 void CanRxHandler (void)
 {
     unsigned int rxID;
@@ -93,22 +94,22 @@ void CanRxHandler (void)
     }
     else
     {
-        unsigned int tofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
+        ToftofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
         unsigned char dis_status = rxData[3];
         unsigned short signal_strength = rxData[5] << 8 | rxData[4];
 
-        if (signal_strength != 0)
-        {
-            if (tofValue <= 100)
-            {
-                Motor_stopChA();
-                Motor_stopChB();
-
-                //긴급 제동 Debugging용
-                //TODO : 상세 로직
-
-            }
-        }
+//        if (signal_strength != 0)
+//        {
+//            if (tofValue <= 100)
+//            {
+//                Motor_stopChA();
+//                Motor_stopChB();
+//
+//                //긴급 제동 Debugging용
+//                //TODO : 상세 로직
+//
+//            }
+//        }
     }
 
 }

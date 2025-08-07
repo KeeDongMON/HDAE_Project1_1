@@ -96,6 +96,7 @@ static inline float safe_read_left(void)
 void calc_parking_distance (void)
 {
     parking_state = PARKING_STATE_SEARCHING;
+    VEL_flag = 0;
     while(parking_state != PARKING_STATE_FINISH){
         switch (parking_state)
            {
@@ -185,6 +186,8 @@ void calc_parking_distance (void)
                    break;
            }
     }
+
+    VEL_flag = 1;
 }
 
 IFX_INTERRUPT(SCUERU_Int0_Handler, 0, ISR_PRIORITY_ERU_INT0);

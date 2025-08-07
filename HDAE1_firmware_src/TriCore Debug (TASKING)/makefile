@@ -81,39 +81,39 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := HDAE1_firmware_src
+BUILD_ARTIFACT_NAME := TC375LK_NGV
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-HDAE1_firmware_src.siz \
+TC375LK_NGV.siz \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: HDAE1_firmware_src.elf secondary-outputs
+main-build: TC375LK_NGV.elf secondary-outputs
 
 # Tool invocations
-HDAE1_firmware_src.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
+TC375LK_NGV.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: TASKING Linker'
-	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="HDAE1_firmware_src.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"HDAE1_firmware_src.elf" -Wl-o"HDAE1_firmware_src.hex:IHEX" $(OBJS)
+	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="TC375LK_NGV.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"TC375LK_NGV.elf" -Wl-o"TC375LK_NGV.hex:IHEX" $(OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-HDAE1_firmware_src.siz: HDAE1_firmware_src.elf makefile $(OPTIONAL_TOOL_DEPS)
+TC375LK_NGV.siz: TC375LK_NGV.elf makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: Print Size'
-	elfsize  "HDAE1_firmware_src.elf"
+	elfsize  "TC375LK_NGV.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) HDAE1_firmware_src.siz HDAE1_firmware_src.elf
+	-$(RM) TC375LK_NGV.siz TC375LK_NGV.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_SIZE)

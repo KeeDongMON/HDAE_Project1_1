@@ -50,11 +50,11 @@ void core2_main(void)
     while(1)
     {
 
-        //current_velocity = velocity();
-        //Braking_Distance = Get_Braking_Distance(current_velocity);
+        current_velocity = velocity();
+        Braking_Distance = Get_Braking_Distance(current_velocity);
         //my_printf("PWM:50 Deceleration_rate: 1\n");
-//        my_printf("braking distance : %d\n", Braking_Distance);//v 안에 안갇혀있으니, v값이 들어왔을떄만 코드가 돌아가도록해라.
-//        my_printf("current V: %fm/s\n", current_velocity);
+        my_printf("braking distance : %d\n", Braking_Distance);//v 안에 안갇혀있으니, v값이 들어왔을떄만 코드가 돌아가도록해라.
+        my_printf("current V: %fm/s\n", current_velocity);
         //Emergency_stop();
 
     }
