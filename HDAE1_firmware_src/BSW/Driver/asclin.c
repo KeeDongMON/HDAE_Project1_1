@@ -13,6 +13,7 @@
 IFX_INTERRUPT(Asclin0RxIsrHandler, 0, ISR_PRIORITY_ASCLIN0_RX);
 void Asclin0RxIsrHandler(void)
 {
+    __enable();
     char c = Asclin0_InUart();
     Asclin0_OutUart(c);
 }

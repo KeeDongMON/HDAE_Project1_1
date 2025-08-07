@@ -42,6 +42,8 @@ static int CMD_Start = 0;
 
 int AEB_flag = 0;
 int VEL_flag = 1;
+int LED_flag = 0;
+
 int Car_dir = 1;
 
 char Asclin1_InUartNonBlock(void)
@@ -66,12 +68,14 @@ void Asclin1_PollCMD(void){
     int swH = 0;
     int swP = 0;
     int swLK = 0;
+    int left_dir = 0;
+    int right_dir = 0;
     Car_dir = 1;
 
-    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swH,&swP,&swLK,&Car_dir);
+    int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swH,&swP,&swLK,&left_dir, &right_dir);
     //my_printf("check : %d\n",check_sum);
-    if(check_sum == 8){
-            Control_CMD(x,y,swL,swR,swH,swP,swLK,Car_dir);
+    if(check_sum == 9){
+            Control_CMD(x, y, swL, swR, swH, swP, swLK, left_dir, right_dir);
             CMD_Start = 1;
             Prev_swL = swL;
             Prev_swR = swR;
@@ -109,12 +113,12 @@ void BLEIsrHandler (void)
    }
 }
 
-void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, int dir)
+void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, int left_dir, int right_dir)
 {
 //    my_printf("left: %d\n", x);
 //    my_printf("right: %d\n", y);
 //    my_printf("dir: %d\n",dir);
-   if(CMD_Start == 0)return;
+   if(CMD_Start == 0) return;
    if (swP!= Prev_swP){
        my_printf("Parking ON!\n");
       Motor_All_Stop();
@@ -138,23 +142,35 @@ void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, in
    else if (swLK != Prev_swLK){
 
    }
-   else{
-       // Backward
-       if (dir == 0)
-           {
-               Motor_movChA_PWM(x, 0);
-               Motor_movChB_PWM(y, 0);
-           }
+    else
+    {
+        // Backward
+        if (left_dir == 0 && right_dir == 0)
+        {
+            Motor_movChA_PWM(x, 0);
+            Motor_movChB_PWM(y, 0);
+        }
+        else if (left_dir == 0 && right_dir == 1)
+        {
+            Motor_movChA_PWM(x, 0);
+            Motor_movChB_PWM(y, 1);
+        }
 
-           //Forward
-       else
-       {
-           if (!AEB_flag)
-           {
-               Motor_movChA_PWM(x, 1);
-               Motor_movChB_PWM(y, 1);
-           }
-       }
+        else if (left_dir == 1 && right_dir == 0)
+        {
+            Motor_movChA_PWM(x, 1);
+            Motor_movChB_PWM(y, 0);
+        }
+
+        else
+        {
+            if (!AEB_flag)
+            {
+                Motor_movChA_PWM(x, 1);
+                Motor_movChB_PWM(y, 1);
+            }
+        }
+
        //TODO : Switch 처리 및 추가 및 응집도 결합도 Fan-IN/Fan-OUT 고려해 Module화 진행 예정
    }
 

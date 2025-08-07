@@ -47,11 +47,16 @@
 #define START_THRESHOLD_CM  30.0f
 #define END_THRESHOLD_CM    25.0f
 
-#define CAR_SPEED            10.0f
+#define SEARCHING_SPEED     75.0f
+#define PARKING_SPEED       75.0f
+#define ROTATE_SPEED        125.0f
 
-#define WHEEL_CIRCUM        21.0f
+#define FRONT_DIR           1
+#define BACK_DIR            0
+
+#define WHEEL_CIRCUM        20.42f
 #define ENC_DISK            20.0f
-#define LENGTH_HALF_ENC         38
+#define LENGTH_HALF_ENC     38
 
 // 주차 공간 측정 상태
 typedef enum {

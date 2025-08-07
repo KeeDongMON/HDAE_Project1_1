@@ -13,6 +13,7 @@ IFX_INTERRUPT(IsrGpt1T3Handler_Beep, 0, ISR_PRIORITY_GPT1T3_TIMER);
 
 void IsrGpt1T3Handler_Beep(void)
 {
+    __enable();
     if ((beepCnt < beepOnOff) || (beepOnOff == 1)) {
         MODULE_P02.OUT.B.P3 ^= 1;
     } else if (beepCnt < beepOnOff * 2) {

@@ -24,6 +24,7 @@ static void gpt2_init(void);
 IFX_INTERRUPT(IsrGpt2T6Handler, 0, ISR_PRIORITY_GPT2T6_TIMER);
 void IsrGpt2T6Handler(void)
 {
+    __enable();
     cntDelay++;
 }
 

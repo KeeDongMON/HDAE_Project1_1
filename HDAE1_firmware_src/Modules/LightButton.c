@@ -27,6 +27,7 @@ void LightButton_Init (void) {
 IFX_INTERRUPT(IsrGpt2T6Handler_Led, 0, ISR_PRIORITY_GPT2T6_TIMER); // buzzer.c에서 따옴. 인터럽트 방식으로 해서 while문 안의 토글 방식과 별개로 사용.
 void IsrGpt2T6Handler_Led(void)
 {
+    __enable();
     ledCnt++;
 
     if (ledCnt >= ledOnOff * 2) {
