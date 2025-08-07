@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc5428a --dep-file=GPIO.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/GPIO.src ../BSW/IO/GPIO.c"
+	.compiler_invocation	"ctc -f cc21896a --dep-file=GPIO.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/GPIO.src ../BSW/IO/GPIO.c"
 	.compiler_name		"ctc"
 	;source	'../BSW/IO/GPIO.c'
 
@@ -33,30 +33,20 @@ GPIO_Init:	.type	func
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa12),d15
 .L120:
-	mov	d4,#1
-.L121:
-	mov	d5,#0
-	call	GPIO_SetLed
-.L122:
-	mov	d4,#2
-.L123:
-	mov	d5,#0
-	call	GPIO_SetLed
-.L124:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a210)
-.L125:
+.L121:
 	insert	d15,d15,#2,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a210),d15
-.L126:
+.L122:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a017)
-.L127:
+.L123:
 	insert	d15,d15,#2,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a017),d15
-.L128:
+.L124:
 	ret
 .L84:
 	
@@ -75,27 +65,27 @@ __GPIO_Init_function_end:
 GPIO_SetLed:	.type	func
 	mov	d15,#1
 	jeq	d15,d4,.L2
-.L133:
+.L129:
 	mov	d15,#2
 	jeq	d15,d4,.L3
 	j	.L4
 .L2:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L134:
+.L130:
 	insert	d15,d15,d5,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L135:
+.L131:
 	j	.L5
 .L3:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L136:
+.L132:
 	insert	d15,d15,d5,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L137:
+.L133:
 	j	.L6
 .L4:
 .L6:
@@ -118,7 +108,7 @@ __GPIO_SetLed_function_end:
 GPIO_ToggleLed:	.type	func
 	mov	d15,#1
 	jeq	d15,d4,.L7
-.L142:
+.L138:
 	mov	d15,#2
 	jeq	d15,d4,.L8
 	j	.L9
@@ -127,26 +117,26 @@ GPIO_ToggleLed:	.type	func
 	ld.bu	d15,[a15]@los(0xf003aa00)
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa00)
-.L143:
+.L139:
 	extr.u	d0,d0,#2,#1
 	xor	d0,d0,#1
 	insert	d15,d15,d0,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L144:
+.L140:
 	j	.L10
 .L8:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa00)
-.L145:
+.L141:
 	extr.u	d0,d0,#1,#1
 	xor	d0,d0,#1
 	insert	d15,d15,d0,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L146:
+.L142:
 	j	.L11
 .L9:
 .L11:
@@ -170,9 +160,9 @@ GPIO_getSW1:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a224)
 	and	d15,#1
-.L151:
+.L147:
 	xor	d2,d15,#1
-.L152:
+.L148:
 	j	.L12
 .L12:
 	ret
@@ -194,9 +184,9 @@ GPIO_getSW2:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a224)
 	extr.u	d15,d15,#1,#1
-.L157:
+.L153:
 	xor	d2,d15,#1
-.L158:
+.L154:
 	j	.L13
 .L13:
 	ret
@@ -218,9 +208,9 @@ GPIO_getSW3:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a024)
 	extr.u	d15,d15,#7,#1
-.L163:
+.L159:
 	xor	d2,d15,#1
-.L164:
+.L160:
 	j	.L14
 .L14:
 	ret
@@ -244,136 +234,136 @@ GPIO_getSWxDebounce:	.type	func
 	mov	d8,d4
 .L106:
 	mov	d15,#0
-.L169:
+.L165:
 	st.w	[a10]4,d15
-.L170:
+.L166:
 	mov	d15,#0
-.L171:
+.L167:
 	st.w	[a10]8,d15
-.L172:
+.L168:
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
-.L173:
+.L169:
 	lea	a2,[a10]12
 	mov.a	a4,#9
 .L15:
 	ld.bu	d0,[a15+]
 	st.b	[a2+],d0
 	loop	a4,.L15
-.L174:
+.L170:
 	j	.L16
 .L17:
 	mov	d15,#0
-.L175:
+.L171:
 	st.w	[a10]4,d15
-.L176:
+.L172:
 	j	.L18
 .L19:
 	mov	d15,#1
 	jeq	d15,d8,.L20
-.L177:
+.L173:
 	mov	d15,#2
 	jeq	d15,d8,.L21
-.L178:
+.L174:
 	mov	d15,#3
 	jeq	d15,d8,.L22
 	j	.L23
 .L20:
 	ld.w	d15,[a10]4
+.L175:
+	addsc.a	a15,a10,d15,#0
+	lea	a15,[a15]12
+.L176:
+	call	GPIO_getSW1
+.L177:
+	st.b	[a15],d2
+.L178:
+	j	.L24
+.L21:
+	ld.w	d15,[a10]4
 .L179:
 	addsc.a	a15,a10,d15,#0
 	lea	a15,[a15]12
 .L180:
-	call	GPIO_getSW1
+	call	GPIO_getSW2
 .L181:
 	st.b	[a15],d2
 .L182:
-	j	.L24
-.L21:
+	j	.L25
+.L22:
 	ld.w	d15,[a10]4
 .L183:
 	addsc.a	a15,a10,d15,#0
 	lea	a15,[a15]12
 .L184:
-	call	GPIO_getSW2
+	call	GPIO_getSW3
 .L185:
 	st.b	[a15],d2
 .L186:
-	j	.L25
-.L22:
-	ld.w	d15,[a10]4
-.L187:
-	addsc.a	a15,a10,d15,#0
-	lea	a15,[a15]12
-.L188:
-	call	GPIO_getSW3
-.L189:
-	st.b	[a15],d2
-.L190:
 	j	.L26
 .L23:
 .L26:
 .L25:
 .L24:
 	ld.w	d15,[a10]4
-.L191:
+.L187:
 	add	d15,#1
 	st.w	[a10]4,d15
 .L18:
 	ld.w	d0,[a10]4
-.L192:
+.L188:
 	mov	d15,#10
-.L193:
+.L189:
 	jlt	d0,d15,.L19
-.L194:
+.L190:
 	mov	d15,#0
-.L195:
+.L191:
 	st.w	[a10]4,d15
-.L196:
+.L192:
 	j	.L27
 .L28:
 	ld.b	d0,[a10]12
-.L197:
+.L193:
 	ld.w	d15,[a10]4
-.L198:
+.L194:
 	addsc.a	a15,a10,d15,#0
 	ld.b	d15,[a15]12
-.L199:
+.L195:
 	jeq	d15,d0,.L29
-.L200:
+.L196:
 	mov	d15,#0
-.L201:
+.L197:
 	st.w	[a10]8,d15
 .L29:
 	ld.w	d15,[a10]4
-.L202:
+.L198:
 	add	d15,#1
 	st.w	[a10]4,d15
 .L27:
 	ld.w	d0,[a10]4
-.L203:
+.L199:
 	mov	d15,#10
-.L204:
+.L200:
 	jlt	d0,d15,.L28
-.L205:
+.L201:
 	ld.w	d15,[a10]8
-.L206:
+.L202:
 	add	d15,#1
 	st.w	[a10]8,d15
 .L16:
 	ld.w	d15,[a10]8
-.L207:
+.L203:
 	mov	d0,#10000
-.L208:
+.L204:
 	jlt	d15,d0,.L17
-.L209:
+.L205:
 	ld.b	d15,[a10]12
-.L210:
+.L206:
 	st.w	[a10],d15
-.L211:
+.L207:
 	ld.w	d2,[a10]
-.L212:
+.L208:
 	j	.L30
 .L30:
 	ret
@@ -389,7 +379,6 @@ __GPIO_getSWxDebounce_function_end:
 .1.ini:	.type	object
 	.size	.1.ini,10
 	.space	10
-	.calls	'GPIO_Init','GPIO_SetLed'
 	.calls	'GPIO_getSWxDebounce','GPIO_getSW1'
 	.calls	'GPIO_getSWxDebounce','GPIO_getSW2'
 	.calls	'GPIO_getSWxDebounce','GPIO_getSW3'
@@ -90558,26 +90547,18 @@ __GPIO_getSWxDebounce_function_end:
 	.half	.L118-.L117
 	.byte	1,5,28,9
 	.half	.L119-.L118
-	.byte	1,5,17,9
+	.byte	1,5,23,9
 	.half	.L120-.L119
-	.byte	3,3,1,5,20,9
+	.byte	3,7,1,5,28,9
 	.half	.L121-.L120
-	.byte	1,5,17,9
+	.byte	1,5,23,9
 	.half	.L122-.L121
-	.byte	3,1,1,5,20,9
-	.half	.L123-.L122
-	.byte	1,5,23,9
-	.half	.L124-.L123
-	.byte	3,3,1,5,28,9
-	.half	.L125-.L124
-	.byte	1,5,23,9
-	.half	.L126-.L125
 	.byte	3,4,1,5,28,9
-	.half	.L127-.L126
+	.half	.L123-.L122
 	.byte	1,5,1,9
-	.half	.L128-.L127
+	.half	.L124-.L123
 	.byte	3,1,1,7,9
-	.half	.L53-.L128
+	.half	.L53-.L124
 	.byte	0,1,1
 .L112:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_Init')
@@ -90617,36 +90598,36 @@ __GPIO_getSWxDebounce_function_end:
 	.sdecl	'.debug_line',debug,cluster('GPIO_SetLed')
 	.sect	'.debug_line'
 .L56:
-	.word	.L130-.L129
-.L129:
+	.word	.L126-.L125
+.L125:
 	.half	3
-	.word	.L132-.L131
-.L131:
+	.word	.L128-.L127
+.L127:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/GPIO.c',0,0,0,0,0
-.L132:
+.L128:
 	.byte	5,14,7,0,5,2
 	.word	.L34
 	.byte	3,28,1,9
-	.half	.L133-.L34
+	.half	.L129-.L34
 	.byte	3,3,1,5,29,9
-	.half	.L2-.L133
+	.half	.L2-.L129
 	.byte	3,126,1,5,33,9
-	.half	.L134-.L2
+	.half	.L130-.L2
 	.byte	1,5,13,9
-	.half	.L135-.L134
+	.half	.L131-.L130
 	.byte	3,1,1,5,29,9
-	.half	.L3-.L135
+	.half	.L3-.L131
 	.byte	3,2,1,5,33,9
-	.half	.L136-.L3
+	.half	.L132-.L3
 	.byte	1,5,13,9
-	.half	.L137-.L136
+	.half	.L133-.L132
 	.byte	3,1,1,5,1,9
-	.half	.L5-.L137
+	.half	.L5-.L133
 	.byte	3,2,1,7,9
 	.half	.L58-.L5
 	.byte	0,1,1
-.L130:
+.L126:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_SetLed')
 	.sect	'.debug_ranges'
 .L57:
@@ -90681,36 +90662,36 @@ __GPIO_getSWxDebounce_function_end:
 	.sdecl	'.debug_line',debug,cluster('GPIO_ToggleLed')
 	.sect	'.debug_line'
 .L61:
-	.word	.L139-.L138
-.L138:
+	.word	.L135-.L134
+.L134:
 	.half	3
-	.word	.L141-.L140
-.L140:
+	.word	.L137-.L136
+.L136:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/GPIO.c',0,0,0,0,0
-.L141:
+.L137:
 	.byte	5,14,7,0,5,2
 	.word	.L36
 	.byte	3,41,1,9
-	.half	.L142-.L36
+	.half	.L138-.L36
 	.byte	3,3,1,5,29,9
-	.half	.L7-.L142
+	.half	.L7-.L138
 	.byte	3,126,1,5,33,9
-	.half	.L143-.L7
+	.half	.L139-.L7
 	.byte	1,5,13,9
-	.half	.L144-.L143
+	.half	.L140-.L139
 	.byte	3,1,1,5,29,9
-	.half	.L8-.L144
+	.half	.L8-.L140
 	.byte	3,2,1,5,33,9
-	.half	.L145-.L8
+	.half	.L141-.L8
 	.byte	1,5,13,9
-	.half	.L146-.L145
+	.half	.L142-.L141
 	.byte	3,1,1,5,1,9
-	.half	.L10-.L146
+	.half	.L10-.L142
 	.byte	3,2,1,7,9
 	.half	.L63-.L10
 	.byte	0,1,1
-.L139:
+.L135:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_ToggleLed')
 	.sect	'.debug_ranges'
 .L62:
@@ -90744,26 +90725,26 @@ __GPIO_getSWxDebounce_function_end:
 	.sdecl	'.debug_line',debug,cluster('GPIO_getSW1')
 	.sect	'.debug_line'
 .L66:
-	.word	.L148-.L147
-.L147:
+	.word	.L144-.L143
+.L143:
 	.half	3
-	.word	.L150-.L149
-.L149:
+	.word	.L146-.L145
+.L145:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/GPIO.c',0,0,0,0,0
-.L150:
+.L146:
 	.byte	5,27,7,0,5,2
 	.word	.L38
 	.byte	3,52,1,5,31,9
-	.half	.L151-.L38
+	.half	.L147-.L38
 	.byte	1,5,5,9
-	.half	.L152-.L151
+	.half	.L148-.L147
 	.byte	1,5,1,9
-	.half	.L12-.L152
+	.half	.L12-.L148
 	.byte	3,1,1,7,9
 	.half	.L68-.L12
 	.byte	0,1,1
-.L148:
+.L144:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_getSW1')
 	.sect	'.debug_ranges'
 .L67:
@@ -90797,26 +90778,26 @@ __GPIO_getSWxDebounce_function_end:
 	.sdecl	'.debug_line',debug,cluster('GPIO_getSW2')
 	.sect	'.debug_line'
 .L71:
-	.word	.L154-.L153
-.L153:
+	.word	.L150-.L149
+.L149:
 	.half	3
-	.word	.L156-.L155
-.L155:
+	.word	.L152-.L151
+.L151:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/GPIO.c',0,0,0,0,0
-.L156:
+.L152:
 	.byte	5,27,7,0,5,2
 	.word	.L40
 	.byte	3,57,1,5,31,9
-	.half	.L157-.L40
+	.half	.L153-.L40
 	.byte	1,5,5,9
-	.half	.L158-.L157
+	.half	.L154-.L153
 	.byte	1,5,1,9
-	.half	.L13-.L158
+	.half	.L13-.L154
 	.byte	3,1,1,7,9
 	.half	.L73-.L13
 	.byte	0,1,1
-.L154:
+.L150:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_getSW2')
 	.sect	'.debug_ranges'
 .L72:
@@ -90850,26 +90831,26 @@ __GPIO_getSWxDebounce_function_end:
 	.sdecl	'.debug_line',debug,cluster('GPIO_getSW3')
 	.sect	'.debug_line'
 .L76:
-	.word	.L160-.L159
-.L159:
+	.word	.L156-.L155
+.L155:
 	.half	3
-	.word	.L162-.L161
-.L161:
+	.word	.L158-.L157
+.L157:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/GPIO.c',0,0,0,0,0
-.L162:
+.L158:
 	.byte	5,27,7,0,5,2
 	.word	.L42
 	.byte	3,62,1,5,31,9
-	.half	.L163-.L42
+	.half	.L159-.L42
 	.byte	1,5,5,9
-	.half	.L164-.L163
+	.half	.L160-.L159
 	.byte	1,5,1,9
-	.half	.L14-.L164
+	.half	.L14-.L160
 	.byte	3,1,1,7,9
 	.half	.L78-.L14
 	.byte	0,1,1
-.L160:
+.L156:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_getSW3')
 	.sect	'.debug_ranges'
 .L77:
@@ -90919,46 +90900,56 @@ __GPIO_getSWxDebounce_function_end:
 	.sdecl	'.debug_line',debug,cluster('GPIO_getSWxDebounce')
 	.sect	'.debug_line'
 .L81:
-	.word	.L166-.L165
-.L165:
+	.word	.L162-.L161
+.L161:
 	.half	3
-	.word	.L168-.L167
-.L167:
+	.word	.L164-.L163
+.L163:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/GPIO.c',0,0,0,0,0
-.L168:
+.L164:
 	.byte	5,5,7,0,5,2
 	.word	.L44
 	.byte	3,193,0,1,5,32,9
 	.half	.L106-.L44
 	.byte	3,2,1,5,30,9
-	.half	.L169-.L106
+	.half	.L165-.L106
 	.byte	1,5,41,9
-	.half	.L170-.L169
+	.half	.L166-.L165
 	.byte	1,5,39,9
-	.half	.L171-.L170
+	.half	.L167-.L166
 	.byte	1,5,29,9
-	.half	.L172-.L171
+	.half	.L168-.L167
 	.byte	3,1,1,5,27,9
-	.half	.L173-.L172
+	.half	.L169-.L168
 	.byte	1,5,23,9
-	.half	.L174-.L173
+	.half	.L170-.L169
 	.byte	3,2,1,5,18,9
-	.half	.L17-.L174
+	.half	.L17-.L170
 	.byte	3,1,1,5,16,9
-	.half	.L175-.L17
+	.half	.L171-.L17
 	.byte	1,5,27,9
-	.half	.L176-.L175
+	.half	.L172-.L171
 	.byte	1,5,22,9
-	.half	.L19-.L176
+	.half	.L19-.L172
 	.byte	3,2,1,9
-	.half	.L177-.L19
+	.half	.L173-.L19
 	.byte	3,3,1,9
-	.half	.L178-.L177
+	.half	.L174-.L173
 	.byte	3,3,1,5,25,9
-	.half	.L20-.L178
+	.half	.L20-.L174
 	.byte	3,123,1,5,24,9
-	.half	.L179-.L20
+	.half	.L175-.L20
+	.byte	1,5,47,9
+	.half	.L176-.L175
+	.byte	1,5,28,9
+	.half	.L177-.L176
+	.byte	1,5,21,9
+	.half	.L178-.L177
+	.byte	3,1,1,5,25,9
+	.half	.L21-.L178
+	.byte	3,2,1,5,24,9
+	.half	.L179-.L21
 	.byte	1,5,47,9
 	.half	.L180-.L179
 	.byte	1,5,28,9
@@ -90966,87 +90957,77 @@ __GPIO_getSWxDebounce_function_end:
 	.byte	1,5,21,9
 	.half	.L182-.L181
 	.byte	3,1,1,5,25,9
-	.half	.L21-.L182
+	.half	.L22-.L182
 	.byte	3,2,1,5,24,9
-	.half	.L183-.L21
+	.half	.L183-.L22
 	.byte	1,5,47,9
 	.half	.L184-.L183
 	.byte	1,5,28,9
 	.half	.L185-.L184
 	.byte	1,5,21,9
 	.half	.L186-.L185
-	.byte	3,1,1,5,25,9
-	.half	.L22-.L186
-	.byte	3,2,1,5,24,9
-	.half	.L187-.L22
-	.byte	1,5,47,9
-	.half	.L188-.L187
-	.byte	1,5,28,9
-	.half	.L189-.L188
-	.byte	1,5,21,9
-	.half	.L190-.L189
 	.byte	3,1,1,5,29,9
-	.half	.L24-.L190
+	.half	.L24-.L186
 	.byte	3,118,1,5,30,9
-	.half	.L191-.L24
+	.half	.L187-.L24
 	.byte	1,5,21,9
-	.half	.L18-.L191
+	.half	.L18-.L187
 	.byte	1,5,25,9
-	.half	.L192-.L18
+	.half	.L188-.L18
 	.byte	1,5,27,9
-	.half	.L193-.L192
+	.half	.L189-.L188
 	.byte	1,5,18,7,9
-	.half	.L194-.L193
+	.half	.L190-.L189
 	.byte	3,13,1,5,16,9
-	.half	.L195-.L194
+	.half	.L191-.L190
 	.byte	1,5,27,9
-	.half	.L196-.L195
+	.half	.L192-.L191
 	.byte	1,5,20,9
-	.half	.L28-.L196
+	.half	.L28-.L192
 	.byte	3,1,1,5,31,9
-	.half	.L197-.L28
+	.half	.L193-.L28
 	.byte	1,5,30,9
-	.half	.L198-.L197
+	.half	.L194-.L193
 	.byte	1,5,13,9
-	.half	.L199-.L198
+	.half	.L195-.L194
 	.byte	1,5,43,7,9
-	.half	.L200-.L199
+	.half	.L196-.L195
 	.byte	1,5,41,9
-	.half	.L201-.L200
+	.half	.L197-.L196
 	.byte	1,5,29,9
-	.half	.L29-.L201
+	.half	.L29-.L197
 	.byte	3,127,1,5,30,9
-	.half	.L202-.L29
+	.half	.L198-.L29
 	.byte	1,5,21,9
-	.half	.L27-.L202
+	.half	.L27-.L198
 	.byte	1,5,25,9
-	.half	.L203-.L27
+	.half	.L199-.L27
 	.byte	1,5,27,9
-	.half	.L204-.L203
+	.half	.L200-.L199
 	.byte	1,5,9,7,9
-	.half	.L205-.L204
+	.half	.L201-.L200
 	.byte	3,3,1,5,13,9
+	.half	.L202-.L201
+	.byte	1,5,12,9
+	.half	.L16-.L202
+	.byte	3,111,1,5,18,9
+	.half	.L203-.L16
+	.byte	1,5,23,9
+	.half	.L204-.L203
+	.byte	1,5,19,7,9
+	.half	.L205-.L204
+	.byte	3,19,1,5,14,9
 	.half	.L206-.L205
 	.byte	1,5,12,9
-	.half	.L16-.L206
-	.byte	3,111,1,5,18,9
-	.half	.L207-.L16
-	.byte	1,5,23,9
-	.half	.L208-.L207
-	.byte	1,5,19,7,9
-	.half	.L209-.L208
-	.byte	3,19,1,5,14,9
-	.half	.L210-.L209
-	.byte	1,5,12,9
-	.half	.L211-.L210
+	.half	.L207-.L206
 	.byte	3,2,1,5,5,9
-	.half	.L212-.L211
+	.half	.L208-.L207
 	.byte	1,5,1,9
-	.half	.L30-.L212
+	.half	.L30-.L208
 	.byte	3,1,1,7,9
 	.half	.L83-.L30
 	.byte	0,1,1
-.L166:
+.L162:
 	.sdecl	'.debug_ranges',debug,cluster('GPIO_getSWxDebounce')
 	.sect	'.debug_ranges'
 .L82:
@@ -91151,44 +91132,45 @@ __GPIO_getSWxDebounce_function_end:
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L213:
+.L209:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
 	.byte	8,39
 	.sdecl	'.debug_frame',debug,cluster('GPIO_Init')
 	.sect	'.debug_frame'
-	.word	12
-	.word	.L213,.L32,.L84-.L32
+	.word	24
+	.word	.L209,.L32,.L84-.L32
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GPIO_SetLed')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L213,.L34,.L85-.L34
+	.word	.L209,.L34,.L85-.L34
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GPIO_ToggleLed')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L213,.L36,.L89-.L36
+	.word	.L209,.L36,.L89-.L36
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GPIO_getSW1')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L213,.L38,.L92-.L38
+	.word	.L209,.L38,.L92-.L38
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GPIO_getSW2')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L213,.L40,.L93-.L40
+	.word	.L209,.L40,.L93-.L40
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GPIO_getSW3')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L213,.L42,.L94-.L42
+	.word	.L209,.L42,.L94-.L42
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GPIO_getSWxDebounce')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L213,.L44,.L95-.L44
+	.word	.L209,.L44,.L95-.L44
 	.byte	4
 	.word	(.L105-.L44)/2
 	.byte	19,24,22,26,3,19,138,24,4

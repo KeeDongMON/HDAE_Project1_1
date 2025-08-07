@@ -11,8 +11,8 @@ void GPIO_Init(void)
     MODULE_P10.IOCR0.B.PC2 = 0x10;
 
     /* Turn off led */
-    GPIO_SetLed(1, 0);
-    GPIO_SetLed(2, 0);
+//    GPIO_SetLed(1, 0);
+//    GPIO_SetLed(2, 0);
 
     /* Set P2.0(SW1) * P2.1(SW2) as input pull-up */
     MODULE_P02.IOCR0.B.PC0 = 0x02;

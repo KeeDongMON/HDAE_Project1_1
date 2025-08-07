@@ -310,6 +310,8 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\L
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h" :
+UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gpt12.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gpt12.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Motor.h"
@@ -614,8 +616,6 @@ UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\M
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\UltraBuzzer.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h" :
-UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h" :
 UltraBuzzer.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Gpt12\\Std\IfxGpt12.h"

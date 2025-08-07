@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc2324a --dep-file=Motor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Motor.src ../BSW/IO/Motor.c"
+	.compiler_invocation	"ctc -f cc15340a --dep-file=Motor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Motor.src ../BSW/IO/Motor.c"
 	.compiler_name		"ctc"
 	;source	'../BSW/IO/Motor.c'
 
@@ -33,14 +33,46 @@ Motor_Init:	.type	func
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a216),d15
 .L102:
-	call	GtmAtomPwm_Init
+	movh.a	a15,#61444
+	ld.bu	d0,[a15]@los(0xf003aa11)
 .L103:
+	mov	d15,#16
+.L104:
+	insert	d15,d0,d15,#3,#5
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003aa11),d15
+.L105:
+	movh.a	a15,#61444
+	ld.bu	d0,[a15]@los(0xf003aa12)
+.L106:
+	mov	d15,#16
+.L107:
+	insert	d15,d0,d15,#3,#5
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003aa12),d15
+.L108:
+	call	GtmAtomPwm_Init
+.L109:
 	mov	d4,#0
 	call	GtmAtomPwmA_SetDutyCycle
-.L104:
+.L110:
 	mov	d4,#0
 	call	GtmAtomPwmB_SetDutyCycle
-.L105:
+.L111:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf003a200)
+.L112:
+	or	d15,#128
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003a200),d15
+.L113:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf003a200)
+.L114:
+	or	d15,#64
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003a200),d15
+.L115:
 	ret
 .L63:
 	
@@ -58,34 +90,34 @@ __Motor_Init_function_end:
 .L13:
 Motor_movChA:	.type	func
 	jeq	d4,#0,.L2
-.L110:
+.L120:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L111:
+.L121:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L112:
+.L122:
 	j	.L3
 .L2:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L113:
+.L123:
 	insert	d15,d15,#0,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L3:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L114:
+.L124:
 	insert	d15,d15,#0,#7,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L115:
+.L125:
 	mov	d4,#1000
 .L77:
 	call	GtmAtomPwm_SetDutyCycle
-.L116:
+.L126:
 	ret
 .L64:
 	
@@ -104,11 +136,11 @@ __Motor_movChA_function_end:
 Motor_stopChA:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L121:
+.L131:
 	or	d15,#128
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L122:
+.L132:
 	ret
 .L67:
 	
@@ -132,14 +164,14 @@ Motor_movChA_PWM:	.type	func
 	call	GtmAtomPwmA_SetDutyCycle
 .L78:
 	jeq	d15,#0,.L4
-.L127:
+.L137:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
 .L81:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L128:
+.L138:
 	j	.L5
 .L4:
 	movh.a	a15,#61444
@@ -151,11 +183,11 @@ Motor_movChA_PWM:	.type	func
 .L5:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L129:
+.L139:
 	insert	d15,d15,#0,#7,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L130:
+.L140:
 	ret
 .L68:
 	
@@ -173,34 +205,34 @@ __Motor_movChA_PWM_function_end:
 .L19:
 Motor_movChB:	.type	func
 	jeq	d4,#0,.L6
-.L135:
+.L145:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L136:
+.L146:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L137:
+.L147:
 	j	.L7
 .L6:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L138:
+.L148:
 	insert	d15,d15,#0,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L7:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L139:
+.L149:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L140:
+.L150:
 	mov	d4,#1000
 .L83:
 	call	GtmAtomPwm_SetDutyCycle
-.L141:
+.L151:
 	ret
 .L71:
 	
@@ -219,11 +251,11 @@ __Motor_movChB_function_end:
 Motor_stopChB:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L146:
+.L156:
 	or	d15,#64
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L147:
+.L157:
 	ret
 .L73:
 	
@@ -247,14 +279,14 @@ Motor_movChB_PWM:	.type	func
 	call	GtmAtomPwmB_SetDutyCycle
 .L84:
 	jeq	d15,#0,.L8
-.L152:
+.L162:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
 .L87:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L153:
+.L163:
 	j	.L9
 .L8:
 	movh.a	a15,#61444
@@ -266,11 +298,11 @@ Motor_movChB_PWM:	.type	func
 .L9:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L154:
+.L164:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L155:
+.L165:
 	ret
 .L74:
 	
@@ -93063,16 +93095,36 @@ __Motor_movChB_PWM_function_end:
 	.half	.L100-.L99
 	.byte	1,5,28,9
 	.half	.L101-.L100
-	.byte	1,5,20,9
+	.byte	1,5,23,9
 	.half	.L102-.L101
-	.byte	3,3,1,5,30,9
+	.byte	3,1,1,5,30,9
 	.half	.L103-.L102
-	.byte	3,3,1,9
+	.byte	1,5,28,9
 	.half	.L104-.L103
-	.byte	3,1,1,5,1,9
+	.byte	1,5,23,9
 	.half	.L105-.L104
+	.byte	3,1,1,5,30,9
+	.half	.L106-.L105
+	.byte	1,5,28,9
+	.half	.L107-.L106
+	.byte	1,5,20,9
+	.half	.L108-.L107
+	.byte	3,2,1,5,30,9
+	.half	.L109-.L108
+	.byte	3,3,1,9
+	.half	.L110-.L109
+	.byte	3,1,1,5,21,9
+	.half	.L111-.L110
+	.byte	3,1,1,5,25,9
+	.half	.L112-.L111
+	.byte	1,5,21,9
+	.half	.L113-.L112
+	.byte	3,1,1,5,25,9
+	.half	.L114-.L113
+	.byte	1,5,1,9
+	.half	.L115-.L114
 	.byte	3,1,1,7,9
-	.half	.L32-.L105
+	.half	.L32-.L115
 	.byte	0,1,1
 .L94:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Init')
@@ -93093,10 +93145,10 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChA',0,1,27,6,1,1,1
+	.byte	'Motor_movChA',0,1,30,6,1,1,1
 	.word	.L13,.L64,.L12
 	.byte	4
-	.byte	'dir',0,1,27,23
+	.byte	'dir',0,1,30,23
 	.word	.L65,.L66
 	.byte	5
 	.word	.L13,.L64
@@ -93109,38 +93161,38 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChA')
 	.sect	'.debug_line'
 .L35:
-	.word	.L107-.L106
-.L106:
+	.word	.L117-.L116
+.L116:
 	.half	3
-	.word	.L109-.L108
-.L108:
+	.word	.L119-.L118
+.L118:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L109:
+.L119:
 	.byte	5,5,7,0,5,2
 	.word	.L13
-	.byte	3,28,1,5,25,7,9
-	.half	.L110-.L13
+	.byte	3,31,1,5,25,7,9
+	.half	.L120-.L13
 	.byte	3,3,1,5,29,9
-	.half	.L111-.L110
+	.half	.L121-.L120
 	.byte	1,5,32,9
-	.half	.L112-.L111
+	.half	.L122-.L121
 	.byte	1,5,25,9
-	.half	.L2-.L112
+	.half	.L2-.L122
 	.byte	3,4,1,5,29,9
-	.half	.L113-.L2
+	.half	.L123-.L2
 	.byte	1,5,21,9
-	.half	.L3-.L113
+	.half	.L3-.L123
 	.byte	3,2,1,5,25,9
-	.half	.L114-.L3
+	.half	.L124-.L3
 	.byte	1,5,29,9
-	.half	.L115-.L114
+	.half	.L125-.L124
 	.byte	3,1,1,5,1,9
-	.half	.L116-.L115
+	.half	.L126-.L125
 	.byte	3,1,1,7,9
-	.half	.L37-.L116
+	.half	.L37-.L126
 	.byte	0,1,1
-.L107:
+.L117:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA')
 	.sect	'.debug_ranges'
 .L36:
@@ -93159,7 +93211,7 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_stopChA',0,1,42,6,1,1,1
+	.byte	'Motor_stopChA',0,1,45,6,1,1,1
 	.word	.L15,.L67,.L14
 	.byte	4
 	.word	.L15,.L67
@@ -93172,24 +93224,24 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_stopChA')
 	.sect	'.debug_line'
 .L40:
-	.word	.L118-.L117
-.L117:
+	.word	.L128-.L127
+.L127:
 	.half	3
-	.word	.L120-.L119
-.L119:
+	.word	.L130-.L129
+.L129:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L120:
+.L130:
 	.byte	5,21,7,0,5,2
 	.word	.L15
-	.byte	3,43,1,5,25,9
-	.half	.L121-.L15
+	.byte	3,46,1,5,25,9
+	.half	.L131-.L15
 	.byte	1,5,1,9
-	.half	.L122-.L121
+	.half	.L132-.L131
 	.byte	3,1,1,7,9
-	.half	.L42-.L122
+	.half	.L42-.L132
 	.byte	0,1,1
-.L118:
+.L128:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChA')
 	.sect	'.debug_ranges'
 .L41:
@@ -93208,13 +93260,13 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChA_PWM',0,1,49,6,1,1,1
+	.byte	'Motor_movChA_PWM',0,1,52,6,1,1,1
 	.word	.L17,.L68,.L16
 	.byte	4
-	.byte	'duty',0,1,49,27
+	.byte	'duty',0,1,52,27
 	.word	.L65,.L69
 	.byte	4
-	.byte	'dir',0,1,49,37
+	.byte	'dir',0,1,52,37
 	.word	.L65,.L70
 	.byte	5
 	.word	.L17,.L68
@@ -93227,40 +93279,40 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_line'
 .L45:
-	.word	.L124-.L123
-.L123:
+	.word	.L134-.L133
+.L133:
 	.half	3
-	.word	.L126-.L125
-.L125:
+	.word	.L136-.L135
+.L135:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L126:
+.L136:
 	.byte	5,6,7,0,5,2
 	.word	.L17
-	.byte	3,48,1,5,34,9
+	.byte	3,51,1,5,34,9
 	.half	.L80-.L17
 	.byte	3,3,1,5,5,9
 	.half	.L78-.L80
 	.byte	3,1,1,5,25,7,9
-	.half	.L127-.L78
+	.half	.L137-.L78
 	.byte	3,3,1,5,29,9
-	.half	.L81-.L127
+	.half	.L81-.L137
 	.byte	1,5,32,9
-	.half	.L128-.L81
+	.half	.L138-.L81
 	.byte	1,5,25,9
-	.half	.L4-.L128
+	.half	.L4-.L138
 	.byte	3,4,1,5,29,9
 	.half	.L82-.L4
 	.byte	1,5,21,9
 	.half	.L5-.L82
 	.byte	3,3,1,5,25,9
-	.half	.L129-.L5
+	.half	.L139-.L5
 	.byte	1,5,1,9
-	.half	.L130-.L129
+	.half	.L140-.L139
 	.byte	3,1,1,7,9
-	.half	.L47-.L130
+	.half	.L47-.L140
 	.byte	0,1,1
-.L124:
+.L134:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_ranges'
 .L46:
@@ -93279,10 +93331,10 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChB',0,1,67,6,1,1,1
+	.byte	'Motor_movChB',0,1,70,6,1,1,1
 	.word	.L19,.L71,.L18
 	.byte	4
-	.byte	'dir',0,1,67,23
+	.byte	'dir',0,1,70,23
 	.word	.L65,.L72
 	.byte	5
 	.word	.L19,.L71
@@ -93295,38 +93347,38 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChB')
 	.sect	'.debug_line'
 .L50:
-	.word	.L132-.L131
-.L131:
+	.word	.L142-.L141
+.L141:
 	.half	3
-	.word	.L134-.L133
-.L133:
+	.word	.L144-.L143
+.L143:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L134:
+.L144:
 	.byte	5,5,7,0,5,2
 	.word	.L19
-	.byte	3,196,0,1,5,25,7,9
-	.half	.L135-.L19
+	.byte	3,199,0,1,5,25,7,9
+	.half	.L145-.L19
 	.byte	3,2,1,5,29,9
-	.half	.L136-.L135
+	.half	.L146-.L145
 	.byte	1,5,32,9
-	.half	.L137-.L136
+	.half	.L147-.L146
 	.byte	1,5,25,9
-	.half	.L6-.L137
+	.half	.L6-.L147
 	.byte	3,3,1,5,29,9
-	.half	.L138-.L6
+	.half	.L148-.L6
 	.byte	1,5,21,9
-	.half	.L7-.L138
+	.half	.L7-.L148
 	.byte	3,2,1,5,25,9
-	.half	.L139-.L7
+	.half	.L149-.L7
 	.byte	1,5,29,9
-	.half	.L140-.L139
+	.half	.L150-.L149
 	.byte	3,1,1,5,1,9
-	.half	.L141-.L140
+	.half	.L151-.L150
 	.byte	3,1,1,7,9
-	.half	.L52-.L141
+	.half	.L52-.L151
 	.byte	0,1,1
-.L132:
+.L142:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB')
 	.sect	'.debug_ranges'
 .L51:
@@ -93345,7 +93397,7 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_stopChB',0,1,80,6,1,1,1
+	.byte	'Motor_stopChB',0,1,83,6,1,1,1
 	.word	.L21,.L73,.L20
 	.byte	4
 	.word	.L21,.L73
@@ -93358,24 +93410,24 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_stopChB')
 	.sect	'.debug_line'
 .L55:
-	.word	.L143-.L142
-.L142:
+	.word	.L153-.L152
+.L152:
 	.half	3
-	.word	.L145-.L144
-.L144:
+	.word	.L155-.L154
+.L154:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L145:
+.L155:
 	.byte	5,21,7,0,5,2
 	.word	.L21
-	.byte	3,209,0,1,5,25,9
-	.half	.L146-.L21
+	.byte	3,212,0,1,5,25,9
+	.half	.L156-.L21
 	.byte	1,5,1,9
-	.half	.L147-.L146
+	.half	.L157-.L156
 	.byte	3,1,1,7,9
-	.half	.L57-.L147
+	.half	.L57-.L157
 	.byte	0,1,1
-.L143:
+.L153:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChB')
 	.sect	'.debug_ranges'
 .L56:
@@ -93394,13 +93446,13 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChB_PWM',0,1,87,6,1,1,1
+	.byte	'Motor_movChB_PWM',0,1,90,6,1,1,1
 	.word	.L23,.L74,.L22
 	.byte	4
-	.byte	'duty',0,1,87,27
+	.byte	'duty',0,1,90,27
 	.word	.L65,.L75
 	.byte	4
-	.byte	'dir',0,1,87,37
+	.byte	'dir',0,1,90,37
 	.word	.L65,.L76
 	.byte	5
 	.word	.L23,.L74
@@ -93413,40 +93465,40 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_line'
 .L60:
-	.word	.L149-.L148
-.L148:
+	.word	.L159-.L158
+.L158:
 	.half	3
-	.word	.L151-.L150
-.L150:
+	.word	.L161-.L160
+.L160:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L151:
+.L161:
 	.byte	5,6,7,0,5,2
 	.word	.L23
-	.byte	3,214,0,1,5,34,9
+	.byte	3,217,0,1,5,34,9
 	.half	.L86-.L23
 	.byte	3,3,1,5,5,9
 	.half	.L84-.L86
 	.byte	3,2,1,5,25,7,9
-	.half	.L152-.L84
+	.half	.L162-.L84
 	.byte	3,2,1,5,29,9
-	.half	.L87-.L152
+	.half	.L87-.L162
 	.byte	1,5,32,9
-	.half	.L153-.L87
+	.half	.L163-.L87
 	.byte	1,5,25,9
-	.half	.L8-.L153
+	.half	.L8-.L163
 	.byte	3,3,1,5,29,9
 	.half	.L88-.L8
 	.byte	1,5,21,9
 	.half	.L9-.L88
 	.byte	3,3,1,5,25,9
-	.half	.L154-.L9
+	.half	.L164-.L9
 	.byte	1,5,1,9
-	.half	.L155-.L154
+	.half	.L165-.L164
 	.byte	3,1,1,7,9
-	.half	.L62-.L155
+	.half	.L62-.L165
 	.byte	0,1,1
-.L149:
+.L159:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_ranges'
 .L61:
@@ -93544,7 +93596,7 @@ __Motor_movChB_PWM_function_end:
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L156:
+.L166:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -93552,31 +93604,31 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_frame',debug,cluster('Motor_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L156,.L11,.L63-.L11
+	.word	.L166,.L11,.L63-.L11
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChA')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L156,.L13,.L64-.L13
+	.word	.L166,.L13,.L64-.L13
 	.sdecl	'.debug_frame',debug,cluster('Motor_stopChA')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L156,.L15,.L67-.L15
+	.word	.L166,.L15,.L67-.L15
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L156,.L17,.L68-.L17
+	.word	.L166,.L17,.L68-.L17
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChB')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L156,.L19,.L71-.L19
+	.word	.L166,.L19,.L71-.L19
 	.sdecl	'.debug_frame',debug,cluster('Motor_stopChB')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L156,.L21,.L73-.L21
+	.word	.L166,.L21,.L73-.L21
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L156,.L23,.L74-.L23
+	.word	.L166,.L23,.L74-.L23
 	; Module end

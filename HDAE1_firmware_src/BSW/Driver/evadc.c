@@ -96,7 +96,6 @@ unsigned int Evadc_readPR(void)
     return conversionResult.B.RESULT;
 }
 
-
 #if 0
 #include "evadc.h"
 #include "Ifx_reg.h"

@@ -49,12 +49,21 @@ void core0_main(void)
 //    /* Wait for CPU sync event */
 //    IfxCpu_emitEvent(&g_cpuSyncEvent);
     
-    //
     while(1)
     {
+//        Motor_movChB_PWM(75,1);
+//        Motor_movChA_PWM(75,1);
+//        delay_ms(100);
+//        Motor_movChB_PWM(75,0);
+//        Motor_movChA_PWM(75,0);
+//        delay_ms(100);
+
+
+
         Asclin1_PollCMD();
         HBA_ON();
-        Emergency_stop();
+        //my_printf("en : %d\n",count_enc);
+        //Emergency_stop();
 //        //UltraBuzzer();
 //        setLedCycle(400);
 //        setLightButton(1);
@@ -69,7 +78,7 @@ void core0_main(void)
 
 
 
-IFX_INTERRUPT(CanRxHandler, 0, ISR_PRIORITY_CAN_RX);
+//IFX_INTERRUPT(CanRxHandler, 0, ISR_PRIORITY_CAN_RX);
 void CanRxHandler (void)
 {
     unsigned int rxID;
@@ -94,14 +103,10 @@ void CanRxHandler (void)
             {
                 Motor_stopChA();
                 Motor_stopChB();
-                front_duty = 30;
-                back_duty = 30;
 
                 //긴급 제동 Debugging용
                 //TODO : 상세 로직
-                Motor_movChA_PWM(front_duty, 0);
-                Motor_movChB_PWM(back_duty, 0);
-                delay_ms(500);
+
             }
         }
     }

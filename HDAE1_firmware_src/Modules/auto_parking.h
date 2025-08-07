@@ -51,6 +51,7 @@
 
 #define WHEEL_CIRCUM        21.0f
 #define ENC_DISK            20.0f
+#define LENGTH_HALF_ENC         38
 
 // 주차 공간 측정 상태
 typedef enum {

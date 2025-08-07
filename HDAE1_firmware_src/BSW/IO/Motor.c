@@ -14,13 +14,16 @@ void Motor_Init(void)
 {
     MODULE_P02.IOCR4.B.PC7 = 0x10;  // PWM A Break
     MODULE_P02.IOCR4.B.PC6 = 0x10;  // PWM B Break
-
+    MODULE_P10.IOCR0.B.PC1 = 0x10;
+    MODULE_P10.IOCR0.B.PC2 = 0x10;
     // Init GTM for PWM generation
     GtmAtomPwm_Init();
 
     // Set duty 0
     GtmAtomPwmA_SetDutyCycle(0);
     GtmAtomPwmB_SetDutyCycle(0);
+    MODULE_P02.OUT.B.P7 = 1;
+    MODULE_P02.OUT.B.P6 = 1;
 }
 
 ///* 1: 정방향, 2: 역방향 */

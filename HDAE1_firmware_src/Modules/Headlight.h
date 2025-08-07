@@ -31,6 +31,7 @@
 #include "Evadc.h"
 #include "gtm_atom_pwm.h"
 #include "my_stdio.h"
+#include "main.h"
 void HBA_ON(void);
 void HBA_OFF(void);
 void HBA_Init(void);

@@ -240,3 +240,377 @@ gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\GPIO.h" :
 gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\Sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\Sys_Init.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\asclin.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\asclin.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\can.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Can\\Can\IfxCan_Can.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Can\\Can\IfxCan_Can.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Can\Std\IfxCan.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Can\Std\IfxCan.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxCan_cfg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxCan_cfg.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_PinMap\IfxCan_PinMap.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_PinMap\IfxCan_PinMap.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Can\\Std\IfxCan.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Can\\Std\IfxCan.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Irq\IfxCpu_Irq.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Irq\IfxCpu_Irq.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\canfd.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\canfd.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\etc\etc.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\etc\etc.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\etc\my_stdio.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\etc\my_stdio.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\stm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\stm.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Motor.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Bluetooth.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Bluetooth.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\evadc.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\evadc.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Ultrasonic.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Ultrasonic.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\eru.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\eru.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ToF.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ToF.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\geth_lwip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\geth_lwip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\lwipopts.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\lwipopts.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\debug.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\arch.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\arch\cc.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\limits.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\limits.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\ctype.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\ctype.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\sys.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\sys.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\memp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\memp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_std.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_priv.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\memp_priv.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\mem_priv.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\mem_priv.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\stats.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\snmp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\snmp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\def.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip4.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip4.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\udp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\udp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\udp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\udp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcpbase.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcpbase.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\icmp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\icmp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\tcp_priv.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\priv\tcp_priv.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\tcp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\mem.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\icmp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\err.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip6_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\tcp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\tcp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\dhcp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\dhcp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\init.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\etharp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\etharp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\etharp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\etharp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4_addr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\ip4.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ethernet.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ethernet.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ieee.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\ieee.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\etharp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\prot\etharp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\ethernet.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\ethernet.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\pbuf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\netif.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\pppoe.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\pppoe.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\ppp_opts.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\netif\ppp\ppp_opts.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Geth\\Eth\IfxGeth_Eth.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Geth\Std\IfxGeth.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\Geth\Std\IfxGeth.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxGeth_cfg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxGeth_cfg.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_bf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGeth_bf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_PinMap\IfxGeth_PinMap.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_PinMap\IfxGeth_PinMap.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPort_bf.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPort_bf.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Headlight.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Headlight.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\Evadc.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\Evadc.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\UltraBuzzer.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\UltraBuzzer.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Service\\CpuGeneric\\SysSe\\Bsp\Bsp.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Service\\CpuGeneric\\SysSe\\Bsp\Bsp.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\auto_parking.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\auto_parking.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\sys_Init.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\sys_Init.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ultrasonic.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\ultrasonic.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\IfxCpu.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Stm\\Std\IfxStm.h" :
+gpt12.o :	"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"C:\Infineon\AURIX-Studio-1.10.2\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Emergency_stop.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Emergency_stop.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\motor.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\motor.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\Ethernet\\lwip\\port\\include\Ifx_Lwip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\Configuration.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\Configuration.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_PinMap\IfxPort_PinMap.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\_PinMap\IfxPort_PinMap.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\ConfigurationIsr.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Configurations\ConfigurationIsr.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\can-ethernet.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\can-ethernet.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\DoIP.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\DoIP.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\someip.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\someip.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\tcp_echo.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\tcp_echo.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\udp_echo.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\examples\udp_echo.h" :
+gpt12.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\syscfg.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\syscfg.h" :

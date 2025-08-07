@@ -284,6 +284,8 @@ Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Librari
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Buzzer.h" :
+Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h"
+"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Bluetooth.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\IO\Bluetooth.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\evadc.h"
@@ -570,8 +572,6 @@ Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Dr
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\BSW\\Driver\gtm_atom_pwm.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\UltraBuzzer.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\UltraBuzzer.h" :
-Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h"
-"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\main.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h"
 "C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\LightButton.h" :
 Drive.o :	"C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\Modules\Drive.h"

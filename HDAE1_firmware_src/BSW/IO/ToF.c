@@ -2,7 +2,7 @@
 
 static unsigned int g_TofValue = 0;
 
-//IFX_INTERRUPT(TofIsrHandler, 0, ISR_PRIORITY_CAN_RX);
+IFX_INTERRUPT(TofIsrHandler, 0, ISR_PRIORITY_CAN_RX);
 void TofIsrHandler(void)
 {
     unsigned int rxID;

@@ -13,15 +13,15 @@ static volatile int HazzardLight = 0; // 임시 수신한 비상깜빡이
 
 void LightButton_Init (void) {
     /* Set P10.1 (LED2) & P10.2(LED1) as a general output pin */
-    MODULE_P10.IOCR0.B.PC1 = 0x10; //10.1핀 led1 연결 -좌 방향지시등
-    MODULE_P10.IOCR0.B.PC2 = 0x10; // 10.2핀 led2 연결 - 우 방향지시등
-    MODULE_P10.IOCR0.B.PC3 = 0x10; // 10.3핀 led3 연결 -  비상 깜빡이-  좌우 공용
+    MODULE_P02.IOCR4.B.PC5 = 0x10; //10.1핀 led1 연결 -좌 방향지시등
+    MODULE_P10.IOCR4.B.PC5 = 0x10; // 10.2핀 led2 연결 - 우 방향지시등
+    MODULE_P10.IOCR4.B.PC4 = 0x10; // 10.3핀 led3 연결 -  비상 깜빡이-  좌우 공용
 
-    MODULE_P10.OUT.B.P1 = 0;
-    MODULE_P10.OUT.B.P2 = 0;
-    MODULE_P10.OUT.B.P3 = 0;
+    MODULE_P02.OUT.B.P5 = 0;
+    MODULE_P10.OUT.B.P5 = 0;
+    MODULE_P10.OUT.B.P4 = 0;
 
-    setLedCycle(500);
+    setLedCycle(16000);
 } //
 
 IFX_INTERRUPT(IsrGpt2T6Handler_Led, 0, ISR_PRIORITY_GPT2T6_TIMER); // buzzer.c에서 따옴. 인터럽트 방식으로 해서 while문 안의 토글 방식과 별개로 사용.
@@ -34,26 +34,26 @@ void IsrGpt2T6Handler_Led(void)
 
         // 좌측 방향지시등 제어 (P10.1)
         if (leftTurn){
-            MODULE_P10.OUT.B.P1 ^= 1;
+            MODULE_P02.OUT.B.P5 ^= 1;
         }
         else{
-            MODULE_P10.OUT.B.P1 = 0;
+            MODULE_P02.OUT.B.P5 = 0;
         }
 
         // 우측 방향지시등 제어 (P10.2)
         if (rightTurn) {
-            MODULE_P10.OUT.B.P2 ^= 1;
+            MODULE_P10.OUT.B.P5 ^= 1;
         }
         else {
-            MODULE_P10.OUT.B.P2 = 0;
+            MODULE_P10.OUT.B.P5 = 0;
         }
 
         // 비상등 제어 (P10.3)
         if (HazzardLight) {
-            MODULE_P10.OUT.B.P3 ^= 1;
+            MODULE_P10.OUT.B.P4 ^= 1;
         }
         else {
-            MODULE_P10.OUT.B.P3 = 0;
+            MODULE_P10.OUT.B.P4 = 0;
         }
     }
 }
@@ -68,12 +68,15 @@ void setLightButton(int Num_Led){
     {
         case 1:
             leftTurn ^= 1;
+            my_printf("L!\n");
             break;
         case 2:
             rightTurn ^= 1;
+            my_printf("R!\n");
             break;
         case 3:
             HazzardLight ^= 1;
+            my_printf("H!\n");
             break;
     }
 }

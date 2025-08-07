@@ -32,6 +32,14 @@ unsigned int back_duty =30;
 volatile char asclin_cmd_buffer[ASCLIN_CMD_BUF_SZ];
 volatile int asclin_cmd_index = 0;
 volatile int asclin_cmd_ready = 0;
+static int Prev_swL = 0;
+static int Prev_swR = 0;
+static int Prev_swH = 0;
+static int Prev_swP = 0;
+static int Prev_swLK = 0;
+static int CMD_Start = 0;
+
+
 int AEB_flag = 0;
 char Asclin1_InUartNonBlock(void)
 {
@@ -42,7 +50,9 @@ char Asclin1_InUartNonBlock(void)
 }
 
 void Asclin1_PollCMD(void){
+    //my_printf("Not cmd\n");
     if(!asclin_cmd_ready) return;
+    //my_printf("OK CMD\n");
     asclin_cmd_ready=0;
 
     //default set
@@ -56,9 +66,15 @@ void Asclin1_PollCMD(void){
     int dir = 1;
 
     int check_sum = sscanf((char*)asclin_cmd_buffer, "%d;%d;%d;%d;%d;%d;%d;%d", &x,&y,&swL,&swR,&swH,&swP,&swLK,&dir);
-
+    //my_printf("check : %d\n",check_sum);
     if(check_sum == 8){
             Control_CMD(x,y,swL,swR,swH,swP,swLK,dir);
+            CMD_Start = 1;
+            Prev_swL = swL;
+            Prev_swR = swR;
+            Prev_swH = swH;
+            Prev_swP = swP;
+            Prev_swLK = swLK;
         //my_printf("x:%\n y:%c\n swL:%c\n swR:%c\n swP:%c\n dir:%c", x,y,swL,swR,swP,dir);
     }
     else{//for debugging
@@ -70,7 +86,7 @@ IFX_INTERRUPT(BLEIsrHandler,0,ISR_PRIORITY_BLE_RX);
 void BLEIsrHandler (void)
 {
     __enable();
-
+    //my_printf("OK bluetooth\n");
     unsigned char ch;
     if(Asclin1_PollUart(&ch)){
         if(ch == '\n' || ch =='\r'){
@@ -92,26 +108,31 @@ void BLEIsrHandler (void)
 
 void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, int dir)
 {
-    my_printf("left: %d\n", x);
-    my_printf("right: %d\n", y);
-    my_printf("dir: %d\n",dir);
-
-   if (swL){
-       setLightButton(1);
+//    my_printf("left: %d\n", x);
+//    my_printf("right: %d\n", y);
+//    my_printf("dir: %d\n",dir);
+   if(CMD_Start == 0)return;
+   if (swP!= Prev_swP){
+       my_printf("Parking ON!\n");
+      Motor_All_Stop();
+      delay_ms(100);
+      Motor_All_Mov(80,1);
+      delay_ms(100);
+      calc_parking_distance();
    }
-   else if (swR){
+   else if (swR != Prev_swR){
        setLightButton(2);
+       my_printf("Right Light ON!\n");
    }
-   else if (swH){
+   else if (swH != Prev_swH){
        setLightButton(3);
+       my_printf("Hazard Light ON!\n");
    }
-   else if (swP){
-       Motor_All_Stop();
-       delay_ms(100);
-       Motor_All_Mov(75,1);
-       calc_parking_distance();
+   else if (swL != Prev_swL){
+       setLightButton(1);
+       my_printf("Left Light ON!\n");
    }
-   else if (swLK){
+   else if (swLK != Prev_swLK){
 
    }
    else{
@@ -123,14 +144,14 @@ void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, in
            }
 
            //Forward
-           else
+       else
+       {
+           if (!AEB_flag)
            {
-               if (!AEB_flag)
-               {
-                   Motor_movChA_PWM(x, 1);
-                   Motor_movChB_PWM(y, 1);
-               }
+               Motor_movChA_PWM(x, 1);
+               Motor_movChB_PWM(y, 1);
            }
+       }
        //TODO : Switch 처리 및 추가 및 응집도 결합도 Fan-IN/Fan-OUT 고려해 Module화 진행 예정
    }
 

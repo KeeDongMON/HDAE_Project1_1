@@ -59,13 +59,17 @@ void core1_main(void)
         left_distance = l;
         right_distance = r;
         rear_distance = b;
+        //l,r,b값 테스트
+//        my_printf("l : %f\n",l);
+//        my_printf("r : %f\n",r);
+//        my_printf("b : %f\n",b);
 
-        Ultrabuzzer(r); //후면 기준 부저 알림
+        //my_printf("En : %d\n",count_enc);
 
         FLUSH_LINE(&left_distance);
         FLUSH_LINE(&right_distance);   /* <- 세 줄만! */
         FLUSH_LINE(&rear_distance);
-        __isync();                 /* 명령 파이프 동기화(보너스)            */
+        __isync();                 // 명령 파이프 동기화(보너스)
         IfxCpu_releaseMutex(&distLock);
     }
 }

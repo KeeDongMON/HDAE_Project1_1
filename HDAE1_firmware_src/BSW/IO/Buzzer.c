@@ -26,6 +26,7 @@ void IsrGpt1T3Handler_Beep(void)
 void setBeepCycle(int cycle)
 {
     beepOnOff = cycle;
+    my_printf("123: %d\n", beepOnOff);
 }
 
 void Buzzer_Init(void)

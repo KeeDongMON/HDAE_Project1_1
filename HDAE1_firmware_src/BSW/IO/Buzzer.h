@@ -1,6 +1,6 @@
 #ifndef BSW_IO_BUZZER_H_
 #define BSW_IO_BUZZER_H_
-
+#include "main.h"
 /* Hertz of 5 Octave(C5 to B5) */
 #define NOTE_C5 523  // 5옥타브 도
 #define NOTE_D5 587  // 5옥타브 레

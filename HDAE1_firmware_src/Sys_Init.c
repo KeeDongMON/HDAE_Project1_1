@@ -20,15 +20,15 @@ void module_Init(void)
     UltraBuzzer_Init();
     LightButton_Init();
     Ultrasonics_Init();
-
+    Motor_Init();
 
     /* Module Init */
     Asclin0_InitUart();
     Bluetooth_Init();
-    Motor_Init();
 
+    HBA_Init();
     gpt12_Init();
-    //Evadc_Init();
+    Evadc_Init();
     Parking_Init();
     Can_Init(BD_500K, CAN_NODE0);
     //CanFd_Init(BD_500K, HS_BD_2M, CANFD_NODE2);

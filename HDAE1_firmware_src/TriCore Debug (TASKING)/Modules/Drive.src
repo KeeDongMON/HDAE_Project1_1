@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc11288a --dep-file=Drive.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/Drive.src ../Modules/Drive.c"
+	.compiler_invocation	"ctc -f cc9580a --dep-file=Drive.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/Drive.src ../Modules/Drive.c"
 	.compiler_name		"ctc"
 	;source	'../Modules/Drive.c'
 
@@ -13,35 +13,35 @@ $TC162
 	
 	.global	Asclin1_InUartNonBlock
 ; Function Asclin1_InUartNonBlock
-.L30:
+.L32:
 Asclin1_InUartNonBlock:	.type	func
 	sub.a	a10,#8
-.L124:
+.L138:
 	mov	d15,#0
-.L239:
+.L277:
 	st.b	[a10],d15
-.L240:
+.L278:
 	lea	a4,[a10]0
 	call	Asclin1_PollUart
-.L125:
+.L139:
 	jne	d2,#1,.L2
-.L241:
+.L279:
 	ld.bu	d15,[a10]
-.L242:
+.L280:
 	j	.L3
 .L2:
 	mov	d15,#-1
 .L3:
 	extr	d2,d15,#0,#8
-.L126:
+.L140:
 	j	.L4
 .L4:
 	ret
-.L110:
+.L124:
 	
 __Asclin1_InUartNonBlock_function_end:
 	.size	Asclin1_InUartNonBlock,__Asclin1_InUartNonBlock_function_end-Asclin1_InUartNonBlock
-.L64:
+.L66:
 	; End of function
 	
 	.sdecl	'.text.Drive.Asclin1_PollCMD',code,cluster('Asclin1_PollCMD')
@@ -50,112 +50,154 @@ __Asclin1_InUartNonBlock_function_end:
 	
 	.global	Asclin1_PollCMD
 ; Function Asclin1_PollCMD
-.L32:
+.L34:
 Asclin1_PollCMD:	.type	func
 	sub.a	a10,#64
-.L127:
+.L141:
 	movh.a	a15,#@his(asclin_cmd_ready)
 	lea	a15,[a15]@los(asclin_cmd_ready)
 	ld.w	d15,[a15]
 	jne	d15,#0,.L5
-.L192:
+.L212:
 	j	.L6
 .L5:
 	movh.a	a15,#@his(asclin_cmd_ready)
 	lea	a15,[a15]@los(asclin_cmd_ready)
-.L193:
+.L213:
 	mov	d15,#0
-.L194:
+.L214:
 	st.w	[a15],d15
-.L98:
+.L112:
 	mov	d15,#0
-.L195:
+.L215:
 	st.w	[a10]32,d15
-.L196:
+.L216:
 	mov	d15,#0
-.L197:
+.L217:
 	st.w	[a10]36,d15
-.L198:
+.L218:
 	mov	d15,#0
-.L199:
+.L219:
 	st.w	[a10]40,d15
-.L200:
+.L220:
 	mov	d15,#0
-.L201:
+.L221:
 	st.w	[a10]44,d15
-.L202:
+.L222:
 	mov	d15,#0
-.L203:
+.L223:
 	st.w	[a10]48,d15
-.L204:
+.L224:
 	mov	d15,#0
-.L205:
+.L225:
 	st.w	[a10]52,d15
-.L206:
+.L226:
 	mov	d15,#0
-.L207:
+.L227:
 	st.w	[a10]56,d15
-.L208:
+.L228:
 	mov	d15,#1
-.L209:
+.L229:
 	st.w	[a10]60,d15
-.L210:
+.L230:
 	lea	a15,[a10]32
 	st.a	[a10],a15
-.L211:
+.L231:
 	lea	a15,[a10]36
 	st.a	[a10]4,a15
-.L212:
+.L232:
 	lea	a15,[a10]40
 	st.a	[a10]8,a15
-.L213:
+.L233:
 	lea	a15,[a10]44
 	st.a	[a10]12,a15
-.L214:
+.L234:
 	lea	a15,[a10]48
 	st.a	[a10]16,a15
-.L215:
+.L235:
 	lea	a15,[a10]52
 	st.a	[a10]20,a15
-.L216:
+.L236:
 	lea	a15,[a10]56
 	st.a	[a10]24,a15
-.L217:
+.L237:
 	lea	a15,[a10]60
 	st.a	[a10]28,a15
-.L218:
+.L238:
 	movh.a	a4,#@his(asclin_cmd_buffer)
 	lea	a4,[a4]@los(asclin_cmd_buffer)
-.L219:
+.L239:
 	movh.a	a5,#@his(.2.str)
 	lea	a5,[a5]@los(.2.str)
 	call	sscanf
-.L128:
+.L142:
 	mov	d15,#8
-.L220:
+.L240:
 	jne	d15,d2,.L7
-.L221:
+.L241:
 	ld.w	d15,[a10]48
 	st.w	[a10],d15
-.L222:
+.L242:
 	ld.w	d15,[a10]52
 	st.w	[a10]4,d15
-.L223:
+.L243:
 	ld.w	d15,[a10]56
 	st.w	[a10]8,d15
-.L224:
+.L244:
 	ld.w	d15,[a10]60
 	st.w	[a10]12,d15
-.L225:
+.L245:
 	ld.w	d4,[a10]32
-.L226:
+.L246:
 	ld.w	d5,[a10]36
-.L227:
+.L247:
 	ld.w	d6,[a10]40
-.L228:
+.L248:
 	ld.w	d7,[a10]44
 	call	Control_CMD
-.L129:
+.L143:
+	movh.a	a15,#@his(CMD_Start)
+	lea	a15,[a15]@los(CMD_Start)
+.L249:
+	mov	d15,#1
+.L250:
+	st.w	[a15],d15
+.L251:
+	movh.a	a15,#@his(Prev_swL)
+	lea	a15,[a15]@los(Prev_swL)
+.L252:
+	ld.w	d15,[a10]40
+.L253:
+	st.w	[a15],d15
+.L254:
+	movh.a	a15,#@his(Prev_swR)
+	lea	a15,[a15]@los(Prev_swR)
+.L255:
+	ld.w	d15,[a10]44
+.L256:
+	st.w	[a15],d15
+.L257:
+	movh.a	a15,#@his(Prev_swH)
+	lea	a15,[a15]@los(Prev_swH)
+.L258:
+	ld.w	d15,[a10]48
+.L259:
+	st.w	[a15],d15
+.L260:
+	movh.a	a15,#@his(Prev_swP)
+	lea	a15,[a15]@los(Prev_swP)
+.L261:
+	ld.w	d15,[a10]52
+.L262:
+	st.w	[a15],d15
+.L263:
+	movh.a	a15,#@his(Prev_swLK)
+	lea	a15,[a15]@los(Prev_swLK)
+.L264:
+	ld.w	d15,[a10]56
+.L265:
+	st.w	[a15],d15
+.L266:
 	j	.L8
 .L7:
 	movh.a	a4,#@his(.3.str)
@@ -164,11 +206,11 @@ Asclin1_PollCMD:	.type	func
 .L8:
 .L6:
 	ret
-.L97:
+.L111:
 	
 __Asclin1_PollCMD_function_end:
 	.size	Asclin1_PollCMD,__Asclin1_PollCMD_function_end-Asclin1_PollCMD
-.L54:
+.L56:
 	; End of function
 	
 	.sdecl	'.text.inttab0.intvec.00f',code
@@ -182,62 +224,62 @@ __Asclin1_PollCMD_function_end:
 	
 	.global	BLEIsrHandler
 ; Function BLEIsrHandler
-.L34:
+.L36:
 BLEIsrHandler:	.type	func
 	sub.a	a10,#8
-.L130:
+.L144:
 	svlcx
-.L253:
+.L291:
 	enable
-.L118:
+.L132:
 	lea	a4,[a10]0
 	call	Asclin1_PollUart
-.L254:
+.L292:
 	jeq	d2,#0,.L9
-.L255:
+.L293:
 	ld.bu	d8,[a10]
-.L256:
+.L294:
 	mov	d15,#10
-.L257:
+.L295:
 	jeq	d15,d8,.L10
-.L258:
+.L296:
 	ld.bu	d8,[a10]
-.L259:
+.L297:
 	mov	d15,#13
-.L260:
+.L298:
 	jne	d15,d8,.L11
 .L10:
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
 	ld.w	d15,[a15]
-.L261:
+.L299:
 	jlt	d15,#1,.L12
-.L262:
+.L300:
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
 	ld.w	d15,[a15]
-.L263:
+.L301:
 	movh.a	a15,#@his(asclin_cmd_buffer)
 	lea	a15,[a15]@los(asclin_cmd_buffer)
-.L264:
+.L302:
 	addsc.a	a15,a15,d15,#0
-.L265:
+.L303:
 	mov	d15,#0
-.L266:
+.L304:
 	st.b	[a15],d15
-.L267:
+.L305:
 	movh.a	a15,#@his(asclin_cmd_ready)
 	lea	a15,[a15]@los(asclin_cmd_ready)
-.L268:
+.L306:
 	mov	d15,#1
-.L269:
+.L307:
 	st.w	[a15],d15
-.L270:
+.L308:
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
-.L271:
+.L309:
 	mov	d15,#0
-.L272:
+.L310:
 	st.w	[a15],d15
 .L12:
 	j	.L13
@@ -245,51 +287,51 @@ BLEIsrHandler:	.type	func
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
 	ld.w	d8,[a15]
-.L273:
+.L311:
 	mov	d15,#63
-.L274:
+.L312:
 	jge	d8,d15,.L14
-.L275:
+.L313:
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
 	ld.w	d15,[a15]
-.L276:
+.L314:
 	movh.a	a15,#@his(asclin_cmd_buffer)
 	lea	a15,[a15]@los(asclin_cmd_buffer)
-.L277:
+.L315:
 	addsc.a	a15,a15,d15,#0
-.L278:
+.L316:
 	ld.bu	d15,[a10]
-.L279:
+.L317:
 	st.b	[a15],d15
-.L280:
+.L318:
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
 	movh.a	a12,#@his(asclin_cmd_index)
 	lea	a12,[a12]@los(asclin_cmd_index)
 	ld.w	d15,[a12]
-.L281:
+.L319:
 	add	d15,#1
 	st.w	[a15],d15
-.L282:
+.L320:
 	j	.L15
 .L14:
 	movh.a	a15,#@his(asclin_cmd_index)
 	lea	a15,[a15]@los(asclin_cmd_index)
-.L283:
+.L321:
 	mov	d15,#0
-.L284:
+.L322:
 	st.w	[a15],d15
 .L15:
 .L13:
 .L9:
 	rslcx
 	rfe
-.L117:
+.L131:
 	
 __BLEIsrHandler_function_end:
 	.size	BLEIsrHandler,__BLEIsrHandler_function_end-BLEIsrHandler
-.L74:
+.L76:
 	; End of function
 	
 	.sdecl	'.text.Drive.Control_CMD',code,cluster('Control_CMD')
@@ -298,112 +340,137 @@ __BLEIsrHandler_function_end:
 	
 	.global	Control_CMD
 ; Function Control_CMD
-.L36:
+.L38:
 Control_CMD:	.type	func
-	sub.a	a10,#8
-.L131:
-	mov	d13,d4
-.L133:
-	mov	d14,d5
-.L134:
-	mov	e8,d7,d6
-	ld.w	d10,[a10]8
-.L135:
-	ld.w	d15,[a10]12
-.L136:
-	ld.w	d11,[a10]16
-.L138:
-	ld.w	d12,[a10]20
-.L139:
-	st.w	[a10],d13
-.L171:
+	mov	d8,d5
+.L146:
+	ld.w	d0,[a10]
+.L147:
+	ld.w	d1,[a10]4
+.L148:
+	ld.w	d2,[a10]8
+.L149:
+	ld.w	d3,[a10]12
+.L150:
+	movh.a	a15,#@his(CMD_Start)
+	lea	a15,[a15]@los(CMD_Start)
+	ld.w	d15,[a15]
+.L185:
+	jne	d15,#0,.L16
+.L186:
+	j	.L17
+.L16:
+	movh.a	a15,#@his(Prev_swP)
+	lea	a15,[a15]@los(Prev_swP)
+	ld.w	d15,[a15]
+.L187:
+	jeq	d15,d1,.L18
+.L188:
 	movh.a	a4,#@his(.4.str)
 	lea	a4,[a4]@los(.4.str)
 	call	my_printf
-.L132:
-	st.w	[a10],d14
-.L172:
+.L145:
+	call	Motor_All_Stop
+.L189:
+	mov	d4,#100
+	call	delay_ms
+.L190:
+	mov	d4,#80
+.L191:
+	mov	d5,#1
+	call	Motor_All_Mov
+.L192:
+	mov	d4,#100
+	call	delay_ms
+.L193:
+	call	calc_parking_distance
+.L194:
+	j	.L19
+.L18:
+	movh.a	a15,#@his(Prev_swR)
+	lea	a15,[a15]@los(Prev_swR)
+	ld.w	d15,[a15]
+.L195:
+	jeq	d15,d7,.L20
+.L196:
+	mov	d4,#2
+.L152:
+	call	setLightButton
+.L151:
 	movh.a	a4,#@his(.5.str)
 	lea	a4,[a4]@los(.5.str)
 	call	my_printf
-.L173:
-	st.w	[a10],d12
-.L174:
+.L197:
+	j	.L21
+.L20:
+	movh.a	a15,#@his(Prev_swH)
+	lea	a15,[a15]@los(Prev_swH)
+	ld.w	d15,[a15]
+.L198:
+	jeq	d15,d0,.L22
+.L199:
+	mov	d4,#3
+.L154:
+	call	setLightButton
+.L153:
 	movh.a	a4,#@his(.6.str)
 	lea	a4,[a4]@los(.6.str)
 	call	my_printf
-.L140:
-	jeq	d8,#0,.L16
-.L141:
-	mov	d4,#1
-	call	setLightButton
-.L175:
-	j	.L17
-.L16:
-	jeq	d9,#0,.L18
-.L142:
-	mov	d4,#2
-	call	setLightButton
-.L176:
-	j	.L19
-.L18:
-	jeq	d10,#0,.L20
-.L177:
-	mov	d4,#3
-	call	setLightButton
-.L178:
-	j	.L21
-.L20:
-	jeq	d15,#0,.L22
-.L179:
-	call	Motor_All_Stop
-.L180:
-	mov	d4,#100
-	call	delay_ms
-.L181:
-	mov	d4,#75
-.L182:
-	mov	d5,#1
-	call	Motor_All_Mov
-.L183:
-	call	calc_parking_distance
-.L184:
+.L200:
 	j	.L23
 .L22:
-	jeq	d11,#0,.L24
-.L185:
+	movh.a	a15,#@his(Prev_swL)
+	lea	a15,[a15]@los(Prev_swL)
+	ld.w	d15,[a15]
+.L201:
+	jeq	d15,d6,.L24
+.L202:
+	mov	d4,#1
+.L156:
+	call	setLightButton
+.L155:
+	movh.a	a4,#@his(.7.str)
+	lea	a4,[a4]@los(.7.str)
+	call	my_printf
+.L203:
 	j	.L25
 .L24:
-	jne	d12,#0,.L26
-.L186:
-	mov	d5,#0
-	mov	d4,d13
-.L143:
-	call	Motor_movChA_PWM
-.L144:
-	mov	d5,#0
-	mov	d4,d14
-.L145:
-	call	Motor_movChB_PWM
-.L146:
+	movh.a	a15,#@his(Prev_swLK)
+	lea	a15,[a15]@los(Prev_swLK)
+	ld.w	d15,[a15]
+.L204:
+	jeq	d15,d2,.L26
+.L205:
 	j	.L27
 .L26:
+	jne	d3,#0,.L28
+.L206:
+	mov	d5,#0
+.L158:
+	call	Motor_movChA_PWM
+.L157:
+	mov	d5,#0
+	mov	d4,d8
+.L159:
+	call	Motor_movChB_PWM
+.L160:
+	j	.L29
+.L28:
 	movh.a	a15,#@his(AEB_flag)
 	lea	a15,[a15]@los(AEB_flag)
 	ld.w	d15,[a15]
-.L137:
-	jne	d15,#0,.L28
-.L187:
+	jne	d15,#0,.L30
+.L207:
 	mov	d5,#1
-	mov	d4,d13
-.L147:
+.L162:
 	call	Motor_movChA_PWM
-.L148:
+.L161:
 	mov	d5,#1
-	mov	d4,d14
-.L149:
+	mov	d4,d8
+.L163:
 	call	Motor_movChB_PWM
-.L28:
+.L30:
+.L29:
 .L27:
 .L25:
 .L23:
@@ -411,11 +478,11 @@ Control_CMD:	.type	func
 .L19:
 .L17:
 	ret
-.L87:
+.L101:
 	
 __Control_CMD_function_end:
 	.size	Control_CMD,__Control_CMD_function_end-Control_CMD
-.L49:
+.L51:
 	; End of function
 	
 	.sdecl	'.text.Drive.Motor_All_Stop',code,cluster('Motor_All_Stop')
@@ -424,18 +491,18 @@ __Control_CMD_function_end:
 	
 	.global	Motor_All_Stop
 ; Function Motor_All_Stop
-.L38:
+.L40:
 Motor_All_Stop:	.type	func
 	call	Motor_stopChA
-.L233:
+.L271:
 	call	Motor_stopChB
-.L234:
+.L272:
 	ret
-.L108:
+.L122:
 	
 __Motor_All_Stop_function_end:
 	.size	Motor_All_Stop,__Motor_All_Stop_function_end-Motor_All_Stop
-.L59:
+.L61:
 	; End of function
 	
 	.sdecl	'.text.Drive.Motor_All_Mov',code,cluster('Motor_All_Mov')
@@ -444,25 +511,25 @@ __Motor_All_Stop_function_end:
 	
 	.global	Motor_All_Mov
 ; Function Motor_All_Mov
-.L40:
+.L42:
 Motor_All_Mov:	.type	func
 	mov	d15,d4
-.L151:
+.L165:
 	mov	d8,d5
-.L152:
+.L166:
 	mov	e4,d8,d15
-.L150:
+.L164:
 	call	Motor_movChA_PWM
-.L247:
+.L285:
 	mov	e4,d8,d15
 	call	Motor_movChB_PWM
-.L248:
+.L286:
 	ret
-.L114:
+.L128:
 	
 __Motor_All_Mov_function_end:
 	.size	Motor_All_Mov,__Motor_All_Mov_function_end-Motor_All_Mov
-.L69:
+.L71:
 	; End of function
 	
 	.sdecl	'.data.Drive.front_duty',data,cluster('front_duty')
@@ -499,6 +566,42 @@ asclin_cmd_index:	.type	object
 asclin_cmd_ready:	.type	object
 	.size	asclin_cmd_ready,4
 	.space	4
+	.sdecl	'.data.Drive.Prev_swL',data,cluster('Prev_swL')
+	.sect	'.data.Drive.Prev_swL'
+	.align	2
+Prev_swL:	.type	object
+	.size	Prev_swL,4
+	.space	4
+	.sdecl	'.data.Drive.Prev_swR',data,cluster('Prev_swR')
+	.sect	'.data.Drive.Prev_swR'
+	.align	2
+Prev_swR:	.type	object
+	.size	Prev_swR,4
+	.space	4
+	.sdecl	'.data.Drive.Prev_swH',data,cluster('Prev_swH')
+	.sect	'.data.Drive.Prev_swH'
+	.align	2
+Prev_swH:	.type	object
+	.size	Prev_swH,4
+	.space	4
+	.sdecl	'.data.Drive.Prev_swP',data,cluster('Prev_swP')
+	.sect	'.data.Drive.Prev_swP'
+	.align	2
+Prev_swP:	.type	object
+	.size	Prev_swP,4
+	.space	4
+	.sdecl	'.data.Drive.Prev_swLK',data,cluster('Prev_swLK')
+	.sect	'.data.Drive.Prev_swLK'
+	.align	2
+Prev_swLK:	.type	object
+	.size	Prev_swLK,4
+	.space	4
+	.sdecl	'.data.Drive.CMD_Start',data,cluster('CMD_Start')
+	.sect	'.data.Drive.CMD_Start'
+	.align	2
+CMD_Start:	.type	object
+	.size	CMD_Start,4
+	.space	4
 	.sdecl	'.data.Drive.AEB_flag',data,cluster('AEB_flag')
 	.sect	'.data.Drive.AEB_flag'
 	.global	AEB_flag
@@ -525,22 +628,32 @@ AEB_flag:	.type	object
 	.sdecl	'.rodata.Drive..4.str',data,rom
 	.sect	'.rodata.Drive..4.str'
 .4.str:	.type	object
-	.size	.4.str,10
-	.byte	108,101,102,116,58,32,37,100
-	.byte	10
+	.size	.4.str,13
+	.byte	80,97,114,107,105,110,103,32
+	.byte	79,78,33,10
 	.space	1
 	.sdecl	'.rodata.Drive..5.str',data,rom
 	.sect	'.rodata.Drive..5.str'
 .5.str:	.type	object
-	.size	.5.str,11
-	.byte	114,105,103,104,116,58,32,37
-	.byte	100,10
+	.size	.5.str,17
+	.byte	82,105,103,104,116,32,76,105
+	.byte	103,104,116,32,79,78,33,10
 	.space	1
 	.sdecl	'.rodata.Drive..6.str',data,rom
 	.sect	'.rodata.Drive..6.str'
 .6.str:	.type	object
-	.size	.6.str,9
-	.byte	100,105,114,58,32,37,100,10
+	.size	.6.str,18
+	.byte	72,97,122,97,114,100,32,76
+	.byte	105,103,104,116,32,79,78,33
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.Drive..7.str',data,rom
+	.sect	'.rodata.Drive..7.str'
+.7.str:	.type	object
+	.size	.7.str,16
+	.byte	76,101,102,116,32,76,105,103
+	.byte	104,116,32,79
+	.byte	78,33,10
 	.space	1
 	.calls	'Asclin1_InUartNonBlock','Asclin1_PollUart'
 	.calls	'Asclin1_PollCMD','sscanf'
@@ -548,11 +661,11 @@ AEB_flag:	.type	object
 	.calls	'Asclin1_PollCMD','my_printf'
 	.calls	'BLEIsrHandler','Asclin1_PollUart'
 	.calls	'Control_CMD','my_printf'
-	.calls	'Control_CMD','setLightButton'
 	.calls	'Control_CMD','Motor_All_Stop'
 	.calls	'Control_CMD','delay_ms'
 	.calls	'Control_CMD','Motor_All_Mov'
 	.calls	'Control_CMD','calc_parking_distance'
+	.calls	'Control_CMD','setLightButton'
 	.calls	'Control_CMD','Motor_movChA_PWM'
 	.calls	'Control_CMD','Motor_movChB_PWM'
 	.calls	'Motor_All_Stop','Motor_stopChA'
@@ -562,7 +675,7 @@ AEB_flag:	.type	object
 	.calls	'Asclin1_InUartNonBlock','',8
 	.calls	'Asclin1_PollCMD','',64
 	.calls	'BLEIsrHandler','',8
-	.calls	'Control_CMD','',8
+	.calls	'Control_CMD','',0
 	.calls	'Motor_All_Stop','',0
 	.extern	sscanf
 	.extern	Motor_stopChA
@@ -578,17 +691,17 @@ AEB_flag:	.type	object
 	.calls	'Motor_All_Mov','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L42:
+.L44:
 	.word	693787
 	.half	3
-	.word	.L43
+	.word	.L45
 	.byte	4
-.L41:
+.L43:
 	.byte	1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L44
+	.word	.L46
 	.byte	2,1,1,3
 	.word	196
 	.byte	4
@@ -622,13 +735,13 @@ AEB_flag:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	342
 	.byte	6,0
-.L120:
+.L134:
 	.byte	7
 	.byte	'unsigned int',0,4,7
-.L88:
+.L102:
 	.byte	7
 	.byte	'int',0,4,5
-.L111:
+.L125:
 	.byte	7
 	.byte	'unsigned char',0,1,8,10
 	.byte	'_Ifx_SRC_SRCR_Bits',0,4,68,16,4,11
@@ -15653,7 +15766,7 @@ AEB_flag:	.type	object
 	.byte	24
 	.word	15264
 	.byte	6,0
-.L109:
+.L123:
 	.byte	7
 	.byte	'char',0,1,6,27
 	.word	103305
@@ -16037,7 +16150,7 @@ AEB_flag:	.type	object
 	.byte	'Num_Led',0,30,34,25
 	.word	476
 	.byte	0,32
-	.byte	'calc_parking_distance',0,31,69,6,1,1,1,1,35
+	.byte	'calc_parking_distance',0,31,70,6,1,1,1,1,35
 	.byte	'__wchar_t',0,32,1,1
 	.word	26367
 	.byte	35
@@ -96688,7 +96801,7 @@ AEB_flag:	.type	object
 	.byte	10
 	.byte	'pbuf',0,80,186,1,8,16,13
 	.byte	'next',0
-	.word	.L153-.L42
+	.word	.L167-.L44
 	.byte	4,2,35,0,13
 	.byte	'payload',0
 	.word	374
@@ -96711,7 +96824,7 @@ AEB_flag:	.type	object
 	.byte	'if_idx',0
 	.word	483
 	.byte	1,2,35,15,0
-.L153:
+.L167:
 	.byte	3
 	.word	681288
 	.byte	39,1,1,38
@@ -96738,7 +96851,7 @@ AEB_flag:	.type	object
 	.byte	37
 	.word	104842
 	.byte	1,1,38
-	.word	.L154-.L42
+	.word	.L168-.L44
 	.byte	38
 	.word	681428
 	.byte	38
@@ -96751,7 +96864,7 @@ AEB_flag:	.type	object
 	.byte	37
 	.word	104842
 	.byte	1,1,38
-	.word	.L154-.L42
+	.word	.L168-.L44
 	.byte	38
 	.word	681428
 	.byte	0,3
@@ -96766,7 +96879,7 @@ AEB_flag:	.type	object
 	.byte	19,1,0,10
 	.byte	'netif',0,83,132,2,8,48,13
 	.byte	'next',0
-	.word	.L154-.L42
+	.word	.L168-.L44
 	.byte	4,2,35,0,13
 	.byte	'ip_addr',0
 	.word	681476
@@ -96778,7 +96891,7 @@ AEB_flag:	.type	object
 	.word	681476
 	.byte	4,2,35,12,13
 	.byte	'input',0
-	.word	.L155-.L42
+	.word	.L169-.L44
 	.byte	4,2,35,16,13
 	.byte	'output',0
 	.word	681581
@@ -96810,7 +96923,7 @@ AEB_flag:	.type	object
 	.byte	'rs_count',0
 	.word	483
 	.byte	1,2,35,45,0
-.L154:
+.L168:
 	.byte	3
 	.word	681676
 	.byte	37
@@ -96821,7 +96934,7 @@ AEB_flag:	.type	object
 	.word	681924
 	.byte	0,3
 	.word	681929
-.L155:
+.L169:
 	.byte	35
 	.byte	'netif_input_fn',0,83,178,1,17
 	.word	681947
@@ -96928,7 +97041,7 @@ AEB_flag:	.type	object
 	.word	483
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L156-.L42
+	.word	.L170-.L44
 	.byte	4,2,35,12,13
 	.byte	'flags',0
 	.word	483
@@ -96940,12 +97053,12 @@ AEB_flag:	.type	object
 	.word	1034
 	.byte	2,2,35,20,13
 	.byte	'recv',0
-	.word	.L157-.L42
+	.word	.L171-.L44
 	.byte	4,2,35,24,13
 	.byte	'recv_arg',0
 	.word	374
 	.byte	4,2,35,28,0
-.L156:
+.L170:
 	.byte	3
 	.word	682553
 	.byte	39,1,1,38
@@ -96960,7 +97073,7 @@ AEB_flag:	.type	object
 	.word	1034
 	.byte	0,3
 	.word	682776
-.L157:
+.L171:
 	.byte	35
 	.byte	'udp_recv_fn',0,85,77,16
 	.word	682805
@@ -97011,7 +97124,7 @@ AEB_flag:	.type	object
 	.byte	10
 	.byte	'tcp_seg',0,88,253,1,8,20,13
 	.byte	'next',0
-	.word	.L158-.L42
+	.word	.L172-.L44
 	.byte	4,2,35,0,13
 	.byte	'p',0
 	.word	681428
@@ -97028,7 +97141,7 @@ AEB_flag:	.type	object
 	.byte	'tcphdr',0
 	.word	683141
 	.byte	4,2,35,16,0
-.L158:
+.L172:
 	.byte	3
 	.word	683146
 	.byte	10
@@ -97052,7 +97165,7 @@ AEB_flag:	.type	object
 	.word	483
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L159-.L42
+	.word	.L173-.L44
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	374
@@ -97067,9 +97180,9 @@ AEB_flag:	.type	object
 	.word	1034
 	.byte	2,2,35,22,13
 	.byte	'accept',0
-	.word	.L160-.L42
+	.word	.L174-.L44
 	.byte	4,2,35,24,0
-.L159:
+.L173:
 	.byte	3
 	.word	683258
 	.byte	37
@@ -97077,7 +97190,7 @@ AEB_flag:	.type	object
 	.byte	1,1,38
 	.word	374
 	.byte	38
-	.word	.L161-.L42
+	.word	.L175-.L44
 	.byte	38
 	.word	1034
 	.byte	0,3
@@ -97090,7 +97203,7 @@ AEB_flag:	.type	object
 	.byte	1,1,38
 	.word	374
 	.byte	38
-	.word	.L161-.L42
+	.word	.L175-.L44
 	.byte	38
 	.word	681428
 	.byte	38
@@ -97102,13 +97215,13 @@ AEB_flag:	.type	object
 	.word	683564
 	.byte	35
 	.byte	'tcp_connected_fn',0,87,134,1,17
-	.word	.L162-.L42
+	.word	.L176-.L44
 	.byte	37
 	.word	104842
 	.byte	1,1,38
 	.word	374
 	.byte	38
-	.word	.L161-.L42
+	.word	.L175-.L44
 	.byte	0,3
 	.word	683615
 	.byte	35
@@ -97144,7 +97257,7 @@ AEB_flag:	.type	object
 	.word	483
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L161-.L42
+	.word	.L175-.L44
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	374
@@ -97302,7 +97415,7 @@ AEB_flag:	.type	object
 	.byte	'keep_cnt_sent',0
 	.word	483
 	.byte	1,3,35,155,1,0
-.L161:
+.L175:
 	.byte	3
 	.word	683696
 	.byte	37
@@ -97314,10 +97427,10 @@ AEB_flag:	.type	object
 	.byte	38
 	.word	104842
 	.byte	0
-.L162:
+.L176:
 	.byte	3
 	.word	684763
-.L160:
+.L174:
 	.byte	35
 	.byte	'tcp_accept_fn',0,87,70,17
 	.word	684786
@@ -98292,19 +98405,19 @@ AEB_flag:	.type	object
 	.byte	18,64
 	.word	103305
 	.byte	19,63,0
-.L121:
+.L135:
 	.byte	14
 	.word	693766
-.L122:
+.L136:
 	.byte	14
 	.word	476
-.L123:
+.L137:
 	.byte	14
 	.word	476
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L43:
+.L45:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -98319,12 +98432,12 @@ AEB_flag:	.type	object
 	.byte	5,0,73,19,0,0,39,21,1,54,15,39,12,0,0,40,4,1,3,8,58,15,59,15,57,15,11,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L44:
-	.word	.L164-.L163
-.L163:
+.L46:
+	.word	.L178-.L177
+.L177:
 	.half	3
-	.word	.L166-.L165
-.L165:
+	.word	.L180-.L179
+.L179:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std',0
@@ -98468,717 +98581,745 @@ AEB_flag:	.type	object
 	.byte	'Ifx_Lwip.h',0,13,0,0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\HDAE1_firmware_src\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
 	.byte	0,0,0,0
-.L166:
-.L164:
+.L180:
+.L178:
 	.sdecl	'.debug_info',debug,cluster('Control_CMD')
 	.sect	'.debug_info'
-.L45:
+.L47:
 	.word	368
 	.half	3
-	.word	.L46
+	.word	.L48
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L48,.L47
+	.word	.L50,.L49
 	.byte	2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'Control_CMD',0,1,93,6,1,1,1
-	.word	.L36,.L87,.L35
+	.byte	'Control_CMD',0,1,109,6,1,1,1
+	.word	.L38,.L101,.L37
 	.byte	4
-	.byte	'x',0,1,93,23
-	.word	.L88,.L89
+	.byte	'x',0,1,109,23
+	.word	.L102,.L103
 	.byte	4
-	.byte	'y',0,1,93,30
-	.word	.L88,.L90
+	.byte	'y',0,1,109,30
+	.word	.L102,.L104
 	.byte	4
-	.byte	'swL',0,1,93,37
-	.word	.L88,.L91
+	.byte	'swL',0,1,109,37
+	.word	.L102,.L105
 	.byte	4
-	.byte	'swR',0,1,93,46
-	.word	.L88,.L92
+	.byte	'swR',0,1,109,46
+	.word	.L102,.L106
 	.byte	4
-	.byte	'swH',0,1,93,55
-	.word	.L88,.L93
+	.byte	'swH',0,1,109,55
+	.word	.L102,.L107
 	.byte	4
-	.byte	'swP',0,1,93,64
-	.word	.L88,.L94
+	.byte	'swP',0,1,109,64
+	.word	.L102,.L108
 	.byte	4
-	.byte	'swLK',0,1,93,73
-	.word	.L88,.L95
+	.byte	'swLK',0,1,109,73
+	.word	.L102,.L109
 	.byte	4
-	.byte	'dir',0,1,93,83
-	.word	.L88,.L96
+	.byte	'dir',0,1,109,83
+	.word	.L102,.L110
 	.byte	5
-	.word	.L36,.L87
+	.word	.L38,.L101
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Control_CMD')
 	.sect	'.debug_abbrev'
-.L46:
+.L48:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Control_CMD')
 	.sect	'.debug_line'
-.L47:
-	.word	.L168-.L167
-.L167:
+.L49:
+	.word	.L182-.L181
+.L181:
 	.half	3
-	.word	.L170-.L169
-.L169:
+	.word	.L184-.L183
+.L183:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/Drive.c',0,0,0,0,0
-.L170:
+.L184:
 	.byte	5,6,7,0,5,2
-	.word	.L36
-	.byte	3,220,0,1,5,29,9
-	.half	.L139-.L36
-	.byte	3,2,1,5,15,9
-	.half	.L171-.L139
-	.byte	1,5,30,9
-	.half	.L132-.L171
-	.byte	3,1,1,5,15,9
-	.half	.L172-.L132
-	.byte	1,5,27,9
-	.half	.L173-.L172
-	.byte	3,1,1,5,15,9
-	.half	.L174-.L173
-	.byte	1,5,4,9
-	.half	.L140-.L174
-	.byte	3,2,1,5,23,7,9
-	.half	.L141-.L140
-	.byte	3,1,1,5,25,9
-	.half	.L175-.L141
-	.byte	1,5,9,9
-	.half	.L16-.L175
-	.byte	3,2,1,5,23,7,9
-	.half	.L142-.L16
-	.byte	3,1,1,5,25,9
-	.half	.L176-.L142
-	.byte	1,5,9,9
-	.half	.L18-.L176
-	.byte	3,2,1,5,23,7,9
-	.half	.L177-.L18
-	.byte	3,1,1,5,25,9
-	.half	.L178-.L177
-	.byte	1,5,9,9
-	.half	.L20-.L178
-	.byte	3,2,1,5,22,7,9
-	.half	.L179-.L20
-	.byte	3,1,1,5,17,9
-	.half	.L180-.L179
-	.byte	3,1,1,5,22,9
-	.half	.L181-.L180
-	.byte	3,1,1,5,25,9
-	.half	.L182-.L181
-	.byte	1,5,29,9
-	.half	.L183-.L182
+	.word	.L38
+	.byte	3,236,0,1,5,7,9
+	.half	.L150-.L38
+	.byte	3,5,1,5,4,9
+	.half	.L185-.L150
+	.byte	1,5,22,7,9
+	.half	.L186-.L185
+	.byte	1,5,14,9
+	.half	.L16-.L186
+	.byte	3,1,1,5,4,9
+	.half	.L187-.L16
+	.byte	1,5,18,7,9
+	.half	.L188-.L187
+	.byte	3,1,1,5,21,9
+	.half	.L145-.L188
+	.byte	3,1,1,5,16,9
+	.half	.L189-.L145
+	.byte	3,1,1,5,21,9
+	.half	.L190-.L189
 	.byte	3,1,1,5,24,9
-	.half	.L184-.L183
-	.byte	3,125,1,5,9,9
-	.half	.L22-.L184
-	.byte	3,5,1,7,9
-	.half	.L185-.L22
-	.byte	1,5,8,9
-	.half	.L24-.L185
-	.byte	3,5,1,5,36,7,9
-	.half	.L186-.L24
-	.byte	3,2,1,9
-	.half	.L144-.L186
-	.byte	3,1,1,5,38,9
-	.half	.L146-.L144
+	.half	.L191-.L190
+	.byte	1,5,16,9
+	.half	.L192-.L191
+	.byte	3,1,1,5,28,9
+	.half	.L193-.L192
+	.byte	3,1,1,5,34,9
+	.half	.L194-.L193
+	.byte	3,123,1,5,20,9
+	.half	.L18-.L194
+	.byte	3,7,1,5,9,9
+	.half	.L195-.L18
+	.byte	1,5,23,7,9
+	.half	.L196-.L195
+	.byte	3,1,1,5,18,9
+	.half	.L151-.L196
+	.byte	3,1,1,5,25,9
+	.half	.L197-.L151
+	.byte	3,127,1,5,20,9
+	.half	.L20-.L197
+	.byte	3,3,1,5,9,9
+	.half	.L198-.L20
+	.byte	1,5,23,7,9
+	.half	.L199-.L198
+	.byte	3,1,1,5,18,9
+	.half	.L153-.L199
+	.byte	3,1,1,5,25,9
+	.half	.L200-.L153
+	.byte	3,127,1,5,20,9
+	.half	.L22-.L200
+	.byte	3,3,1,5,9,9
+	.half	.L201-.L22
+	.byte	1,5,23,7,9
+	.half	.L202-.L201
+	.byte	3,1,1,5,18,9
+	.half	.L155-.L202
+	.byte	3,1,1,5,25,9
+	.half	.L203-.L155
 	.byte	3,127,1,5,21,9
-	.half	.L26-.L146
-	.byte	3,7,1,5,40,9
-	.half	.L187-.L26
+	.half	.L24-.L203
+	.byte	3,3,1,5,9,9
+	.half	.L204-.L24
+	.byte	1,7,9
+	.half	.L205-.L204
+	.byte	1,5,8,9
+	.half	.L26-.L205
+	.byte	3,5,1,5,36,7,9
+	.half	.L206-.L26
 	.byte	3,2,1,9
-	.half	.L148-.L187
+	.half	.L157-.L206
+	.byte	3,1,1,5,38,9
+	.half	.L160-.L157
+	.byte	3,127,1,5,17,9
+	.half	.L28-.L160
+	.byte	3,7,1,5,36,9
+	.half	.L207-.L28
+	.byte	3,2,1,9
+	.half	.L161-.L207
 	.byte	3,1,1,5,1,9
-	.half	.L17-.L148
+	.half	.L17-.L161
 	.byte	3,11,1,7,9
-	.half	.L49-.L17
+	.half	.L51-.L17
 	.byte	0,1,1
-.L168:
+.L182:
 	.sdecl	'.debug_ranges',debug,cluster('Control_CMD')
 	.sect	'.debug_ranges'
-.L48:
-	.word	-1,.L36,0,.L49-.L36,0,0
+.L50:
+	.word	-1,.L38,0,.L51-.L38,0,0
 	.sdecl	'.debug_info',debug,cluster('Asclin1_PollCMD')
 	.sect	'.debug_info'
-.L50:
+.L52:
 	.word	405
 	.half	3
-	.word	.L51
+	.word	.L53
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L53,.L52
+	.word	.L55,.L54
 	.byte	2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'Asclin1_PollCMD',0,1,44,6,1,1,1
-	.word	.L32,.L97,.L31
+	.byte	'Asclin1_PollCMD',0,1,52,6,1,1,1
+	.word	.L34,.L111,.L33
 	.byte	4
-	.word	.L32,.L97
+	.word	.L34,.L111
 	.byte	4
-	.word	.L98,.L97
+	.word	.L112,.L111
 	.byte	5
-	.byte	'x',0,1,49,9
-	.word	.L88,.L99
+	.byte	'x',0,1,59,9
+	.word	.L102,.L113
 	.byte	5
-	.byte	'y',0,1,50,9
-	.word	.L88,.L100
+	.byte	'y',0,1,60,9
+	.word	.L102,.L114
 	.byte	5
-	.byte	'swL',0,1,51,9
-	.word	.L88,.L101
+	.byte	'swL',0,1,61,9
+	.word	.L102,.L115
 	.byte	5
-	.byte	'swR',0,1,52,9
-	.word	.L88,.L102
+	.byte	'swR',0,1,62,9
+	.word	.L102,.L116
 	.byte	5
-	.byte	'swH',0,1,53,9
-	.word	.L88,.L103
+	.byte	'swH',0,1,63,9
+	.word	.L102,.L117
 	.byte	5
-	.byte	'swP',0,1,54,9
-	.word	.L88,.L104
+	.byte	'swP',0,1,64,9
+	.word	.L102,.L118
 	.byte	5
-	.byte	'swLK',0,1,55,9
-	.word	.L88,.L105
+	.byte	'swLK',0,1,65,9
+	.word	.L102,.L119
 	.byte	5
-	.byte	'dir',0,1,56,9
-	.word	.L88,.L106
+	.byte	'dir',0,1,66,9
+	.word	.L102,.L120
 	.byte	5
-	.byte	'check_sum',0,1,58,9
-	.word	.L88,.L107
+	.byte	'check_sum',0,1,68,9
+	.word	.L102,.L121
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Asclin1_PollCMD')
 	.sect	'.debug_abbrev'
-.L51:
+.L53:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Asclin1_PollCMD')
 	.sect	'.debug_line'
-.L52:
-	.word	.L189-.L188
-.L188:
+.L54:
+	.word	.L209-.L208
+.L208:
 	.half	3
-	.word	.L191-.L190
-.L190:
+	.word	.L211-.L210
+.L210:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/Drive.c',0,0,0,0,0
-.L191:
+.L211:
 	.byte	5,6,7,0,5,2
-	.word	.L32
-	.byte	3,43,1,5,9,9
-	.half	.L127-.L32
-	.byte	3,1,1,5,27,9
-	.half	.L192-.L127
+	.word	.L34
+	.byte	3,51,1,5,9,9
+	.half	.L141-.L34
+	.byte	3,2,1,5,27,9
+	.half	.L212-.L141
 	.byte	1,5,5,9
-	.half	.L5-.L192
-	.byte	3,1,1,5,22,9
-	.half	.L193-.L5
+	.half	.L5-.L212
+	.byte	3,2,1,5,22,9
+	.half	.L213-.L5
 	.byte	1,5,21,9
-	.half	.L194-.L193
-	.byte	1,5,12,9
-	.half	.L98-.L194
-	.byte	3,3,1,5,10,9
-	.half	.L195-.L98
-	.byte	1,5,13,9
-	.half	.L196-.L195
-	.byte	3,1,1,5,11,9
-	.half	.L197-.L196
-	.byte	1,5,15,9
-	.half	.L198-.L197
-	.byte	3,1,1,5,13,9
-	.half	.L199-.L198
-	.byte	1,5,15,9
-	.half	.L200-.L199
-	.byte	3,1,1,5,13,9
-	.half	.L201-.L200
-	.byte	1,5,15,9
-	.half	.L202-.L201
-	.byte	3,1,1,5,13,9
-	.half	.L203-.L202
-	.byte	1,5,15,9
-	.half	.L204-.L203
-	.byte	3,1,1,5,13,9
-	.half	.L205-.L204
-	.byte	1,5,16,9
-	.half	.L206-.L205
-	.byte	3,1,1,5,14,9
-	.half	.L207-.L206
-	.byte	1,5,15,9
-	.half	.L208-.L207
-	.byte	3,1,1,5,13,9
-	.half	.L209-.L208
-	.byte	1,5,82,9
-	.half	.L210-.L209
-	.byte	3,2,1,5,85,9
-	.half	.L211-.L210
-	.byte	1,5,88,9
-	.half	.L212-.L211
-	.byte	1,5,93,9
-	.half	.L213-.L212
-	.byte	1,5,98,9
 	.half	.L214-.L213
-	.byte	1,5,103,9
-	.half	.L215-.L214
-	.byte	1,5,108,9
+	.byte	1,5,12,9
+	.half	.L112-.L214
+	.byte	3,3,1,5,10,9
+	.half	.L215-.L112
+	.byte	1,5,13,9
 	.half	.L216-.L215
-	.byte	1,5,114,9
+	.byte	3,1,1,5,11,9
 	.half	.L217-.L216
-	.byte	1,5,35,9
+	.byte	1,5,15,9
 	.half	.L218-.L217
-	.byte	1,5,54,9
+	.byte	3,1,1,5,13,9
 	.half	.L219-.L218
-	.byte	1,5,21,9
-	.half	.L128-.L219
-	.byte	3,2,1,5,5,9
-	.half	.L220-.L128
-	.byte	1,5,37,7,9
+	.byte	1,5,15,9
+	.half	.L220-.L219
+	.byte	3,1,1,5,13,9
 	.half	.L221-.L220
-	.byte	3,1,1,5,41,9
+	.byte	1,5,15,9
 	.half	.L222-.L221
-	.byte	1,5,45,9
+	.byte	3,1,1,5,13,9
 	.half	.L223-.L222
-	.byte	1,5,50,9
+	.byte	1,5,15,9
 	.half	.L224-.L223
-	.byte	1,5,25,9
+	.byte	3,1,1,5,13,9
 	.half	.L225-.L224
-	.byte	1,5,27,9
+	.byte	1,5,16,9
 	.half	.L226-.L225
-	.byte	1,5,29,9
+	.byte	3,1,1,5,14,9
 	.half	.L227-.L226
-	.byte	1,5,33,9
+	.byte	1,5,15,9
 	.half	.L228-.L227
+	.byte	3,1,1,5,13,9
+	.half	.L229-.L228
+	.byte	1,5,82,9
+	.half	.L230-.L229
+	.byte	3,2,1,5,85,9
+	.half	.L231-.L230
+	.byte	1,5,88,9
+	.half	.L232-.L231
+	.byte	1,5,93,9
+	.half	.L233-.L232
+	.byte	1,5,98,9
+	.half	.L234-.L233
+	.byte	1,5,103,9
+	.half	.L235-.L234
+	.byte	1,5,108,9
+	.half	.L236-.L235
+	.byte	1,5,114,9
+	.half	.L237-.L236
+	.byte	1,5,35,9
+	.half	.L238-.L237
 	.byte	1,5,54,9
-	.half	.L129-.L228
-	.byte	1,5,19,9
-	.half	.L7-.L129
-	.byte	3,4,1,5,1,9
+	.half	.L239-.L238
+	.byte	1,5,21,9
+	.half	.L142-.L239
+	.byte	3,2,1,5,5,9
+	.half	.L240-.L142
+	.byte	1,5,37,7,9
+	.half	.L241-.L240
+	.byte	3,1,1,5,41,9
+	.half	.L242-.L241
+	.byte	1,5,45,9
+	.half	.L243-.L242
+	.byte	1,5,50,9
+	.half	.L244-.L243
+	.byte	1,5,25,9
+	.half	.L245-.L244
+	.byte	1,5,27,9
+	.half	.L246-.L245
+	.byte	1,5,29,9
+	.half	.L247-.L246
+	.byte	1,5,33,9
+	.half	.L248-.L247
+	.byte	1,5,13,9
+	.half	.L143-.L248
+	.byte	3,1,1,5,25,9
+	.half	.L249-.L143
+	.byte	1,5,23,9
+	.half	.L250-.L249
+	.byte	1,5,13,9
+	.half	.L251-.L250
+	.byte	3,1,1,5,24,9
+	.half	.L252-.L251
+	.byte	1,5,22,9
+	.half	.L253-.L252
+	.byte	1,5,13,9
+	.half	.L254-.L253
+	.byte	3,1,1,5,24,9
+	.half	.L255-.L254
+	.byte	1,5,22,9
+	.half	.L256-.L255
+	.byte	1,5,13,9
+	.half	.L257-.L256
+	.byte	3,1,1,5,24,9
+	.half	.L258-.L257
+	.byte	1,5,22,9
+	.half	.L259-.L258
+	.byte	1,5,13,9
+	.half	.L260-.L259
+	.byte	3,1,1,5,24,9
+	.half	.L261-.L260
+	.byte	1,5,22,9
+	.half	.L262-.L261
+	.byte	1,5,13,9
+	.half	.L263-.L262
+	.byte	3,1,1,5,25,9
+	.half	.L264-.L263
+	.byte	1,5,23,9
+	.half	.L265-.L264
+	.byte	1,5,54,9
+	.half	.L266-.L265
+	.byte	3,122,1,5,19,9
+	.half	.L7-.L266
+	.byte	3,10,1,5,1,9
 	.half	.L6-.L7
 	.byte	3,2,1,7,9
-	.half	.L54-.L6
+	.half	.L56-.L6
 	.byte	0,1,1
-.L189:
+.L209:
 	.sdecl	'.debug_ranges',debug,cluster('Asclin1_PollCMD')
 	.sect	'.debug_ranges'
-.L53:
-	.word	-1,.L32,0,.L54-.L32,0,0
+.L55:
+	.word	-1,.L34,0,.L56-.L34,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_All_Stop')
 	.sect	'.debug_info'
-.L55:
+.L57:
 	.word	247
 	.half	3
-	.word	.L56
+	.word	.L58
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L58,.L57
+	.word	.L60,.L59
 	.byte	2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'Motor_All_Stop',0,1,144,1,6,1,1,1
-	.word	.L38,.L108,.L37
+	.byte	'Motor_All_Stop',0,1,165,1,6,1,1,1
+	.word	.L40,.L122,.L39
 	.byte	4
-	.word	.L38,.L108
+	.word	.L40,.L122
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_All_Stop')
 	.sect	'.debug_abbrev'
-.L56:
+.L58:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_All_Stop')
 	.sect	'.debug_line'
-.L57:
-	.word	.L230-.L229
-.L229:
+.L59:
+	.word	.L268-.L267
+.L267:
 	.half	3
-	.word	.L232-.L231
-.L231:
+	.word	.L270-.L269
+.L269:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/Drive.c',0,0,0,0,0
-.L232:
+.L270:
 	.byte	5,18,7,0,5,2
-	.word	.L38
-	.byte	3,144,1,1,9
-	.half	.L233-.L38
+	.word	.L40
+	.byte	3,165,1,1,9
+	.half	.L271-.L40
 	.byte	3,1,1,5,1,9
-	.half	.L234-.L233
+	.half	.L272-.L271
 	.byte	3,1,1,7,9
-	.half	.L59-.L234
+	.half	.L61-.L272
 	.byte	0,1,1
-.L230:
+.L268:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_All_Stop')
 	.sect	'.debug_ranges'
-.L58:
-	.word	-1,.L38,0,.L59-.L38,0,0
+.L60:
+	.word	-1,.L40,0,.L61-.L40,0,0
 	.sdecl	'.debug_info',debug,cluster('Asclin1_InUartNonBlock')
 	.sect	'.debug_info'
-.L60:
+.L62:
 	.word	290
 	.half	3
-	.word	.L61
+	.word	.L63
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L63,.L62
+	.word	.L65,.L64
 	.byte	2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'Asclin1_InUartNonBlock',0,1,36,6
-	.word	.L109
+	.byte	'Asclin1_InUartNonBlock',0,1,44,6
+	.word	.L123
 	.byte	1,1,1
-	.word	.L30,.L110,.L29
+	.word	.L32,.L124,.L31
 	.byte	4
-	.word	.L30,.L110
+	.word	.L32,.L124
 	.byte	5
-	.byte	'ch',0,1,38,19
-	.word	.L111,.L112
+	.byte	'ch',0,1,46,19
+	.word	.L125,.L126
 	.byte	5
-	.byte	'res',0,1,39,9
-	.word	.L88,.L113
+	.byte	'res',0,1,47,9
+	.word	.L102,.L127
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Asclin1_InUartNonBlock')
 	.sect	'.debug_abbrev'
-.L61:
+.L63:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Asclin1_InUartNonBlock')
 	.sect	'.debug_line'
-.L62:
-	.word	.L236-.L235
-.L235:
+.L64:
+	.word	.L274-.L273
+.L273:
 	.half	3
-	.word	.L238-.L237
-.L237:
+	.word	.L276-.L275
+.L275:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/Drive.c',0,0,0,0,0
-.L238:
+.L276:
 	.byte	5,6,7,0,5,2
-	.word	.L30
-	.byte	3,35,1,5,24,9
-	.half	.L124-.L30
+	.word	.L32
+	.byte	3,43,1,5,24,9
+	.half	.L138-.L32
 	.byte	3,2,1,5,22,9
-	.half	.L239-.L124
+	.half	.L277-.L138
 	.byte	1,5,33,9
-	.half	.L240-.L239
+	.half	.L278-.L277
 	.byte	3,1,1,5,12,9
-	.half	.L125-.L240
+	.half	.L139-.L278
 	.byte	3,2,1,5,23,7,9
-	.half	.L241-.L125
+	.half	.L279-.L139
 	.byte	1,5,26,9
-	.half	.L242-.L241
+	.half	.L280-.L279
 	.byte	1,5,21,9
-	.half	.L2-.L242
+	.half	.L2-.L280
 	.byte	1,5,5,9
-	.half	.L126-.L2
+	.half	.L140-.L2
 	.byte	1,5,1,9
-	.half	.L4-.L126
+	.half	.L4-.L140
 	.byte	3,1,1,7,9
-	.half	.L64-.L4
+	.half	.L66-.L4
 	.byte	0,1,1
-.L236:
+.L274:
 	.sdecl	'.debug_ranges',debug,cluster('Asclin1_InUartNonBlock')
 	.sect	'.debug_ranges'
-.L63:
-	.word	-1,.L30,0,.L64-.L30,0,0
+.L65:
+	.word	-1,.L32,0,.L66-.L32,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_All_Mov')
 	.sect	'.debug_info'
-.L65:
+.L67:
 	.word	281
 	.half	3
-	.word	.L66
+	.word	.L68
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L68,.L67
+	.word	.L70,.L69
 	.byte	2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'Motor_All_Mov',0,1,149,1,6,1,1,1
-	.word	.L40,.L114,.L39
+	.byte	'Motor_All_Mov',0,1,170,1,6,1,1,1
+	.word	.L42,.L128,.L41
 	.byte	4
-	.byte	'duty',0,1,149,1,24
-	.word	.L88,.L115
+	.byte	'duty',0,1,170,1,24
+	.word	.L102,.L129
 	.byte	4
-	.byte	'dir',0,1,149,1,34
-	.word	.L88,.L116
+	.byte	'dir',0,1,170,1,34
+	.word	.L102,.L130
 	.byte	5
-	.word	.L40,.L114
+	.word	.L42,.L128
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_All_Mov')
 	.sect	'.debug_abbrev'
-.L66:
+.L68:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_All_Mov')
 	.sect	'.debug_line'
-.L67:
-	.word	.L244-.L243
-.L243:
+.L69:
+	.word	.L282-.L281
+.L281:
 	.half	3
-	.word	.L246-.L245
-.L245:
+	.word	.L284-.L283
+.L283:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/Drive.c',0,0,0,0,0
-.L246:
+.L284:
 	.byte	5,6,7,0,5,2
-	.word	.L40
-	.byte	3,148,1,1,5,27,9
-	.half	.L152-.L40
+	.word	.L42
+	.byte	3,169,1,1,5,27,9
+	.half	.L166-.L42
 	.byte	3,1,1,9
-	.half	.L247-.L152
+	.half	.L285-.L166
 	.byte	3,1,1,5,1,9
-	.half	.L248-.L247
+	.half	.L286-.L285
 	.byte	3,1,1,7,9
-	.half	.L69-.L248
+	.half	.L71-.L286
 	.byte	0,1,1
-.L244:
+.L282:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_All_Mov')
 	.sect	'.debug_ranges'
-.L68:
-	.word	-1,.L40,0,.L69-.L40,0,0
+.L70:
+	.word	-1,.L42,0,.L71-.L42,0,0
 	.sdecl	'.debug_info',debug,cluster('BLEIsrHandler')
 	.sect	'.debug_info'
-.L70:
+.L72:
 	.word	271
 	.half	3
-	.word	.L71
+	.word	.L73
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L73,.L72
+	.word	.L75,.L74
 	.byte	2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'BLEIsrHandler',0,1,70,6,1,1,1
-	.word	.L34,.L117,.L33
+	.byte	'BLEIsrHandler',0,1,86,6,1,1,1
+	.word	.L36,.L131,.L35
 	.byte	4
-	.word	.L34,.L117
+	.word	.L36,.L131
 	.byte	4
-	.word	.L118,.L117
+	.word	.L132,.L131
 	.byte	5
-	.byte	'ch',0,1,74,19
-	.word	.L111,.L119
+	.byte	'ch',0,1,90,19
+	.word	.L125,.L133
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('BLEIsrHandler')
 	.sect	'.debug_abbrev'
-.L71:
+.L73:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('BLEIsrHandler')
 	.sect	'.debug_line'
-.L72:
-	.word	.L250-.L249
-.L249:
+.L74:
+	.word	.L288-.L287
+.L287:
 	.half	3
-	.word	.L252-.L251
-.L251:
+	.word	.L290-.L289
+.L289:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/Drive.c',0,0,0,0,0
-.L252:
+.L290:
 	.byte	5,6,7,0,5,2
-	.word	.L34
-	.byte	3,197,0,1,5,13,9
-	.half	.L253-.L34
+	.word	.L36
+	.byte	3,213,0,1,5,13,9
+	.half	.L291-.L36
 	.byte	3,2,1,5,26,9
-	.half	.L118-.L253
+	.half	.L132-.L291
 	.byte	3,3,1,5,5,9
-	.half	.L254-.L118
+	.half	.L292-.L132
 	.byte	1,5,12,7,9
-	.half	.L255-.L254
+	.half	.L293-.L292
 	.byte	3,1,1,5,18,9
-	.half	.L256-.L255
+	.half	.L294-.L293
 	.byte	1,5,12,9
-	.half	.L257-.L256
+	.half	.L295-.L294
 	.byte	1,5,26,7,9
-	.half	.L258-.L257
+	.half	.L296-.L295
 	.byte	1,5,31,9
-	.half	.L259-.L258
+	.half	.L297-.L296
 	.byte	1,5,29,9
-	.half	.L260-.L259
+	.half	.L298-.L297
 	.byte	1,5,16,7,9
-	.half	.L10-.L260
+	.half	.L10-.L298
 	.byte	3,1,1,5,13,9
-	.half	.L261-.L10
+	.half	.L299-.L10
 	.byte	1,5,35,7,9
-	.half	.L262-.L261
+	.half	.L300-.L299
 	.byte	3,1,1,5,17,9
-	.half	.L263-.L262
+	.half	.L301-.L300
 	.byte	1,5,34,9
-	.half	.L264-.L263
+	.half	.L302-.L301
 	.byte	1,5,53,9
-	.half	.L265-.L264
+	.half	.L303-.L302
 	.byte	1,5,52,9
-	.half	.L266-.L265
+	.half	.L304-.L303
 	.byte	1,5,17,9
-	.half	.L267-.L266
+	.half	.L305-.L304
 	.byte	3,1,1,5,36,9
-	.half	.L268-.L267
+	.half	.L306-.L305
 	.byte	1,5,34,9
-	.half	.L269-.L268
+	.half	.L307-.L306
 	.byte	1,5,17,9
-	.half	.L270-.L269
+	.half	.L308-.L307
 	.byte	3,1,1,5,36,9
-	.half	.L271-.L270
+	.half	.L309-.L308
 	.byte	1,5,34,9
-	.half	.L272-.L271
+	.half	.L310-.L309
 	.byte	1,5,13,9
-	.half	.L12-.L272
+	.half	.L12-.L310
 	.byte	3,125,1,5,17,9
 	.half	.L11-.L12
 	.byte	3,6,1,5,54,9
-	.half	.L273-.L11
+	.half	.L311-.L11
 	.byte	1,5,14,9
-	.half	.L274-.L273
+	.half	.L312-.L311
 	.byte	1,5,31,7,9
-	.half	.L275-.L274
+	.half	.L313-.L312
 	.byte	3,1,1,5,13,9
-	.half	.L276-.L275
+	.half	.L314-.L313
 	.byte	1,5,30,9
-	.half	.L277-.L276
+	.half	.L315-.L314
 	.byte	1,5,52,9
-	.half	.L278-.L277
+	.half	.L316-.L315
 	.byte	1,5,50,9
-	.half	.L279-.L278
+	.half	.L317-.L316
 	.byte	1,5,31,9
-	.half	.L280-.L279
+	.half	.L318-.L317
 	.byte	1,5,47,9
-	.half	.L281-.L280
+	.half	.L319-.L318
 	.byte	1,5,50,9
-	.half	.L282-.L281
+	.half	.L320-.L319
 	.byte	1,5,13,9
-	.half	.L14-.L282
+	.half	.L14-.L320
 	.byte	3,3,1,5,30,9
-	.half	.L283-.L14
+	.half	.L321-.L14
 	.byte	1,5,29,9
-	.half	.L284-.L283
+	.half	.L322-.L321
 	.byte	1,5,1,9
-	.half	.L9-.L284
+	.half	.L9-.L322
 	.byte	3,4,1,9
-	.half	.L74-.L9
+	.half	.L76-.L9
 	.byte	0,1,1
-.L250:
+.L288:
 	.sdecl	'.debug_ranges',debug,cluster('BLEIsrHandler')
 	.sect	'.debug_ranges'
-.L73:
-	.word	-1,.L34,0,.L74-.L34,0,0
+.L75:
+	.word	-1,.L36,0,.L76-.L36,0,0
 	.sdecl	'.debug_info',debug,cluster('front_duty')
 	.sect	'.debug_info'
-.L75:
-	.word	220
-	.half	3
-	.word	.L76
-	.byte	4,1
-	.byte	'../Modules/Drive.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L41
-	.byte	3
-	.byte	'front_duty',0,32,29,14
-	.word	.L120
-	.byte	1,5,3
-	.word	front_duty
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('front_duty')
-	.sect	'.debug_abbrev'
-.L76:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('back_duty')
-	.sect	'.debug_info'
 .L77:
-	.word	219
+	.word	220
 	.half	3
 	.word	.L78
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'back_duty',0,32,30,14
-	.word	.L120
+	.byte	'front_duty',0,32,29,14
+	.word	.L134
 	.byte	1,5,3
-	.word	back_duty
+	.word	front_duty
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('back_duty')
+	.sdecl	'.debug_abbrev',debug,cluster('front_duty')
 	.sect	'.debug_abbrev'
 .L78:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('AEB_flag')
+	.sdecl	'.debug_info',debug,cluster('back_duty')
 	.sect	'.debug_info'
 .L79:
-	.word	218
+	.word	219
 	.half	3
 	.word	.L80
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'AEB_flag',0,32,35,5
-	.word	.L88
+	.byte	'back_duty',0,32,30,14
+	.word	.L134
 	.byte	1,5,3
-	.word	AEB_flag
+	.word	back_duty
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('AEB_flag')
+	.sdecl	'.debug_abbrev',debug,cluster('back_duty')
 	.sect	'.debug_abbrev'
 .L80:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('asclin_cmd_buffer')
+	.sdecl	'.debug_info',debug,cluster('AEB_flag')
 	.sect	'.debug_info'
 .L81:
-	.word	227
+	.word	218
 	.half	3
 	.word	.L82
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'asclin_cmd_buffer',0,32,32,15
-	.word	.L121
+	.byte	'AEB_flag',0,32,43,5
+	.word	.L102
 	.byte	1,5,3
-	.word	asclin_cmd_buffer
+	.word	AEB_flag
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('asclin_cmd_buffer')
+	.sdecl	'.debug_abbrev',debug,cluster('AEB_flag')
 	.sect	'.debug_abbrev'
 .L82:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('asclin_cmd_index')
+	.sdecl	'.debug_info',debug,cluster('asclin_cmd_buffer')
 	.sect	'.debug_info'
 .L83:
-	.word	226
+	.word	227
 	.half	3
 	.word	.L84
 	.byte	4,1
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L41
+	.word	.L43
 	.byte	3
-	.byte	'asclin_cmd_index',0,32,33,14
-	.word	.L122
+	.byte	'asclin_cmd_buffer',0,32,32,15
+	.word	.L135
 	.byte	1,5,3
-	.word	asclin_cmd_index
+	.word	asclin_cmd_buffer
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('asclin_cmd_index')
+	.sdecl	'.debug_abbrev',debug,cluster('asclin_cmd_buffer')
 	.sect	'.debug_abbrev'
 .L84:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('asclin_cmd_ready')
+	.sdecl	'.debug_info',debug,cluster('asclin_cmd_index')
 	.sect	'.debug_info'
 .L85:
 	.word	226
@@ -99188,254 +99329,501 @@ AEB_flag:	.type	object
 	.byte	'../Modules/Drive.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L41
+	.word	.L43
+	.byte	3
+	.byte	'asclin_cmd_index',0,32,33,14
+	.word	.L136
+	.byte	1,5,3
+	.word	asclin_cmd_index
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('asclin_cmd_index')
+	.sect	'.debug_abbrev'
+.L86:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('asclin_cmd_ready')
+	.sect	'.debug_info'
+.L87:
+	.word	226
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
 	.byte	3
 	.byte	'asclin_cmd_ready',0,32,34,14
-	.word	.L123
+	.word	.L137
 	.byte	1,5,3
 	.word	asclin_cmd_ready
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('asclin_cmd_ready')
 	.sect	'.debug_abbrev'
-.L86:
+.L88:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Prev_swL')
+	.sect	'.debug_info'
+.L89:
+	.word	217
+	.half	3
+	.word	.L90
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'Prev_swL',0,32,35,12
+	.word	.L102
+	.byte	5,3
+	.word	Prev_swL
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Prev_swL')
+	.sect	'.debug_abbrev'
+.L90:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Prev_swR')
+	.sect	'.debug_info'
+.L91:
+	.word	217
+	.half	3
+	.word	.L92
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'Prev_swR',0,32,36,12
+	.word	.L102
+	.byte	5,3
+	.word	Prev_swR
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Prev_swR')
+	.sect	'.debug_abbrev'
+.L92:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Prev_swH')
+	.sect	'.debug_info'
+.L93:
+	.word	217
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'Prev_swH',0,32,37,12
+	.word	.L102
+	.byte	5,3
+	.word	Prev_swH
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Prev_swH')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Prev_swP')
+	.sect	'.debug_info'
+.L95:
+	.word	217
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'Prev_swP',0,32,38,12
+	.word	.L102
+	.byte	5,3
+	.word	Prev_swP
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Prev_swP')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Prev_swLK')
+	.sect	'.debug_info'
+.L97:
+	.word	218
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'Prev_swLK',0,32,39,12
+	.word	.L102
+	.byte	5,3
+	.word	Prev_swLK
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Prev_swLK')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('CMD_Start')
+	.sect	'.debug_info'
+.L99:
+	.word	218
+	.half	3
+	.word	.L100
+	.byte	4,1
+	.byte	'../Modules/Drive.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\HDAE1_firmware_src\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L43
+	.byte	3
+	.byte	'CMD_Start',0,32,40,12
+	.word	.L102
+	.byte	5,3
+	.word	CMD_Start
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CMD_Start')
+	.sect	'.debug_abbrev'
+.L100:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Asclin1_InUartNonBlock')
 	.sect	'.debug_loc'
-.L29:
-	.word	-1,.L30,0,.L124-.L30
+.L31:
+	.word	-1,.L32,0,.L138-.L32
 	.half	2
 	.byte	138,0
-	.word	.L124-.L30,.L110-.L30
+	.word	.L138-.L32,.L124-.L32
 	.half	2
 	.byte	138,8
-	.word	.L110-.L30,.L110-.L30
+	.word	.L124-.L32,.L124-.L32
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L112:
-	.word	-1,.L30,0,.L110-.L30
+.L126:
+	.word	-1,.L32,0,.L124-.L32
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L113:
-	.word	-1,.L30,.L125-.L30,.L126-.L30
+.L127:
+	.word	-1,.L32,.L139-.L32,.L140-.L32
 	.half	1
 	.byte	82
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Asclin1_PollCMD')
 	.sect	'.debug_loc'
-.L31:
-	.word	-1,.L32,0,.L127-.L32
+.L33:
+	.word	-1,.L34,0,.L141-.L34
 	.half	2
 	.byte	138,0
-	.word	.L127-.L32,.L97-.L32
+	.word	.L141-.L34,.L111-.L34
 	.half	3
 	.byte	138,192,0
-	.word	.L97-.L32,.L97-.L32
+	.word	.L111-.L34,.L111-.L34
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L107:
-	.word	-1,.L32,.L128-.L32,.L129-.L32
+.L121:
+	.word	-1,.L34,.L142-.L34,.L143-.L34
 	.half	1
 	.byte	82
-	.word	.L7-.L32,.L6-.L32
+	.word	.L7-.L34,.L6-.L34
 	.half	1
 	.byte	82
 	.word	0,0
-.L106:
-	.word	-1,.L32,0,.L97-.L32
+.L120:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,124
 	.word	0,0
-.L103:
-	.word	-1,.L32,0,.L97-.L32
+.L117:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,112
 	.word	0,0
-.L101:
-	.word	-1,.L32,0,.L97-.L32
+.L115:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,104
 	.word	0,0
-.L105:
-	.word	-1,.L32,0,.L97-.L32
+.L119:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L104:
-	.word	-1,.L32,0,.L97-.L32
+.L118:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,116
 	.word	0,0
-.L102:
-	.word	-1,.L32,0,.L97-.L32
+.L116:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,108
 	.word	0,0
-.L99:
-	.word	-1,.L32,0,.L97-.L32
+.L113:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,96
 	.word	0,0
-.L100:
-	.word	-1,.L32,0,.L97-.L32
+.L114:
+	.word	-1,.L34,0,.L111-.L34
 	.half	2
 	.byte	145,100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('BLEIsrHandler')
 	.sect	'.debug_loc'
-.L33:
-	.word	-1,.L34,0,.L130-.L34
+.L35:
+	.word	-1,.L36,0,.L144-.L36
 	.half	2
 	.byte	138,0
-	.word	.L130-.L34,.L117-.L34
+	.word	.L144-.L36,.L131-.L36
 	.half	2
 	.byte	138,8
-	.word	.L117-.L34,.L117-.L34
+	.word	.L131-.L36,.L131-.L36
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L119:
-	.word	-1,.L34,0,.L117-.L34
+.L133:
+	.word	-1,.L36,0,.L131-.L36
 	.half	2
 	.byte	145,120
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Control_CMD')
 	.sect	'.debug_loc'
-.L35:
-	.word	-1,.L36,0,.L131-.L36
-	.half	2
-	.byte	138,0
-	.word	.L131-.L36,.L87-.L36
-	.half	2
-	.byte	138,8
-	.word	.L87-.L36,.L87-.L36
+.L37:
+	.word	-1,.L38,0,.L101-.L38
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L96:
-	.word	-1,.L36,0,.L87-.L36
+.L110:
+	.word	-1,.L38,0,.L101-.L38
 	.half	2
 	.byte	145,12
-	.word	0,.L87-.L36
+	.word	0,.L101-.L38
 	.half	2
 	.byte	145,12
-	.word	.L139-.L36,.L87-.L36
+	.word	.L150-.L38,.L145-.L38
 	.half	1
-	.byte	92
+	.byte	83
+	.word	.L18-.L38,.L151-.L38
+	.half	1
+	.byte	83
+	.word	.L20-.L38,.L153-.L38
+	.half	1
+	.byte	83
+	.word	.L22-.L38,.L155-.L38
+	.half	1
+	.byte	83
+	.word	.L24-.L38,.L157-.L38
+	.half	1
+	.byte	83
+	.word	.L28-.L38,.L161-.L38
+	.half	1
+	.byte	83
 	.word	0,0
-.L93:
-	.word	-1,.L36,0,.L87-.L36
+.L107:
+	.word	-1,.L38,0,.L101-.L38
 	.half	2
 	.byte	145,0
-	.word	0,.L87-.L36
+	.word	0,.L101-.L38
 	.half	2
 	.byte	145,0
-	.word	.L135-.L36,.L87-.L36
-	.half	1
-	.byte	90
+	.word	.L147-.L38,.L145-.L38
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L18-.L38,.L151-.L38
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L20-.L38,.L153-.L38
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L22-.L38,.L155-.L38
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L24-.L38,.L157-.L38
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L28-.L38,.L161-.L38
+	.half	5
+	.byte	144,32,157,32,0
 	.word	0,0
-.L91:
-	.word	-1,.L36,0,.L132-.L36
+.L105:
+	.word	-1,.L38,0,.L145-.L38
 	.half	1
 	.byte	86
-	.word	.L140-.L36,.L141-.L36
+	.word	.L18-.L38,.L151-.L38
 	.half	1
-	.byte	88
+	.byte	86
+	.word	.L20-.L38,.L153-.L38
+	.half	1
+	.byte	86
+	.word	.L22-.L38,.L155-.L38
+	.half	1
+	.byte	86
+	.word	.L24-.L38,.L157-.L38
+	.half	1
+	.byte	86
+	.word	.L28-.L38,.L161-.L38
+	.half	1
+	.byte	86
 	.word	0,0
-.L95:
-	.word	-1,.L36,0,.L87-.L36
+.L109:
+	.word	-1,.L38,0,.L101-.L38
 	.half	2
 	.byte	145,8
-	.word	0,.L87-.L36
+	.word	0,.L101-.L38
 	.half	2
 	.byte	145,8
-	.word	.L138-.L36,.L87-.L36
+	.word	.L149-.L38,.L145-.L38
 	.half	1
-	.byte	91
+	.byte	82
+	.word	.L18-.L38,.L151-.L38
+	.half	1
+	.byte	82
+	.word	.L20-.L38,.L153-.L38
+	.half	1
+	.byte	82
+	.word	.L22-.L38,.L155-.L38
+	.half	1
+	.byte	82
+	.word	.L24-.L38,.L157-.L38
+	.half	1
+	.byte	82
+	.word	.L28-.L38,.L161-.L38
+	.half	1
+	.byte	82
 	.word	0,0
-.L94:
-	.word	-1,.L36,0,.L87-.L36
+.L108:
+	.word	-1,.L38,0,.L101-.L38
 	.half	2
 	.byte	145,4
-	.word	0,.L87-.L36
+	.word	0,.L101-.L38
 	.half	2
 	.byte	145,4
-	.word	.L136-.L36,.L137-.L36
+	.word	.L148-.L38,.L145-.L38
 	.half	1
-	.byte	95
+	.byte	81
+	.word	.L18-.L38,.L151-.L38
+	.half	1
+	.byte	81
+	.word	.L20-.L38,.L153-.L38
+	.half	1
+	.byte	81
+	.word	.L22-.L38,.L155-.L38
+	.half	1
+	.byte	81
+	.word	.L24-.L38,.L157-.L38
+	.half	1
+	.byte	81
+	.word	.L28-.L38,.L161-.L38
+	.half	1
+	.byte	81
 	.word	0,0
-.L92:
-	.word	-1,.L36,0,.L132-.L36
+.L106:
+	.word	-1,.L38,0,.L145-.L38
 	.half	1
 	.byte	87
-	.word	.L16-.L36,.L142-.L36
+	.word	.L18-.L38,.L151-.L38
 	.half	1
-	.byte	89
+	.byte	87
+	.word	.L20-.L38,.L153-.L38
+	.half	1
+	.byte	87
+	.word	.L22-.L38,.L155-.L38
+	.half	1
+	.byte	87
+	.word	.L24-.L38,.L157-.L38
+	.half	1
+	.byte	87
+	.word	.L28-.L38,.L161-.L38
+	.half	1
+	.byte	87
 	.word	0,0
-.L89:
-	.word	-1,.L36,0,.L132-.L36
+.L103:
+	.word	-1,.L38,0,.L145-.L38
 	.half	1
 	.byte	84
-	.word	.L133-.L36,.L87-.L36
-	.half	1
-	.byte	93
-	.word	.L143-.L36,.L144-.L36
+	.word	.L18-.L38,.L152-.L38
 	.half	1
 	.byte	84
-	.word	.L147-.L36,.L148-.L36
+	.word	.L20-.L38,.L154-.L38
+	.half	1
+	.byte	84
+	.word	.L22-.L38,.L156-.L38
+	.half	1
+	.byte	84
+	.word	.L24-.L38,.L157-.L38
+	.half	1
+	.byte	84
+	.word	.L28-.L38,.L161-.L38
 	.half	1
 	.byte	84
 	.word	0,0
-.L90:
-	.word	-1,.L36,0,.L132-.L36
+.L104:
+	.word	-1,.L38,0,.L145-.L38
 	.half	1
 	.byte	85
-	.word	.L134-.L36,.L87-.L36
+	.word	.L146-.L38,.L101-.L38
 	.half	1
-	.byte	94
-	.word	.L145-.L36,.L146-.L36
+	.byte	88
+	.word	.L18-.L38,.L151-.L38
+	.half	1
+	.byte	85
+	.word	.L20-.L38,.L153-.L38
+	.half	1
+	.byte	85
+	.word	.L22-.L38,.L155-.L38
+	.half	1
+	.byte	85
+	.word	.L24-.L38,.L158-.L38
+	.half	1
+	.byte	85
+	.word	.L159-.L38,.L160-.L38
 	.half	1
 	.byte	84
-	.word	.L149-.L36,.L17-.L36
+	.word	.L28-.L38,.L162-.L38
+	.half	1
+	.byte	85
+	.word	.L163-.L38,.L17-.L38
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_All_Mov')
 	.sect	'.debug_loc'
-.L39:
-	.word	-1,.L40,0,.L114-.L40
+.L41:
+	.word	-1,.L42,0,.L128-.L42
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L116:
-	.word	-1,.L40,0,.L150-.L40
+.L130:
+	.word	-1,.L42,0,.L164-.L42
 	.half	1
 	.byte	85
-	.word	.L152-.L40,.L114-.L40
+	.word	.L166-.L42,.L128-.L42
 	.half	1
 	.byte	88
 	.word	0,0
-.L115:
-	.word	-1,.L40,0,.L150-.L40
+.L129:
+	.word	-1,.L42,0,.L164-.L42
 	.half	1
 	.byte	84
-	.word	.L151-.L40,.L114-.L40
+	.word	.L165-.L42,.L128-.L42
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_All_Stop')
 	.sect	'.debug_loc'
-.L37:
-	.word	-1,.L38,0,.L108-.L38
+.L39:
+	.word	-1,.L40,0,.L122-.L40
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L285:
+.L323:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -99443,45 +99831,40 @@ AEB_flag:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Asclin1_InUartNonBlock')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L285,.L30,.L110-.L30
+	.word	.L323,.L32,.L124-.L32
 	.byte	4
-	.word	(.L124-.L30)/2
+	.word	(.L138-.L32)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L110-.L124)/2
+	.word	(.L124-.L138)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('Asclin1_PollCMD')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L285,.L32,.L97-.L32
+	.word	.L323,.L34,.L111-.L34
 	.byte	4
-	.word	(.L127-.L32)/2
+	.word	(.L141-.L34)/2
 	.byte	19,192,0,22,26,4,19,138,192,0,4
-	.word	(.L97-.L127)/2
+	.word	(.L111-.L141)/2
 	.byte	19,0,8,26
 	.sdecl	'.debug_frame',debug,cluster('BLEIsrHandler')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L285,.L34,.L117-.L34
+	.word	.L323,.L36,.L131-.L36
 	.byte	4
-	.word	(.L130-.L34)/2
+	.word	(.L144-.L36)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L117-.L130)/2
+	.word	(.L131-.L144)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('Control_CMD')
 	.sect	'.debug_frame'
-	.word	36
-	.word	.L285,.L36,.L87-.L36
-	.byte	4
-	.word	(.L131-.L36)/2
-	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L87-.L131)/2
-	.byte	19,0,8,26,0,0
+	.word	12
+	.word	.L323,.L38,.L101-.L38
 	.sdecl	'.debug_frame',debug,cluster('Motor_All_Stop')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L285,.L38,.L108-.L38
+	.word	.L323,.L40,.L122-.L40
 	.sdecl	'.debug_frame',debug,cluster('Motor_All_Mov')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L285,.L40,.L114-.L40
+	.word	.L323,.L42,.L128-.L42
 	; Module end

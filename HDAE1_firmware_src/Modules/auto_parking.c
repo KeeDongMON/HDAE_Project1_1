@@ -35,7 +35,7 @@ volatile ParkingState parking_state = PARKING_STATE_SEARCHING;
 // 주차 공간 폭 측정 관련 변수
 uint64 space_measure_start_us = 0; // 시작 시간을 us 단위로 저장
 volatile uint32_t count_enc = 0;
-
+int width_enc = 0;
 
 void Parking_Init()
 {
@@ -96,7 +96,7 @@ static inline float safe_read_left(void)
 void calc_parking_distance (void)
 {
     parking_state = PARKING_STATE_SEARCHING;
-    while(parking_state!=PARKING_STATE_FINISH){
+    while(parking_state != PARKING_STATE_FINISH){
         switch (parking_state)
            {
                //자리 찾으러 가기
@@ -113,8 +113,9 @@ void calc_parking_distance (void)
                    //찾는중
                    else
                    {
-                       my_printf("Searching... Distance = %.2f cm\n", safe_read_left());
+                       //my_printf("Searching... Distance = %.2f cm\n", safe_read_left());
                    }
+                   //delay_ms(200);
                    break;
                    //거리 측정 중
                case PARKING_STATE_MEASURING :
@@ -123,16 +124,26 @@ void calc_parking_distance (void)
                    {
                        Disable_Enc_Interrupt();
 
-                       float32 parking_width_cm = ((float32) count_enc * WHEEL_CIRCUM) / (ENC_DISK*4);
+                       float32 parking_width_cm = ((float32) count_enc * WHEEL_CIRCUM) / (ENC_DISK);
                        my_printf("Measurement complete! Distance = %.2f cm, Parking space width: %.2f cm\n", safe_read_left(),
                                parking_width_cm);
-
                        if (parking_width_cm > END_THRESHOLD_CM)
                        {
-                           Motor_movChB_PWM(50, 0);
+                           width_enc = count_enc;
+                           count_enc = 0;
+
+                           Enable_Enc_Interrupt();
+                        while (count_enc < width_enc - LENGTH_HALF_ENC)
+                        {
+                            Motor_movChA_PWM(75, 0); /* ChA = 왼쪽 휠 */
+                            Motor_movChB_PWM(75, 0); /* ChB = 오른쪽 휠 */
+                        }
+
+
+                           Motor_movChB_PWM(125, 0);
                            Motor_movChA_PWM(0,1);
 
-                           delay_ms(1000);
+                           delay_ms(750);
 
                            Motor_movChB_PWM(0,1);
                            // 후진, 회전, 주차 함수 짜면 추가하기
@@ -147,19 +158,25 @@ void calc_parking_distance (void)
                    }
                    else
                    {
-                       my_printf("Still measuring... Distance = %.2f cm\n", safe_read_left());
+                       //my_printf("Still measuring... Distance = %.2f cm\n", safe_read_left());
                    }
                    break;
                case PARKING_STATE_PARKING :
+                   Ultrabuzzer(rear_distance); //후면 기준 부저 알림
                    //set_buzzer(rear_distance);
                    my_printf("start go back\n");
-                   Motor_movChA_PWM(30, 0); /* ChA = 왼쪽 휠 */
-                   Motor_movChB_PWM(30, 0); /* ChB = 오른쪽 휠 */
+                   Motor_movChA_PWM(75, 0); /* ChA = 왼쪽 휠 */
+                   Motor_movChB_PWM(75, 0); /* ChB = 오른쪽 휠 */
                    my_printf("rear: %.2f\n",rear_distance);
-                   if (rear_distance < 25.0f) /* 너무 가까우면 즉시 정지 */
+                   if (rear_distance < 15.0f) /* 너무 가까우면 즉시 정지 */
                    {
                        Motor_stopChA();
                        Motor_stopChB();
+                       setBeepCycle(1);
+                       //불 키기
+                       delay_ms(2000);
+                       setBeepCycle(0);
+                       //불 끄기
                        parking_state = PARKING_STATE_FINISH;
                    }
                    break;
