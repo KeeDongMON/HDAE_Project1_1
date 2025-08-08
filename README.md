@@ -56,6 +56,7 @@
 ## SW Architecture
 ### SW Structure
 <img width="909" height="282" alt="image" src="https://github.com/user-attachments/assets/8702eda1-40b0-4da4-bb35-081e4fa26bae" />
+<img width="687" height="334" alt="image" src="https://github.com/user-attachments/assets/0ac4349c-70eb-47a2-a633-847e904e6932" />
 
 <br>
 
@@ -74,9 +75,13 @@
 
 <br><br><br>
 
-## HW Architecture
+## CAN Architecture
 ### CAN BUS
 <img width="476" height="299" alt="image" src="https://github.com/user-attachments/assets/607a7689-0e6f-4ab1-abf8-ddd09594fd56" />
+
+<br>
+
+<img width="470" height="298" alt="image" src="https://github.com/user-attachments/assets/83c81907-6698-4100-885b-7c0d1b9af16f" />
 
 <br>
 
