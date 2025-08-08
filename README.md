@@ -55,17 +55,17 @@
 
 ## SW Architecture
 ### SW Structure
-<img width="909" height="282" alt="image" src="https://github.com/user-attachments/assets/8702eda1-40b0-4da4-bb35-081e4fa26bae" />
 <img width="687" height="334" alt="image" src="https://github.com/user-attachments/assets/0ac4349c-70eb-47a2-a633-847e904e6932" />
+<img width="909" height="282" alt="image" src="https://github.com/user-attachments/assets/8702eda1-40b0-4da4-bb35-081e4fa26bae" />
 
 <br>
 
-### SW Architecture Design - 주행 모드
+### SW Architecture Design
+<img width="480" height="500" alt="image" src="https://github.com/user-attachments/assets/8a088114-55f5-407a-a4f4-260b00888048" />
+
+<br>
+
 <img width="912" height="409" alt="image" src="https://github.com/user-attachments/assets/111c371b-372d-405c-ae62-6e92c5f7933c" />
-
-<br>
-
-### SW Architecture Design - 주차 모드
 <img width="805" height="399" alt="image" src="https://github.com/user-attachments/assets/da327a26-f430-4489-83ac-0bf17010dfcc" />
 
 <br>
