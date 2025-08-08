@@ -17,7 +17,7 @@
     <td align="center"><a href="https://github.com/"><sub><b>유원규</b></td>
     <td align="center"><a href="https://github.com/"><sub><b>김종훈</b></td>
     <td align="center"><a href="https://github.com/"><sub><b>심동현</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>नमस्ते योन</b></td>
+    <td align="center"><a href="https://github.com/"><sub><b>기동언언</b></td>
     <td align="center"><a href="https://github.com/"><sub><b>권태희</b></td>
   </tr>
 
