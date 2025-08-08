@@ -45,12 +45,13 @@
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D.svg?style=for-the-badge&logo=confluence&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+<br><br>
 
 ## ✔️ 주요 기능
 
 <img width="1029" height="493" alt="image" src="https://github.com/user-attachments/assets/97d5110d-aeaf-432e-9e5b-b64f18388b27" />
 
-<br>
+<br><br>
 
 
 ## SW Architecture
@@ -72,6 +73,8 @@
 
 ### CAN FRAME
 <img width="650" height="346" alt="image" src="https://github.com/user-attachments/assets/988cd66e-6570-43aa-9bb2-ba7f9f4ed839" />
+
+<br><br>
 
 ## 🤙🏻 commit 컨벤션
 
