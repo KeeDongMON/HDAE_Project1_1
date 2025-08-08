@@ -23,7 +23,7 @@
 
 </table>
 
-<br><br>
+<br><br><br>
 
 ## 🛠 Stack
 
@@ -50,7 +50,7 @@
 
 <img width="1029" height="493" alt="image" src="https://github.com/user-attachments/assets/97d5110d-aeaf-432e-9e5b-b64f18388b27" />
 
-<br><br>
+<br><br><br>
 
 
 ## SW Architecture
@@ -74,7 +74,7 @@
 <img width="652" height="294" alt="image" src="https://github.com/user-attachments/assets/d2113149-daea-4130-b9d2-c759bd8f92c5" />
 
 
-<br><br>
+<br><br><br>
 
 ## 🤙🏻 commit 컨벤션
 
