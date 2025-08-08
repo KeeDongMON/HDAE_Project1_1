@@ -72,7 +72,8 @@
 <img width="476" height="299" alt="image" src="https://github.com/user-attachments/assets/607a7689-0e6f-4ab1-abf8-ddd09594fd56" />
 
 ### CAN FRAME
-<img width="650" height="346" alt="image" src="https://github.com/user-attachments/assets/988cd66e-6570-43aa-9bb2-ba7f9f4ed839" />
+<img width="652" height="294" alt="image" src="https://github.com/user-attachments/assets/d2113149-daea-4130-b9d2-c759bd8f92c5" />
+
 
 <br><br>
 
