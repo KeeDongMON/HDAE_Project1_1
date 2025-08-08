@@ -1,0 +1,4 @@
+g++ main.cpp can.cpp color.cpp draw.cpp lane_detect.cpp -o main     `pkg-config --cflags --libs opencv4`     -std=c++17
+sudo ip link set can0 down
+sudo ip link set can0 type can bitrate 500000
+sudo ip link set can0 up
