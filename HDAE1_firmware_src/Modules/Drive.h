@@ -49,7 +49,7 @@ extern unsigned int back_duty;
 extern int AEB_flag;
 extern int Car_dir;
 extern int LED_flag;
-
+extern int LKAS_flag;
 extern void Control_CMD(int x, int y, int swL, int swR, int swH, int swP, int swLK, int left_dir, int right_dir);
 
 extern void Asclin1_PollCMD(void);

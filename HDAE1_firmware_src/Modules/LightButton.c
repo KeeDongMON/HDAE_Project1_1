@@ -5,9 +5,9 @@
 
 int ledCnt = 0;
 int ledOnOff = 0;
-static volatile int leftTurn = 0; // 임시 수신한 좌지시등
-static volatile int rightTurn = 0; // 임시 수신한 우지시등
-static volatile int HazzardLight = 0; // 임시 수신한 비상깜빡이
+volatile int leftTurn = 0; // 임시 수신한 좌지시등
+volatile int rightTurn = 0; // 임시 수신한 우지시등
+volatile int HazzardLight = 0; // 임시 수신한 비상깜빡이
 
 // 우선순위 타이머가 buzzer와 겹치기에 버저용 GPT1T3이 아닌, 비어있는 GPT2T6을 사용함.
 

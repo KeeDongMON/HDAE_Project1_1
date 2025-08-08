@@ -43,7 +43,7 @@ static int CMD_Start = 0;
 int AEB_flag = 0;
 int VEL_flag = 1;
 int LED_flag = 0;
-
+int LKAS_flag = 0;
 int Car_dir = 1;
 
 char Asclin1_InUartNonBlock(void)
@@ -140,24 +140,31 @@ void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, in
        my_printf("Left Light ON!\n");
    }
    else if (swLK != Prev_swLK){
-
+       LKAS_flag ^=1;
+       if(LKAS_flag==0){
+           setBeepCycle(0);
+       }
+       my_printf("LKAS ON!\n");
    }
     else
     {
         // Backward
         if (left_dir == 0 && right_dir == 0)
         {
+            VEL_flag = 0;
             Motor_movChA_PWM(x, 0);
             Motor_movChB_PWM(y, 0);
         }
         else if (left_dir == 0 && right_dir == 1)
         {
+            VEL_flag = 0;
             Motor_movChA_PWM(x, 0);
             Motor_movChB_PWM(y, 1);
         }
 
         else if (left_dir == 1 && right_dir == 0)
         {
+            VEL_flag = 0;
             Motor_movChA_PWM(x, 1);
             Motor_movChB_PWM(y, 0);
         }
@@ -166,6 +173,7 @@ void Control_CMD (int x, int y, int swL, int swR, int swH, int swP, int swLK, in
         {
             if (!AEB_flag)
             {
+                VEL_flag = 1;
                 Motor_movChA_PWM(x, 1);
                 Motor_movChB_PWM(y, 1);
             }

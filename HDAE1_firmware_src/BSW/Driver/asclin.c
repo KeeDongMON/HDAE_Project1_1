@@ -10,13 +10,13 @@
 #include <string.h>
 #include "GPIO.h"
 
-IFX_INTERRUPT(Asclin0RxIsrHandler, 0, ISR_PRIORITY_ASCLIN0_RX);
+/*IFX_INTERRUPT(Asclin0RxIsrHandler, 0, ISR_PRIORITY_ASCLIN0_RX);
 void Asclin0RxIsrHandler(void)
 {
     __enable();
     char c = Asclin0_InUart();
     Asclin0_OutUart(c);
-}
+}*/
 
 void Asclin0_InitUart(void)
 {

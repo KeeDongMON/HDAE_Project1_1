@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc32692a --dep-file=auto_parking.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/auto_parking.src ../Modules/auto_parking.c"
+	.compiler_invocation	"ctc -f cc8868a --dep-file=auto_parking.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/auto_parking.src ../Modules/auto_parking.c"
 	.compiler_name		"ctc"
 	;source	'../Modules/auto_parking.c'
 
@@ -13,186 +13,186 @@ $TC162
 	
 	.global	Parking_Init
 ; Function Parking_Init
-.L39:
+.L43:
 Parking_Init:	.type	func
 	movh.a	a15,#61443
-.L132:
+.L140:
 	lea	a15,[a15]@los(0xf00362a8)
-.L164:
+.L174:
 	ld.w	d15,[a15]
 	extr.u	d15,d15,#2,#14
-.L134:
+.L142:
 	xor	d1,d15,#63
-.L135:
+.L143:
 	j	.L2
 .L2:
 	movh.a	a15,#61443
-.L133:
+.L141:
 	ld.w	d15,[a15]@los(0xf00362a8)
-.L165:
+.L175:
 	jz.t	d15:1,.L3
-.L166:
+.L176:
 	sha	d15,d1,#2
 	or	d15,#1
-.L167:
+.L177:
 	movh.a	a15,#61443
 	ld.w	d0,[a15]@los(0xf00362a8)
 	extr.u	d0,d0,#16,#16
-.L168:
+.L178:
 	sha	d0,d0,#16
-.L169:
+.L179:
 	or	d15,d0
-.L170:
+.L180:
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf00362a8),d15
 .L3:
 	sha	d15,d1,#2
 	or	d15,#2
-.L171:
+.L181:
 	movh.a	a15,#61443
 	ld.w	d0,[a15]@los(0xf00362a8)
 	extr.u	d0,d0,#16,#16
-.L172:
+.L182:
 	sha	d0,d0,#16
-.L173:
+.L183:
 	or	d15,d0
-.L174:
+.L184:
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf00362a8),d15
-.L175:
+.L185:
 	j	.L4
 .L5:
 .L4:
 	movh.a	a15,#61443
 	ld.w	d15,[a15]@los(0xf00362a8)
 	and	d15,#1
-.L176:
+.L186:
 	jeq	d15,#1,.L5
-.L78:
+.L84:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003af18)
-.L177:
+.L187:
 	insert	d15,d15,#2,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003af18),d15
-.L178:
+.L188:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003621a)
-.L179:
+.L189:
 	insert	d15,d15,#0,#4,#3
 	movh.a	a15,#61443
 	st.b	[a15]@los(0xf003621a),d15
-.L180:
+.L190:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003621b)
-.L181:
+.L191:
 	insert	d15,d15,#0,#1,#1
 	movh.a	a15,#61443
 	st.b	[a15]@los(0xf003621b),d15
-.L182:
+.L192:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003621b)
-.L183:
+.L193:
 	or	d15,#1
 	movh.a	a15,#61443
 	st.b	[a15]@los(0xf003621b),d15
-.L184:
+.L194:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003621b)
-.L185:
+.L195:
 	or	d15,#8
 	movh.a	a15,#61443
 	st.b	[a15]@los(0xf003621b),d15
-.L186:
+.L196:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003621b)
-.L187:
+.L197:
 	insert	d15,d15,#0,#4,#3
 	movh.a	a15,#61443
 	st.b	[a15]@los(0xf003621b),d15
-.L188:
+.L198:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003622d)
-.L189:
+.L199:
 	insert	d15,d15,#1,#6,#2
 	movh.a	a15,#61443
 	st.b	[a15]@los(0xf003622d),d15
-.L82:
+.L88:
 	movh.a	a15,#61444
-.L137:
+.L145:
 	lea	a15,[a15]@los(0xf0038880)
-.L190:
+.L200:
 	ld.bu	d0,[a15]
-.L191:
+.L201:
 	mov	d15,#52
-.L192:
+.L202:
 	insert	d15,d0,d15,#0,#8
 	st.b	[a15],d15
-.L193:
+.L203:
 	ld.bu	d15,[a15]1
-.L194:
+.L204:
 	insert	d15,d15,#0,#3,#3
 	st.b	[a15]1,d15
-.L195:
+.L205:
 	ld.bu	d15,[a15]3
-.L196:
+.L206:
 	or	d15,#2
 	st.b	[a15]3,d15
-.L197:
+.L207:
 	ld.bu	d15,[a15]1
-.L198:
+.L208:
 	insert	d15,d15,#0,#2,#1
 	st.b	[a15]1,d15
-.L86:
+.L92:
 	movh.a	a15,#61443
-.L138:
+.L146:
 	ld.w	d15,[a15]@los(0xf00362a8)
-.L199:
+.L209:
 	jz.t	d15:1,.L6
-.L200:
+.L210:
 	sha	d15,d1,#2
 	or	d15,#1
-.L201:
+.L211:
 	movh.a	a15,#61443
 	ld.w	d0,[a15]@los(0xf00362a8)
 	extr.u	d0,d0,#16,#16
-.L202:
+.L212:
 	sha	d0,d0,#16
-.L203:
+.L213:
 	or	d15,d0
-.L204:
+.L214:
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf00362a8),d15
 .L6:
 	sha	d1,#2
-.L136:
+.L144:
 	or	d15,d1,#3
-.L205:
+.L215:
 	movh.a	a15,#61443
 	ld.w	d0,[a15]@los(0xf00362a8)
 	extr.u	d0,d0,#16,#16
-.L206:
+.L216:
 	sha	d0,d0,#16
-.L207:
+.L217:
 	or	d15,d0
-.L208:
+.L218:
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf00362a8),d15
-.L209:
+.L219:
 	j	.L7
 .L8:
 .L7:
 	movh.a	a15,#61443
 	ld.w	d15,[a15]@los(0xf00362a8)
-.L210:
+.L220:
 	jz.t	d15:0,.L8
-.L87:
+.L93:
 	ret
-.L69:
+.L75:
 	
 __Parking_Init_function_end:
 	.size	Parking_Init,__Parking_Init_function_end-Parking_Init
-.L52:
+.L56:
 	; End of function
 	
 	.sdecl	'.text.auto_parking.calc_parking_distance',code,cluster('calc_parking_distance')
@@ -201,39 +201,53 @@ __Parking_Init_function_end:
 	
 	.global	calc_parking_distance
 ; Function calc_parking_distance
-.L41:
+.L45:
 calc_parking_distance:	.type	func
 	sub.a	a10,#8
-.L139:
+.L147:
 	movh.a	a15,#@his(parking_state)
 	lea	a15,[a15]@los(parking_state)
-.L215:
+.L225:
 	mov	d15,#0
-.L216:
+.L226:
 	st.b	[a15],d15
-.L217:
+.L227:
 	movh.a	a15,#@his(VEL_flag)
 	lea	a15,[a15]@los(VEL_flag)
-.L218:
+.L228:
 	mov	d15,#0
-.L219:
+.L229:
 	st.w	[a15],d15
-.L220:
+.L230:
 	j	.L9
 .L10:
+	movh.a	a15,#@his(leftTurn)
+	lea	a15,[a15]@los(leftTurn)
+.L231:
+	mov	d15,#1
+.L232:
+	st.w	[a15],d15
+.L233:
+	movh.a	a15,#@his(rightTurn)
+	lea	a15,[a15]@los(rightTurn)
+.L234:
+	mov	d15,#1
+.L235:
+	st.w	[a15],d15
+.L236:
 	movh.a	a15,#@his(parking_state)
 	lea	a15,[a15]@los(parking_state)
 	ld.bu	d0,[a15]
-.L221:
+.L237:
 	mov	d15,#0
 	jeq	d15,d0,.L11
-.L222:
+.L238:
 	mov	d15,#1
 	jeq	d15,d0,.L12
-.L223:
+.L239:
 	mov	d15,#2
 	jeq	d15,d0,.L13
-.L224:
+.L240:
 	mov	d15,#3
 	jeq	d15,d0,.L14
 	j	.L15
@@ -244,360 +258,415 @@ calc_parking_distance:	.type	func
 	movh.a	a4,#@his(distLock)
 	lea	a4,[a4]@los(distLock)
 	call	IfxCpu_acquireMutex
-.L225:
-	jeq	d2,#0,.L17
-.L226:
-	movh.a	a15,#@his(left_distance)
-	lea	a15,[a15]@los(left_distance)
-	mov.d	d15,a15
-	insert	d15,d15,#0,#0,#5
-	mov.a	a15,d15
-	cachea.i	[a15]0
-.L227:
-	dsync
-.L228:
-	movh.a	a15,#@his(left_distance)
-	lea	a15,[a15]@los(left_distance)
-	ld.w	d8,[a15]
-.L140:
-	isync
-.L229:
-	movh.a	a4,#@his(distLock)
-	lea	a4,[a4]@los(distLock)
-	call	IfxCpu_releaseMutex
-.L230:
-	j	.L18
-.L18:
-	movh	d15,#16880
-.L97:
-	cmp.f	d15,d8,d15
-.L98:
-	extr.u	d15,d15,#2,#1
-.L231:
-	jeq	d15,#0,.L19
-.L232:
-	movh.a	a15,#@his(parking_state)
-	lea	a15,[a15]@los(parking_state)
-.L233:
-	mov	d15,#1
-.L234:
-	st.b	[a15],d15
-.L99:
-	st.w	[a10],d8
-.L100:
-	movh.a	a4,#@his(.2.str)
-	lea	a4,[a4]@los(.2.str)
-	call	my_printf
-.L235:
-	movh.a	a15,#@his(count_enc)
-	lea	a15,[a15]@los(count_enc)
-.L236:
-	mov	d15,#0
-.L237:
-	st.w	[a15],d15
-.L103:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf0038881)
-.L238:
-	or	d15,#4
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf0038881),d15
-.L104:
-	j	.L20
-.L19:
-.L20:
-	j	.L21
-.L12:
-	j	.L22
-.L23:
-.L22:
-	movh.a	a4,#@his(distLock)
-	lea	a4,[a4]@los(distLock)
-	call	IfxCpu_acquireMutex
-.L239:
-	jeq	d2,#0,.L23
-.L240:
-	movh.a	a15,#@his(left_distance)
-	lea	a15,[a15]@los(left_distance)
-	mov.d	d15,a15
-	insert	d15,d15,#0,#0,#5
-	mov.a	a15,d15
-	cachea.i	[a15]0
 .L241:
-	dsync
+	jeq	d2,#0,.L17
 .L242:
 	movh.a	a15,#@his(left_distance)
 	lea	a15,[a15]@los(left_distance)
-	ld.w	d8,[a15]
-.L141:
-	isync
+	mov.d	d15,a15
+	insert	d15,d15,#0,#0,#5
+	mov.a	a15,d15
+	cachea.i	[a15]0
 .L243:
+	dsync
+.L244:
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	ld.w	d8,[a15]
+.L148:
+	isync
+.L245:
 	movh.a	a4,#@his(distLock)
 	lea	a4,[a4]@los(distLock)
 	call	IfxCpu_releaseMutex
-.L244:
-	j	.L24
-.L24:
-	movh	d15,#16840
-.L108:
-	cmp.f	d15,d8,d15
-.L109:
-	extr.u	d15,d15,#0,#1
-.L245:
-	jeq	d15,#0,.L25
-.L112:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf0038881)
 .L246:
-	insert	d15,d15,#0,#2,#1
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf0038881),d15
-.L113:
-	movh.a	a15,#@his(count_enc)
-	lea	a15,[a15]@los(count_enc)
-	ld.w	d15,[a15]
-.L247:
-	utof	d15,d15
-.L248:
-	mov	d0,#23593
-	addih	d0,d0,#16803
-.L249:
-	mul.f	d15,d15,d0
-.L250:
-	movh	d0,#17056
-.L251:
-	div.f	d15,d15,d0
-.L142:
-	st.w	[a10],d8
-.L252:
-	st.w	[a10]4,d15
-.L253:
-	movh.a	a4,#@his(.3.str)
-	lea	a4,[a4]@los(.3.str)
-	call	my_printf
-.L254:
-	movh	d0,#16840
-.L255:
-	cmp.f	d15,d15,d0
-.L143:
+	j	.L18
+.L18:
+	movh	d15,#16968
+.L103:
+	cmp.f	d15,d8,d15
+.L104:
 	extr.u	d15,d15,#2,#1
-.L256:
-	jeq	d15,#0,.L26
-.L257:
-	movh.a	a15,#@his(width_enc)
-	lea	a15,[a15]@los(width_enc)
-.L258:
-	movh.a	a2,#@his(count_enc)
-	lea	a2,[a2]@los(count_enc)
-	ld.w	d15,[a2]
-.L259:
-	st.w	[a15],d15
-.L260:
+.L247:
+	jeq	d15,#0,.L19
+.L248:
+	movh.a	a15,#@his(parking_state)
+	lea	a15,[a15]@los(parking_state)
+.L249:
+	mov	d15,#1
+.L250:
+	st.b	[a15],d15
+.L105:
+	st.w	[a10],d8
+.L106:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	call	my_printf
+.L251:
 	movh.a	a15,#@his(count_enc)
 	lea	a15,[a15]@los(count_enc)
-.L261:
+.L252:
 	mov	d15,#0
-.L262:
+.L253:
 	st.w	[a15],d15
-.L116:
+.L109:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf0038881)
-.L263:
+.L254:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf0038881),d15
-.L117:
-	j	.L27
-.L28:
-	mov	d4,#75
+.L110:
+	j	.L20
+.L19:
+	j	.L21
+.L22:
+.L21:
+	movh.a	a4,#@his(distLock)
+	lea	a4,[a4]@los(distLock)
+	call	IfxCpu_acquireMutex
+.L255:
+	jeq	d2,#0,.L22
+.L256:
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	mov.d	d15,a15
+	insert	d15,d15,#0,#0,#5
+	mov.a	a15,d15
+	cachea.i	[a15]0
+.L257:
+	dsync
+.L258:
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	ld.w	d15,[a15]
+.L149:
+	isync
+.L259:
+	movh.a	a4,#@his(distLock)
+	lea	a4,[a4]@los(distLock)
+	call	IfxCpu_releaseMutex
+.L260:
+	j	.L23
+.L23:
+	st.w	[a10],d15
+.L112:
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
+	call	my_printf
+.L20:
+	j	.L24
+.L12:
+	j	.L25
+.L26:
+.L25:
+	movh.a	a4,#@his(distLock)
+	lea	a4,[a4]@los(distLock)
+	call	IfxCpu_acquireMutex
+.L261:
+	jeq	d2,#0,.L26
+.L262:
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	mov.d	d15,a15
+	insert	d15,d15,#0,#0,#5
+	mov.a	a15,d15
+	cachea.i	[a15]0
+.L263:
+	dsync
 .L264:
-	mov	d5,#0
-	call	Motor_movChA_PWM
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	ld.w	d8,[a15]
+.L150:
+	isync
 .L265:
-	mov	d4,#75
+	movh.a	a4,#@his(distLock)
+	lea	a4,[a4]@los(distLock)
+	call	IfxCpu_releaseMutex
 .L266:
-	mov	d5,#0
-	call	Motor_movChB_PWM
+	j	.L27
 .L27:
+	movh	d15,#16840
+.L116:
+	cmp.f	d15,d8,d15
+.L117:
+	extr.u	d15,d15,#0,#1
+.L267:
+	jeq	d15,#0,.L28
+.L120:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf0038881)
+.L268:
+	insert	d15,d15,#0,#2,#1
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf0038881),d15
+.L121:
 	movh.a	a15,#@his(count_enc)
 	lea	a15,[a15]@los(count_enc)
 	ld.w	d15,[a15]
-.L267:
-	movh.a	a15,#@his(width_enc)
-	lea	a15,[a15]@los(width_enc)
-	ld.w	d0,[a15]
-.L268:
-	add	d0,d0,#-38
 .L269:
-	jlt.u	d15,d0,.L28
+	utof	d15,d15
 .L270:
-	mov	d4,#125
+	mov	d0,#23593
+	addih	d0,d0,#16803
 .L271:
-	mov	d5,#0
-	call	Motor_movChB_PWM
+	mul.f	d15,d15,d0
 .L272:
-	mov	d4,#0
+	movh	d0,#17056
 .L273:
-	mov	d5,#1
-	call	Motor_movChA_PWM
+	div.f	d15,d15,d0
+.L151:
+	st.w	[a10],d8
 .L274:
-	mov	d4,#750
-	call	delay_ms
+	st.w	[a10]4,d15
 .L275:
-	mov	d4,#0
-.L276:
-	mov	d5,#1
-	call	Motor_movChB_PWM
-.L277:
-	movh.a	a15,#@his(parking_state)
-	lea	a15,[a15]@los(parking_state)
-.L278:
-	mov	d15,#2
-.L279:
-	st.b	[a15],d15
-.L280:
-	j	.L29
-.L26:
 	movh.a	a4,#@his(.4.str)
 	lea	a4,[a4]@los(.4.str)
 	call	my_printf
-.L281:
+.L276:
+	movh	d0,#16880
+.L277:
+	cmp.f	d15,d15,d0
+.L152:
+	jnz.t	d15:2,.L29
+.L278:
+	movh.a	a4,#@his(.5.str)
+	lea	a4,[a4]@los(.5.str)
+	call	my_printf
+.L279:
 	movh.a	a15,#@his(parking_state)
 	lea	a15,[a15]@los(parking_state)
-.L282:
+.L280:
 	mov	d15,#0
-.L283:
+.L281:
 	st.b	[a15],d15
-.L29:
+.L282:
 	j	.L30
-.L25:
+.L29:
+	mov	d4,#75
+.L283:
+	mov	d5,#0
+	call	Motor_movChA_PWM
+.L284:
+	mov	d4,#75
+.L285:
+	mov	d5,#0
+	call	Motor_movChB_PWM
+.L286:
+	mov	d4,#730
+	call	delay_ms
+.L287:
+	mov	d4,#150
+.L288:
+	mov	d5,#0
+	call	Motor_movChB_PWM
+.L289:
+	mov	d4,#0
+.L290:
+	mov	d5,#1
+	call	Motor_movChA_PWM
+.L291:
+	mov	d4,#1050
+	call	delay_ms
+.L292:
+	mov	d4,#0
+.L293:
+	mov	d5,#1
+	call	Motor_movChB_PWM
+.L294:
+	movh.a	a15,#@his(parking_state)
+	lea	a15,[a15]@los(parking_state)
+.L295:
+	mov	d15,#2
+.L296:
+	st.b	[a15],d15
+.L297:
+	movh.a	a15,#@his(parking_v)
+	lea	a15,[a15]@los(parking_v)
+.L298:
+	movh	d15,#17046
+.L299:
+	st.w	[a15],d15
 .L30:
 	j	.L31
-.L13:
+.L28:
 	j	.L32
 .L33:
 .L32:
 	movh.a	a4,#@his(distLock)
 	lea	a4,[a4]@los(distLock)
 	call	IfxCpu_acquireMutex
-.L284:
+.L300:
 	jeq	d2,#0,.L33
-.L285:
+.L301:
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	mov.d	d15,a15
+	insert	d15,d15,#0,#0,#5
+	mov.a	a15,d15
+	cachea.i	[a15]0
+.L302:
+	dsync
+.L303:
+	movh.a	a15,#@his(left_distance)
+	lea	a15,[a15]@los(left_distance)
+	ld.w	d15,[a15]
+.L153:
+	isync
+.L304:
+	movh.a	a4,#@his(distLock)
+	lea	a4,[a4]@los(distLock)
+	call	IfxCpu_releaseMutex
+.L305:
+	j	.L34
+.L34:
+	st.w	[a10],d15
+.L124:
+	movh.a	a4,#@his(.6.str)
+	lea	a4,[a4]@los(.6.str)
+	call	my_printf
+.L31:
+	j	.L35
+.L13:
+	j	.L36
+.L37:
+.L36:
+	movh.a	a4,#@his(distLock)
+	lea	a4,[a4]@los(distLock)
+	call	IfxCpu_acquireMutex
+.L306:
+	jeq	d2,#0,.L37
+.L307:
 	movh.a	a15,#@his(rear_distance)
 	lea	a15,[a15]@los(rear_distance)
 	mov.d	d15,a15
 	insert	d15,d15,#0,#0,#5
 	mov.a	a15,d15
 	cachea.i	[a15]0
-.L286:
+.L308:
 	dsync
-.L287:
+.L309:
 	movh.a	a15,#@his(rear_distance)
 	lea	a15,[a15]@los(rear_distance)
 	ld.w	d15,[a15]
-.L144:
+.L154:
 	isync
-.L288:
+.L310:
 	movh.a	a4,#@his(distLock)
 	lea	a4,[a4]@los(distLock)
 	call	IfxCpu_releaseMutex
-.L289:
-	j	.L34
-.L34:
+.L311:
+	j	.L38
+.L38:
 	mov	d4,d15
-.L120:
+.L128:
 	call	Ultrabuzzer
-.L145:
-	movh.a	a4,#@his(.5.str)
-	lea	a4,[a4]@los(.5.str)
+.L155:
+	movh.a	a4,#@his(.7.str)
+	lea	a4,[a4]@los(.7.str)
 	call	my_printf
-.L290:
+.L312:
 	mov	d4,#75
-.L291:
+.L313:
 	mov	d5,#0
 	call	Motor_movChA_PWM
-.L292:
+.L314:
 	mov	d4,#75
-.L293:
+.L315:
 	mov	d5,#0
 	call	Motor_movChB_PWM
-.L123:
+.L131:
 	st.w	[a10],d15
-.L124:
-	movh.a	a4,#@his(.6.str)
-	lea	a4,[a4]@los(.6.str)
+.L132:
+	movh.a	a4,#@his(.8.str)
+	lea	a4,[a4]@los(.8.str)
 	call	my_printf
-.L294:
-	movh	d0,#16752
-.L125:
+.L316:
+	movh	d0,#16672
+.L133:
 	cmp.f	d15,d15,d0
-.L126:
+.L134:
 	extr.u	d15,d15,#0,#1
-.L295:
-	jeq	d15,#0,.L35
-.L296:
+.L317:
+	jeq	d15,#0,.L39
+.L318:
 	call	Motor_stopChA
-.L297:
+.L319:
 	call	Motor_stopChB
-.L298:
+.L320:
 	mov	d4,#1
 	call	setBeepCycle
-.L299:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003aa00)
-.L300:
-	or	d15,#16
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa00),d15
-.L301:
+.L321:
+	movh.a	a15,#@his(HazzardLight)
+	lea	a15,[a15]@los(HazzardLight)
+.L322:
+	mov	d15,#1
+.L323:
+	st.w	[a15],d15
+.L324:
 	mov	d4,#2000
 	call	delay_ms
-.L302:
+.L325:
 	mov	d4,#0
 	call	setBeepCycle
-.L303:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003aa00)
-.L304:
-	insert	d15,d15,#0,#4,#1
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa00),d15
-.L305:
+.L326:
+	movh.a	a15,#@his(HazzardLight)
+	lea	a15,[a15]@los(HazzardLight)
+.L327:
+	mov	d15,#0
+.L328:
+	st.w	[a15],d15
+.L329:
 	movh.a	a15,#@his(parking_state)
 	lea	a15,[a15]@los(parking_state)
-.L306:
+.L330:
 	mov	d15,#3
-.L307:
+.L331:
 	st.b	[a15],d15
-.L35:
-	j	.L36
+.L39:
+	j	.L40
 .L14:
-	j	.L37
+	j	.L41
 .L15:
-.L37:
-.L36:
-.L31:
-.L21:
+.L41:
+.L40:
+.L35:
+.L24:
 .L9:
 	movh.a	a15,#@his(parking_state)
 	lea	a15,[a15]@los(parking_state)
 	ld.bu	d15,[a15]
-.L308:
+.L332:
 	jne	d15,#3,.L10
-.L309:
+.L333:
+	movh.a	a15,#@his(leftTurn)
+	lea	a15,[a15]@los(leftTurn)
+.L334:
+	mov	d15,#0
+.L335:
+	st.w	[a15],d15
+.L336:
+	movh.a	a15,#@his(rightTurn)
+	lea	a15,[a15]@los(rightTurn)
+.L337:
+	mov	d15,#0
+.L338:
+	st.w	[a15],d15
+.L339:
 	movh.a	a15,#@his(VEL_flag)
 	lea	a15,[a15]@los(VEL_flag)
-.L310:
+.L340:
 	mov	d15,#1
-.L311:
+.L341:
 	st.w	[a15],d15
-.L312:
+.L342:
 	ret
-.L91:
+.L97:
 	
 __calc_parking_distance_function_end:
 	.size	calc_parking_distance,__calc_parking_distance_function_end-calc_parking_distance
-.L57:
+.L61:
 	; End of function
 	
 	.sdecl	'.text.inttab0.intvec.034',code
@@ -611,28 +680,28 @@ __calc_parking_distance_function_end:
 	
 	.global	SCUERU_Int0_Handler
 ; Function SCUERU_Int0_Handler
-.L43:
+.L47:
 SCUERU_Int0_Handler:	.type	func
 	svlcx
-.L317:
+.L347:
 	enable
-.L318:
+.L348:
 	movh.a	a15,#@his(count_enc)
 	lea	a15,[a15]@los(count_enc)
 	movh.a	a12,#@his(count_enc)
 	lea	a12,[a12]@los(count_enc)
 	ld.w	d15,[a12]
-.L319:
+.L349:
 	add	d15,#1
 	st.w	[a15],d15
-.L320:
+.L350:
 	rslcx
 	rfe
-.L128:
+.L136:
 	
 __SCUERU_Int0_Handler_function_end:
 	.size	SCUERU_Int0_Handler,__SCUERU_Int0_Handler_function_end-SCUERU_Int0_Handler
-.L62:
+.L66:
 	; End of function
 	
 	.sdecl	'.data.auto_parking.parking_state',data,cluster('parking_state')
@@ -648,13 +717,20 @@ parking_state:	.type	object
 count_enc:	.type	object
 	.size	count_enc,4
 	.space	4
-	.sdecl	'.data.auto_parking.width_enc',data,cluster('width_enc')
-	.sect	'.data.auto_parking.width_enc'
-	.global	width_enc
+	.sdecl	'.data.auto_parking.width_half_enc',data,cluster('width_half_enc')
+	.sect	'.data.auto_parking.width_half_enc'
+	.global	width_half_enc
 	.align	2
-width_enc:	.type	object
-	.size	width_enc,4
+width_half_enc:	.type	object
+	.size	width_half_enc,4
 	.space	4
+	.sdecl	'.data.auto_parking.parking_v',data,cluster('parking_v')
+	.sect	'.data.auto_parking.parking_v'
+	.global	parking_v
+	.align	2
+parking_v:	.type	object
+	.size	parking_v,4
+	.word	1117126656
 	.sdecl	'.rodata.auto_parking..2.str',data,rom
 	.sect	'.rodata.auto_parking..2.str'
 .2.str:	.type	object
@@ -672,7 +748,16 @@ width_enc:	.type	object
 	.sdecl	'.rodata.auto_parking..3.str',data,rom
 	.sect	'.rodata.auto_parking..3.str'
 .3.str:	.type	object
-	.size	.3.str,74
+	.size	.3.str,33
+	.byte	83,101,97,114,99,104,105,110
+	.byte	103,46,46,46,32,68,105,115
+	.byte	116,97,110,99,101,32,61,32
+	.byte	37,46,50,102,32,99,109,10
+	.space	1
+	.sdecl	'.rodata.auto_parking..4.str',data,rom
+	.sect	'.rodata.auto_parking..4.str'
+.4.str:	.type	object
+	.size	.4.str,74
 	.byte	77,101,97,115,117,114,101,109
 	.byte	101,110,116,32,99,111,109,112
 	.byte	108,101,116,101,33,32,85,108
@@ -684,10 +769,10 @@ width_enc:	.type	object
 	.byte	32,37,46,50,102,32,99,109
 	.byte	10
 	.space	1
-	.sdecl	'.rodata.auto_parking..4.str',data,rom
-	.sect	'.rodata.auto_parking..4.str'
-.4.str:	.type	object
-	.size	.4.str,49
+	.sdecl	'.rodata.auto_parking..5.str',data,rom
+	.sect	'.rodata.auto_parking..5.str'
+.5.str:	.type	object
+	.size	.5.str,49
 	.byte	80,97,114,107,105,110,103,32
 	.byte	115,112,97,99,101,32,105,115
 	.byte	32,116,111,111,32,110,97,114
@@ -695,18 +780,29 @@ width_enc:	.type	object
 	.byte	117,109,105,110,103,32,115,101
 	.byte	97,114,99,104,46,46,46,10
 	.space	1
-	.sdecl	'.rodata.auto_parking..5.str',data,rom
-	.sect	'.rodata.auto_parking..5.str'
-.5.str:	.type	object
-	.size	.5.str,15
+	.sdecl	'.rodata.auto_parking..6.str',data,rom
+	.sect	'.rodata.auto_parking..6.str'
+.6.str:	.type	object
+	.size	.6.str,39
+	.byte	83,116,105,108,108,32,109,101
+	.byte	97,115,117,114,105,110,103,46
+	.byte	46,46,32,68,105,115,116,97
+	.byte	110,99,101,32,61,32,37,46
+	.byte	50,102,32,99
+	.byte	109,10
+	.space	1
+	.sdecl	'.rodata.auto_parking..7.str',data,rom
+	.sect	'.rodata.auto_parking..7.str'
+.7.str:	.type	object
+	.size	.7.str,15
 	.byte	115,116,97,114,116,32,103,111
 	.byte	32,98,97,99
 	.byte	107,10
 	.space	1
-	.sdecl	'.rodata.auto_parking..6.str',data,rom
-	.sect	'.rodata.auto_parking..6.str'
-.6.str:	.type	object
-	.size	.6.str,12
+	.sdecl	'.rodata.auto_parking..8.str',data,rom
+	.sect	'.rodata.auto_parking..8.str'
+.8.str:	.type	object
+	.size	.8.str,12
 	.byte	114,101,97,114,58,32,37,46
 	.byte	50,102,10
 	.space	1
@@ -735,21 +831,24 @@ width_enc:	.type	object
 	.extern	delay_ms
 	.extern	setBeepCycle
 	.extern	Ultrabuzzer
+	.extern	leftTurn
+	.extern	rightTurn
+	.extern	HazzardLight
 	.extern	distLock
 	.calls	'SCUERU_Int0_Handler','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L45:
-	.word	694251
+.L49:
+	.word	694328
 	.half	3
-	.word	.L46
+	.word	.L50
 	.byte	4
-.L44:
+.L48:
 	.byte	1
 	.byte	'../Modules/auto_parking.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L47
+	.word	.L51
 	.byte	2,1,1,3
 	.word	204
 	.byte	4
@@ -758,7 +857,7 @@ width_enc:	.type	object
 	.word	207
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L92:
+.L98:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
@@ -786,7 +885,7 @@ width_enc:	.type	object
 	.word	350
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7
-.L131:
+.L139:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,10
@@ -813,7 +912,7 @@ width_enc:	.type	object
 	.word	507
 	.byte	4,2,35,0,0,7
 	.byte	'unsigned char',0,1,8
-.L70:
+.L76:
 	.byte	7
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,4,217,9,16,4,11
@@ -923,14 +1022,14 @@ width_enc:	.type	object
 	.byte	'password',0,3,166,4,82
 	.word	660
 	.byte	6,0
-.L77:
+.L83:
 	.byte	4
 	.byte	'IfxScuWdt_clearSafetyEndinitInline',0,3,3,199,4,17,1,1
-.L79:
+.L85:
 	.byte	5
 	.byte	'password',0,3,199,4,59
 	.word	660
-.L81:
+.L87:
 	.byte	6,0,4
 	.byte	'IfxScuWdt_setCpuEndinitInline',0,3,3,146,5,17,1,1,5
 	.byte	'watchdog',0,3,146,5,63
@@ -939,14 +1038,14 @@ width_enc:	.type	object
 	.byte	'password',0,3,146,5,80
 	.word	660
 	.byte	6,0
-.L85:
+.L91:
 	.byte	4
 	.byte	'IfxScuWdt_setSafetyEndinitInline',0,3,3,179,5,17,1,1
-.L88:
+.L94:
 	.byte	5
 	.byte	'password',0,3,179,5,57
 	.word	660
-.L90:
+.L96:
 	.byte	6,0,8
 	.byte	'IfxScuWdt_getCpuWatchdogPasswordInline',0,3,3,222,4,19
 	.word	660
@@ -954,12 +1053,12 @@ width_enc:	.type	object
 	.byte	'watchdog',0,3,222,4,74
 	.word	1247
 	.byte	6,0
-.L72:
+.L78:
 	.byte	8
 	.byte	'IfxScuWdt_getSafetyWatchdogPasswordInline',0,3,3,131,5,19
 	.word	660
 	.byte	1,1
-.L73:
+.L79:
 	.byte	6,0,10
 	.byte	'_Ifx_P_OUT_Bits',0,6,145,3,16,4,11
 	.byte	'P0',0,1
@@ -2430,7 +2529,7 @@ width_enc:	.type	object
 	.word	10615
 	.byte	4,2,35,0,0,14
 	.word	10905
-.L83:
+.L89:
 	.byte	3
 	.word	10944
 	.byte	4
@@ -15704,29 +15803,29 @@ width_enc:	.type	object
 	.byte	'nowWithoutCriticalSection',0,3,24,201,1,25
 	.word	14594
 	.byte	1,1,19,6,0,0
-.L102:
+.L108:
 	.byte	4
-	.byte	'Enable_Enc_Interrupt',0,3,25,46,20,1,1
-.L105:
-	.byte	6,0
+	.byte	'Enable_Enc_Interrupt',0,3,25,44,20,1,1
 .L111:
-	.byte	4
-	.byte	'Disable_Enc_Interrupt',0,3,25,51,20,1,1
-.L114:
-	.byte	6,0
-.L94:
-	.byte	8
-	.byte	'safe_read_left',0,3,25,56,21
-	.word	264
-	.byte	1,1
-.L95:
 	.byte	6,0
 .L119:
+	.byte	4
+	.byte	'Disable_Enc_Interrupt',0,3,25,49,20,1,1
+.L122:
+	.byte	6,0
+.L100:
+	.byte	8
+	.byte	'safe_read_left',0,3,25,54,21
+	.word	264
+	.byte	1,1
+.L101:
+	.byte	6,0
+.L127:
 	.byte	8
 	.byte	'safe_read_rear',0,3,25,82,21
 	.word	264
 	.byte	1,1
-.L121:
+.L129:
 	.byte	6,0,3
 	.word	643
 	.byte	22
@@ -16123,7 +16222,7 @@ width_enc:	.type	object
 	.word	104670
 	.byte	4,2,35,8,0,14
 	.word	104710
-.L75:
+.L81:
 	.byte	3
 	.word	104771
 	.byte	25
@@ -35052,31 +35151,31 @@ width_enc:	.type	object
 	.byte	36
 	.byte	'intmax_t',0,40,198,2,41
 	.word	14594
-	.byte	17,41,62,9,1,18
+	.byte	17,41,63,9,1,18
 	.byte	'PARKING_STATE_SEARCHING',0,0,18
 	.byte	'PARKING_STATE_MEASURING',0,1,18
 	.byte	'PARKING_STATE_PARKING',0,2,18
 	.byte	'PARKING_STATE_FINISH',0,3,0,36
-	.byte	'ParkingState',0,41,67,3
+	.byte	'ParkingState',0,41,68,3
 	.word	233444
-.L129:
+.L137:
 	.byte	14
 	.word	233444
-.L130:
+.L138:
 	.byte	14
 	.word	468
 	.byte	14
 	.word	264
 	.byte	38
-	.byte	'left_distance',0,41,80,23
+	.byte	'left_distance',0,41,81,23
 	.word	233580
 	.byte	1,1,14
 	.word	264
 	.byte	38
-	.byte	'rear_distance',0,41,81,23
+	.byte	'rear_distance',0,41,82,23
 	.word	233609
 	.byte	1,1,38
-	.byte	'VEL_flag',0,41,83,12
+	.byte	'VEL_flag',0,41,84,12
 	.word	484
 	.byte	1,1,36
 	.byte	'Ifx_ASCLIN_ACCEN0_Bits',0,15,102,3
@@ -96765,7 +96864,7 @@ width_enc:	.type	object
 	.byte	10
 	.byte	'pbuf',0,79,186,1,8,16,13
 	.byte	'next',0
-	.word	.L146-.L45
+	.word	.L156-.L49
 	.byte	4,2,35,0,13
 	.byte	'payload',0
 	.word	382
@@ -96788,7 +96887,7 @@ width_enc:	.type	object
 	.byte	'if_idx',0
 	.word	643
 	.byte	1,2,35,15,0
-.L146:
+.L156:
 	.byte	3
 	.word	678120
 	.byte	41,1,1,40
@@ -96815,7 +96914,7 @@ width_enc:	.type	object
 	.byte	39
 	.word	105741
 	.byte	1,1,40
-	.word	.L147-.L45
+	.word	.L157-.L49
 	.byte	40
 	.word	678260
 	.byte	40
@@ -96828,7 +96927,7 @@ width_enc:	.type	object
 	.byte	39
 	.word	105741
 	.byte	1,1,40
-	.word	.L147-.L45
+	.word	.L157-.L49
 	.byte	40
 	.word	678260
 	.byte	0,3
@@ -96843,7 +96942,7 @@ width_enc:	.type	object
 	.byte	16,1,0,10
 	.byte	'netif',0,82,132,2,8,48,13
 	.byte	'next',0
-	.word	.L147-.L45
+	.word	.L157-.L49
 	.byte	4,2,35,0,13
 	.byte	'ip_addr',0
 	.word	678308
@@ -96855,7 +96954,7 @@ width_enc:	.type	object
 	.word	678308
 	.byte	4,2,35,12,13
 	.byte	'input',0
-	.word	.L148-.L45
+	.word	.L158-.L49
 	.byte	4,2,35,16,13
 	.byte	'output',0
 	.word	678413
@@ -96887,7 +96986,7 @@ width_enc:	.type	object
 	.byte	'rs_count',0
 	.word	643
 	.byte	1,2,35,45,0
-.L147:
+.L157:
 	.byte	3
 	.word	678508
 	.byte	39
@@ -96898,7 +96997,7 @@ width_enc:	.type	object
 	.word	678756
 	.byte	0,3
 	.word	678761
-.L148:
+.L158:
 	.byte	36
 	.byte	'netif_input_fn',0,82,178,1,17
 	.word	678779
@@ -97005,7 +97104,7 @@ width_enc:	.type	object
 	.word	643
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L149-.L45
+	.word	.L159-.L49
 	.byte	4,2,35,12,13
 	.byte	'flags',0
 	.word	643
@@ -97017,12 +97116,12 @@ width_enc:	.type	object
 	.word	660
 	.byte	2,2,35,20,13
 	.byte	'recv',0
-	.word	.L150-.L45
+	.word	.L160-.L49
 	.byte	4,2,35,24,13
 	.byte	'recv_arg',0
 	.word	382
 	.byte	4,2,35,28,0
-.L149:
+.L159:
 	.byte	3
 	.word	679385
 	.byte	41,1,1,40
@@ -97037,7 +97136,7 @@ width_enc:	.type	object
 	.word	660
 	.byte	0,3
 	.word	679608
-.L150:
+.L160:
 	.byte	36
 	.byte	'udp_recv_fn',0,84,77,16
 	.word	679637
@@ -97088,7 +97187,7 @@ width_enc:	.type	object
 	.byte	10
 	.byte	'tcp_seg',0,87,253,1,8,20,13
 	.byte	'next',0
-	.word	.L151-.L45
+	.word	.L161-.L49
 	.byte	4,2,35,0,13
 	.byte	'p',0
 	.word	678260
@@ -97105,7 +97204,7 @@ width_enc:	.type	object
 	.byte	'tcphdr',0
 	.word	679973
 	.byte	4,2,35,16,0
-.L151:
+.L161:
 	.byte	3
 	.word	679978
 	.byte	10
@@ -97129,7 +97228,7 @@ width_enc:	.type	object
 	.word	643
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L152-.L45
+	.word	.L162-.L49
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	382
@@ -97144,9 +97243,9 @@ width_enc:	.type	object
 	.word	660
 	.byte	2,2,35,22,13
 	.byte	'accept',0
-	.word	.L153-.L45
+	.word	.L163-.L49
 	.byte	4,2,35,24,0
-.L152:
+.L162:
 	.byte	3
 	.word	680090
 	.byte	39
@@ -97154,7 +97253,7 @@ width_enc:	.type	object
 	.byte	1,1,40
 	.word	382
 	.byte	40
-	.word	.L154-.L45
+	.word	.L164-.L49
 	.byte	40
 	.word	660
 	.byte	0,3
@@ -97167,7 +97266,7 @@ width_enc:	.type	object
 	.byte	1,1,40
 	.word	382
 	.byte	40
-	.word	.L154-.L45
+	.word	.L164-.L49
 	.byte	40
 	.word	678260
 	.byte	40
@@ -97179,13 +97278,13 @@ width_enc:	.type	object
 	.word	680396
 	.byte	36
 	.byte	'tcp_connected_fn',0,86,134,1,17
-	.word	.L155-.L45
+	.word	.L165-.L49
 	.byte	39
 	.word	105741
 	.byte	1,1,40
 	.word	382
 	.byte	40
-	.word	.L154-.L45
+	.word	.L164-.L49
 	.byte	0,3
 	.word	680447
 	.byte	36
@@ -97221,7 +97320,7 @@ width_enc:	.type	object
 	.word	643
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L154-.L45
+	.word	.L164-.L49
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	382
@@ -97379,7 +97478,7 @@ width_enc:	.type	object
 	.byte	'keep_cnt_sent',0
 	.word	643
 	.byte	1,3,35,155,1,0
-.L154:
+.L164:
 	.byte	3
 	.word	680528
 	.byte	39
@@ -97391,10 +97490,10 @@ width_enc:	.type	object
 	.byte	40
 	.word	105741
 	.byte	0
-.L155:
+.L165:
 	.byte	3
 	.word	681595
-.L153:
+.L163:
 	.byte	36
 	.byte	'tcp_accept_fn',0,86,70,17
 	.word	681618
@@ -98366,7 +98465,22 @@ width_enc:	.type	object
 	.byte	6,2,35,0,0,36
 	.byte	'eth_addr_t',0,90,86,25
 	.word	690550
-	.byte	20,92,73,15,20,13
+	.byte	14
+	.word	484
+	.byte	38
+	.byte	'leftTurn',0,92,40,21
+	.word	690598
+	.byte	1,1,14
+	.word	484
+	.byte	38
+	.byte	'rightTurn',0,92,41,21
+	.word	690622
+	.byte	1,1,14
+	.word	484
+	.byte	38
+	.byte	'HazzardLight',0,92,42,21
+	.word	690647
+	.byte	1,1,20,93,73,15,20,13
 	.byte	'module',0
 	.word	102513
 	.byte	4,2,35,0,13
@@ -98379,11 +98493,11 @@ width_enc:	.type	object
 	.byte	'select',0
 	.word	105902
 	.byte	1,2,35,16,0,32
-	.word	690598
+	.word	690675
 	.byte	36
-	.byte	'IfxGpt12_TxIn_In',0,92,79,3
-	.word	690664
-	.byte	20,92,82,15,20,13
+	.byte	'IfxGpt12_TxIn_In',0,93,79,3
+	.word	690741
+	.byte	20,93,82,15,20,13
 	.byte	'module',0
 	.word	102513
 	.byte	4,2,35,0,13
@@ -98396,10 +98510,10 @@ width_enc:	.type	object
 	.byte	'select',0
 	.word	9460
 	.byte	1,2,35,16,0,32
-	.word	690694
+	.word	690771
 	.byte	36
-	.byte	'IfxGpt12_TxOut_Out',0,92,88,3
-	.word	690760
+	.byte	'IfxGpt12_TxOut_Out',0,93,88,3
+	.word	690837
 	.byte	36
 	.byte	'IfxGpt12_CaptureInput',0,22,84,3
 	.word	102518
@@ -98409,19 +98523,19 @@ width_enc:	.type	object
 	.byte	'IfxGpt12_CaptureInputMode_fallingEdgeTxIN',0,2,18
 	.byte	'IfxGpt12_CaptureInputMode_bothEdgesTxIN',0,3,0,36
 	.byte	'IfxGpt12_CaptureInputMode',0,22,94,3
-	.word	690822
+	.word	690899
 	.byte	17,22,99,9,1,18
 	.byte	'IfxGpt12_CaptureTrigger_capin',0,0,18
 	.byte	'IfxGpt12_CaptureTrigger_t3inOrT3EUD',0,1,0,36
 	.byte	'IfxGpt12_CaptureTrigger',0,22,103,3
-	.word	691024
+	.word	691101
 	.byte	17,22,108,9,1,18
 	.byte	'IfxGpt12_CaptureTriggerMode_disabled',0,0,18
 	.byte	'IfxGpt12_CaptureTriggerMode_risingEdge',0,1,18
 	.byte	'IfxGpt12_CaptureTriggerMode_fallingEdge',0,2,18
 	.byte	'IfxGpt12_CaptureTriggerMode_randomEdge',0,3,0,36
 	.byte	'IfxGpt12_CaptureTriggerMode',0,22,114,3
-	.word	691132
+	.word	691209
 	.byte	17,22,119,9,1,18
 	.byte	'IfxGpt12_CounterInputMode_counterDisabled',0,0,18
 	.byte	'IfxGpt12_CounterInputMode_risingEdgeTxIN',0,1,18
@@ -98431,42 +98545,42 @@ width_enc:	.type	object
 	.byte	'IfxGpt12_CounterInputMode_fallingEdgeTxOTL',0,6,18
 	.byte	'IfxGpt12_CounterInputMode_bothEdgesTxOTL',0,7,0,36
 	.byte	'IfxGpt12_CounterInputMode',0,22,128,1,3
-	.word	691337
+	.word	691414
 	.byte	17,22,133,1,9,1,18
 	.byte	'IfxGpt12_EudInput_A',0,0,18
 	.byte	'IfxGpt12_EudInput_B',0,1,18
 	.byte	'IfxGpt12_EudInput_C',0,2,18
 	.byte	'IfxGpt12_EudInput_D',0,3,0,36
 	.byte	'IfxGpt12_EudInput',0,22,139,1,3
-	.word	691683
+	.word	691760
 	.byte	17,22,144,1,9,1,18
 	.byte	'IfxGpt12_Gpt1BlockPrescaler_8',0,0,18
 	.byte	'IfxGpt12_Gpt1BlockPrescaler_4',0,1,18
 	.byte	'IfxGpt12_Gpt1BlockPrescaler_32',0,2,18
 	.byte	'IfxGpt12_Gpt1BlockPrescaler_16',0,3,0,36
 	.byte	'IfxGpt12_Gpt1BlockPrescaler',0,22,150,1,3
-	.word	691805
+	.word	691882
 	.byte	17,22,155,1,9,1,18
 	.byte	'IfxGpt12_Gpt2BlockPrescaler_4',0,0,18
 	.byte	'IfxGpt12_Gpt2BlockPrescaler_2',0,1,18
 	.byte	'IfxGpt12_Gpt2BlockPrescaler_16',0,2,18
 	.byte	'IfxGpt12_Gpt2BlockPrescaler_8',0,3,0,36
 	.byte	'IfxGpt12_Gpt2BlockPrescaler',0,22,161,1,3
-	.word	691979
+	.word	692056
 	.byte	17,22,166,1,9,1,18
 	.byte	'IfxGpt12_IncrementalInterfaceInputMode_stopCounterTx',0,0,18
 	.byte	'IfxGpt12_IncrementalInterfaceInputMode_bothEdgesTxIN',0,1,18
 	.byte	'IfxGpt12_IncrementalInterfaceInputMode_bothEdgesTxEUD',0,2,18
 	.byte	'IfxGpt12_IncrementalInterfaceInputMode_bothEdgesTxINOrTxEUD',0,3,0,36
 	.byte	'IfxGpt12_IncrementalInterfaceInputMode',0,22,172,1,3
-	.word	692152
+	.word	692229
 	.byte	17,22,177,1,9,1,18
 	.byte	'IfxGpt12_Input_A',0,0,18
 	.byte	'IfxGpt12_Input_B',0,1,18
 	.byte	'IfxGpt12_Input_C',0,2,18
 	.byte	'IfxGpt12_Input_D',0,3,0,36
 	.byte	'IfxGpt12_Input',0,22,183,1,3
-	.word	692435
+	.word	692512
 	.byte	17,22,188,1,9,1,18
 	.byte	'IfxGpt12_Mode_timer',0,0,18
 	.byte	'IfxGpt12_Mode_counter',0,1,18
@@ -98477,7 +98591,7 @@ width_enc:	.type	object
 	.byte	'IfxGpt12_Mode_incrementalInterfaceRotationDetection',0,6,18
 	.byte	'IfxGpt12_Mode_incrementalInterfaceEdgeDetection',0,7,0,36
 	.byte	'IfxGpt12_Mode',0,22,198,1,3
-	.word	692542
+	.word	692619
 	.byte	17,22,203,1,9,1,18
 	.byte	'IfxGpt12_ReloadInputMode_counterDisabled',0,0,18
 	.byte	'IfxGpt12_ReloadInputMode_risingEdgeTxIN',0,1,18
@@ -98487,28 +98601,28 @@ width_enc:	.type	object
 	.byte	'IfxGpt12_ReloadInputMode_fallingEdgeTxOTL',0,6,18
 	.byte	'IfxGpt12_ReloadInputMode_bothEdgesTxOTL',0,7,0,36
 	.byte	'IfxGpt12_ReloadInputMode',0,22,212,1,3
-	.word	692830
+	.word	692907
 	.byte	17,22,217,1,9,1,18
 	.byte	'IfxGpt12_SleepMode_enable',0,0,18
 	.byte	'IfxGpt12_SleepMode_disable',0,1,0,36
 	.byte	'IfxGpt12_SleepMode',0,22,221,1,3
-	.word	693169
+	.word	693246
 	.byte	17,22,225,1,9,1,18
 	.byte	'IfxGpt12_SuspendMode_none',0,0,18
 	.byte	'IfxGpt12_SuspendMode_hard',0,1,18
 	.byte	'IfxGpt12_SuspendMode_soft',0,2,0,36
 	.byte	'IfxGpt12_SuspendMode',0,22,230,1,3
-	.word	693261
+	.word	693338
 	.byte	17,22,235,1,9,1,18
 	.byte	'IfxGpt12_TimerDirection_up',0,0,18
 	.byte	'IfxGpt12_TimerDirection_down',0,1,0,36
 	.byte	'IfxGpt12_TimerDirection',0,22,239,1,3
-	.word	693382
+	.word	693459
 	.byte	17,22,244,1,9,1,18
 	.byte	'IfxGpt12_TimerDirectionSource_internal',0,0,18
 	.byte	'IfxGpt12_TimerDirectionSource_external',0,1,0,36
 	.byte	'IfxGpt12_TimerDirectionSource',0,22,248,1,3
-	.word	693482
+	.word	693559
 	.byte	17,22,253,1,9,1,18
 	.byte	'IfxGpt12_TimerInputPrescaler_1',0,0,18
 	.byte	'IfxGpt12_TimerInputPrescaler_2',0,1,18
@@ -98519,31 +98633,31 @@ width_enc:	.type	object
 	.byte	'IfxGpt12_TimerInputPrescaler_64',0,6,18
 	.byte	'IfxGpt12_TimerInputPrescaler_128',0,7,0,36
 	.byte	'IfxGpt12_TimerInputPrescaler',0,22,135,2,3
-	.word	693610
+	.word	693687
 	.byte	17,22,140,2,9,1,18
 	.byte	'IfxGpt12_TimerReloadMode_disable',0,0,18
 	.byte	'IfxGpt12_TimerReloadMode_enable',0,1,0,36
 	.byte	'IfxGpt12_TimerReloadMode',0,22,144,2,3
-	.word	693924
+	.word	694001
 	.byte	17,22,149,2,9,1,18
 	.byte	'IfxGpt12_TimerRemoteControl_off',0,0,18
 	.byte	'IfxGpt12_TimerRemoteControl_on',0,1,0,36
 	.byte	'IfxGpt12_TimerRemoteControl',0,22,153,2,3
-	.word	694034
+	.word	694111
 	.byte	17,22,158,2,9,1,18
 	.byte	'IfxGpt12_TimerRun_stop',0,0,18
 	.byte	'IfxGpt12_TimerRun_start',0,1,0,36
 	.byte	'IfxGpt12_TimerRun',0,22,162,2,3
-	.word	694145
+	.word	694222
 	.byte	14
 	.word	468
 	.byte	38
-	.byte	'distLock',0,93,47,34
-	.word	694230
+	.byte	'distLock',0,94,47,34
+	.word	694307
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L46:
+.L50:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -98559,12 +98673,12 @@ width_enc:	.type	object
 	.byte	19,0,0,41,21,1,54,15,39,12,0,0,42,4,1,3,8,58,15,59,15,57,15,11,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L47:
-	.word	.L157-.L156
-.L156:
+.L51:
+	.word	.L167-.L166
+.L166:
 	.half	3
-	.word	.L159-.L158
-.L158:
+	.word	.L169-.L168
+.L168:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
@@ -98704,794 +98818,890 @@ width_enc:	.type	object
 	.byte	'Ifx_Lwip.h',0,13,0,0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
 	.byte	0,0,0
+	.byte	'LightButton.h',0,9,0,0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\_PinMap\\IfxGpt12_PinMap.h',0
 	.byte	0,0,0
 	.byte	'main.h',0,14,0,0,0
-.L159:
-.L157:
+.L169:
+.L167:
 	.sdecl	'.debug_info',debug,cluster('Parking_Init')
 	.sect	'.debug_info'
-.L48:
+.L52:
 	.word	444
 	.half	3
-	.word	.L49
+	.word	.L53
 	.byte	4,1
 	.byte	'../Modules/auto_parking.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L51,.L50
+	.word	.L55,.L54
 	.byte	2
-	.word	.L44
+	.word	.L48
 	.byte	3
-	.byte	'Parking_Init',0,1,13,6,1,1,1
-	.word	.L39,.L69,.L38
+	.byte	'Parking_Init',0,1,14,6,1,1,1
+	.word	.L43,.L75,.L42
 	.byte	4
-	.word	.L39,.L69
+	.word	.L43,.L75
 	.byte	5
-	.byte	'password',0,1,15,12
-	.word	.L70,.L71
+	.byte	'password',0,1,16,12
+	.word	.L76,.L77
 	.byte	6
-	.word	.L72,.L39,.L2
+	.word	.L78,.L43,.L2
 	.byte	7
-	.word	.L73,.L39,.L2
+	.word	.L79,.L43,.L2
 	.byte	5
 	.byte	'password',0,2,133,5,19
-	.word	.L70,.L74
+	.word	.L76,.L80
 	.byte	5
 	.byte	'watchdog',0,2,134,5,19
-	.word	.L75,.L76
+	.word	.L81,.L82
 	.byte	0,0,6
-	.word	.L77,.L2,.L78
+	.word	.L83,.L2,.L84
 	.byte	8
-	.word	.L79,.L80
+	.word	.L85,.L86
 	.byte	9
-	.word	.L81,.L2,.L78
+	.word	.L87,.L2,.L84
 	.byte	0,4
-	.word	.L82,.L69
+	.word	.L88,.L75
 	.byte	5
-	.byte	'src',0,1,36,28
-	.word	.L83,.L84
+	.byte	'src',0,1,34,28
+	.word	.L89,.L90
 	.byte	6
-	.word	.L85,.L86,.L87
+	.word	.L91,.L92,.L93
 	.byte	8
-	.word	.L88,.L89
+	.word	.L94,.L95
 	.byte	9
-	.word	.L90,.L86,.L87
+	.word	.L96,.L92,.L93
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Parking_Init')
 	.sect	'.debug_abbrev'
-.L49:
+.L53:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,29,1
 	.byte	49,16,17,1,18,1,0,0,7,11,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Parking_Init')
 	.sect	'.debug_line'
-.L50:
-	.word	.L161-.L160
-.L160:
+.L54:
+	.word	.L171-.L170
+.L170:
 	.half	3
-	.word	.L163-.L162
-.L162:
+	.word	.L173-.L172
+.L172:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/auto_parking.c',0,0,0,0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Scu\\Std\\IfxScuWdt.h',0
 	.byte	0,0,0,0
-.L163:
+.L173:
 	.byte	4,2,5,41,7,0,5,2
-	.word	.L39
+	.word	.L43
 	.byte	3,133,5,1,5,33,9
-	.half	.L164-.L39
+	.half	.L174-.L43
 	.byte	3,5,1,5,14,9
-	.half	.L134-.L164
+	.half	.L142-.L174
 	.byte	3,1,1,5,5,9
-	.half	.L135-.L134
+	.half	.L143-.L142
 	.byte	3,2,1,5,24,9
-	.half	.L2-.L135
+	.half	.L2-.L143
 	.byte	3,187,127,1,5,5,9
-	.half	.L165-.L2
+	.half	.L175-.L2
 	.byte	1,5,37,7,9
-	.half	.L166-.L165
+	.half	.L176-.L175
 	.byte	3,5,1,5,43,9
-	.half	.L167-.L166
+	.half	.L177-.L176
 	.byte	3,1,1,5,48,9
-	.half	.L168-.L167
-	.byte	1,5,66,9
-	.half	.L169-.L168
-	.byte	3,127,1,5,25,9
-	.half	.L170-.L169
-	.byte	3,126,1,5,33,9
-	.half	.L3-.L170
-	.byte	3,9,1,5,39,9
-	.half	.L171-.L3
-	.byte	3,1,1,5,44,9
-	.half	.L172-.L171
-	.byte	1,5,62,9
-	.half	.L173-.L172
-	.byte	3,127,1,5,21,9
-	.half	.L174-.L173
-	.byte	3,126,1,5,40,9
-	.half	.L175-.L174
-	.byte	3,6,1,5,27,9
-	.half	.L4-.L175
-	.byte	1,5,40,9
-	.half	.L176-.L4
-	.byte	1,4,1,5,23,7,9
-	.half	.L78-.L176
-	.byte	3,185,123,1,5,28,9
-	.half	.L177-.L78
-	.byte	1,5,25,9
 	.half	.L178-.L177
-	.byte	3,4,1,5,32,9
+	.byte	1,5,66,9
 	.half	.L179-.L178
-	.byte	1,5,25,9
+	.byte	3,127,1,5,25,9
 	.half	.L180-.L179
-	.byte	3,2,1,5,31,9
-	.half	.L181-.L180
-	.byte	1,5,25,9
+	.byte	3,126,1,5,33,9
+	.half	.L3-.L180
+	.byte	3,9,1,5,39,9
+	.half	.L181-.L3
+	.byte	3,1,1,5,44,9
 	.half	.L182-.L181
-	.byte	3,1,1,5,31,9
+	.byte	1,5,62,9
 	.half	.L183-.L182
-	.byte	1,5,25,9
+	.byte	3,127,1,5,21,9
 	.half	.L184-.L183
-	.byte	3,2,1,5,32,9
+	.byte	3,126,1,5,40,9
 	.half	.L185-.L184
-	.byte	1,5,25,9
-	.half	.L186-.L185
-	.byte	3,2,1,5,31,9
-	.half	.L187-.L186
+	.byte	3,6,1,5,27,9
+	.half	.L4-.L185
+	.byte	1,5,40,9
+	.half	.L186-.L4
+	.byte	1,4,1,5,23,7,9
+	.half	.L84-.L186
+	.byte	3,186,123,1,5,28,9
+	.half	.L187-.L84
 	.byte	1,5,25,9
 	.half	.L188-.L187
-	.byte	3,4,1,5,31,9
+	.byte	3,3,1,5,32,9
 	.half	.L189-.L188
-	.byte	1,5,59,9
-	.half	.L82-.L189
-	.byte	3,4,1,5,11,9
-	.half	.L190-.L82
-	.byte	3,1,1,5,19,9
+	.byte	1,5,25,9
+	.half	.L190-.L189
+	.byte	3,2,1,5,31,9
 	.half	.L191-.L190
-	.byte	1,5,17,9
+	.byte	1,5,25,9
 	.half	.L192-.L191
-	.byte	1,5,11,9
+	.byte	3,1,1,5,31,9
 	.half	.L193-.L192
-	.byte	3,1,1,5,16,9
+	.byte	1,5,25,9
 	.half	.L194-.L193
-	.byte	1,5,11,9
+	.byte	3,2,1,5,32,9
 	.half	.L195-.L194
-	.byte	3,1,1,5,17,9
+	.byte	1,5,25,9
 	.half	.L196-.L195
-	.byte	1,5,11,9
+	.byte	3,2,1,5,31,9
 	.half	.L197-.L196
-	.byte	3,1,1,5,16,9
+	.byte	1,5,25,9
 	.half	.L198-.L197
-	.byte	1,4,2,5,24,9
-	.half	.L86-.L198
-	.byte	3,140,5,1,5,5,9
-	.half	.L199-.L86
-	.byte	1,5,37,7,9
-	.half	.L200-.L199
-	.byte	3,5,1,5,43,9
+	.byte	3,3,1,5,31,9
+	.half	.L199-.L198
+	.byte	1,5,59,9
+	.half	.L88-.L199
+	.byte	3,3,1,5,11,9
+	.half	.L200-.L88
+	.byte	3,1,1,5,19,9
 	.half	.L201-.L200
-	.byte	3,1,1,5,48,9
+	.byte	1,5,17,9
 	.half	.L202-.L201
-	.byte	1,5,66,9
+	.byte	1,5,11,9
 	.half	.L203-.L202
-	.byte	3,127,1,5,25,9
+	.byte	3,1,1,5,16,9
 	.half	.L204-.L203
-	.byte	3,126,1,5,33,9
-	.half	.L6-.L204
-	.byte	3,9,1,5,39,9
-	.half	.L205-.L6
-	.byte	3,1,1,5,44,9
+	.byte	1,5,11,9
+	.half	.L205-.L204
+	.byte	3,1,1,5,17,9
 	.half	.L206-.L205
-	.byte	1,5,62,9
+	.byte	1,5,11,9
 	.half	.L207-.L206
-	.byte	3,127,1,5,21,9
+	.byte	3,1,1,5,16,9
 	.half	.L208-.L207
+	.byte	1,4,2,5,24,9
+	.half	.L92-.L208
+	.byte	3,142,5,1,5,5,9
+	.half	.L209-.L92
+	.byte	1,5,37,7,9
+	.half	.L210-.L209
+	.byte	3,5,1,5,43,9
+	.half	.L211-.L210
+	.byte	3,1,1,5,48,9
+	.half	.L212-.L211
+	.byte	1,5,66,9
+	.half	.L213-.L212
+	.byte	3,127,1,5,25,9
+	.half	.L214-.L213
+	.byte	3,126,1,5,33,9
+	.half	.L6-.L214
+	.byte	3,9,1,5,39,9
+	.half	.L215-.L6
+	.byte	3,1,1,5,44,9
+	.half	.L216-.L215
+	.byte	1,5,62,9
+	.half	.L217-.L216
+	.byte	3,127,1,5,21,9
+	.half	.L218-.L217
 	.byte	3,126,1,5,40,9
-	.half	.L209-.L208
+	.half	.L219-.L218
 	.byte	3,6,1,5,27,9
-	.half	.L7-.L209
+	.half	.L7-.L219
 	.byte	1,5,40,9
-	.half	.L210-.L7
+	.half	.L220-.L7
 	.byte	1,4,1,5,1,7,9
-	.half	.L87-.L210
-	.byte	3,230,122,1,7,9
-	.half	.L52-.L87
+	.half	.L93-.L220
+	.byte	3,228,122,1,7,9
+	.half	.L56-.L93
 	.byte	0,1,1
-.L161:
+.L171:
 	.sdecl	'.debug_ranges',debug,cluster('Parking_Init')
 	.sect	'.debug_ranges'
-.L51:
-	.word	-1,.L39,0,.L52-.L39,0,0
+.L55:
+	.word	-1,.L43,0,.L56-.L43,0,0
 	.sdecl	'.debug_info',debug,cluster('calc_parking_distance')
 	.sect	'.debug_info'
-.L53:
-	.word	644
+.L57:
+	.word	702
 	.half	3
-	.word	.L54
+	.word	.L58
 	.byte	4,1
 	.byte	'../Modules/auto_parking.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L56,.L55
+	.word	.L60,.L59
 	.byte	2
-	.word	.L44
+	.word	.L48
 	.byte	3
-	.byte	'calc_parking_distance',0,1,95,6,1,1,1
-	.word	.L41,.L91,.L40
+	.byte	'calc_parking_distance',0,1,96,6,1,1,1
+	.word	.L45,.L97,.L44
 	.byte	4
-	.word	.L41,.L91
+	.word	.L45,.L97
 	.byte	4
 	.word	.L11,.L12
 	.byte	5
-	.byte	'left',0,1,106,26
-	.word	.L92,.L93
+	.byte	'left',0,1,110,23
+	.word	.L98,.L99
 	.byte	6
-	.word	.L94,.L11,.L18
+	.word	.L100,.L11,.L18
 	.byte	7
-	.word	.L95,.L96
+	.word	.L101,.L102
 	.byte	5
-	.byte	'v',0,1,58,11
-	.word	.L92,.L101
+	.byte	'v',0,1,56,11
+	.word	.L98,.L107
 	.byte	0,0,8
-	.word	.L94,.L97,.L98
+	.word	.L100,.L103,.L104
 	.byte	8
-	.word	.L94,.L99,.L100
+	.word	.L100,.L105,.L106
 	.byte	6
-	.word	.L102,.L103,.L104
+	.word	.L108,.L109,.L110
 	.byte	9
-	.word	.L105,.L103,.L104
-	.byte	0,0,4
+	.word	.L111,.L109,.L110
+	.byte	0,6
+	.word	.L100,.L19,.L112
+	.byte	10
+	.word	.L101,.L19,.L112
+	.byte	5
+	.byte	'v',0,1,56,11
+	.word	.L98,.L113
+	.byte	0,0,0,4
 	.word	.L12,.L13
 	.byte	5
-	.byte	'left',0,1,127,26
-	.word	.L92,.L106
+	.byte	'left',0,1,132,1,23
+	.word	.L98,.L114
 	.byte	6
-	.word	.L94,.L12,.L24
+	.word	.L100,.L12,.L27
 	.byte	7
-	.word	.L95,.L107
+	.word	.L101,.L115
 	.byte	5
-	.byte	'v',0,1,58,11
-	.word	.L92,.L110
+	.byte	'v',0,1,56,11
+	.word	.L98,.L118
 	.byte	0,0,8
-	.word	.L94,.L108,.L109
+	.word	.L100,.L116,.L117
 	.byte	6
-	.word	.L111,.L112,.L113
+	.word	.L119,.L120,.L121
 	.byte	9
-	.word	.L114,.L112,.L113
+	.word	.L122,.L120,.L121
 	.byte	0,4
-	.word	.L113,.L29
+	.word	.L121,.L30
 	.byte	5
-	.byte	'parking_width_cm',0,1,132,1,32
-	.word	.L92,.L115
-	.byte	6
-	.word	.L102,.L116,.L117
-	.byte	9
-	.word	.L105,.L116,.L117
+	.byte	'parking_width_cm',0,1,137,1,29
+	.word	.L98,.L123
+	.byte	0,6
+	.word	.L100,.L28,.L124
+	.byte	10
+	.word	.L101,.L28,.L124
+	.byte	5
+	.byte	'v',0,1,56,11
+	.word	.L98,.L125
 	.byte	0,0,0,4
 	.word	.L13,.L14
 	.byte	5
-	.byte	'rear',0,1,172,1,26
-	.word	.L92,.L118
+	.byte	'rear',0,1,179,1,23
+	.word	.L98,.L126
 	.byte	6
-	.word	.L119,.L13,.L120
+	.word	.L127,.L13,.L128
 	.byte	7
-	.word	.L121,.L122
+	.word	.L129,.L130
 	.byte	5
 	.byte	'v',0,1,84,11
-	.word	.L92,.L127
+	.word	.L98,.L135
 	.byte	0,0,8
-	.word	.L119,.L123,.L124
+	.word	.L127,.L131,.L132
 	.byte	8
-	.word	.L119,.L125,.L126
+	.word	.L127,.L133,.L134
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('calc_parking_distance')
 	.sect	'.debug_abbrev'
-.L54:
+.L58:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,29,1
-	.byte	49,16,17,1,18,1,0,0,7,11,1,49,16,85,6,0,0,8,29,0,49,16,17,1,18,1,0,0,9,11,0,49,16,17,1,18,1,0,0,0
+	.byte	49,16,17,1,18,1,0,0,7,11,1,49,16,85,6,0,0,8,29,0,49,16,17,1,18,1,0,0,9,11,0,49,16,17,1,18,1,0,0,10,11
+	.byte	1,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('calc_parking_distance')
 	.sect	'.debug_line'
-.L55:
-	.word	.L212-.L211
-.L211:
+.L59:
+	.word	.L222-.L221
+.L221:
 	.half	3
-	.word	.L214-.L213
-.L213:
+	.word	.L224-.L223
+.L223:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/auto_parking.c',0,0,0,0,0
-.L214:
+.L224:
 	.byte	5,6,7,0,5,2
-	.word	.L41
-	.byte	3,222,0,1,5,5,9
-	.half	.L139-.L41
+	.word	.L45
+	.byte	3,223,0,1,5,5,9
+	.half	.L147-.L45
 	.byte	3,2,1,5,21,9
-	.half	.L215-.L139
+	.half	.L225-.L147
 	.byte	1,5,19,9
-	.half	.L216-.L215
-	.byte	1,5,5,9
-	.half	.L217-.L216
-	.byte	3,1,1,5,16,9
-	.half	.L218-.L217
-	.byte	1,5,14,9
-	.half	.L219-.L218
-	.byte	1,5,48,9
-	.half	.L220-.L219
-	.byte	3,1,1,5,17,9
-	.half	.L10-.L220
-	.byte	3,1,1,5,21,9
-	.half	.L221-.L10
-	.byte	3,3,1,9
-	.half	.L222-.L221
-	.byte	3,21,1,9
-	.half	.L223-.L222
-	.byte	3,46,1,9
-	.half	.L224-.L223
-	.byte	3,22,1,5,42,9
-	.half	.L11-.L224
-	.byte	3,251,126,1,5,33,9
-	.half	.L16-.L11
-	.byte	1,5,12,9
-	.half	.L225-.L16
-	.byte	1,5,5,7,9
 	.half	.L226-.L225
-	.byte	3,1,1,5,12,9
+	.byte	1,5,5,9
 	.half	.L227-.L226
-	.byte	3,1,1,5,9,9
+	.byte	3,1,1,5,16,9
 	.half	.L228-.L227
-	.byte	3,1,1,5,12,9
-	.half	.L140-.L228
-	.byte	3,1,1,5,26,9
-	.half	.L229-.L140
-	.byte	3,1,1,5,5,9
-	.half	.L230-.L229
-	.byte	3,1,1,5,31,9
-	.half	.L18-.L230
-	.byte	3,42,1,5,29,9
-	.half	.L97-.L18
-	.byte	1,5,20,9
-	.half	.L231-.L97
-	.byte	1,5,24,7,9
-	.half	.L232-.L231
-	.byte	3,3,1,5,40,9
-	.half	.L233-.L232
-	.byte	1,5,38,9
-	.half	.L234-.L233
-	.byte	1,5,107,9
-	.half	.L99-.L234
-	.byte	3,1,1,5,34,9
-	.half	.L100-.L99
-	.byte	1,5,24,9
-	.half	.L235-.L100
-	.byte	3,1,1,5,36,9
-	.half	.L236-.L235
-	.byte	1,5,34,9
-	.half	.L237-.L236
-	.byte	1,5,31,9
-	.half	.L103-.L237
-	.byte	3,64,1,5,36,9
-	.half	.L238-.L103
-	.byte	1,5,63,9
-	.half	.L104-.L238
-	.byte	3,62,1,5,20,9
-	.half	.L20-.L104
-	.byte	3,11,1,5,42,9
-	.half	.L12-.L20
-	.byte	3,66,1,5,33,9
-	.half	.L22-.L12
-	.byte	1,5,12,9
-	.half	.L239-.L22
-	.byte	1,5,5,7,9
-	.half	.L240-.L239
-	.byte	3,1,1,5,12,9
-	.half	.L241-.L240
-	.byte	3,1,1,5,9,9
-	.half	.L242-.L241
-	.byte	3,1,1,5,12,9
-	.half	.L141-.L242
-	.byte	3,1,1,5,26,9
-	.half	.L243-.L141
-	.byte	3,1,1,5,5,9
-	.half	.L244-.L243
-	.byte	3,1,1,5,31,9
-	.half	.L24-.L244
-	.byte	3,63,1,5,29,9
-	.half	.L108-.L24
-	.byte	1,5,20,9
-	.half	.L245-.L108
-	.byte	1,5,31,7,9
-	.half	.L112-.L245
-	.byte	3,181,127,1,5,36,9
-	.half	.L246-.L112
-	.byte	1,5,62,9
-	.half	.L113-.L246
-	.byte	3,207,0,1,5,52,9
-	.half	.L247-.L113
-	.byte	1,5,74,9
-	.half	.L248-.L247
-	.byte	1,5,72,9
-	.half	.L249-.L248
-	.byte	1,5,92,9
-	.half	.L250-.L249
-	.byte	1,5,88,9
-	.half	.L251-.L250
-	.byte	1,5,112,9
-	.half	.L142-.L251
-	.byte	3,1,1,5,32,9
-	.half	.L252-.L142
-	.byte	3,1,1,5,34,9
-	.half	.L253-.L252
-	.byte	3,127,1,5,47,9
-	.half	.L254-.L253
-	.byte	3,2,1,5,45,9
-	.half	.L255-.L254
-	.byte	1,5,24,9
-	.half	.L256-.L255
-	.byte	1,5,28,7,9
-	.half	.L257-.L256
-	.byte	3,2,1,5,40,9
-	.half	.L258-.L257
-	.byte	1,5,38,9
-	.half	.L259-.L258
-	.byte	1,5,28,9
-	.half	.L260-.L259
-	.byte	3,1,1,5,40,9
-	.half	.L261-.L260
-	.byte	1,5,38,9
-	.half	.L262-.L261
-	.byte	1,5,31,9
-	.half	.L116-.L262
-	.byte	3,166,127,1,5,36,9
-	.half	.L263-.L116
-	.byte	1,5,71,9
-	.half	.L117-.L263
-	.byte	3,221,0,1,5,46,9
-	.half	.L28-.L117
-	.byte	3,2,1,5,63,9
-	.half	.L264-.L28
-	.byte	1,5,46,9
-	.half	.L265-.L264
-	.byte	3,1,1,5,63,9
-	.half	.L266-.L265
-	.byte	1,5,32,9
-	.half	.L27-.L266
-	.byte	3,125,1,5,44,9
-	.half	.L267-.L27
-	.byte	1,5,54,9
-	.half	.L268-.L267
-	.byte	1,5,71,9
-	.half	.L269-.L268
-	.byte	1,5,45,7,9
-	.half	.L270-.L269
-	.byte	3,7,1,5,59,9
-	.half	.L271-.L270
-	.byte	1,5,45,9
-	.half	.L272-.L271
-	.byte	3,1,1,5,47,9
-	.half	.L273-.L272
-	.byte	1,5,37,9
-	.half	.L274-.L273
-	.byte	3,2,1,5,45,9
-	.half	.L275-.L274
-	.byte	3,2,1,5,47,9
-	.half	.L276-.L275
-	.byte	1,5,28,9
-	.half	.L277-.L276
-	.byte	3,2,1,5,44,9
-	.half	.L278-.L277
-	.byte	1,5,42,9
-	.half	.L279-.L278
-	.byte	1,5,68,9
-	.half	.L280-.L279
-	.byte	3,121,1,5,38,9
-	.half	.L26-.L280
-	.byte	3,11,1,5,28,9
-	.half	.L281-.L26
-	.byte	3,2,1,5,44,9
-	.half	.L282-.L281
-	.byte	1,5,42,9
-	.half	.L283-.L282
-	.byte	1,5,24,9
-	.half	.L29-.L283
-	.byte	3,124,1,5,20,9
-	.half	.L30-.L29
-	.byte	3,11,1,5,42,9
-	.half	.L13-.L30
-	.byte	3,173,127,1,5,33,9
-	.half	.L32-.L13
-	.byte	1,5,12,9
-	.half	.L284-.L32
-	.byte	1,5,5,7,9
-	.half	.L285-.L284
-	.byte	3,1,1,5,12,9
-	.half	.L286-.L285
-	.byte	3,1,1,5,9,9
-	.half	.L287-.L286
-	.byte	3,1,1,5,12,9
-	.half	.L144-.L287
-	.byte	3,1,1,5,26,9
-	.half	.L288-.L144
-	.byte	3,1,1,5,5,9
-	.half	.L289-.L288
-	.byte	3,1,1,5,32,9
-	.half	.L34-.L289
-	.byte	3,210,0,1,5,30,9
-	.half	.L145-.L34
-	.byte	3,2,1,5,37,9
-	.half	.L290-.L145
-	.byte	3,1,1,5,52,9
-	.half	.L291-.L290
-	.byte	1,5,37,9
-	.half	.L292-.L291
-	.byte	3,1,1,5,52,9
-	.half	.L293-.L292
-	.byte	1,5,45,9
-	.half	.L123-.L293
-	.byte	3,1,1,5,30,9
-	.half	.L124-.L123
-	.byte	1,5,31,9
-	.half	.L294-.L124
-	.byte	3,1,1,5,29,9
-	.half	.L125-.L294
-	.byte	1,5,20,9
-	.half	.L295-.L125
-	.byte	1,5,37,7,9
-	.half	.L296-.L295
-	.byte	3,2,1,9
-	.half	.L297-.L296
-	.byte	3,1,1,9
-	.half	.L298-.L297
-	.byte	3,1,1,5,40,9
-	.half	.L299-.L298
-	.byte	3,1,1,5,44,9
-	.half	.L300-.L299
-	.byte	1,5,33,9
-	.half	.L301-.L300
-	.byte	3,1,1,5,37,9
-	.half	.L302-.L301
-	.byte	3,1,1,5,40,9
-	.half	.L303-.L302
-	.byte	3,1,1,5,44,9
-	.half	.L304-.L303
-	.byte	1,5,24,9
-	.half	.L305-.L304
-	.byte	3,1,1,5,40,9
-	.half	.L306-.L305
-	.byte	1,5,38,9
-	.half	.L307-.L306
-	.byte	1,5,20,9
-	.half	.L35-.L307
-	.byte	3,2,1,9
-	.half	.L14-.L35
-	.byte	3,4,1,5,11,9
-	.half	.L9-.L14
-	.byte	3,161,127,1,5,48,9
-	.half	.L308-.L9
-	.byte	1,5,5,7,9
-	.half	.L309-.L308
-	.byte	3,227,0,1,5,16,9
-	.half	.L310-.L309
 	.byte	1,5,14,9
+	.half	.L229-.L228
+	.byte	1,5,49,9
+	.half	.L230-.L229
+	.byte	3,1,1,5,9,9
+	.half	.L10-.L230
+	.byte	3,2,1,5,20,9
+	.half	.L231-.L10
+	.byte	1,5,18,9
+	.half	.L232-.L231
+	.byte	1,5,9,9
+	.half	.L233-.L232
+	.byte	3,1,1,5,21,9
+	.half	.L234-.L233
+	.byte	1,5,19,9
+	.half	.L235-.L234
+	.byte	1,5,17,9
+	.half	.L236-.L235
+	.byte	3,1,1,5,18,9
+	.half	.L237-.L236
+	.byte	3,3,1,9
+	.half	.L238-.L237
+	.byte	3,21,1,9
+	.half	.L239-.L238
+	.byte	3,46,1,9
+	.half	.L240-.L239
+	.byte	3,25,1,5,43,9
+	.half	.L11-.L240
+	.byte	3,242,126,1,5,34,9
+	.half	.L16-.L11
+	.byte	1,5,13,9
+	.half	.L241-.L16
+	.byte	1,5,5,7,9
+	.half	.L242-.L241
+	.byte	3,2,1,5,12,9
+	.half	.L243-.L242
+	.byte	3,1,1,5,9,9
+	.half	.L244-.L243
+	.byte	3,1,1,5,12,9
+	.half	.L148-.L244
+	.byte	3,1,1,5,26,9
+	.half	.L245-.L148
+	.byte	3,1,1,5,5,9
+	.half	.L246-.L245
+	.byte	3,1,1,5,28,9
+	.half	.L18-.L246
+	.byte	3,47,1,5,26,9
+	.half	.L103-.L18
+	.byte	1,5,17,9
+	.half	.L247-.L103
+	.byte	1,5,21,7,9
+	.half	.L248-.L247
+	.byte	3,3,1,5,37,9
+	.half	.L249-.L248
+	.byte	1,5,35,9
+	.half	.L250-.L249
+	.byte	1,5,104,9
+	.half	.L105-.L250
+	.byte	3,1,1,5,31,9
+	.half	.L106-.L105
+	.byte	1,5,21,9
+	.half	.L251-.L106
+	.byte	3,1,1,5,33,9
+	.half	.L252-.L251
+	.byte	1,5,31,9
+	.half	.L253-.L252
+	.byte	1,9
+	.half	.L109-.L253
+	.byte	3,186,127,1,5,36,9
+	.half	.L254-.L109
+	.byte	1,5,60,9
+	.half	.L110-.L254
+	.byte	3,196,0,1,5,43,9
+	.half	.L19-.L110
+	.byte	3,71,1,5,34,9
+	.half	.L21-.L19
+	.byte	1,5,13,9
+	.half	.L255-.L21
+	.byte	1,5,5,7,9
+	.half	.L256-.L255
+	.byte	3,2,1,5,12,9
+	.half	.L257-.L256
+	.byte	3,1,1,5,9,9
+	.half	.L258-.L257
+	.byte	3,1,1,5,12,9
+	.half	.L149-.L258
+	.byte	3,1,1,5,26,9
+	.half	.L259-.L149
+	.byte	3,1,1,5,5,9
+	.half	.L260-.L259
+	.byte	3,1,1,5,82,9
+	.half	.L23-.L260
+	.byte	3,58,1,5,31,9
+	.half	.L112-.L23
+	.byte	1,5,17,9
+	.half	.L20-.L112
+	.byte	3,3,1,5,43,9
+	.half	.L12-.L20
+	.byte	3,188,127,1,5,34,9
+	.half	.L25-.L12
+	.byte	1,5,13,9
+	.half	.L261-.L25
+	.byte	1,5,5,7,9
+	.half	.L262-.L261
+	.byte	3,2,1,5,12,9
+	.half	.L263-.L262
+	.byte	3,1,1,5,9,9
+	.half	.L264-.L263
+	.byte	3,1,1,5,12,9
+	.half	.L150-.L264
+	.byte	3,1,1,5,26,9
+	.half	.L265-.L150
+	.byte	3,1,1,5,5,9
+	.half	.L266-.L265
+	.byte	3,1,1,5,28,9
+	.half	.L27-.L266
+	.byte	3,197,0,1,5,26,9
+	.half	.L116-.L27
+	.byte	1,5,17,9
+	.half	.L267-.L116
+	.byte	1,5,31,7,9
+	.half	.L120-.L267
+	.byte	3,174,127,1,5,36,9
+	.half	.L268-.L120
+	.byte	1,5,59,9
+	.half	.L121-.L268
+	.byte	3,214,0,1,5,49,9
+	.half	.L269-.L121
+	.byte	1,5,71,9
+	.half	.L270-.L269
+	.byte	1,5,69,9
+	.half	.L271-.L270
+	.byte	1,5,90,9
+	.half	.L272-.L271
+	.byte	1,5,85,9
+	.half	.L273-.L272
+	.byte	1,5,109,9
+	.half	.L151-.L273
+	.byte	3,1,1,5,29,9
+	.half	.L274-.L151
+	.byte	3,1,1,5,31,9
+	.half	.L275-.L274
+	.byte	3,127,1,5,44,9
+	.half	.L276-.L275
+	.byte	3,2,1,5,21,9
+	.half	.L277-.L276
+	.byte	1,5,35,9
+	.half	.L278-.L277
+	.byte	3,23,1,5,25,9
+	.half	.L279-.L278
+	.byte	3,2,1,5,41,9
+	.half	.L280-.L279
+	.byte	1,5,39,9
+	.half	.L281-.L280
+	.byte	1,5,68,9
+	.half	.L282-.L281
+	.byte	3,110,1,5,42,9
+	.half	.L29-.L282
+	.byte	1,5,59,9
+	.half	.L283-.L29
+	.byte	1,5,42,9
+	.half	.L284-.L283
+	.byte	3,1,1,5,59,9
+	.half	.L285-.L284
+	.byte	1,5,34,9
+	.half	.L286-.L285
+	.byte	3,1,1,5,42,9
+	.half	.L287-.L286
+	.byte	3,2,1,5,56,9
+	.half	.L288-.L287
+	.byte	1,5,42,9
+	.half	.L289-.L288
+	.byte	3,1,1,5,45,9
+	.half	.L290-.L289
+	.byte	1,5,34,9
+	.half	.L291-.L290
+	.byte	3,2,1,5,42,9
+	.half	.L292-.L291
+	.byte	3,2,1,5,45,9
+	.half	.L293-.L292
+	.byte	1,5,25,9
+	.half	.L294-.L293
+	.byte	3,2,1,5,41,9
+	.half	.L295-.L294
+	.byte	1,5,39,9
+	.half	.L296-.L295
+	.byte	1,5,25,9
+	.half	.L297-.L296
+	.byte	3,1,1,5,37,9
+	.half	.L298-.L297
+	.byte	1,5,35,9
+	.half	.L299-.L298
+	.byte	1,5,21,9
+	.half	.L30-.L299
+	.byte	3,2,1,5,43,9
+	.half	.L28-.L30
+	.byte	3,152,127,1,5,34,9
+	.half	.L32-.L28
+	.byte	1,5,13,9
+	.half	.L300-.L32
+	.byte	1,5,5,7,9
+	.half	.L301-.L300
+	.byte	3,2,1,5,12,9
+	.half	.L302-.L301
+	.byte	3,1,1,5,9,9
+	.half	.L303-.L302
+	.byte	3,1,1,5,12,9
+	.half	.L153-.L303
+	.byte	3,1,1,5,26,9
+	.half	.L304-.L153
+	.byte	3,1,1,5,5,9
+	.half	.L305-.L304
+	.byte	3,1,1,5,88,9
+	.half	.L34-.L305
+	.byte	3,234,0,1,5,31,9
+	.half	.L124-.L34
+	.byte	1,5,17,9
+	.half	.L31-.L124
+	.byte	3,2,1,5,43,9
+	.half	.L13-.L31
+	.byte	3,169,127,1,5,34,9
+	.half	.L36-.L13
+	.byte	1,5,13,9
+	.half	.L306-.L36
+	.byte	1,5,5,7,9
+	.half	.L307-.L306
+	.byte	3,2,1,5,12,9
+	.half	.L308-.L307
+	.byte	3,1,1,5,9,9
+	.half	.L309-.L308
+	.byte	3,1,1,5,12,9
+	.half	.L154-.L309
+	.byte	3,1,1,5,26,9
+	.half	.L310-.L154
+	.byte	3,1,1,5,5,9
 	.half	.L311-.L310
+	.byte	3,1,1,5,29,9
+	.half	.L38-.L311
+	.byte	3,216,0,1,5,27,9
+	.half	.L155-.L38
+	.byte	3,2,1,5,34,9
+	.half	.L312-.L155
+	.byte	3,1,1,5,49,9
+	.half	.L313-.L312
+	.byte	1,5,34,9
+	.half	.L314-.L313
+	.byte	3,1,1,5,49,9
+	.half	.L315-.L314
+	.byte	1,5,43,9
+	.half	.L131-.L315
+	.byte	3,1,1,5,27,9
+	.half	.L132-.L131
+	.byte	1,5,28,9
+	.half	.L316-.L132
+	.byte	3,1,1,5,26,9
+	.half	.L133-.L316
+	.byte	1,5,17,9
+	.half	.L317-.L133
+	.byte	1,5,34,7,9
+	.half	.L318-.L317
+	.byte	3,2,1,9
+	.half	.L319-.L318
+	.byte	3,1,1,9
+	.half	.L320-.L319
+	.byte	3,1,1,5,21,9
+	.half	.L321-.L320
+	.byte	3,1,1,5,36,9
+	.half	.L322-.L321
+	.byte	1,5,34,9
+	.half	.L323-.L322
+	.byte	1,5,30,9
+	.half	.L324-.L323
+	.byte	3,1,1,5,34,9
+	.half	.L325-.L324
+	.byte	3,1,1,5,21,9
+	.half	.L326-.L325
+	.byte	3,1,1,5,36,9
+	.half	.L327-.L326
+	.byte	1,5,34,9
+	.half	.L328-.L327
+	.byte	1,5,21,9
+	.half	.L329-.L328
+	.byte	3,1,1,5,37,9
+	.half	.L330-.L329
+	.byte	1,5,35,9
+	.half	.L331-.L330
+	.byte	1,5,17,9
+	.half	.L39-.L331
+	.byte	3,2,1,9
+	.half	.L14-.L39
+	.byte	3,4,1,5,12,9
+	.half	.L9-.L14
+	.byte	3,155,127,1,5,49,9
+	.half	.L332-.L9
+	.byte	1,5,5,7,9
+	.half	.L333-.L332
+	.byte	3,233,0,1,5,16,9
+	.half	.L334-.L333
+	.byte	1,5,14,9
+	.half	.L335-.L334
+	.byte	1,5,5,9
+	.half	.L336-.L335
+	.byte	3,1,1,5,17,9
+	.half	.L337-.L336
+	.byte	1,5,15,9
+	.half	.L338-.L337
+	.byte	1,5,5,9
+	.half	.L339-.L338
+	.byte	3,1,1,5,16,9
+	.half	.L340-.L339
+	.byte	1,5,14,9
+	.half	.L341-.L340
 	.byte	1,5,1,9
-	.half	.L312-.L311
+	.half	.L342-.L341
 	.byte	3,1,1,7,9
-	.half	.L57-.L312
+	.half	.L61-.L342
 	.byte	0,1,1
-.L212:
+.L222:
 	.sdecl	'.debug_ranges',debug,cluster('calc_parking_distance')
 	.sect	'.debug_ranges'
-.L56:
-	.word	-1,.L41,0,.L57-.L41,0,0
-.L96:
-	.word	-1,.L41,.L11-.L41,.L18-.L41,.L97-.L41,.L98-.L41,.L99-.L41,.L100-.L41,0,0
-.L107:
-	.word	-1,.L41,.L12-.L41,.L24-.L41,.L108-.L41,.L109-.L41,0,0
-.L122:
-	.word	-1,.L41,.L13-.L41,.L120-.L41,.L123-.L41,.L124-.L41,.L125-.L41,.L126-.L41,0,0
+.L60:
+	.word	-1,.L45,0,.L61-.L45,0,0
+.L102:
+	.word	-1,.L45,.L11-.L45,.L18-.L45,.L103-.L45,.L104-.L45,.L105-.L45,.L106-.L45,0,0
+.L115:
+	.word	-1,.L45,.L12-.L45,.L27-.L45,.L116-.L45,.L117-.L45,0,0
+.L130:
+	.word	-1,.L45,.L13-.L45,.L128-.L45,.L131-.L45,.L132-.L45,.L133-.L45,.L134-.L45,0,0
 	.sdecl	'.debug_info',debug,cluster('SCUERU_Int0_Handler')
 	.sect	'.debug_info'
-.L58:
+.L62:
 	.word	260
 	.half	3
-	.word	.L59
+	.word	.L63
 	.byte	4,1
 	.byte	'../Modules/auto_parking.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L61,.L60
+	.word	.L65,.L64
 	.byte	2
-	.word	.L44
+	.word	.L48
 	.byte	3
-	.byte	'SCUERU_Int0_Handler',0,1,202,1,6,1,1,1
-	.word	.L43,.L128,.L42
+	.byte	'SCUERU_Int0_Handler',0,1,211,1,6,1,1,1
+	.word	.L47,.L136,.L46
 	.byte	4
-	.word	.L43,.L128
+	.word	.L47,.L136
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('SCUERU_Int0_Handler')
 	.sect	'.debug_abbrev'
-.L59:
+.L63:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('SCUERU_Int0_Handler')
 	.sect	'.debug_line'
-.L60:
-	.word	.L314-.L313
-.L313:
+.L64:
+	.word	.L344-.L343
+.L343:
 	.half	3
-	.word	.L316-.L315
-.L315:
+	.word	.L346-.L345
+.L345:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/auto_parking.c',0,0,0,0,0
-.L316:
+.L346:
 	.byte	5,6,7,0,5,2
-	.word	.L43
-	.byte	3,201,1,1,5,13,9
-	.half	.L317-.L43
+	.word	.L47
+	.byte	3,210,1,1,5,13,9
+	.half	.L347-.L47
 	.byte	3,2,1,5,5,9
-	.half	.L318-.L317
+	.half	.L348-.L347
 	.byte	3,1,1,5,14,9
-	.half	.L319-.L318
+	.half	.L349-.L348
 	.byte	1,5,1,9
-	.half	.L320-.L319
+	.half	.L350-.L349
 	.byte	3,1,1,9
-	.half	.L62-.L320
+	.half	.L66-.L350
 	.byte	0,1,1
-.L314:
+.L344:
 	.sdecl	'.debug_ranges',debug,cluster('SCUERU_Int0_Handler')
 	.sect	'.debug_ranges'
-.L61:
-	.word	-1,.L43,0,.L62-.L43,0,0
+.L65:
+	.word	-1,.L47,0,.L66-.L47,0,0
 	.sdecl	'.debug_info',debug,cluster('parking_state')
 	.sect	'.debug_info'
-.L63:
-	.word	231
-	.half	3
-	.word	.L64
-	.byte	4,1
-	.byte	'../Modules/auto_parking.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L44
-	.byte	3
-	.byte	'parking_state',0,25,7,23
-	.word	.L129
-	.byte	1,5,3
-	.word	parking_state
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('parking_state')
-	.sect	'.debug_abbrev'
-.L64:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('count_enc')
-	.sect	'.debug_info'
-.L65:
-	.word	227
-	.half	3
-	.word	.L66
-	.byte	4,1
-	.byte	'../Modules/auto_parking.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L44
-	.byte	3
-	.byte	'count_enc',0,25,10,19
-	.word	.L130
-	.byte	1,5,3
-	.word	count_enc
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('count_enc')
-	.sect	'.debug_abbrev'
-.L66:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('width_enc')
-	.sect	'.debug_info'
 .L67:
-	.word	227
+	.word	231
 	.half	3
 	.word	.L68
 	.byte	4,1
 	.byte	'../Modules/auto_parking.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L44
+	.word	.L48
 	.byte	3
-	.byte	'width_enc',0,25,11,5
-	.word	.L131
+	.byte	'parking_state',0,25,7,23
+	.word	.L137
 	.byte	1,5,3
-	.word	width_enc
+	.word	parking_state
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('width_enc')
+	.sdecl	'.debug_abbrev',debug,cluster('parking_state')
 	.sect	'.debug_abbrev'
 .L68:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('count_enc')
+	.sect	'.debug_info'
+.L69:
+	.word	227
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../Modules/auto_parking.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L48
+	.byte	3
+	.byte	'count_enc',0,25,10,19
+	.word	.L138
+	.byte	1,5,3
+	.word	count_enc
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('count_enc')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('width_half_enc')
+	.sect	'.debug_info'
+.L71:
+	.word	232
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'../Modules/auto_parking.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L48
+	.byte	3
+	.byte	'width_half_enc',0,25,11,5
+	.word	.L139
+	.byte	1,5,3
+	.word	width_half_enc
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('width_half_enc')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('parking_v')
+	.sect	'.debug_info'
+.L73:
+	.word	227
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../Modules/auto_parking.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L48
+	.byte	3
+	.byte	'parking_v',0,25,12,7
+	.word	.L98
+	.byte	1,5,3
+	.word	parking_v
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('parking_v')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Parking_Init')
 	.sect	'.debug_loc'
-.L38:
-	.word	-1,.L39,0,.L69-.L39
+.L42:
+	.word	-1,.L43,0,.L75-.L43
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L71:
+.L77:
+	.word	0,0
+.L86:
 	.word	0,0
 .L80:
-	.word	0,0
-.L74:
-	.word	-1,.L39,.L134-.L39,.L135-.L39
+	.word	-1,.L43,.L142-.L43,.L143-.L43
 	.half	1
 	.byte	95
-	.word	.L135-.L39,.L136-.L39
+	.word	.L143-.L43,.L144-.L43
 	.half	1
 	.byte	81
 	.word	0,0
-.L89:
+.L95:
 	.word	0,0
-.L84:
-	.word	-1,.L39,.L137-.L39,.L138-.L39
+.L90:
+	.word	-1,.L43,.L145-.L43,.L146-.L43
 	.half	1
 	.byte	111
 	.word	0,0
-.L76:
-	.word	-1,.L39,.L132-.L39,.L133-.L39
+.L82:
+	.word	-1,.L43,.L140-.L43,.L141-.L43
 	.half	1
 	.byte	111
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('SCUERU_Int0_Handler')
 	.sect	'.debug_loc'
-.L42:
-	.word	-1,.L43,0,.L128-.L43
+.L46:
+	.word	-1,.L47,0,.L136-.L47
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('calc_parking_distance')
 	.sect	'.debug_loc'
-.L40:
-	.word	-1,.L41,0,.L139-.L41
+.L44:
+	.word	-1,.L45,0,.L147-.L45
 	.half	2
 	.byte	138,0
-	.word	.L139-.L41,.L91-.L41
+	.word	.L147-.L45,.L97-.L45
 	.half	2
 	.byte	138,8
-	.word	.L91-.L41,.L91-.L41
+	.word	.L97-.L45,.L97-.L45
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L93:
+.L99:
 	.word	0,0
-.L106:
+.L114:
 	.word	0,0
-.L115:
-	.word	-1,.L41,.L142-.L41,.L143-.L41
+.L123:
+	.word	-1,.L45,.L151-.L45,.L152-.L45
+	.half	1
+	.byte	95
+	.word	0,0
+.L126:
+	.word	0,0
+.L113:
+	.word	-1,.L45,.L149-.L45,.L20-.L45
 	.half	1
 	.byte	95
 	.word	0,0
 .L118:
-	.word	0,0
-.L110:
-	.word	-1,.L41,.L141-.L41,.L13-.L41
+	.word	-1,.L45,.L150-.L45,.L13-.L45
 	.half	1
 	.byte	88
 	.word	0,0
-.L101:
-	.word	-1,.L41,.L140-.L41,.L12-.L41
+.L107:
+	.word	-1,.L45,.L148-.L45,.L12-.L45
 	.half	1
 	.byte	88
 	.word	0,0
-.L127:
-	.word	-1,.L41,.L144-.L41,.L126-.L41
+.L125:
+	.word	-1,.L45,.L153-.L45,.L31-.L45
 	.half	1
 	.byte	95
-	.word	.L120-.L41,.L145-.L41
+	.word	0,0
+.L135:
+	.word	-1,.L45,.L154-.L45,.L134-.L45
+	.half	1
+	.byte	95
+	.word	.L128-.L45,.L155-.L45
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L321:
+.L351:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -99499,19 +99709,19 @@ width_enc:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Parking_Init')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L321,.L39,.L69-.L39
+	.word	.L351,.L43,.L75-.L43
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('calc_parking_distance')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L321,.L41,.L91-.L41
+	.word	.L351,.L45,.L97-.L45
 	.byte	4
-	.word	(.L139-.L41)/2
+	.word	(.L147-.L45)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L91-.L139)/2
+	.word	(.L97-.L147)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('SCUERU_Int0_Handler')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L321,.L43,.L128-.L43
+	.word	.L351,.L47,.L136-.L47
 	; Module end

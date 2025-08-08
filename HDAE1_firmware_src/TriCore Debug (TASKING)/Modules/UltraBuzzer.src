@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc29064a --dep-file=UltraBuzzer.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/UltraBuzzer.src ../Modules/UltraBuzzer.c"
+	.compiler_invocation	"ctc -f cc12352a --dep-file=UltraBuzzer.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/UltraBuzzer.src ../Modules/UltraBuzzer.c"
 	.compiler_name		"ctc"
 	;source	'../Modules/UltraBuzzer.c'
 
@@ -13,16 +13,16 @@ $TC162
 	
 	.global	UltraBuzzer_Init
 ; Function UltraBuzzer_Init
-.L11:
+.L23:
 UltraBuzzer_Init:	.type	func
 	call	Buzzer_Init
-.L74:
+.L116:
 	ret
-.L31:
+.L43:
 	
 __UltraBuzzer_Init_function_end:
 	.size	UltraBuzzer_Init,__UltraBuzzer_Init_function_end-UltraBuzzer_Init
-.L27:
+.L39:
 	; End of function
 	
 	.sdecl	'.text.UltraBuzzer.Ultrabuzzer',code,cluster('Ultrabuzzer')
@@ -31,71 +31,155 @@ __UltraBuzzer_Init_function_end:
 	
 	.global	Ultrabuzzer
 ; Function Ultrabuzzer
-.L13:
+.L25:
 Ultrabuzzer:	.type	func
 	mov	d15,#0
-.L55:
+.L73:
 	cmp.f	d15,d4,d15
 	extr.u	d15,d15,#0,#1
-.L56:
+.L74:
 	jeq	d15,#0,.L2
-.L57:
+.L75:
 	mov	d4,#0
-.L32:
+.L44:
 	call	setBeepCycle
-.L58:
+.L76:
 	j	.L3
 .L2:
 	movh	d15,#16880
-.L59:
+.L77:
 	cmp.f	d15,d4,d15
 	extr.u	d15,d15,#2,#1
-.L60:
+.L78:
 	jeq	d15,#0,.L4
-.L61:
+.L79:
 	mov	d4,#0
-.L33:
+.L45:
 	call	setBeepCycle
-.L62:
+.L80:
 	j	.L5
 .L4:
-	movh	d15,#16752
-.L63:
+	movh	d15,#16840
+.L81:
 	cmp.f	d15,d4,d15
 	extr.u	d15,d15,#2,#1
-.L64:
+.L82:
 	jeq	d15,#0,.L6
-.L65:
-	mov	d4,#260
-.L34:
+.L83:
+	mov	d4,#300
+.L46:
 	call	setBeepCycle
-.L66:
+.L84:
 	j	.L7
 .L6:
-	movh	d15,#16544
-.L67:
+	movh	d15,#16824
+.L85:
 	cmp.f	d15,d4,d15
-	jnz.t	d15:2,.L8
-.L68:
-	mov	d4,#10
-.L35:
+	extr.u	d15,d15,#2,#1
+.L86:
+	jeq	d15,#0,.L8
+.L87:
+	mov	d4,#250
+.L47:
 	call	setBeepCycle
-.L69:
+.L88:
 	j	.L9
 .L8:
-	mov	d4,#50
-.L36:
+	movh	d15,#16800
+.L89:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L90:
+	jeq	d15,#0,.L10
+.L91:
+	mov	d4,#200
+.L48:
 	call	setBeepCycle
+.L92:
+	j	.L11
+.L10:
+	movh	d15,#16776
+.L93:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L94:
+	jeq	d15,#0,.L12
+.L95:
+	mov	d4,#150
+.L49:
+	call	setBeepCycle
+.L96:
+	j	.L13
+.L12:
+	movh	d15,#16752
+.L97:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L98:
+	jeq	d15,#0,.L14
+.L99:
+	mov	d4,#100
+.L50:
+	call	setBeepCycle
+.L100:
+	j	.L15
+.L14:
+	movh	d15,#16672
+.L101:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L102:
+	jeq	d15,#0,.L16
+.L103:
+	mov	d4,#80
+.L51:
+	call	setBeepCycle
+.L104:
+	j	.L17
+.L16:
+	movh	d15,#16608
+.L105:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L106:
+	jeq	d15,#0,.L18
+.L107:
+	mov	d4,#65
+.L52:
+	call	setBeepCycle
+.L108:
+	j	.L19
+.L18:
+	movh	d15,#16544
+.L109:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L20
+.L110:
+	mov	d4,#10
+.L53:
+	call	setBeepCycle
+.L111:
+	j	.L21
+.L20:
+	mov	d4,#50
+.L54:
+	call	setBeepCycle
+.L21:
+.L19:
+.L17:
+.L15:
+.L13:
+.L11:
 .L9:
 .L7:
 .L5:
 .L3:
 	ret
-.L28:
+.L40:
 	
 __Ultrabuzzer_function_end:
 	.size	Ultrabuzzer,__Ultrabuzzer_function_end-Ultrabuzzer
-.L22:
+.L34:
 	; End of function
 	
 	.calls	'UltraBuzzer_Init','Buzzer_Init'
@@ -106,17 +190,17 @@ __Ultrabuzzer_function_end:
 	.calls	'Ultrabuzzer','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L15:
+.L27:
 	.word	693421
 	.half	3
-	.word	.L16
+	.word	.L28
 	.byte	4
-.L14:
+.L26:
 	.byte	1
 	.byte	'../Modules/UltraBuzzer.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L17
+	.word	.L29
 	.byte	2,1,1,3
 	.word	203
 	.byte	4
@@ -125,7 +209,7 @@ __Ultrabuzzer_function_end:
 	.word	206
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L29:
+.L41:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
@@ -95992,7 +96076,7 @@ __Ultrabuzzer_function_end:
 	.byte	10
 	.byte	'pbuf',0,74,186,1,8,16,13
 	.byte	'next',0
-	.word	.L37-.L15
+	.word	.L55-.L27
 	.byte	4,2,35,0,13
 	.byte	'payload',0
 	.word	381
@@ -96015,7 +96099,7 @@ __Ultrabuzzer_function_end:
 	.byte	'if_idx',0
 	.word	642
 	.byte	1,2,35,15,0
-.L37:
+.L55:
 	.byte	3
 	.word	677306
 	.byte	34,1,1,33
@@ -96042,7 +96126,7 @@ __Ultrabuzzer_function_end:
 	.byte	32
 	.word	104499
 	.byte	1,1,33
-	.word	.L38-.L15
+	.word	.L56-.L27
 	.byte	33
 	.word	677446
 	.byte	33
@@ -96055,7 +96139,7 @@ __Ultrabuzzer_function_end:
 	.byte	32
 	.word	104499
 	.byte	1,1,33
-	.word	.L38-.L15
+	.word	.L56-.L27
 	.byte	33
 	.word	677446
 	.byte	0,3
@@ -96071,7 +96155,7 @@ __Ultrabuzzer_function_end:
 	.byte	19,1,0,10
 	.byte	'netif',0,77,132,2,8,48,13
 	.byte	'next',0
-	.word	.L38-.L15
+	.word	.L56-.L27
 	.byte	4,2,35,0,13
 	.byte	'ip_addr',0
 	.word	677494
@@ -96083,7 +96167,7 @@ __Ultrabuzzer_function_end:
 	.word	677494
 	.byte	4,2,35,12,13
 	.byte	'input',0
-	.word	.L39-.L15
+	.word	.L57-.L27
 	.byte	4,2,35,16,13
 	.byte	'output',0
 	.word	677599
@@ -96115,7 +96199,7 @@ __Ultrabuzzer_function_end:
 	.byte	'rs_count',0
 	.word	642
 	.byte	1,2,35,45,0
-.L38:
+.L56:
 	.byte	3
 	.word	677702
 	.byte	32
@@ -96126,7 +96210,7 @@ __Ultrabuzzer_function_end:
 	.word	677950
 	.byte	0,3
 	.word	677955
-.L39:
+.L57:
 	.byte	29
 	.byte	'netif_input_fn',0,77,178,1,17
 	.word	677973
@@ -96233,7 +96317,7 @@ __Ultrabuzzer_function_end:
 	.word	642
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L40-.L15
+	.word	.L58-.L27
 	.byte	4,2,35,12,13
 	.byte	'flags',0
 	.word	642
@@ -96245,12 +96329,12 @@ __Ultrabuzzer_function_end:
 	.word	659
 	.byte	2,2,35,20,13
 	.byte	'recv',0
-	.word	.L41-.L15
+	.word	.L59-.L27
 	.byte	4,2,35,24,13
 	.byte	'recv_arg',0
 	.word	381
 	.byte	4,2,35,28,0
-.L40:
+.L58:
 	.byte	3
 	.word	678579
 	.byte	34,1,1,33
@@ -96265,7 +96349,7 @@ __Ultrabuzzer_function_end:
 	.word	659
 	.byte	0,3
 	.word	678802
-.L41:
+.L59:
 	.byte	29
 	.byte	'udp_recv_fn',0,79,77,16
 	.word	678831
@@ -96316,7 +96400,7 @@ __Ultrabuzzer_function_end:
 	.byte	10
 	.byte	'tcp_seg',0,82,253,1,8,20,13
 	.byte	'next',0
-	.word	.L42-.L15
+	.word	.L60-.L27
 	.byte	4,2,35,0,13
 	.byte	'p',0
 	.word	677446
@@ -96333,7 +96417,7 @@ __Ultrabuzzer_function_end:
 	.byte	'tcphdr',0
 	.word	679167
 	.byte	4,2,35,16,0
-.L42:
+.L60:
 	.byte	3
 	.word	679172
 	.byte	10
@@ -96357,7 +96441,7 @@ __Ultrabuzzer_function_end:
 	.word	642
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L43-.L15
+	.word	.L61-.L27
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	381
@@ -96372,9 +96456,9 @@ __Ultrabuzzer_function_end:
 	.word	659
 	.byte	2,2,35,22,13
 	.byte	'accept',0
-	.word	.L44-.L15
+	.word	.L62-.L27
 	.byte	4,2,35,24,0
-.L43:
+.L61:
 	.byte	3
 	.word	679284
 	.byte	32
@@ -96382,7 +96466,7 @@ __Ultrabuzzer_function_end:
 	.byte	1,1,33
 	.word	381
 	.byte	33
-	.word	.L45-.L15
+	.word	.L63-.L27
 	.byte	33
 	.word	659
 	.byte	0,3
@@ -96395,7 +96479,7 @@ __Ultrabuzzer_function_end:
 	.byte	1,1,33
 	.word	381
 	.byte	33
-	.word	.L45-.L15
+	.word	.L63-.L27
 	.byte	33
 	.word	677446
 	.byte	33
@@ -96407,13 +96491,13 @@ __Ultrabuzzer_function_end:
 	.word	679590
 	.byte	29
 	.byte	'tcp_connected_fn',0,81,134,1,17
-	.word	.L46-.L15
+	.word	.L64-.L27
 	.byte	32
 	.word	104499
 	.byte	1,1,33
 	.word	381
 	.byte	33
-	.word	.L45-.L15
+	.word	.L63-.L27
 	.byte	0,3
 	.word	679641
 	.byte	29
@@ -96449,7 +96533,7 @@ __Ultrabuzzer_function_end:
 	.word	642
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L45-.L15
+	.word	.L63-.L27
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	381
@@ -96607,7 +96691,7 @@ __Ultrabuzzer_function_end:
 	.byte	'keep_cnt_sent',0
 	.word	642
 	.byte	1,3,35,155,1,0
-.L45:
+.L63:
 	.byte	3
 	.word	679722
 	.byte	32
@@ -96619,10 +96703,10 @@ __Ultrabuzzer_function_end:
 	.byte	33
 	.word	104499
 	.byte	0
-.L46:
+.L64:
 	.byte	3
 	.word	680789
-.L44:
+.L62:
 	.byte	29
 	.byte	'tcp_accept_fn',0,81,70,17
 	.word	680812
@@ -97766,7 +97850,7 @@ __Ultrabuzzer_function_end:
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L16:
+.L28:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -97779,12 +97863,12 @@ __Ultrabuzzer_function_end:
 	.byte	19,54,15,39,12,0,0,33,5,0,73,19,0,0,34,21,1,54,15,39,12,0,0,35,4,1,3,8,58,15,59,15,57,15,11,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L17:
-	.word	.L48-.L47
-.L47:
+.L29:
+	.word	.L66-.L65
+.L65:
 	.half	3
-	.word	.L50-.L49
-.L49:
+	.word	.L68-.L67
+.L67:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth',0
@@ -97921,177 +98005,255 @@ __Ultrabuzzer_function_end:
 	.byte	0,0,0
 	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\_PinMap\\IfxGpt12_PinMap.h',0
 	.byte	0,0,0,0
-.L50:
-.L48:
+.L68:
+.L66:
 	.sdecl	'.debug_info',debug,cluster('Ultrabuzzer')
 	.sect	'.debug_info'
-.L18:
+.L30:
 	.word	271
 	.half	3
-	.word	.L19
+	.word	.L31
 	.byte	4,1
 	.byte	'../Modules/UltraBuzzer.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L21,.L20
+	.word	.L33,.L32
 	.byte	2
-	.word	.L14
+	.word	.L26
 	.byte	3
 	.byte	'Ultrabuzzer',0,1,7,6,1,1,1
-	.word	.L13,.L28,.L12
+	.word	.L25,.L40,.L24
 	.byte	4
 	.byte	'distance',0,1,7,25
-	.word	.L29,.L30
+	.word	.L41,.L42
 	.byte	5
-	.word	.L13,.L28
+	.word	.L25,.L40
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Ultrabuzzer')
 	.sect	'.debug_abbrev'
-.L19:
+.L31:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Ultrabuzzer')
 	.sect	'.debug_line'
-.L20:
-	.word	.L52-.L51
-.L51:
+.L32:
+	.word	.L70-.L69
+.L69:
 	.half	3
-	.word	.L54-.L53
-.L53:
+	.word	.L72-.L71
+.L71:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/UltraBuzzer.c',0,0,0,0,0
-.L54:
+.L72:
 	.byte	5,20,7,0,5,2
-	.word	.L13
+	.word	.L25
 	.byte	3,8,1,5,18,9
-	.half	.L55-.L13
+	.half	.L73-.L25
 	.byte	1,5,5,9
-	.half	.L56-.L55
+	.half	.L74-.L73
 	.byte	1,5,22,7,9
-	.half	.L57-.L56
+	.half	.L75-.L74
 	.byte	3,2,1,5,24,9
-	.half	.L58-.L57
+	.half	.L76-.L75
 	.byte	1,5,25,9
-	.half	.L2-.L58
+	.half	.L2-.L76
 	.byte	3,2,1,5,23,9
-	.half	.L59-.L2
+	.half	.L77-.L2
 	.byte	1,5,10,9
-	.half	.L60-.L59
+	.half	.L78-.L77
 	.byte	1,5,22,7,9
-	.half	.L61-.L60
+	.half	.L79-.L78
 	.byte	3,2,1,5,24,9
-	.half	.L62-.L61
+	.half	.L80-.L79
 	.byte	1,5,25,9
-	.half	.L4-.L62
+	.half	.L4-.L80
 	.byte	3,2,1,5,23,9
-	.half	.L63-.L4
+	.half	.L81-.L4
 	.byte	1,5,10,9
-	.half	.L64-.L63
+	.half	.L82-.L81
 	.byte	1,5,22,7,9
-	.half	.L65-.L64
+	.half	.L83-.L82
 	.byte	3,2,1,5,26,9
-	.half	.L66-.L65
+	.half	.L84-.L83
 	.byte	1,5,25,9
-	.half	.L6-.L66
+	.half	.L6-.L84
+	.byte	3,2,1,5,23,9
+	.half	.L85-.L6
+	.byte	1,5,10,9
+	.half	.L86-.L85
+	.byte	1,5,26,7,9
+	.half	.L87-.L86
+	.byte	3,2,1,5,30,9
+	.half	.L88-.L87
+	.byte	1,5,25,9
+	.half	.L8-.L88
+	.byte	3,2,1,5,23,9
+	.half	.L89-.L8
+	.byte	1,5,10,9
+	.half	.L90-.L89
+	.byte	1,5,26,7,9
+	.half	.L91-.L90
+	.byte	3,2,1,5,30,9
+	.half	.L92-.L91
+	.byte	1,5,25,9
+	.half	.L10-.L92
+	.byte	3,2,1,5,23,9
+	.half	.L93-.L10
+	.byte	1,5,10,9
+	.half	.L94-.L93
+	.byte	1,5,26,7,9
+	.half	.L95-.L94
+	.byte	3,2,1,5,30,9
+	.half	.L96-.L95
+	.byte	1,5,25,9
+	.half	.L12-.L96
+	.byte	3,2,1,5,23,9
+	.half	.L97-.L12
+	.byte	1,5,10,9
+	.half	.L98-.L97
+	.byte	1,5,22,7,9
+	.half	.L99-.L98
+	.byte	3,2,1,5,26,9
+	.half	.L100-.L99
+	.byte	1,5,25,9
+	.half	.L14-.L100
+	.byte	3,2,1,5,23,9
+	.half	.L101-.L14
+	.byte	1,5,10,9
+	.half	.L102-.L101
+	.byte	1,5,26,7,9
+	.half	.L103-.L102
+	.byte	3,2,1,5,29,9
+	.half	.L104-.L103
+	.byte	1,5,25,9
+	.half	.L16-.L104
+	.byte	3,2,1,5,23,9
+	.half	.L105-.L16
+	.byte	1,5,10,9
+	.half	.L106-.L105
+	.byte	1,5,26,7,9
+	.half	.L107-.L106
+	.byte	3,2,1,5,29,9
+	.half	.L108-.L107
+	.byte	1,5,25,9
+	.half	.L18-.L108
 	.byte	3,2,1,5,10,9
-	.half	.L67-.L6
+	.half	.L109-.L18
 	.byte	1,5,22,9
-	.half	.L68-.L67
+	.half	.L110-.L109
 	.byte	3,6,1,5,25,9
-	.half	.L69-.L68
+	.half	.L111-.L110
 	.byte	3,124,1,5,22,9
-	.half	.L8-.L69
+	.half	.L20-.L111
 	.byte	1,5,1,9
-	.half	.L3-.L8
-	.byte	3,6,1,7,9
-	.half	.L22-.L3
+	.half	.L3-.L20
+	.byte	3,7,1,7,9
+	.half	.L34-.L3
 	.byte	0,1,1
-.L52:
+.L70:
 	.sdecl	'.debug_ranges',debug,cluster('Ultrabuzzer')
 	.sect	'.debug_ranges'
-.L21:
-	.word	-1,.L13,0,.L22-.L13,0,0
+.L33:
+	.word	-1,.L25,0,.L34-.L25,0,0
 	.sdecl	'.debug_info',debug,cluster('UltraBuzzer_Init')
 	.sect	'.debug_info'
-.L23:
+.L35:
 	.word	255
 	.half	3
-	.word	.L24
+	.word	.L36
 	.byte	4,1
 	.byte	'../Modules/UltraBuzzer.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L26,.L25
+	.word	.L38,.L37
 	.byte	2
-	.word	.L14
+	.word	.L26
 	.byte	3
 	.byte	'UltraBuzzer_Init',0,1,3,6,1,1,1
-	.word	.L11,.L31,.L10
+	.word	.L23,.L43,.L22
 	.byte	4
-	.word	.L11,.L31
+	.word	.L23,.L43
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('UltraBuzzer_Init')
 	.sect	'.debug_abbrev'
-.L24:
+.L36:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('UltraBuzzer_Init')
 	.sect	'.debug_line'
-.L25:
-	.word	.L71-.L70
-.L70:
+.L37:
+	.word	.L113-.L112
+.L112:
 	.half	3
-	.word	.L73-.L72
-.L72:
+	.word	.L115-.L114
+.L114:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Modules/UltraBuzzer.c',0,0,0,0,0
-.L73:
+.L115:
 	.byte	5,16,7,0,5,2
-	.word	.L11
+	.word	.L23
 	.byte	3,3,1,5,1,9
-	.half	.L74-.L11
+	.half	.L116-.L23
 	.byte	3,1,1,7,9
-	.half	.L27-.L74
+	.half	.L39-.L116
 	.byte	0,1,1
-.L71:
+.L113:
 	.sdecl	'.debug_ranges',debug,cluster('UltraBuzzer_Init')
 	.sect	'.debug_ranges'
-.L26:
-	.word	-1,.L11,0,.L27-.L11,0,0
+.L38:
+	.word	-1,.L23,0,.L39-.L23,0,0
 	.sdecl	'.debug_loc',debug,cluster('UltraBuzzer_Init')
 	.sect	'.debug_loc'
-.L10:
-	.word	-1,.L11,0,.L31-.L11
+.L22:
+	.word	-1,.L23,0,.L43-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Ultrabuzzer')
 	.sect	'.debug_loc'
-.L12:
-	.word	-1,.L13,0,.L28-.L13
+.L24:
+	.word	-1,.L25,0,.L40-.L25
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L30:
-	.word	-1,.L13,0,.L32-.L13
+.L42:
+	.word	-1,.L25,0,.L44-.L25
 	.half	1
 	.byte	84
-	.word	.L2-.L13,.L33-.L13
+	.word	.L2-.L25,.L45-.L25
 	.half	1
 	.byte	84
-	.word	.L4-.L13,.L34-.L13
+	.word	.L4-.L25,.L46-.L25
 	.half	1
 	.byte	84
-	.word	.L6-.L13,.L35-.L13
+	.word	.L6-.L25,.L47-.L25
 	.half	1
 	.byte	84
-	.word	.L8-.L13,.L36-.L13
+	.word	.L8-.L25,.L48-.L25
+	.half	1
+	.byte	84
+	.word	.L10-.L25,.L49-.L25
+	.half	1
+	.byte	84
+	.word	.L12-.L25,.L50-.L25
+	.half	1
+	.byte	84
+	.word	.L14-.L25,.L51-.L25
+	.half	1
+	.byte	84
+	.word	.L16-.L25,.L52-.L25
+	.half	1
+	.byte	84
+	.word	.L18-.L25,.L53-.L25
+	.half	1
+	.byte	84
+	.word	.L20-.L25,.L54-.L25
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L75:
+.L117:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -98099,9 +98261,9 @@ __Ultrabuzzer_function_end:
 	.sdecl	'.debug_frame',debug,cluster('UltraBuzzer_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L75,.L11,.L31-.L11
+	.word	.L117,.L23,.L43-.L23
 	.sdecl	'.debug_frame',debug,cluster('Ultrabuzzer')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L75,.L13,.L28-.L13
+	.word	.L117,.L25,.L40-.L25
 	; Module end

@@ -25,7 +25,7 @@ void core1_main(void)
     while(1)
     {
 
-        float l = Ultrasonic_ReadLeftSensor_noFilt();
+        float l = Ultrasonic_ReadLeftSensor_Filt();
         float r = Ultrasonic_ReadRightSensor_Filt();
         float b = Ultrasonic_ReadSensor_Filt();
 
@@ -37,7 +37,8 @@ void core1_main(void)
 //        my_printf("l : %f\n",l);
 //        my_printf("r : %f\n",r);
 //        my_printf("b : %f\n",b);
-
+//
+//        delay_ms(100);
         //my_printf("En : %d\n",count_enc);
 
         FLUSH_LINE(&left_distance);

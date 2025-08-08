@@ -33,9 +33,8 @@ float Get_Braking_Distance (float v)
 {
     float dis = 1.0 * (v * v) / (3 * Deceleration_rate);
     float Brake_Dis = 1000*dis;
-    if(Brake_Dis > 2000) return 0;
+    if (Brake_Dis > 2000) return 100;
     return Brake_Dis; // m단위이니 tof 단위로 하려면 곱하기 1000을 함.//
-//
 }
 
 /*

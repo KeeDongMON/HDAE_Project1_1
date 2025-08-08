@@ -37,6 +37,9 @@ void setLeftTurn(int enable);
 void setRightTurn(int enable);
 void setHazzardLight(int enable);*/
 
+extern volatile int leftTurn; // 임시 수신한 좌지시등
+extern volatile int rightTurn; // 임시 수신한 우지시등
+extern volatile int HazzardLight; // 임시 수신한 비상깜빡이
 
 
 
