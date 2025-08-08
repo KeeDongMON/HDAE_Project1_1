@@ -57,11 +57,17 @@
 ### SW Structure
 <img width="909" height="282" alt="image" src="https://github.com/user-attachments/assets/8702eda1-40b0-4da4-bb35-081e4fa26bae" />
 
+<br>
+
 ### SW Architecture Design - 주행 모드
 <img width="912" height="409" alt="image" src="https://github.com/user-attachments/assets/111c371b-372d-405c-ae62-6e92c5f7933c" />
 
+<br>
+
 ### SW Architecture Design - 주차 모드
 <img width="805" height="399" alt="image" src="https://github.com/user-attachments/assets/da327a26-f430-4489-83ac-0bf17010dfcc" />
+
+<br>
 
 ### System Architecture - MultiCore 구성
 <img width="901" height="318" alt="image" src="https://github.com/user-attachments/assets/af8ac4a1-c0cc-4dbb-9f36-9a154b99f564" />
@@ -71,6 +77,8 @@
 ## HW Architecture
 ### CAN BUS
 <img width="476" height="299" alt="image" src="https://github.com/user-attachments/assets/607a7689-0e6f-4ab1-abf8-ddd09594fd56" />
+
+<br>
 
 ### CAN FRAME
 <img width="652" height="294" alt="image" src="https://github.com/user-attachments/assets/d2113149-daea-4130-b9d2-c759bd8f92c5" />
