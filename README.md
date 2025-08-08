@@ -29,7 +29,7 @@
 
 ### 💻 Languages
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![ino](https://img.shields.io/badge/ino-Programming%20Language-00979D?style=for-the-badge)
+![ino](https://img.shields.io/badge/ino%20Language-00979D?style=for-the-badge)
 
 ### 🔧 Embedded System
 ![Embedded](https://img.shields.io/badge/Embedded-%231572B6.svg?style=for-the-badge&logo=platformdotio&logoColor=white)
@@ -53,14 +53,27 @@
 <br>
 
 
+## SW Architecture
+### SW Structure
+<img width="909" height="282" alt="image" src="https://github.com/user-attachments/assets/8702eda1-40b0-4da4-bb35-081e4fa26bae" />
+
+### SW Architecture Design - 주행 모드
+<img width="912" height="409" alt="image" src="https://github.com/user-attachments/assets/111c371b-372d-405c-ae62-6e92c5f7933c" />
+
+### SW Architecture Design - 주차 모드
+<img width="805" height="399" alt="image" src="https://github.com/user-attachments/assets/da327a26-f430-4489-83ac-0bf17010dfcc" />
+
+### System Architecture - MultiCore 구성
+<img width="901" height="318" alt="image" src="https://github.com/user-attachments/assets/af8ac4a1-c0cc-4dbb-9f36-9a154b99f564" />
+
+## HW Architecture
+### CAN BUS
+<img width="476" height="299" alt="image" src="https://github.com/user-attachments/assets/607a7689-0e6f-4ab1-abf8-ddd09594fd56" />
+### CAN FRAME
+<img width="650" height="346" alt="image" src="https://github.com/user-attachments/assets/988cd66e-6570-43aa-9bb2-ba7f9f4ed839" />
 
 
-## &#128215; 아키텍처
-
-
-    
-<br>   <br>
-
+<br>
 ## &#128217; 포팅메뉴얼
 
 
