@@ -5,6 +5,9 @@
 LiquidCrystal_I2C lcd(0x3F, 16, 2); // I2C, width, height
 
 String mac_address_str = "00:22:09:01:C3:0B"; // HC-05 MAC 주소
+// String mac_address_str = "98:DA:60:0C:51:D0"; // HC-05 MAC 주소
+
+
 uint8_t address[6];
 
 BluetoothSerial btSerial; // BluetoothSerial 객체 생성
@@ -14,9 +17,9 @@ const int JOY_X_PIN = 26;
 const int JOY_Y_PIN = 25;
 const int SW_L_PIN = 27; // 좌측 깜빡이
 const int SW_R_PIN = 12; // 우측 깜빡이
-const int SW_P_PIN = 32; // 자율주차모드
-const int SW_W_PIN = 14; // 비상 깜빡이
-const int SW_LKAS_PIN = 33; // LKAS ON/oFF
+const int SW_P_PIN = 14; // 자율주차모드
+const int SW_W_PIN = 33; // 비상 깜빡이
+const int SW_LKAS_PIN = 32; // LKAS ON/oFF
 
 
 ///////////////////////////////////////////
@@ -54,16 +57,16 @@ void setup() {
   Serial.print("HC-05 연결 시도: ");
   Serial.println(mac_address_str);
 
-  // while(!btSerial.connect(address)){
-  //   lcd.setCursor(0, 0);
-  //   lcd.print("Connecting...");
-  //   Serial.println("HC-05 연결 실패! 확인 후 다시 시도.");
-  // }
+  while(!btSerial.connect(address)){
+    lcd.setCursor(0, 0);
+    lcd.print("Connecting...");
+    Serial.println("HC-05 연결 실패! 확인 후 다시 시도.");
+  }
 
-  // lcd.setCursor(0, 0);
-  // lcd.print("Connected    ");
-  // Serial.println("HC-05에 성공적으로 연결됨!");
-  // delay(1000);
+  lcd.setCursor(0, 0);
+  lcd.print("Connected    ");
+  Serial.println("HC-05에 성공적으로 연결됨!");
+  delay(1000);
 
   lcd.setCursor(0, 0);
   lcd.print("Driving Mode");
@@ -112,7 +115,7 @@ void loop() {
     // 8방향 구분을 위한 변수 (예: 문자열 대신 enum/int 로 대체 가능)
     String dir = "straight";
 
-    const float DEADZONE = 0.2;
+    const float DEADZONE = 0.4;
 
     // 방향 판별을 위한 임계값(Deadzone) 체크
     bool x_pos = steer > DEADZONE;
@@ -136,42 +139,42 @@ void loop() {
     }
     else if (x_pos && y_pos) {
       dir = "front_left";
-      v_left = -0.5;
-      v_right = 0.5;
+      v_left = -0.6;
+      v_right = 0.6;
       // v_left = 0.3;
       // v_right = throttle;
     }
     else if (x_neg && y_pos) {
       dir = "front_right";
-      v_left = 0.5;
-      v_right = -0.5;
+      v_left = 0.6;
+      v_right = -0.6;
       // v_left = throttle;
       // v_right = 0.3;
     }
     else if (!x_pos && !x_neg && y_neg) {
       dir = "back";
-      v_left = throttle;
-      v_right = throttle;
+      v_left = throttle * 0.6;
+      v_right = throttle * 0.6;
     }
     else if (x_pos && y_neg) {
       dir = "back_left";
-      v_left = 0.5;       
-      v_right = -0.5;
+      v_left = 0.4;       
+      v_right = -0.4;
     }
     else if (x_neg && y_neg) {
       dir = "back_right";
-      v_left = 0.5;
-      v_right = -0.5;
+      v_left = 0.4;
+      v_right = -0.4;
     }
     else if (x_pos && !y_pos && !y_neg) {
       dir = "clockwise";
-      v_left = -0.5;
-      v_right = 0.5;
+      v_left = -0.4;
+      v_right = 0.4;
     }
     else if (x_neg && !y_pos && !y_neg) {
       dir = "unclockwise";
-      v_left = 0.5;
-      v_right = -0.5;
+      v_left = 0.4;
+      v_right = -0.4;
     }
     else {
       // 예외 처리 (필요시)
@@ -259,57 +262,55 @@ void loop() {
       }
       delay(100);
     }
-    // if(swLKAS_reading == 0){
-    //   if (swLKAS_state == 0){
-    //     lcd.setCursor(0, 0);
-    //     lcd.print("LKAS MODE   ");
-    //     swP_state = 0;
-    //     swLKAS_state = 1;
-    //   }
-    //   else{
-    //     lcd.setCursor(0, 0);
-    //     lcd.print("Driving MODE");
-    //     swP_state = 0;
-    //     swLKAS_state = 0;
-    //   }
-    //   delay(100);
-    // }
-
-    lcd.setCursor(9, 1);
-    lcd.print("       ");
-
+    if(swLKAS_reading == 0){
+      if (swLKAS_state == 0){
+        lcd.setCursor(0, 0);
+        lcd.print("LKAS MODE   ");
+        swLKAS_state = 1;
+      }
+      else{
+        lcd.setCursor(0, 0);
+        lcd.print("Driving MODE");
+        swLKAS_state = 0;
+      }
+      delay(100);
+    }
 
 
     ////////////////데이터 송신//////////////////////
-    String sendStr = String(left_duty) + ";"+ String(right_duty) + ";" + String(swL_state) + ";" + String(swR_state) + ";" + String(swP_state) + ";" + String(swW_state) + ";" + String(swLKAS_state) + ";" + String(left_dir) + "; "+ String(right_dir) + "\n";
+    String sendStr = String(left_duty) + ";"+ String(right_duty) + ";" + String(swL_state) + ";" + String(swR_state) + ";" + String(swW_state) + ";" + String(swP_state) + ";" + String(swLKAS_state) + ";" + String(left_dir) + "; "+ String(right_dir) + "\n";
     btSerial.print(sendStr); //블루투스 송신
 
     if(left_dir == 0) left_duty *= (-1);
     if(right_dir == 0) right_duty *= (-1);
 
     lcd.setCursor(7, 1);
+    lcd.print("           ");
+    lcd.setCursor(7, 1);
     lcd.print(left_duty);
-    lcd.setCursor(13, 1);
+    lcd.setCursor(12, 1);
     lcd.print(right_duty);
 
-    String sendStr2 = String(left_duty) + ";"+ String(right_duty) + ";" + String(swL_state) + ";" + String(swR_state) + ";" + String(swP_state) + ";" + String(swW_state) + ";" + String(swLKAS_state) + ";" + String(left_dir) + "; "+ String(right_dir) + "\n";
+    String sendStr2 = String(left_duty) + ";"+ String(right_duty) + ";" + String(swL_state) + ";" + String(swR_state) + ";" + String(swW_state) + ";" + String(swP_state) + ";" + String(swLKAS_state) + ";" + String(left_dir) + "; "+ String(right_dir) + "\n";
     Serial.println(sendStr2); //시리얼 출력
 
-  //   if (!btSerial.connected()) { // BLE 연결 끊기면
-  //     Serial.println("블루투스 연결 안됨, 연결 재시도 중...");
-  //     lcd.setCursor(0, 0);
-  //     lcd.print("Connecting...");
-  //   while (!btSerial.connect(address)) {
-  //     Serial.println("재연결 실패...");
-  //     delay(2000);
-  //   } 
-  //   lcd.setCursor(0, 0);
-  //   lcd.print("Connected   ");
-  //   Serial.println("블루투스 재연결 성공!");
-  //   lcd.setCursor(0, 0);
-  //   lcd.print("Driving Mode");
-  //   swP_state = 0;
-  // }
+    if (!btSerial.connected()) { // BLE 연결 끊기면
+      Serial.println("블루투스 연결 안됨, 연결 재시도 중...");
+      lcd.setCursor(0, 0);
+      lcd.print("Connecting...");
+    while (!btSerial.connect(address)) {
+      Serial.println("재연결 실패...");
+      delay(2000);
+    } 
+    lcd.setCursor(0, 0);
+    lcd.print("Connected   ");
+    delay(500);
+    Serial.println("블루투스 재연결 성공!");
+    lcd.init(); // lcd 초기화
+    lcd.backlight(); // 백라이트 ON
+    lcd.print("Driving Mode");
+    swP_state = 0;
+  }
 
   //////////////////////데이터 수신////////////////////////
   // while (btSerial.available()) {
