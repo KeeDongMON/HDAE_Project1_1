@@ -1,0 +1,94 @@
+name: Cppcheck (MISRA-C) for TC375
+
+on: [push, pull_request]        # 모든 브랜치·PR
+
+jobs:
+  cppcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install cppcheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cppcheck python3
+
+      # ---------- 일반 Cppcheck (XML) ----------
+      - name: Run cppcheck (XML report)
+        run: |
+          mkdir -p reports
+
+          # ▶ 분석 대상 파일 리스트 만들기
+          FILES="
+            TC375LK_NGV/BSW
+            TC375LK_NGV/Modules
+            TC375LK_NGV/Cpu0_Main.c
+            TC375LK_NGV/Cpu1_Main.c
+            TC375LK_NGV/Sys_Init.c
+            TC375LK_NGV/Sys_Init.h
+            TC375LK_NGV/main.h
+          "
+
+          # ▶ cppcheck 실행
+          cppcheck \
+            --std=c11 --language=c \
+            --enable=warning,style,performance,portability,information \
+            --inconclusive --force \
+            --suppress=missingIncludeSystem \
+            -D__TRICORE__ -D__AURIX_TC37XX__ -DCPU_TC375 \
+            -I TC375LK_NGV/BSW \
+            -I TC375LK_NGV/Modules \
+            ${FILES} \
+            --xml --xml-version=2 2> reports/cppcheck.xml
+
+      # ---------- MISRA 애드온용 dump ----------
+      - name: Generate cppcheck dump (for MISRA addon)
+        run: |
+          cppcheck \
+            --std=c11 --language=c \
+            --dump \
+            -D__TRICORE__ -D__AURIX_TC37XX__ -DCPU_TC375 \
+            -I TC375LK_NGV/BSW \
+            -I TC375LK_NGV/Modules \
+            TC375LK_NGV/BSW \
+            TC375LK_NGV/Modules \
+            TC375LK_NGV/Cpu0_Main.c \
+            TC375LK_NGV/Cpu1_Main.c \
+            TC375LK_NGV/Sys_Init.c
+
+      # ---------- MISRA-C 2012 애드온 ----------
+      - name: MISRA-C 2012 check (addon)
+        run: |
+          mkdir -p reports
+
+          # ① misra.py 위치 찾기 (패키지·수동 모두 커버)
+          ADDON=$(python3 - <<'PY'
+          import glob, sys
+          cands = glob.glob('/usr/lib*/cppcheck/addons/misra.py', recursive=True)
+          cands += glob.glob('/usr/share/cppcheck/addons/misra.py')
+          print(cands[0] if cands else '')
+          PY
+              )
+
+          # ② 없으면 GitHub 원본에서 다운로드
+          if [ -z "$ADDON" ]; then
+            echo "misra.py not found; downloading from upstream..."
+            mkdir -p "$HOME/cppcheck_addons"
+            curl -fsSL \
+              https://raw.githubusercontent.com/danmar/cppcheck/master/addons/misra.py \
+              -o "$HOME/cppcheck_addons/misra.py"
+            ADDON="$HOME/cppcheck_addons/misra.py"
+          fi
+          echo "Using MISRA addon at $ADDON"
+
+          # ③ 애드온 실행
+          cppcheck --addon="$ADDON" . | tee reports/misra.txt
+
+
+      # ---------- 리포트 업로드 ----------
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cppcheck-misra-reports
+          path: reports/

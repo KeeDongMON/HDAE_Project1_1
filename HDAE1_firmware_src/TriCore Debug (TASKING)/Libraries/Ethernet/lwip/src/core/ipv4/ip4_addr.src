@@ -1,0 +1,2341 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc25116a --dep-file=ip4_addr.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\Driver -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\IO -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\BSW\\\\etc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Configurations -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Modules -IC:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\examples -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.src ../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.ip4_addr.ip4_addr_isbroadcast_u32',code,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.text.ip4_addr.ip4_addr_isbroadcast_u32'
+	.align	2
+	
+	.global	ip4_addr_isbroadcast_u32
+; Function ip4_addr_isbroadcast_u32
+.L94:
+ip4_addr_isbroadcast_u32:	.type	func
+	mov	d15,#-1
+	xor	d15,d4
+.L238:
+	jeq	d15,#0,.L2
+.L239:
+	jne	d4,#0,.L3
+.L2:
+	mov	d2,#1
+.L240:
+	j	.L4
+.L3:
+	ld.bu	d15,[a4]41
+.L241:
+	jnz.t	d15:1,.L5
+.L242:
+	mov	d2,#0
+.L243:
+	j	.L6
+.L5:
+	ld.w	d15,[a4]4
+.L244:
+	jne	d15,d4,.L7
+.L245:
+	mov	d2,#0
+.L246:
+	j	.L8
+.L7:
+	ld.w	d15,[a4]8
+	and	d0,d4,d15
+	ld.w	d15,[a4]4
+	ld.w	d1,[a4]8
+	and	d15,d1
+	jne	d15,d0,.L9
+.L247:
+	ld.w	d15,[a4]8
+.L248:
+	mov	d0,#-1
+	xor	d15,d0
+.L249:
+	and	d4,d15
+.L193:
+	ld.w	d15,[a4]8
+.L250:
+	mov	d0,#-1
+	xor	d15,d0
+.L251:
+	mov	d0,#-1
+.L252:
+	and	d15,d0
+.L253:
+	jne	d15,d4,.L10
+.L254:
+	mov	d2,#1
+.L255:
+	j	.L11
+.L10:
+.L9:
+	mov	d2,#0
+.L256:
+	j	.L12
+.L12:
+.L11:
+.L8:
+.L6:
+.L4:
+	ret
+.L144:
+	
+__ip4_addr_isbroadcast_u32_function_end:
+	.size	ip4_addr_isbroadcast_u32,__ip4_addr_isbroadcast_u32_function_end-ip4_addr_isbroadcast_u32
+.L113:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4_addr_netmask_valid',code,cluster('ip4_addr_netmask_valid')
+	.sect	'.text.ip4_addr.ip4_addr_netmask_valid'
+	.align	2
+	
+	.global	ip4_addr_netmask_valid
+; Function ip4_addr_netmask_valid
+.L96:
+ip4_addr_netmask_valid:	.type	func
+	call	lwip_htonl
+.L194:
+	movh	d15,#32768
+.L196:
+	j	.L13
+.L14:
+	and	d0,d2,d15
+.L261:
+	jne	d0,#0,.L15
+.L262:
+	j	.L16
+.L15:
+	sh	d15,#-1
+.L13:
+	jne	d15,#0,.L14
+.L16:
+	j	.L17
+.L18:
+	and	d0,d2,d15
+.L263:
+	jeq	d0,#0,.L19
+.L264:
+	mov	d2,#0
+.L195:
+	j	.L20
+.L19:
+	sh	d15,#-1
+.L17:
+	jne	d15,#0,.L18
+.L265:
+	mov	d2,#1
+.L197:
+	j	.L21
+.L21:
+.L20:
+	ret
+.L151:
+	
+__ip4_addr_netmask_valid_function_end:
+	.size	ip4_addr_netmask_valid,__ip4_addr_netmask_valid_function_end-ip4_addr_netmask_valid
+.L118:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ipaddr_addr',code,cluster('ipaddr_addr')
+	.sect	'.text.ip4_addr.ipaddr_addr'
+	.align	2
+	
+	.global	ipaddr_addr
+; Function ipaddr_addr
+.L98:
+ipaddr_addr:	.type	func
+	sub.a	a10,#8
+.L198:
+	lea	a5,[a10]0
+	call	ip4addr_aton
+.L199:
+	jeq	d2,#0,.L22
+.L270:
+	ld.w	d2,[a10]
+.L271:
+	j	.L23
+.L22:
+	mov	d2,#-1
+.L272:
+	j	.L24
+.L24:
+.L23:
+	ret
+.L155:
+	
+__ipaddr_addr_function_end:
+	.size	ipaddr_addr,__ipaddr_addr_function_end-ipaddr_addr
+.L123:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4addr_aton',code,cluster('ip4addr_aton')
+	.sect	'.text.ip4_addr.ip4addr_aton'
+	.align	2
+	
+	.global	ip4addr_aton
+; Function ip4addr_aton
+.L100:
+ip4addr_aton:	.type	func
+	sub.a	a10,#32
+.L200:
+	mov.aa	a12,a5
+.L202:
+	lea	a2,[a10]12
+.L203:
+	ld.b	d0,[a4]0
+.L204:
+	j	.L25
+.L26:
+	extr.u	d15,d0,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]1
+	jnz.t	d15:5,.L27
+.L277:
+	mov	d2,#0
+.L278:
+	j	.L28
+.L27:
+	mov	d8,#0
+.L206:
+	mov	d1,#10
+.L208:
+	mov	d15,#48
+.L279:
+	jne	d15,d0,.L29
+.L280:
+	add.a	a4,#1
+.L281:
+	ld.b	d0,[a4]0
+.L282:
+	mov	d15,#120
+.L283:
+	jeq	d15,d0,.L30
+.L284:
+	mov	d15,#88
+.L285:
+	jne	d15,d0,.L31
+.L30:
+	mov	d1,#16
+.L286:
+	add.a	a4,#1
+.L287:
+	ld.b	d0,[a4]0
+.L288:
+	j	.L32
+.L31:
+	mov	d1,#8
+.L32:
+.L29:
+	j	.L33
+.L34:
+	extr.u	d15,d0,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]1
+.L289:
+	jz.t	d15:5,.L35
+.L290:
+	add	d0,d0,#-48
+.L205:
+	madd	d8,d0,d8,d1
+.L291:
+	add.a	a4,#1
+.L292:
+	ld.b	d0,[a4]0
+.L209:
+	j	.L36
+.L35:
+	mov	d15,#16
+.L293:
+	jne	d15,d1,.L37
+.L294:
+	extr.u	d15,d0,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]1
+	and	d15,#160
+	jeq	d15,#0,.L38
+.L295:
+	extr.u	d15,d0,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]1
+	jz.t	d15:4,.L39
+.L296:
+	mov	d15,#97
+.L297:
+	j	.L40
+.L39:
+	mov	d15,#65
+.L40:
+	sh	d8,#4
+.L207:
+	add	d0,d0,#10
+.L210:
+	sub	d0,d15
+.L211:
+	or	d8,d0
+.L298:
+	add.a	a4,#1
+.L299:
+	ld.b	d0,[a4]0
+.L212:
+	j	.L41
+.L38:
+.L37:
+	j	.L42
+.L41:
+.L36:
+.L33:
+	j	.L34
+.L42:
+	mov	d15,#46
+.L300:
+	jne	d15,d0,.L43
+.L301:
+	lea	a15,[a10]24
+.L302:
+	lt.a	d15,a2,a15
+.L303:
+	jne	d15,#0,.L44
+.L304:
+	mov	d2,#0
+.L305:
+	j	.L45
+.L44:
+	st.w	[a2],d8
+.L306:
+	add.a	a2,#4
+.L307:
+	add.a	a4,#1
+.L308:
+	ld.b	d0,[a4]0
+.L309:
+	j	.L46
+.L43:
+	j	.L47
+.L46:
+.L25:
+	j	.L26
+.L47:
+	jeq	d0,#0,.L48
+.L310:
+	extr.u	d15,d0,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]1
+	and	d15,#5
+	jne	d15,#0,.L49
+.L311:
+	mov	d2,#0
+.L312:
+	j	.L50
+.L49:
+.L48:
+	lea	a15,[a10]12
+.L313:
+	sub.a	a15,a2,a15
+	mov.d	d15,a15
+	sha	d15,#-2
+.L314:
+	add	d15,#1
+.L315:
+	mov	d0,#0
+.L213:
+	jeq	d15,d0,.L51
+.L316:
+	mov	d0,#1
+	jeq	d15,d0,.L52
+.L317:
+	mov	d0,#2
+	jeq	d15,d0,.L53
+.L318:
+	mov	d0,#3
+	jeq	d15,d0,.L54
+.L319:
+	mov	d0,#4
+	jeq	d15,d0,.L55
+	j	.L56
+.L51:
+	mov	d2,#0
+.L320:
+	j	.L57
+.L52:
+	j	.L58
+.L53:
+	mov.u	d15,#65535
+	addih	d15,d15,#255
+.L321:
+	jge.u	d15,d8,.L59
+.L322:
+	mov	d2,#0
+.L323:
+	j	.L60
+.L59:
+	ld.w	d0,[a10]12
+.L324:
+	mov	d15,#255
+.L325:
+	jge.u	d15,d0,.L61
+.L326:
+	mov	d2,#0
+.L327:
+	j	.L62
+.L61:
+	ld.w	d15,[a10]12
+.L328:
+	sh	d15,d15,#24
+.L329:
+	or	d8,d15
+.L330:
+	j	.L63
+.L54:
+	mov.u	d15,#65535
+.L331:
+	jge.u	d15,d8,.L64
+.L332:
+	mov	d2,#0
+.L333:
+	j	.L65
+.L64:
+	ld.w	d0,[a10]12
+.L334:
+	mov	d15,#255
+.L335:
+	jlt.u	d15,d0,.L66
+.L336:
+	ld.w	d15,[a10]16
+.L337:
+	mov	d0,#255
+.L338:
+	jge.u	d0,d15,.L67
+.L66:
+	mov	d2,#0
+.L339:
+	j	.L68
+.L67:
+	ld.w	d15,[a10]12
+.L340:
+	sh	d0,d15,#24
+.L341:
+	ld.w	d15,[a10]16
+.L342:
+	sh	d15,d15,#16
+.L343:
+	or	d0,d15
+.L344:
+	or	d8,d0
+.L345:
+	j	.L69
+.L55:
+	mov	d15,#255
+.L346:
+	jge.u	d15,d8,.L70
+.L347:
+	mov	d2,#0
+.L348:
+	j	.L71
+.L70:
+	ld.w	d0,[a10]12
+.L349:
+	mov	d15,#255
+.L350:
+	jlt.u	d15,d0,.L72
+.L351:
+	ld.w	d15,[a10]16
+.L352:
+	mov	d0,#255
+.L353:
+	jlt.u	d0,d15,.L73
+.L354:
+	ld.w	d15,[a10]20
+.L355:
+	mov	d0,#255
+.L356:
+	jge.u	d0,d15,.L74
+.L73:
+.L72:
+	mov	d2,#0
+.L357:
+	j	.L75
+.L74:
+	ld.w	d15,[a10]12
+.L358:
+	sh	d0,d15,#24
+.L359:
+	ld.w	d15,[a10]16
+.L360:
+	sh	d15,d15,#16
+.L361:
+	or	d0,d15
+.L362:
+	ld.w	d15,[a10]20
+.L363:
+	sh	d15,d15,#8
+.L364:
+	or	d0,d15
+.L365:
+	or	d8,d0
+.L366:
+	j	.L76
+.L56:
+.L77:
+	movh.a	a15,#@his(.2.str)
+	lea	a15,[a15]@los(.2.str)
+	st.a	[a10],a15
+	mov	d15,#249
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L201:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L78:
+	j	.L79
+.L79:
+.L76:
+.L69:
+.L63:
+.L58:
+	jz.a	a12,.L80
+.L367:
+	mov	d4,d8
+.L214:
+	call	lwip_htonl
+.L215:
+	st.w	[a12],d2
+.L80:
+	mov	d2,#1
+.L368:
+	j	.L81
+.L81:
+.L75:
+.L71:
+.L68:
+.L65:
+.L62:
+.L60:
+.L57:
+.L50:
+.L45:
+.L28:
+	ret
+.L160:
+	
+__ip4addr_aton_function_end:
+	.size	ip4addr_aton,__ip4addr_aton_function_end-ip4addr_aton
+.L128:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4addr_ntoa',code,cluster('ip4addr_ntoa')
+	.sect	'.text.ip4_addr.ip4addr_ntoa'
+	.align	2
+	
+	.global	ip4addr_ntoa
+; Function ip4addr_ntoa
+.L102:
+ip4addr_ntoa:	.type	func
+	movh.a	a5,#@his(_999001_str)
+	lea	a5,[a5]@los(_999001_str)
+.L373:
+	mov	d4,#16
+	call	ip4addr_ntoa_r
+.L216:
+	j	.L82
+.L82:
+	ret
+.L173:
+	
+__ip4addr_ntoa_function_end:
+	.size	ip4addr_ntoa,__ip4addr_ntoa_function_end-ip4addr_ntoa
+.L133:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4addr_ntoa_r',code,cluster('ip4addr_ntoa_r')
+	.sect	'.text.ip4_addr.ip4addr_ntoa_r'
+	.align	2
+	
+	.global	ip4addr_ntoa_r
+; Function ip4addr_ntoa_r
+.L104:
+ip4addr_ntoa_r:	.type	func
+	sub.a	a10,#8
+.L217:
+	mov	d5,#0
+.L219:
+	ld.w	d15,[a4]
+.L378:
+	st.w	[a10],d15
+.L379:
+	mov.aa	a2,a5
+.L220:
+	lea	a4,[a10]0
+.L218:
+	mov	d6,#0
+.L222:
+	j	.L83
+.L84:
+	mov	d7,#0
+.L85:
+	ld.bu	d0,[a4]
+.L380:
+	mov	d15,#10
+.L381:
+	div	e0,d0,d15
+.L224:
+	ld.bu	d2,[a4]
+.L382:
+	mov	d3,#10
+.L383:
+	div	e2,d2,d3
+	st.b	[a4],d2
+.L384:
+	addsc.a	a15,a10,d7,#0
+.L385:
+	add	d15,d1,#48
+.L386:
+	st.b	[a15]4,d15
+.L387:
+	add	d15,d7,#1
+	extr.u	d7,d15,#0,#8
+.L388:
+	ld.bu	d15,[a4]
+.L389:
+	jne	d15,#0,.L85
+.L390:
+	j	.L86
+.L87:
+	mov	d0,d5
+	add	d5,#1
+.L391:
+	jlt	d0,d4,.L88
+.L392:
+	mov.a	a2,#0
+.L221:
+	j	.L89
+.L88:
+	addsc.a	a15,a10,d7,#0
+	ld.b	d0,[a15]4
+.L393:
+	st.b	[a2],d0
+.L394:
+	add.a	a2,#1
+.L86:
+	mov	d15,d7
+	add	d7,#-1
+.L223:
+	extr.u	d7,d7,#0,#8
+.L226:
+	jne	d15,#0,.L87
+.L395:
+	mov	d15,d5
+	add	d5,#1
+.L396:
+	jlt	d15,d4,.L90
+.L397:
+	mov.a	a2,#0
+.L225:
+	j	.L91
+.L90:
+	mov	d15,#46
+.L398:
+	st.b	[a2],d15
+.L399:
+	add.a	a2,#1
+.L400:
+	add.a	a4,#1
+.L401:
+	add	d6,#1
+.L83:
+	jlt.u	d6,#4,.L84
+.L402:
+	add.a	a2,#-1
+.L403:
+	mov	d15,#0
+.L404:
+	st.b	[a2],d15
+.L405:
+	mov.aa	a2,a5
+.L227:
+	j	.L92
+.L92:
+.L91:
+.L89:
+	ret
+.L177:
+	
+__ip4addr_ntoa_r_function_end:
+	.size	ip4addr_ntoa_r,__ip4addr_ntoa_r_function_end-ip4addr_ntoa_r
+.L138:
+	; End of function
+	
+	.sdecl	'.rodata.ip4_addr.ip_addr_any',data,rom,cluster('ip_addr_any')
+	.sect	'.rodata.ip4_addr.ip_addr_any'
+	.global	ip_addr_any
+	.align	2
+ip_addr_any:	.type	object
+	.size	ip_addr_any,4
+	.space	4
+	.sdecl	'.rodata.ip4_addr.ip_addr_broadcast',data,rom,cluster('ip_addr_broadcast')
+	.sect	'.rodata.ip4_addr.ip_addr_broadcast'
+	.global	ip_addr_broadcast
+	.align	2
+ip_addr_broadcast:	.type	object
+	.size	ip_addr_broadcast,4
+	.word	-1
+	.sdecl	'.rodata.ip4_addr..1.str',data,rom
+	.sect	'.rodata.ip4_addr..1.str'
+.1.str:	.type	object
+	.size	.1.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.ip4_addr..2.str',data,rom
+	.sect	'.rodata.ip4_addr..2.str'
+.2.str:	.type	object
+	.size	.2.str,10
+	.byte	117,110,104,97,110,100,108,101
+	.byte	100
+	.space	1
+	.sdecl	'.rodata.ip4_addr..3.str',data,rom
+	.sect	'.rodata.ip4_addr..3.str'
+.3.str:	.type	object
+	.size	.3.str,52
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,99
+	.byte	111,114,101,47,105,112,118,52
+	.byte	47,105,112,52,95,97,100,100
+	.byte	114,46,99
+	.space	1
+	.sdecl	'.bss.ip4_addr._999001_str',data,cluster('_999001_str')
+	.sect	'.bss.ip4_addr._999001_str'
+_999001_str:	.type	object
+	.size	_999001_str,16
+	.space	16
+	.calls	'ip4_addr_netmask_valid','lwip_htonl'
+	.calls	'ipaddr_addr','ip4addr_aton'
+	.calls	'ip4addr_aton','Ifx_Lwip_printf'
+	.calls	'ip4addr_aton','lwip_htonl'
+	.calls	'ip4addr_ntoa','ip4addr_ntoa_r'
+	.calls	'ip4_addr_isbroadcast_u32','',0
+	.calls	'ip4_addr_netmask_valid','',0
+	.calls	'ipaddr_addr','',8
+	.calls	'ip4addr_aton','',32
+	.calls	'ip4addr_ntoa','',0
+	.extern	Ifx_Lwip_printf
+	.extern	__ctype
+	.extern	lwip_htonl
+	.calls	'ip4addr_ntoa_r','',8
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L106:
+	.word	2176
+	.half	3
+	.word	.L107
+	.byte	4
+.L105:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L108
+	.byte	2
+	.byte	'char',0,1,6
+.L166:
+	.byte	2
+	.byte	'char',0,1,6,3
+	.word	238
+.L156:
+	.byte	4
+	.word	246
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	230
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	251
+	.byte	7,1,123,37,0
+.L145:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'lwip_htonl',0,2,101,7
+	.word	299
+	.byte	1,1,1,1,6
+	.byte	'x',0,2,101,24
+	.word	299
+	.byte	0
+.L143:
+	.byte	2
+	.byte	'unsigned char',0,1,8,4
+	.word	.L228-.L106
+.L149:
+	.byte	8
+	.byte	'ip4_addr',0,4,51,8,4,9
+	.byte	'addr',0
+	.word	299
+	.byte	4,2,35,0,0,10
+	.byte	'void',0,4
+	.word	405
+	.byte	2
+	.byte	'unsigned short int',0,2,7,8
+	.byte	'pbuf',0,5,186,1,8,16,9
+	.byte	'next',0
+	.word	.L229-.L106
+	.byte	4,2,35,0,9
+	.byte	'payload',0
+	.word	411
+	.byte	4,2,35,4,9
+	.byte	'tot_len',0
+	.word	416
+	.byte	2,2,35,8,9
+	.byte	'len',0
+	.word	416
+	.byte	2,2,35,10,9
+	.byte	'type_internal',0
+	.word	354
+	.byte	1,2,35,12,9
+	.byte	'flags',0
+	.word	354
+	.byte	1,2,35,13,9
+	.byte	'ref',0
+	.word	354
+	.byte	1,2,35,14,9
+	.byte	'if_idx',0
+	.word	354
+	.byte	1,2,35,15,0
+.L229:
+	.byte	4
+	.word	438
+	.byte	11
+	.word	230
+	.byte	1,1,12
+	.word	578
+	.byte	12
+	.word	371
+	.byte	0,4
+	.word	583
+	.byte	13
+	.byte	'netif_input_fn',0,3,178,1,17
+	.word	601
+	.byte	3
+	.word	376
+	.byte	4
+	.word	630
+	.byte	11
+	.word	230
+	.byte	1,1,12
+	.word	371
+	.byte	12
+	.word	578
+	.byte	12
+	.word	635
+	.byte	0,4
+	.word	640
+	.byte	13
+	.byte	'netif_output_fn',0,3,189,1,17
+	.word	663
+	.byte	11
+	.word	230
+	.byte	1,1,12
+	.word	371
+	.byte	12
+	.word	578
+	.byte	0,4
+	.word	693
+	.byte	13
+	.byte	'netif_linkoutput_fn',0,3,212,1,17
+	.word	711
+	.byte	14,6
+	.word	354
+	.byte	15,5,0,14,2
+	.word	238
+	.byte	15,1,0
+.L228:
+	.byte	8
+	.byte	'netif',0,3,132,2,8,48,9
+	.byte	'next',0
+	.word	371
+	.byte	4,2,35,0,9
+	.byte	'ip_addr',0
+	.word	376
+	.byte	4,2,35,4,9
+	.byte	'netmask',0
+	.word	376
+	.byte	4,2,35,8,9
+	.byte	'gw',0
+	.word	376
+	.byte	4,2,35,12,9
+	.byte	'input',0
+	.word	606
+	.byte	4,2,35,16,9
+	.byte	'output',0
+	.word	668
+	.byte	4,2,35,20,9
+	.byte	'linkoutput',0
+	.word	716
+	.byte	4,2,35,24,9
+	.byte	'state',0
+	.word	411
+	.byte	4,2,35,28,9
+	.byte	'mtu',0
+	.word	416
+	.byte	2,2,35,32,9
+	.byte	'hwaddr',0
+	.word	745
+	.byte	6,2,35,34,9
+	.byte	'hwaddr_len',0
+	.word	354
+	.byte	1,2,35,40,9
+	.byte	'flags',0
+	.word	354
+	.byte	1,2,35,41,9
+	.byte	'name',0
+	.word	754
+	.byte	2,2,35,42,9
+	.byte	'num',0
+	.word	354
+	.byte	1,2,35,44,9
+	.byte	'rs_count',0
+	.word	354
+	.byte	1,2,35,45,0,3
+	.word	763
+.L147:
+	.byte	4
+	.word	1011
+	.byte	4
+	.word	583
+	.byte	4
+	.word	640
+	.byte	4
+	.word	693
+.L159:
+	.byte	2
+	.byte	'int',0,4,5
+.L162:
+	.byte	4
+	.word	376
+.L168:
+	.byte	14,16
+	.word	299
+	.byte	15,3,0
+.L170:
+	.byte	4
+	.word	299
+.L172:
+	.byte	4
+	.word	238
+	.byte	3
+	.word	376
+.L174:
+	.byte	4
+	.word	1067
+.L176:
+	.byte	14,16
+	.word	238
+	.byte	15,15,0
+.L182:
+	.byte	14,3
+	.word	238
+	.byte	15,2,0
+.L185:
+	.byte	4
+	.word	354
+	.byte	2
+	.byte	'short int',0,2,5,13
+	.byte	'__wchar_t',0,6,1,1
+	.word	1100
+	.byte	2
+	.byte	'unsigned int',0,4,7,13
+	.byte	'__size_t',0,6,1,1
+	.word	1131
+	.byte	13
+	.byte	'__ptrdiff_t',0,6,1,1
+	.word	1036
+	.byte	16,1,4
+	.word	1184
+	.byte	13
+	.byte	'__codeptr',0,6,1,1
+	.word	1186
+	.byte	13
+	.byte	'__intptr_t',0,6,1,1
+	.word	1036
+	.byte	13
+	.byte	'__uintptr_t',0,6,1,1
+	.word	1131
+	.byte	13
+	.byte	'uint8',0,7,108,29
+	.word	354
+	.byte	13
+	.byte	'uint16',0,7,112,29
+	.word	416
+	.byte	13
+	.byte	'uint32',0,7,116,29
+	.word	299
+	.byte	13
+	.byte	'sint8',0,7,125,29
+	.word	230
+	.byte	13
+	.byte	'sint16',0,7,129,1,29
+	.word	1100
+	.byte	2
+	.byte	'long int',0,4,5,13
+	.byte	'sint32',0,7,134,1,29
+	.word	1322
+	.byte	2
+	.byte	'long long int',0,8,5,13
+	.byte	'sint64',0,7,141,1,29
+	.word	1350
+	.byte	2
+	.byte	'float',0,4,4,13
+	.byte	'float32',0,7,170,1,29
+	.word	1383
+	.byte	13
+	.byte	'pvoid',0,8,54,28
+	.word	411
+	.byte	13
+	.byte	'Ifx_TickTime',0,8,76,28
+	.word	1350
+	.byte	13
+	.byte	'u8_t',0,1,85,16
+	.word	354
+	.byte	13
+	.byte	'u16_t',0,1,86,16
+	.word	416
+	.byte	13
+	.byte	'u32_t',0,1,87,16
+	.word	299
+	.byte	13
+	.byte	's8_t',0,1,88,16
+	.word	230
+	.byte	13
+	.byte	'intmax_t',0,9,198,2,41
+	.word	1350
+	.byte	14,129,2
+	.word	354
+	.byte	15,128,2,0,3
+	.word	1516
+	.byte	17
+	.byte	'__ctype',0,10,41,39
+	.word	1527
+	.byte	1,1,13
+	.byte	'ip4_addr_t',0,4,57,25
+	.word	376
+	.byte	13
+	.byte	'ip_addr_t',0,11,142,2,20
+	.word	376
+.L191:
+	.byte	3
+	.word	376
+.L192:
+	.byte	3
+	.word	376
+	.byte	13
+	.byte	'err_t',0,12,96,14
+	.word	230
+	.byte	18,1,1,12
+	.word	578
+	.byte	0,4
+	.word	1612
+	.byte	13
+	.byte	'pbuf_free_custom_fn',0,5,242,1,16
+	.word	1621
+	.byte	13
+	.byte	'mem_size_t',0,13,67,15
+	.word	416
+	.byte	8
+	.byte	'link_changed_s',0,3,213,4,10,1,9
+	.byte	'state',0
+	.word	354
+	.byte	1,2,35,0,0,8
+	.byte	'status_changed_s',0,3,219,4,10,1,9
+	.byte	'state',0
+	.word	354
+	.byte	1,2,35,0,0,3
+	.word	376
+	.byte	4
+	.word	1750
+	.byte	8
+	.byte	'ipv4_changed_s',0,3,225,4,10,12,9
+	.byte	'old_address',0
+	.word	1755
+	.byte	4,2,35,0,9
+	.byte	'old_netmask',0
+	.word	1755
+	.byte	4,2,35,4,9
+	.byte	'old_gw',0
+	.word	1755
+	.byte	4,2,35,8,0,8
+	.byte	'ipv6_set_s',0,3,233,4,10,8,9
+	.byte	'addr_index',0
+	.word	230
+	.byte	1,2,35,0,9
+	.byte	'old_address',0
+	.word	1755
+	.byte	4,2,35,4,0,8
+	.byte	'ipv6_addr_state_changed_s',0,3,241,4,10,8,9
+	.byte	'addr_index',0
+	.word	230
+	.byte	1,2,35,0,9
+	.byte	'old_state',0
+	.word	354
+	.byte	1,2,35,1,9
+	.byte	'address',0
+	.word	1755
+	.byte	4,2,35,4,0,19,3,210,4,9,12,9
+	.byte	'link_changed',0
+	.word	1674
+	.byte	1,2,35,0,9
+	.byte	'status_changed',0
+	.word	1711
+	.byte	1,2,35,0,9
+	.byte	'ipv4_changed',0
+	.word	1760
+	.byte	12,2,35,0,9
+	.byte	'ipv6_set',0
+	.word	1840
+	.byte	8,2,35,0,9
+	.byte	'ipv6_addr_state_changed',0
+	.word	1899
+	.byte	8,2,35,0,0,3
+	.word	1988
+	.byte	4
+	.word	2114
+	.byte	18,1,1,12
+	.word	371
+	.byte	12
+	.word	416
+	.byte	12
+	.word	2119
+	.byte	0,4
+	.word	2124
+	.byte	13
+	.byte	'netif_ext_callback_fn',0,3,132,5,16
+	.word	2143
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L107:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,19,1,3,8,58,15,59,15,57,15,11,15,0,0,9,13,0,3,8,73,19,11,15,56,9,0,0
+	.byte	10,59,0,3,8,0,0,11,21,1,73,19,54,15,39,12,0,0,12,5,0,73,19,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0
+	.byte	14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0,16,21,0,54,15,0,0,17,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60
+	.byte	12,0,0,18,21,1,54,15,39,12,0,0,19,23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L108:
+	.word	.L231-.L230
+.L230:
+	.half	3
+	.word	.L233-.L232
+.L232:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'ctype.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\AURIX-v1.10.2-workspace\\\\0729prj\\\\TC375LK_NGV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0,0
+.L233:
+.L231:
+	.sdecl	'.debug_info',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_info'
+.L109:
+	.word	349
+	.half	3
+	.word	.L110
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L112,.L111
+	.byte	2
+	.word	.L105
+	.byte	3
+	.byte	'ip4_addr_isbroadcast_u32',0,1,58,1
+	.word	.L143
+	.byte	1,1,1
+	.word	.L94,.L144,.L93
+	.byte	4
+	.byte	'addr',0,1,58,32
+	.word	.L145,.L146
+	.byte	4
+	.byte	'netif',0,1,58,58
+	.word	.L147,.L148
+	.byte	5
+	.word	.L94,.L144
+	.byte	6
+	.byte	'ipaddr',0,1,60,14
+	.word	.L149,.L150
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_abbrev'
+.L110:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_line'
+.L111:
+	.word	.L235-.L234
+.L234:
+	.half	3
+	.word	.L237-.L236
+.L236:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0,0
+.L237:
+	.byte	5,8,7,0,5,2
+	.word	.L94
+	.byte	3,63,1,5,7,9
+	.half	.L238-.L94
+	.byte	1,5,13,7,9
+	.half	.L239-.L238
+	.byte	3,1,1,5,12,7,9
+	.half	.L2-.L239
+	.byte	3,1,1,5,5,9
+	.half	.L240-.L2
+	.byte	1,5,20,9
+	.half	.L3-.L240
+	.byte	3,2,1,5,10,9
+	.half	.L241-.L3
+	.byte	1,5,12,7,9
+	.half	.L242-.L241
+	.byte	3,3,1,5,5,9
+	.half	.L243-.L242
+	.byte	1,5,22,9
+	.half	.L5-.L243
+	.byte	3,2,1,5,10,9
+	.half	.L244-.L5
+	.byte	1,5,12,7,9
+	.half	.L245-.L244
+	.byte	3,1,1,5,5,9
+	.half	.L246-.L245
+	.byte	1,5,14,9
+	.half	.L7-.L246
+	.byte	3,2,1,5,27,9
+	.half	.L247-.L7
+	.byte	3,2,1,5,26,9
+	.half	.L248-.L247
+	.byte	1,5,24,9
+	.half	.L249-.L248
+	.byte	1,5,39,9
+	.half	.L193-.L249
+	.byte	3,1,1,5,38,9
+	.half	.L250-.L193
+	.byte	1,5,19,9
+	.half	.L251-.L250
+	.byte	1,5,36,9
+	.half	.L252-.L251
+	.byte	1,5,71,9
+	.half	.L253-.L252
+	.byte	3,127,1,5,12,7,9
+	.half	.L254-.L253
+	.byte	3,3,1,5,5,9
+	.half	.L255-.L254
+	.byte	1,5,12,9
+	.half	.L9-.L255
+	.byte	3,2,1,5,5,9
+	.half	.L256-.L9
+	.byte	1,5,1,9
+	.half	.L4-.L256
+	.byte	3,2,1,7,9
+	.half	.L113-.L4
+	.byte	0,1,1
+.L235:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_ranges'
+.L112:
+	.word	-1,.L94,0,.L113-.L94,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_info'
+.L114:
+	.word	355
+	.half	3
+	.word	.L115
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L117,.L116
+	.byte	2
+	.word	.L105
+	.byte	3
+	.byte	'ip4_addr_netmask_valid',0,1,93,1
+	.word	.L143
+	.byte	1,1,1
+	.word	.L96,.L151,.L95
+	.byte	4
+	.byte	'netmask',0,1,93,30
+	.word	.L145,.L152
+	.byte	5
+	.word	.L96,.L151
+	.byte	6
+	.byte	'mask',0,1,95,9
+	.word	.L145,.L153
+	.byte	6
+	.byte	'nm_hostorder',0,1,96,9
+	.word	.L145,.L154
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_abbrev'
+.L115:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_line'
+.L116:
+	.word	.L258-.L257
+.L257:
+	.half	3
+	.word	.L260-.L259
+.L259:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0,0
+.L260:
+	.byte	5,35,7,0,5,2
+	.word	.L96
+	.byte	3,223,0,1,5,19,9
+	.half	.L194-.L96
+	.byte	3,3,1,5,36,9
+	.half	.L196-.L194
+	.byte	1,5,23,9
+	.half	.L14-.L196
+	.byte	3,1,1,5,5,9
+	.half	.L261-.L14
+	.byte	1,5,7,7,9
+	.half	.L262-.L261
+	.byte	3,1,1,5,43,9
+	.half	.L15-.L262
+	.byte	3,126,1,5,36,9
+	.half	.L13-.L15
+	.byte	1,5,19,7,9
+	.half	.L16-.L13
+	.byte	3,6,1,5,23,9
+	.half	.L18-.L16
+	.byte	3,1,1,5,5,9
+	.half	.L263-.L18
+	.byte	1,5,14,7,9
+	.half	.L264-.L263
+	.byte	3,2,1,5,7,9
+	.half	.L195-.L264
+	.byte	1,5,26,9
+	.half	.L19-.L195
+	.byte	3,125,1,5,19,9
+	.half	.L17-.L19
+	.byte	1,5,10,7,9
+	.half	.L265-.L17
+	.byte	3,7,1,5,3,9
+	.half	.L197-.L265
+	.byte	1,5,1,9
+	.half	.L20-.L197
+	.byte	3,1,1,7,9
+	.half	.L118-.L20
+	.byte	0,1,1
+.L258:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_ranges'
+.L117:
+	.word	-1,.L96,0,.L118-.L96,0,0
+	.sdecl	'.debug_info',debug,cluster('ipaddr_addr')
+	.sect	'.debug_info'
+.L119:
+	.word	313
+	.half	3
+	.word	.L120
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L122,.L121
+	.byte	2
+	.word	.L105
+	.byte	3
+	.byte	'ipaddr_addr',0,1,123,1
+	.word	.L145
+	.byte	1,1,1
+	.word	.L98,.L155,.L97
+	.byte	4
+	.byte	'cp',0,1,123,25
+	.word	.L156,.L157
+	.byte	5
+	.word	.L98,.L155
+	.byte	6
+	.byte	'val',0,1,125,14
+	.word	.L149,.L158
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ipaddr_addr')
+	.sect	'.debug_abbrev'
+.L120:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ipaddr_addr')
+	.sect	'.debug_line'
+.L121:
+	.word	.L267-.L266
+.L266:
+	.half	3
+	.word	.L269-.L268
+.L268:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0,0
+.L269:
+	.byte	5,1,7,0,5,2
+	.word	.L98
+	.byte	3,250,0,1,5,25,9
+	.half	.L198-.L98
+	.byte	3,4,1,5,3,9
+	.half	.L199-.L198
+	.byte	1,5,12,7,9
+	.half	.L270-.L199
+	.byte	3,1,1,5,5,9
+	.half	.L271-.L270
+	.byte	1,5,11,9
+	.half	.L22-.L271
+	.byte	3,2,1,5,3,9
+	.half	.L272-.L22
+	.byte	1,5,1,9
+	.half	.L23-.L272
+	.byte	3,1,1,7,9
+	.half	.L123-.L23
+	.byte	0,1,1
+.L267:
+	.sdecl	'.debug_ranges',debug,cluster('ipaddr_addr')
+	.sect	'.debug_ranges'
+.L122:
+	.word	-1,.L98,0,.L123-.L98,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4addr_aton')
+	.sect	'.debug_info'
+.L124:
+	.word	403
+	.half	3
+	.word	.L125
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L127,.L126
+	.byte	2
+	.word	.L105
+	.byte	3
+	.byte	'ip4addr_aton',0,1,145,1,1
+	.word	.L159
+	.byte	1,1,1
+	.word	.L100,.L160,.L99
+	.byte	4
+	.byte	'cp',0,1,145,1,26
+	.word	.L156,.L161
+	.byte	4
+	.byte	'addr',0,1,145,1,42
+	.word	.L162,.L163
+	.byte	5
+	.word	.L100,.L160
+	.byte	6
+	.byte	'val',0,1,147,1,9
+	.word	.L145,.L164
+	.byte	6
+	.byte	'base',0,1,148,1,8
+	.word	.L143,.L165
+	.byte	6
+	.byte	'c',0,1,149,1,8
+	.word	.L166,.L167
+	.byte	6
+	.byte	'parts',0,1,150,1,9
+	.word	.L168,.L169
+	.byte	6
+	.byte	'pp',0,1,151,1,10
+	.word	.L170,.L171
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4addr_aton')
+	.sect	'.debug_abbrev'
+.L125:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4addr_aton')
+	.sect	'.debug_line'
+.L126:
+	.word	.L274-.L273
+.L273:
+	.half	3
+	.word	.L276-.L275
+.L275:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0,0
+.L276:
+	.byte	5,1,7,0,5,2
+	.word	.L100
+	.byte	3,144,1,1,5,15,9
+	.half	.L202-.L100
+	.byte	3,6,1,5,7,9
+	.half	.L203-.L202
+	.byte	3,2,1,5,9,9
+	.half	.L204-.L203
+	.byte	3,1,1,5,10,9
+	.half	.L26-.L204
+	.byte	3,6,1,5,14,9
+	.half	.L277-.L26
+	.byte	3,1,1,5,7,9
+	.half	.L278-.L277
+	.byte	1,5,9,9
+	.half	.L27-.L278
+	.byte	3,2,1,5,10,9
+	.half	.L206-.L27
+	.byte	3,1,1,5,14,9
+	.half	.L208-.L206
+	.byte	3,1,1,5,5,9
+	.half	.L279-.L208
+	.byte	1,5,12,7,9
+	.half	.L280-.L279
+	.byte	3,1,1,5,11,9
+	.half	.L281-.L280
+	.byte	1,5,16,9
+	.half	.L282-.L281
+	.byte	3,1,1,5,11,9
+	.half	.L283-.L282
+	.byte	1,5,28,7,9
+	.half	.L284-.L283
+	.byte	1,5,25,9
+	.half	.L285-.L284
+	.byte	1,5,14,7,9
+	.half	.L30-.L285
+	.byte	3,1,1,9
+	.half	.L286-.L30
+	.byte	3,1,1,5,13,9
+	.half	.L287-.L286
+	.byte	1,5,18,9
+	.half	.L288-.L287
+	.byte	3,127,1,5,14,9
+	.half	.L31-.L288
+	.byte	3,3,1,5,11,9
+	.half	.L29-.L31
+	.byte	3,3,1,9
+	.half	.L34-.L29
+	.byte	3,1,1,5,7,9
+	.half	.L289-.L34
+	.byte	1,5,40,7,9
+	.half	.L290-.L289
+	.byte	3,1,1,5,28,9
+	.half	.L205-.L290
+	.byte	1,5,14,9
+	.half	.L291-.L205
+	.byte	3,1,1,5,13,9
+	.half	.L292-.L291
+	.byte	1,5,46,9
+	.half	.L209-.L292
+	.byte	3,127,1,5,26,9
+	.half	.L35-.L209
+	.byte	3,2,1,5,18,9
+	.half	.L293-.L35
+	.byte	1,5,32,7,9
+	.half	.L294-.L293
+	.byte	1,5,46,9
+	.half	.L295-.L294
+	.byte	3,1,1,5,62,9
+	.half	.L296-.L295
+	.byte	1,5,68,9
+	.half	.L297-.L296
+	.byte	1,5,62,9
+	.half	.L39-.L297
+	.byte	1,5,20,9
+	.half	.L40-.L39
+	.byte	1,5,38,9
+	.half	.L207-.L40
+	.byte	1,5,43,9
+	.half	.L210-.L207
+	.byte	1,5,26,9
+	.half	.L211-.L210
+	.byte	1,5,14,9
+	.half	.L298-.L211
+	.byte	3,1,1,5,13,9
+	.half	.L299-.L298
+	.byte	1,5,75,9
+	.half	.L212-.L299
+	.byte	3,127,1,5,9,9
+	.half	.L37-.L212
+	.byte	3,3,1,5,11,9
+	.half	.L33-.L37
+	.byte	3,120,1,5,14,9
+	.half	.L42-.L33
+	.byte	3,11,1,5,5,9
+	.half	.L300-.L42
+	.byte	1,5,23,7,9
+	.half	.L301-.L300
+	.byte	3,7,1,5,14,9
+	.half	.L302-.L301
+	.byte	1,5,7,9
+	.half	.L303-.L302
+	.byte	1,5,16,7,9
+	.half	.L304-.L303
+	.byte	3,1,1,5,9,9
+	.half	.L305-.L304
+	.byte	1,5,13,9
+	.half	.L44-.L305
+	.byte	3,2,1,5,10,9
+	.half	.L306-.L44
+	.byte	1,5,12,9
+	.half	.L307-.L306
+	.byte	3,1,1,5,11,9
+	.half	.L308-.L307
+	.byte	1,5,18,9
+	.half	.L309-.L308
+	.byte	3,127,1,5,7,9
+	.half	.L43-.L309
+	.byte	3,3,1,5,9,9
+	.half	.L25-.L43
+	.byte	3,84,1,5,7,9
+	.half	.L47-.L25
+	.byte	3,50,1,5,21,7,9
+	.half	.L310-.L47
+	.byte	1,5,12,9
+	.half	.L311-.L310
+	.byte	3,1,1,5,5,9
+	.half	.L312-.L311
+	.byte	1,5,16,9
+	.half	.L48-.L312
+	.byte	3,6,1,5,14,9
+	.half	.L313-.L48
+	.byte	1,5,22,9
+	.half	.L314-.L313
+	.byte	1,5,10,9
+	.half	.L315-.L314
+	.byte	3,2,1,9
+	.half	.L316-.L315
+	.byte	3,3,1,9
+	.half	.L317-.L316
+	.byte	3,3,1,9
+	.half	.L318-.L317
+	.byte	3,10,1,9
+	.half	.L319-.L318
+	.byte	3,10,1,5,14,9
+	.half	.L51-.L319
+	.byte	3,103,1,5,7,9
+	.half	.L320-.L51
+	.byte	1,9
+	.half	.L52-.L320
+	.byte	3,3,1,5,17,9
+	.half	.L53-.L52
+	.byte	3,3,1,5,7,9
+	.half	.L321-.L53
+	.byte	1,5,16,7,9
+	.half	.L322-.L321
+	.byte	3,1,1,5,9,9
+	.half	.L323-.L322
+	.byte	1,5,16,9
+	.half	.L59-.L323
+	.byte	3,2,1,5,22,9
+	.half	.L324-.L59
+	.byte	1,5,7,9
+	.half	.L325-.L324
+	.byte	1,5,16,7,9
+	.half	.L326-.L325
+	.byte	3,1,1,5,9,9
+	.half	.L327-.L326
+	.byte	1,5,19,9
+	.half	.L61-.L327
+	.byte	3,2,1,5,23,9
+	.half	.L328-.L61
+	.byte	1,5,11,9
+	.half	.L329-.L328
+	.byte	1,5,7,9
+	.half	.L330-.L329
+	.byte	3,1,1,5,17,9
+	.half	.L54-.L330
+	.byte	3,3,1,5,7,9
+	.half	.L331-.L54
+	.byte	1,5,16,7,9
+	.half	.L332-.L331
+	.byte	3,1,1,5,9,9
+	.half	.L333-.L332
+	.byte	1,5,17,9
+	.half	.L64-.L333
+	.byte	3,2,1,5,23,9
+	.half	.L334-.L64
+	.byte	1,5,11,9
+	.half	.L335-.L334
+	.byte	1,5,38,7,9
+	.half	.L336-.L335
+	.byte	1,5,44,9
+	.half	.L337-.L336
+	.byte	1,5,42,9
+	.half	.L338-.L337
+	.byte	1,5,16,7,9
+	.half	.L66-.L338
+	.byte	3,1,1,5,9,9
+	.half	.L339-.L66
+	.byte	1,5,20,9
+	.half	.L67-.L339
+	.byte	3,2,1,5,24,9
+	.half	.L340-.L67
+	.byte	1,5,39,9
+	.half	.L341-.L340
+	.byte	1,5,43,9
+	.half	.L342-.L341
+	.byte	1,5,31,9
+	.half	.L343-.L342
+	.byte	1,5,11,9
+	.half	.L344-.L343
+	.byte	1,5,7,9
+	.half	.L345-.L344
+	.byte	3,1,1,5,17,9
+	.half	.L55-.L345
+	.byte	3,3,1,5,7,9
+	.half	.L346-.L55
+	.byte	1,5,16,7,9
+	.half	.L347-.L346
+	.byte	3,1,1,5,9,9
+	.half	.L348-.L347
+	.byte	1,5,17,9
+	.half	.L70-.L348
+	.byte	3,2,1,5,23,9
+	.half	.L349-.L70
+	.byte	1,5,11,9
+	.half	.L350-.L349
+	.byte	1,5,38,7,9
+	.half	.L351-.L350
+	.byte	1,5,44,9
+	.half	.L352-.L351
+	.byte	1,5,42,9
+	.half	.L353-.L352
+	.byte	1,5,59,7,9
+	.half	.L354-.L353
+	.byte	1,5,65,9
+	.half	.L355-.L354
+	.byte	1,5,63,9
+	.half	.L356-.L355
+	.byte	1,5,16,7,9
+	.half	.L72-.L356
+	.byte	3,1,1,5,9,9
+	.half	.L357-.L72
+	.byte	1,5,20,9
+	.half	.L74-.L357
+	.byte	3,2,1,5,24,9
+	.half	.L358-.L74
+	.byte	1,5,39,9
+	.half	.L359-.L358
+	.byte	1,5,43,9
+	.half	.L360-.L359
+	.byte	1,5,31,9
+	.half	.L361-.L360
+	.byte	1,5,58,9
+	.half	.L362-.L361
+	.byte	1,5,62,9
+	.half	.L363-.L362
+	.byte	1,5,50,9
+	.half	.L364-.L363
+	.byte	1,5,11,9
+	.half	.L365-.L364
+	.byte	1,5,7,9
+	.half	.L366-.L365
+	.byte	3,1,1,9
+	.half	.L77-.L366
+	.byte	3,2,1,9
+	.half	.L78-.L77
+	.byte	3,1,1,5,3,9
+	.half	.L58-.L78
+	.byte	3,2,1,5,5,7,9
+	.half	.L367-.L58
+	.byte	3,1,1,5,10,9
+	.half	.L80-.L367
+	.byte	3,2,1,5,3,9
+	.half	.L368-.L80
+	.byte	1,5,1,9
+	.half	.L28-.L368
+	.byte	3,1,1,7,9
+	.half	.L128-.L28
+	.byte	0,1,1
+.L274:
+	.sdecl	'.debug_ranges',debug,cluster('ip4addr_aton')
+	.sect	'.debug_ranges'
+.L127:
+	.word	-1,.L100,0,.L128-.L100,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_info'
+.L129:
+	.word	321
+	.half	3
+	.word	.L130
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L132,.L131
+	.byte	2
+	.word	.L105
+	.byte	3
+	.byte	'ip4addr_ntoa',0,1,139,2,1
+	.word	.L172
+	.byte	1,1,1
+	.word	.L102,.L173,.L101
+	.byte	4
+	.byte	'addr',0,1,139,2,32
+	.word	.L174,.L175
+	.byte	5
+	.word	.L102,.L173
+	.byte	6
+	.byte	'str',0,1,141,2,15
+	.word	.L176
+	.byte	5,3
+	.word	_999001_str
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_abbrev'
+.L130:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_line'
+.L131:
+	.word	.L370-.L369
+.L369:
+	.half	3
+	.word	.L372-.L371
+.L371:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0,0
+.L372:
+	.byte	5,31,7,0,5,2
+	.word	.L102
+	.byte	3,141,2,1,5,36,9
+	.half	.L373-.L102
+	.byte	1,5,3,9
+	.half	.L216-.L373
+	.byte	1,5,1,9
+	.half	.L82-.L216
+	.byte	3,1,1,7,9
+	.half	.L133-.L82
+	.byte	0,1,1
+.L370:
+	.sdecl	'.debug_ranges',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_ranges'
+.L132:
+	.word	-1,.L102,0,.L133-.L102,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_info'
+.L134:
+	.word	474
+	.half	3
+	.word	.L135
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L137,.L136
+	.byte	2
+	.word	.L105
+	.byte	3
+	.byte	'ip4addr_ntoa_r',0,1,155,2,1
+	.word	.L172
+	.byte	1,1,1
+	.word	.L104,.L177,.L103
+	.byte	4
+	.byte	'addr',0,1,155,2,34
+	.word	.L174,.L178
+	.byte	4
+	.byte	'buf',0,1,155,2,46
+	.word	.L172,.L179
+	.byte	4
+	.byte	'buflen',0,1,155,2,55
+	.word	.L159,.L180
+	.byte	5
+	.word	.L104,.L177
+	.byte	6
+	.byte	's_addr',0,1,157,2,9
+	.word	.L145,.L181
+	.byte	6
+	.byte	'inv',0,1,158,2,8
+	.word	.L182,.L183
+	.byte	6
+	.byte	'rp',0,1,159,2,9
+	.word	.L172,.L184
+	.byte	6
+	.byte	'ap',0,1,160,2,9
+	.word	.L185,.L186
+	.byte	6
+	.byte	'rem',0,1,161,2,8
+	.word	.L143,.L187
+	.byte	6
+	.byte	'n',0,1,162,2,8
+	.word	.L143,.L188
+	.byte	6
+	.byte	'i',0,1,163,2,8
+	.word	.L143,.L189
+	.byte	6
+	.byte	'len',0,1,164,2,7
+	.word	.L159,.L190
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_abbrev'
+.L135:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_line'
+.L136:
+	.word	.L375-.L374
+.L374:
+	.half	3
+	.word	.L377-.L376
+.L376:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0,0,0,0,0
+.L377:
+	.byte	5,1,7,0,5,2
+	.word	.L104
+	.byte	3,154,2,1,5,11,9
+	.half	.L217-.L104
+	.byte	3,9,1,5,12,9
+	.half	.L219-.L217
+	.byte	3,2,1,5,10,9
+	.half	.L378-.L219
+	.byte	1,5,6,9
+	.half	.L379-.L378
+	.byte	3,2,1,5,17,9
+	.half	.L220-.L379
+	.byte	3,1,1,5,10,9
+	.half	.L218-.L220
+	.byte	3,1,1,5,20,9
+	.half	.L222-.L218
+	.byte	1,5,7,9
+	.half	.L84-.L222
+	.byte	3,1,1,5,13,9
+	.half	.L85-.L84
+	.byte	3,2,1,5,19,9
+	.half	.L380-.L85
+	.byte	1,5,17,9
+	.half	.L381-.L380
+	.byte	1,5,8,9
+	.half	.L224-.L381
+	.byte	3,1,1,5,14,9
+	.half	.L382-.L224
+	.byte	1,5,11,9
+	.half	.L383-.L382
+	.byte	1,5,10,9
+	.half	.L384-.L383
+	.byte	3,1,1,5,29,9
+	.half	.L385-.L384
+	.byte	1,5,16,9
+	.half	.L386-.L385
+	.byte	1,5,12,9
+	.half	.L387-.L386
+	.byte	1,5,14,9
+	.half	.L388-.L387
+	.byte	3,1,1,5,18,9
+	.half	.L389-.L388
+	.byte	1,5,15,7,9
+	.half	.L390-.L389
+	.byte	3,1,1,5,14,9
+	.half	.L87-.L390
+	.byte	3,1,1,5,7,9
+	.half	.L391-.L87
+	.byte	1,5,16,7,9
+	.half	.L392-.L391
+	.byte	3,1,1,5,9,9
+	.half	.L221-.L392
+	.byte	1,5,18,9
+	.half	.L88-.L221
+	.byte	3,2,1,5,13,9
+	.half	.L393-.L88
+	.byte	1,5,10,9
+	.half	.L394-.L393
+	.byte	1,5,13,9
+	.half	.L86-.L394
+	.byte	3,124,1,5,15,9
+	.half	.L226-.L86
+	.byte	1,5,12,7,9
+	.half	.L395-.L226
+	.byte	3,6,1,5,5,9
+	.half	.L396-.L395
+	.byte	1,5,14,7,9
+	.half	.L397-.L396
+	.byte	3,1,1,5,7,9
+	.half	.L225-.L397
+	.byte	1,5,13,9
+	.half	.L90-.L225
+	.byte	3,2,1,5,11,9
+	.half	.L398-.L90
+	.byte	1,5,8,9
+	.half	.L399-.L398
+	.byte	1,5,7,9
+	.half	.L400-.L399
+	.byte	3,1,1,5,23,9
+	.half	.L401-.L400
+	.byte	3,111,1,5,20,9
+	.half	.L83-.L401
+	.byte	1,5,4,7,9
+	.half	.L402-.L83
+	.byte	3,19,1,5,11,9
+	.half	.L403-.L402
+	.byte	1,5,9,9
+	.half	.L404-.L403
+	.byte	1,5,3,9
+	.half	.L405-.L404
+	.byte	3,1,1,5,1,9
+	.half	.L89-.L405
+	.byte	3,1,1,7,9
+	.half	.L138-.L89
+	.byte	0,1,1
+.L375:
+	.sdecl	'.debug_ranges',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_ranges'
+.L137:
+	.word	-1,.L104,0,.L138-.L104,0,0
+	.sdecl	'.debug_info',debug,cluster('ip_addr_any')
+	.sect	'.debug_info'
+.L139:
+	.word	255
+	.half	3
+	.word	.L140
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L105
+	.byte	3
+	.byte	'ip_addr_any',0,6,47,17
+	.word	.L191
+	.byte	1,5,3
+	.word	ip_addr_any
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ip_addr_any')
+	.sect	'.debug_abbrev'
+.L140:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('ip_addr_broadcast')
+	.sect	'.debug_info'
+.L141:
+	.word	261
+	.half	3
+	.word	.L142
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv4/ip4_addr.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\AURIX-v1.10.2-workspace\\0729prj\\TC375LK_NGV\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L105
+	.byte	3
+	.byte	'ip_addr_broadcast',0,6,48,17
+	.word	.L192
+	.byte	1,5,3
+	.word	ip_addr_broadcast
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ip_addr_broadcast')
+	.sect	'.debug_abbrev'
+.L142:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_loc'
+.L146:
+	.word	-1,.L94,0,.L193-.L94
+	.half	1
+	.byte	84
+	.word	0,0
+.L93:
+	.word	-1,.L94,0,.L144-.L94
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L150:
+	.word	0,0
+.L148:
+	.word	-1,.L94,0,.L144-.L94
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_loc'
+.L95:
+	.word	-1,.L96,0,.L151-.L96
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L153:
+	.word	-1,.L96,.L196-.L96,.L151-.L96
+	.half	1
+	.byte	95
+	.word	0,0
+.L152:
+	.word	-1,.L96,0,.L194-.L96
+	.half	1
+	.byte	84
+	.word	0,0
+.L154:
+	.word	-1,.L96,.L194-.L96,.L195-.L96
+	.half	1
+	.byte	82
+	.word	.L19-.L96,.L197-.L96
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4addr_aton')
+	.sect	'.debug_loc'
+.L163:
+	.word	-1,.L100,0,.L78-.L100
+	.half	1
+	.byte	101
+	.word	.L202-.L100,.L160-.L100
+	.half	1
+	.byte	108
+	.word	0,0
+.L165:
+	.word	-1,.L100,.L208-.L100,.L25-.L100
+	.half	1
+	.byte	81
+	.word	.L47-.L100,.L78-.L100
+	.half	1
+	.byte	81
+	.word	0,0
+.L167:
+	.word	-1,.L100,.L204-.L100,.L205-.L100
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L209-.L100,.L210-.L100
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L212-.L100,.L213-.L100
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L161:
+	.word	-1,.L100,0,.L201-.L100
+	.half	1
+	.byte	100
+	.word	0,0
+.L99:
+	.word	-1,.L100,0,.L200-.L100
+	.half	2
+	.byte	138,0
+	.word	.L200-.L100,.L160-.L100
+	.half	2
+	.byte	138,32
+	.word	.L160-.L100,.L160-.L100
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L169:
+	.word	-1,.L100,0,.L160-.L100
+	.half	2
+	.byte	145,108
+	.word	0,0
+.L171:
+	.word	-1,.L100,.L203-.L100,.L78-.L100
+	.half	1
+	.byte	98
+	.word	0,0
+.L164:
+	.word	-1,.L100,.L206-.L100,.L207-.L100
+	.half	1
+	.byte	88
+	.word	.L211-.L100,.L25-.L100
+	.half	1
+	.byte	88
+	.word	.L47-.L100,.L28-.L100
+	.half	1
+	.byte	88
+	.word	.L214-.L100,.L215-.L100
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_loc'
+.L175:
+	.word	-1,.L102,0,.L216-.L102
+	.half	1
+	.byte	100
+	.word	0,0
+.L101:
+	.word	-1,.L102,0,.L173-.L102
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_loc'
+.L178:
+	.word	-1,.L104,0,.L218-.L104
+	.half	1
+	.byte	100
+	.word	0,0
+.L186:
+	.word	-1,.L104,.L218-.L104,.L177-.L104
+	.half	1
+	.byte	100
+	.word	0,0
+.L179:
+	.word	-1,.L104,0,.L177-.L104
+	.half	1
+	.byte	101
+	.word	.L227-.L104,.L89-.L104
+	.half	1
+	.byte	98
+	.word	0,0
+.L180:
+	.word	-1,.L104,0,.L177-.L104
+	.half	1
+	.byte	84
+	.word	0,0
+.L189:
+	.word	-1,.L104,.L85-.L104,.L223-.L104
+	.half	1
+	.byte	87
+	.word	.L226-.L104,.L83-.L104
+	.half	1
+	.byte	87
+	.word	0,0
+.L183:
+	.word	-1,.L104,0,.L177-.L104
+	.half	2
+	.byte	145,124
+	.word	0,0
+.L103:
+	.word	-1,.L104,0,.L217-.L104
+	.half	2
+	.byte	138,0
+	.word	.L217-.L104,.L177-.L104
+	.half	2
+	.byte	138,8
+	.word	.L177-.L104,.L177-.L104
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L190:
+	.word	-1,.L104,.L219-.L104,.L177-.L104
+	.half	1
+	.byte	85
+	.word	0,0
+.L188:
+	.word	-1,.L104,.L222-.L104,.L177-.L104
+	.half	1
+	.byte	86
+	.word	0,0
+.L187:
+	.word	-1,.L104,.L224-.L104,.L83-.L104
+	.half	1
+	.byte	81
+	.word	0,0
+.L184:
+	.word	-1,.L104,.L220-.L104,.L221-.L104
+	.half	1
+	.byte	98
+	.word	.L88-.L104,.L225-.L104
+	.half	1
+	.byte	98
+	.word	.L90-.L104,.L227-.L104
+	.half	1
+	.byte	98
+	.word	0,0
+.L181:
+	.word	-1,.L104,0,.L177-.L104
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ipaddr_addr')
+	.sect	'.debug_loc'
+.L157:
+	.word	-1,.L98,0,.L199-.L98
+	.half	1
+	.byte	100
+	.word	0,0
+.L97:
+	.word	-1,.L98,0,.L198-.L98
+	.half	2
+	.byte	138,0
+	.word	.L198-.L98,.L155-.L98
+	.half	2
+	.byte	138,8
+	.word	.L155-.L98,.L155-.L98
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L158:
+	.word	-1,.L98,0,.L155-.L98
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L406:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L406,.L94,.L144-.L94
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L406,.L96,.L151-.L96
+	.sdecl	'.debug_frame',debug,cluster('ipaddr_addr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L406,.L98,.L155-.L98
+	.byte	4
+	.word	(.L198-.L98)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L155-.L198)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip4addr_aton')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L406,.L100,.L160-.L100
+	.byte	4
+	.word	(.L200-.L100)/2
+	.byte	19,32,22,26,3,19,138,32,4
+	.word	(.L160-.L200)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L406,.L102,.L173-.L102
+	.sdecl	'.debug_frame',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_frame'
+	.word	40
+	.word	.L406,.L104,.L177-.L104
+	.byte	8,19,8,22,8,23,4
+	.word	(.L217-.L104)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L177-.L217)/2
+	.byte	19,0,8,26
+	; Module end
