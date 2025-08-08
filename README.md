@@ -66,6 +66,8 @@
 ### System Architecture - MultiCore 구성
 <img width="901" height="318" alt="image" src="https://github.com/user-attachments/assets/af8ac4a1-c0cc-4dbb-9f36-9a154b99f564" />
 
+<br><br><br>
+
 ## HW Architecture
 ### CAN BUS
 <img width="476" height="299" alt="image" src="https://github.com/user-attachments/assets/607a7689-0e6f-4ab1-abf8-ddd09594fd56" />
