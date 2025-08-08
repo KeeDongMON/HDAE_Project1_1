@@ -1,6 +1,6 @@
 # 현대오토에버 모빌리티 스쿨_임베디드 5기_1조
 
-## 부릉이
+## 차량용 임베디드 sw 개발 프로젝트
 
 ## Team
 <table>
@@ -13,12 +13,12 @@
     <td align="center">6</td>
   </tr>
      <tr>
-    <td align="center"><a href="https://github.com/"><sub><b>이나연</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>유원규</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>김종훈</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>심동현</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>기동언</b></td>
-    <td align="center"><a href="https://github.com/"><sub><b>권태희</b></td>
+    <td align="center"><a href="https://github.com/WG-SOL"><sub><b>유원규</b></td>
+    <td align="center"><a href="https://github.com/chocomacaroon"><sub><b>권태희</b></td>
+    <td align="center"><a href="https://github.com/KeeDongMON"><sub><b>기동언</b></td>
+    <td align="center"><a href="https://github.com/jhKIM2312314"><sub><b>김종훈</b></td>
+    <td align="center"><a href="https://github.com/sssfffd"><sub><b>심동현</b></td>
+    <td align="center"><a href="https://github.com/2-ny"><sub><b>이나연</b></td>
   </tr>
 
 </table>
@@ -64,32 +64,6 @@
 
 ## &#128217; 포팅메뉴얼
 
-
-## &#128187; 서비스 화면
-
-## 💡 브랜치 전략
-
-Github flow + 담당repo + dev
-
-- master : 무결성 유지, dev 브랜치에서만 PR 가능
-- dev : 개발용, 기능 브랜치들 merge용, 버그 해결용
-- 기능 : 새로운 기능 개발용 (브랜치명을 명시적으로 작성)
-
-```
-master
- └─ dev
-     ├── Back-End
-     |     ├── 브랜치 1
-     |     └── 브랜치 2
-     ├── Front-End
-     |     ├── 브랜치 1
-     |     └── 브랜치 2
-     └── Embedded
-           ├── 브랜치 1
-           └── 브랜치 2
-```
-
-<br><br>
 
 ## 🤙🏻 commit 컨벤션
 
