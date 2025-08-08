@@ -29,11 +29,13 @@
 
 ### 💻 Languages
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![ino](https://img.shields.io/badge/ino-Programming%20Language-00979D?style=for-the-badge)
 
 ### 🔧 Embedded System
 ![Embedded](https://img.shields.io/badge/Embedded-%231572B6.svg?style=for-the-badge&logo=platformdotio&logoColor=white)
 ![Infineon](https://img.shields.io/badge/Infineon-A8B400.svg?style=for-the-badge&logo=infineon&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 
 ### ⚙️ Tools
 ![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
@@ -46,10 +48,7 @@
 
 ## ✔️ 주요 기능
 
-> **씽씽이**
-
-- **달려라**
-
+<img width="1029" height="493" alt="image" src="https://github.com/user-attachments/assets/97d5110d-aeaf-432e-9e5b-b64f18388b27" />
 
 <br>
 
@@ -58,7 +57,7 @@
 
 ## &#128215; 아키텍처
 
-그림 그려라
+
     
 <br>   <br>
 
